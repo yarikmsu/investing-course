@@ -1,0 +1,69 @@
+# Русская версия курса
+title: "Инвестирование в США"
+description: "Полный курс по инвестированию на американском фондовом рынке для русскоязычных инвесторов"
+url: "https://yarikmsu.github.io"
+baseurl: "/investing-course/ru"
+
+# Theme
+remote_theme: just-the-docs/just-the-docs@v0.8.2
+
+# Language
+lang: ru
+
+# Color scheme
+color_scheme: light
+
+# Search
+search_enabled: true
+search:
+  heading_level: 3
+  previews: 3
+
+# Navigation
+nav_enabled: true
+
+nav_external_links:
+  - title: "🇺🇸 English"
+    url: "https://yarikmsu.github.io/investing-course/en/"
+
+# Footer
+footer_content: "Курс по инвестированию в США &copy; 2025-2026. Это образовательный материал, а не финансовый совет."
+
+# Back to top
+back_to_top: true
+back_to_top_text: "Наверх"
+
+# Heading anchor links
+heading_anchors: true
+
+# External links
+aux_links:
+  "GitHub":
+    - "//github.com/yarikmsu/investing-course"
+
+aux_links_new_tab: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - "*.sh"
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
