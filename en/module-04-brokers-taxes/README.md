@@ -17,7 +17,7 @@ permalink: /module-04-brokers-taxes/
 > - Past results DO NOT guarantee future performance
 > - Consult with a licensed financial professional (CFA/CFP) before investing
 >
-> **Current as of:** January 2026 (2025 limits). Tax rates and limits change — verify current information on official sources (IRS.gov).
+> **Current as of:** May 2026 (2026 limits). Tax rates and limits change — verify current information on official sources (IRS.gov).
 
 ---
 
@@ -96,9 +96,13 @@ Key factors:
 | **Retirement accounts** | All types | All types | All types | All types | IRA only |
 | **SIPC protection** | ✅ $500k | ✅ $500k | ✅ $500k | ✅ $500k | ✅ $500k |
 | **Additional insurance** | Up to $1M+ | Up to $600M | ❌ | Up to $30M | ❌ |
-| **Cryptocurrencies** | ❌ | ❌ | ❌ | ✅ | ✅ |
+| **Cryptocurrencies** | ✅ (Fidelity Crypto / FBTC) | ❌ | ❌ | ✅ | ✅ |
 | **Margin rate** | ~12% | ~12% | ~11% | ~6-7% | ~12% |
 | **Support** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
+
+> ℹ️ Since 2024, spot Bitcoin/Ethereum ETFs (e.g., FBTC, IBIT) have been
+> available and can be bought through any broker like a regular ETF. This is
+> educational background, not a recommendation — crypto remains a high-risk asset.
 
 ### Which Broker to Choose?
 
@@ -203,7 +207,7 @@ Individual Retirement Account with tax-deferred growth.
 ```
 Characteristics:
 ├── Contributions reduce taxable income
-├── 2025 limit: $7,000 ($8,000 if 50+)
+├── 2026 limit: $7,500 ($8,600 if 50+)
 ├── Tax-free growth
 ├── Tax on withdrawal
 ├── 10% penalty for early withdrawal (before 59.5)
@@ -217,7 +221,7 @@ Retirement account with tax now, but no tax later.
 ```
 Characteristics:
 ├── Contributions from after-tax income
-├── 2025 limit: $7,000 ($8,000 if 50+)
+├── 2026 limit: $7,500 ($8,600 if 50+)
 ├── Tax-FREE growth
 ├── Tax-FREE withdrawal (after 59.5)
 ├── Income limits apply
@@ -231,7 +235,7 @@ Employer-sponsored retirement plan.
 ```
 Characteristics:
 ├── Contributions reduce taxable income
-├── 2025 limit: $23,500 ($31,000 if 50+)
+├── 2026 limit: $24,500 ($32,500 if 50+)
 ├── Often includes employer matching
 ├── Limited investment choices
 └── Can rollover to IRA when changing jobs
@@ -247,7 +251,7 @@ Types:
 |---------|-----------------|----------|--------|
 | Tax deduction | Yes | No | Yes |
 | Tax on withdrawal | Yes | No | Yes |
-| 2025 contribution limit | $7,000 | $7,000 | $23,500 |
+| 2026 contribution limit | $7,500 | $7,500 | $24,500 |
 | Employer match | No | No | Possible |
 | RMD | Yes | **No** | Yes* |
 
@@ -273,10 +277,10 @@ Situation:
 ├── Other income: $30,000 (Social Security)
 └── Total taxable income: $80,000
 
-Tax (MFJ, 2024):
-├── 10% on $23,200 = $2,320
-├── 12% on $56,800 = $6,816
-└── Total: ~$9,136 (effective rate ~11.4%)
+Tax (MFJ, 2026):
+├── 10% on $24,800 = $2,480
+├── 12% on $55,200 = $6,624
+└── Total: ~$9,104 (effective rate ~11.4%)
 
 Important to understand:
 ├── This is NOT 15% (LTCG rate) — this is ordinary income tax
@@ -300,7 +304,7 @@ Advantages:
 Requirements:
 └── High-deductible health plan (HDHP)
 
-2025 limit: $4,300 (individual) / $8,550 (family)
+2026 limit: $4,400 (individual) / $8,750 (family)
 ```
 
 ### 529 Plan (College Savings)
@@ -340,13 +344,13 @@ If you have a limited budget, contribute in this order:
    └── Example: employer gives 50% match up to 6%
        → contribute at least 6% of salary
 
-2. Roth IRA up to limit ($7,000)     ← Tax diversification
+2. Roth IRA up to limit ($7,500)     ← Tax diversification
    └── Tax-free growth and withdrawal
 
-3. 401(k) up to limit ($23,500)      ← Reduces taxes now
+3. 401(k) up to limit ($24,500)      ← Reduces taxes now
    └── If Roth 401(k) available — consider 50/50
 
-4. HSA up to limit ($4,300/$8,550)   ← Triple benefit (if HDHP)
+4. HSA up to limit ($4,400/$8,750)   ← Triple benefit (if HDHP)
    └── Can be used as retirement account
 
 5. Taxable account                    ← No limits
@@ -469,14 +473,17 @@ After owner's death (since 2020):
 
 > 💡 **Strategy:** Roth Conversion before age 73 allows avoiding RMD and passing more to heirs tax-free. Details in [ADVANCED](/investing-course/en/ADVANCED/).
 
-### Current Limits 2025-2026
+### Current Limits 2026
 
-| Account | 2025 Limit | 50+ Limit | Note |
+| Account | 2026 Limit | 50+ Limit | Note |
 |---------|------------|-----------|------|
-| Traditional/Roth IRA | $7,000 | $8,000 | Per person |
-| 401(k)/403(b) | $23,500 | $31,000 | + employer match |
-| HSA (individual) | $4,300 | $5,300 | Requires HDHP |
-| HSA (family) | $8,550 | $9,550 | Requires HDHP |
+| Traditional/Roth IRA | $7,500 | $8,600 | Per person (catch-up $1,100) |
+| 401(k)/403(b) | $24,500 | $32,500 | + employer match (catch-up $8,000) |
+| 401(k) catch-up 60–63 | — | up to $11,250 | Enhanced catch-up (SECURE 2.0) |
+| HSA (individual) | $4,400 | $5,400 | Requires HDHP (catch-up 55+: $1,000) |
+| HSA (family) | $8,750 | $9,750 | Requires HDHP |
+
+> ℹ️ 2025 limits (for reference): IRA $7,000, 401(k) $23,500, HSA $4,300/$8,550.
 
 ### Roth IRA Income Limits
 
@@ -484,24 +491,24 @@ After owner's death (since 2020):
 
 | Year | Status | Full Contribution | Partial Contribution | Prohibited |
 |------|--------|-------------------|----------------------|------------|
-| **2024** | Single | up to $146,000 | $146,001-$161,000 | above $161,000 |
-| **2024** | MFJ | up to $230,000 | $230,001-$240,000 | above $240,000 |
 | **2025** | Single | up to $150,000 | $150,001-$165,000 | above $165,000 |
 | **2025** | MFJ | up to $236,000 | $236,001-$246,000 | above $246,000 |
+| **2026** | Single | up to $153,000 | $153,001-$168,000 | above $168,000 |
+| **2026** | MFJ | up to $242,000 | $242,001-$252,000 | above $252,000 |
 
 ### 💡 Calculating Partial Contribution (Phase-out)
 
 ```
 Formula:
-Contribution = $7,000 × (1 - (Your MAGI - Lower threshold) ÷ Phase-out range)
+Contribution = $7,500 × (1 - (Your MAGI - Lower threshold) ÷ Phase-out range)
 
-Example (2024, Single, MAGI = $153,500):
-├── Lower threshold: $146,000
-├── Range: $161,000 - $146,000 = $15,000
-├── Excess: $153,500 - $146,000 = $7,500
+Example (2026, Single, MAGI = $160,500):
+├── Lower threshold: $153,000
+├── Range: $168,000 - $153,000 = $15,000
+├── Excess: $160,500 - $153,000 = $7,500
 ├── Coefficient: $7,500 ÷ $15,000 = 0.5
-├── Contribution: $7,000 × (1 - 0.5) = $3,500
-└── You can contribute up to $3,500 to Roth IRA
+├── Contribution: $7,500 × (1 - 0.5) = $3,750
+└── You can contribute up to $3,750 to Roth IRA
 ```
 
 > 💡 **Income above limit?** Use **Backdoor Roth IRA**: contribute to Traditional IRA (no deduction), then convert to Roth. Details in [ADVANCED](/investing-course/en/ADVANCED/).
@@ -583,18 +590,20 @@ Rule of thumb:
 └──────────────────────────────────────────────────┘
 ```
 
-### Long-Term Capital Gains Tax Rates (2024-2025)
+### Long-Term Capital Gains Tax Rates (2025-2026)
 
 > ⚠️ **Important:** Long-term capital gains are taxed at **0%, 15%, or 20%** — depending on your taxable income. NOT everyone pays 15%!
 
 | Status | 0% | 15% | 20% |
 |--------|-----|-----|-----|
-| **2024** | | | |
-| Single | up to $47,025 | $47,026-$518,900 | above $518,900 |
-| Married Filing Jointly | up to $94,050 | $94,051-$583,750 | above $583,750 |
 | **2025** | | | |
 | Single | up to $48,350 | $48,351-$533,400 | above $533,400 |
 | Married Filing Jointly | up to $96,700 | $96,701-$600,050 | above $600,050 |
+| **2026** | | | |
+| Single | up to $49,450 | $49,451-$545,500 | above $545,500 |
+| Married Filing Jointly | up to $98,900 | $98,901-$613,700 | above $613,700 |
+
+> ℹ️ The TCJA brackets were made permanent by the OBBBA (2025) — there was no sharp jump in rates in 2026. See the OBBBA section below.
 
 > 💡 **Practical example:**
 > - Income $40,000 (single) + profit $10,000 = **0% tax** on profit!
@@ -605,17 +614,38 @@ Rule of thumb:
 
 Short-term gains (holding < 1 year) are taxed as **ordinary income** on a progressive scale:
 
-| Rate | Single (2024) | Married Filing Jointly (2024) |
+| Rate | Single (2026) | Married Filing Jointly (2026) |
 |------|---------------|-------------------------------|
-| 10% | up to $11,600 | up to $23,200 |
-| 12% | $11,601-$47,150 | $23,201-$94,300 |
-| 22% | $47,151-$100,525 | $94,301-$201,050 |
-| 24% | $100,526-$191,950 | $201,051-$383,900 |
-| 32% | $191,951-$243,725 | $383,901-$487,450 |
-| 35% | $243,726-$609,350 | $487,451-$731,200 |
-| 37% | above $609,350 | above $731,200 |
+| 10% | up to $12,400 | up to $24,800 |
+| 12% | $12,401-$50,400 | $24,801-$100,800 |
+| 22% | $50,401-$105,700 | $100,801-$211,400 |
+| 24% | $105,701-$201,775 | $211,401-$403,550 |
+| 32% | $201,776-$256,225 | $403,551-$512,450 |
+| 35% | $256,226-$640,600 | $512,451-$768,700 |
+| 37% | above $640,600 | above $768,700 |
 
 > ⚠️ **The difference can be huge:** At income $150,000, a $10,000 short-term gain is taxed at **24%** = $2,400, while long-term is **15%** = $1,500. Savings of $900!
+
+### 📜 One Big Beautiful Bill Act (OBBBA, 2025) — What Changed
+
+> The law was signed in July 2025 and significantly affected personal
+> taxation in the US. Key points for investors:
+
+```
+├── TCJA income tax rates made PERMANENT
+│   └── The expected jump in rates in 2026 did NOT happen
+├── Standard deduction raised and locked in
+│   └── 2025: $15,750 (single) / $31,500 (MFJ); indexed thereafter
+├── State tax deduction cap (SALT): $40,000 (2025), $40,400 (2026)
+│   └── Rises ~1%/yr through 2029, then reverts to $10,000 (2030); reduced above $500,000 MAGI
+├── New deduction for seniors 65+: up to $6,000 per person (2025-2028)
+├── Estate tax exemption: $15M (2026), permanent + indexed
+└── New savings accounts for children ("Trump Accounts")
+```
+
+> ⚠️ This is an educational overview, not tax advice. The details and
+> thresholds are complex — verify current information on IRS.gov and
+> consult a CPA.
 
 ### NIIT (Net Investment Income Tax)
 
@@ -1037,9 +1067,9 @@ Step 5: Start investing
 </details>
 
 <details>
-<summary><b>Question 3:</b> What is the 401(k) contribution limit for 2025?</summary>
+<summary><b>Question 3:</b> What is the 401(k) contribution limit for 2026?</summary>
 
-**Answer:** $23,500 (or $31,000 for people over 50).
+**Answer:** $24,500 (or $32,500 for people over 50).
 
 </details>
 

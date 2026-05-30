@@ -372,9 +372,9 @@ Current allocation:
 □ Checked unrealized gains
    □ Large gains → Don't sell unnecessarily
 □ Maximized contributions to tax-advantaged accounts?
-   □ 401(k): invested $_______ of $23,500 limit
-   □ IRA: invested $_______ of $7,000 limit
-   □ HSA (if applicable): invested $_______ of $4,150 limit
+   □ 401(k): invested $_______ of $24,500 limit (2026)
+   □ IRA: invested $_______ of $7,500 limit (2026)
+   □ HSA (if applicable): invested $_______ of $4,400 limit (2026, self-only)
 ```
 
 ### Data Updates

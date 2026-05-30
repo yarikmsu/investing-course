@@ -951,9 +951,9 @@ Or simply: 90% VTI + 10% BND.
 </details>
 
 <details>
-<summary><b>Question 14:</b> What is the IRA contribution limit for 2025?</summary>
+<summary><b>Question 14:</b> What is the IRA contribution limit for 2026?</summary>
 
-**Answer:** $7,000 per year ($8,000 for age 50+). The limit is combined for Traditional and Roth IRA.
+**Answer:** $7,500 per year ($8,600 for age 50+). The limit is combined for Traditional and Roth IRA.
 
 </details>
 
@@ -961,7 +961,7 @@ Or simply: 90% VTI + 10% BND.
 <summary><b>Question 15:</b> What's the advantage of 401(k) over IRA?</summary>
 
 **Answer:**
-- Higher limit: $23,500 per year (vs $7,000 for IRA)
+- Higher limit: $24,500 per year (vs $7,500 for IRA)
 - Employer matching — free money from employer
 - Automatic payroll deductions
 
