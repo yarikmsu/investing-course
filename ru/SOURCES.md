@@ -224,11 +224,11 @@ S&P 500 (1926-2023):
 ```
 Источник: IRS.gov
 
-2025 год:
-├── 401(k): $23,500 (+ $7,500 если 50+)
-├── IRA: $7,000 (+ $1,000 если 50+)
-├── HSA: $4,300 individual / $8,550 family
-└── SEP IRA: меньшее из $70,000 или 25% дохода
+2026 год:
+├── 401(k): $24,500 (+ $8,000 если 50+)
+├── IRA: $7,500 (+ $1,100 если 50+)
+├── HSA: $4,400 individual / $8,750 family
+└── SEP IRA: меньшее из $72,000 или 25% дохода
 
 Обновления публикуются в октябре-ноябре каждого года.
 Ссылка: irs.gov/retirement-plans/plan-participant-employee/retirement-topics-contributions
@@ -239,9 +239,9 @@ S&P 500 (1926-2023):
 ```
 Источник: IRS.gov
 
-Long-Term Capital Gains (2025):
-├── 0%: до $48,350 (single) / $96,700 (married)
-├── 15%: до $533,400 (single) / $600,050 (married)
+Long-Term Capital Gains (2026):
+├── 0%: до $49,450 (single) / $98,900 (married)
+├── 15%: до $545,500 (single) / $613,700 (married)
 └── 20%: выше этих порогов
 
 Ссылка: irs.gov/taxtopics/tc409
