@@ -453,8 +453,82 @@ Why Irish ETFs:
 ├── Ireland has tax treaty with US (15%)
 ├── Dividends reinvested inside fund
 ├── No dividend tax for investor
+├── Protection from US estate tax ($60,000 threshold for non-residents)
 └── Tax only when selling (in your country)
 ```
+
+> **See the "US Estate Tax for Non-Residents" section below.**
+
+---
+
+## ⚠️ US Estate Tax for Non-Residents (Estate Tax) — Critically Important
+
+> This is one of the most underestimated risks for non-residents who own
+> US assets. Ignoring it can cost your heirs up to 40% of the capital.
+
+### The Problem
+
+The US imposes an estate tax on **assets located in the US (US-situs assets)**
+that remain after the owner's death — regardless of where the owner lived.
+
+```
+For a US citizen/resident:
+└── Exemption ~$15 million (2026) → almost no one pays
+
+For a NON-RESIDENT alien (NRA):
+├── Exemption is only $60,000
+├── Tax rate: up to 40% on amounts above $60,000
+└── The tax is paid by the HEIRS before they receive the assets
+```
+
+### What Counts as a "US Asset" (US-Situs)
+
+```
+Subject to US estate tax:
+├── Stocks of US companies (Apple, Microsoft, etc.)
+├── US-domiciled ETFs (VOO, VTI, VT, BND, QQQ)
+└── Even if bought through a foreign broker!
+
+NOT subject:
+├── Irish/Luxembourg ETFs (UCITS): CSPX, VWRA, EIMI
+├── Cash in a brokerage account (usually)
+└── US Treasury bonds (under the portfolio interest rule — usually)
+```
+
+### Example
+
+```
+A non-resident (e.g., a resident of the UAE or Singapore) holds $500,000 in VOO.
+The owner dies.
+
+├── US-situs asset: $500,000
+├── Exemption: $60,000
+├── Taxable base: $440,000
+├── US estate tax: ~$130,000-176,000 (progressive, up to 40%)
+└── Heirs receive the asset only after the tax is paid
+
+If the same money had been in the Irish CSPX (S&P 500):
+└── US estate tax: $0 (not a US-situs asset)
+```
+
+> 💡 **This is why Irish ETFs are about more than just dividends.** The main reason
+> experienced non-residents choose Irish UCITS funds (CSPX, VWRA) is protection
+> from US estate tax, with the savings on dividend withholding being a bonus.
+
+### How to Reduce the Risk
+
+```
+├── Use Irish/Luxembourg ETFs (UCITS) instead of US ETFs
+├── Check whether your country has an estate tax treaty with the US
+│   (treaty against double taxation of ESTATES) — there are few of them
+│   (e.g., Germany, France, the UK, and Japan have one; most do not)
+├── Avoid accumulating large amounts in individual US stocks / US ETFs in a personal account
+└── For significant capital — consult an international tax attorney
+```
+
+> ⚠️ This is educational material, not tax advice. The rules are complex and
+> depend on your country. Before making large investments, consult an
+> international tax specialist.
 
 ---
 
@@ -583,6 +657,7 @@ Choose Irish ETF (CSPX, VWRA) if:
 ├── Your country has high dividend tax
 ├── You want maximum tax deferral
 ├── You have access to LSE/Xetra through broker
+├── Protection from US estate tax ($60,000 threshold for non-residents)
 └── Investing for 10+ years (deferred tax)
 
 Approximate effect over 20 years ($100,000, 2% dividends):
@@ -590,6 +665,8 @@ Approximate effect over 20 years ($100,000, 2% dividends):
 └── Irish ETF: lost ~$6,000 (internal tax)
     Difference: $2,000-6,000 in favor of Irish ETF
 ```
+
+> **See the "US Estate Tax for Non-Residents" section above.**
 
 ### Country-Specific Considerations
 
