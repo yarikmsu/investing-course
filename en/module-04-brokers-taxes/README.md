@@ -606,7 +606,7 @@ Rule of thumb:
 > ℹ️ The TCJA brackets were made permanent by the OBBBA (2025) — there was no sharp jump in rates in 2026. See the OBBBA section below.
 
 > 💡 **Practical example:**
-> - Income $40,000 (single) + profit $10,000 = **0% tax** on profit!
+> - Income $35,000 (single) + profit $10,000 = **0% tax** on profit!
 > - Income $100,000 (single) + profit $10,000 = **15% tax** = $1,500
 > - Income $600,000 (single) + profit $10,000 = **20% tax** = $2,000
 
@@ -1083,7 +1083,7 @@ Step 5: Start investing
 <details>
 <summary><b>Question 5:</b> What is the Long-Term Capital Gains tax rate for most investors?</summary>
 
-**Answer:** 15% (for income from ~$47,000 to ~$518,000 for single filers). Long-term means holding the asset for more than 1 year.
+**Answer:** 15% (for income from ~$49,000 to ~$545,000 for single filers, 2026). Long-term means holding the asset for more than 1 year.
 
 </details>
 

@@ -496,7 +496,7 @@ Examples:
 
 ## Lesson 5.7: Global Diversification (VXUS / VEA / VWO)
 
-### 🌍 Why International Diversification (VXUS / VEA / VWO)
+### 🌍 Why hold non-US stocks
 
 ```
 The US is ~60% of the global stock market — not 100%.
