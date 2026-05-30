@@ -275,8 +275,10 @@ Catch-up contributions (for 50+):
 ├── IRA: $1,100 additional (2026)
 ├── 401(k): $8,000 additional (2026, for 50+)
 ├── For ages 60-63: enhanced catch-up of $11,250 (SECURE 2.0)
-└── High earners (>$145k, indexed): catch-up must be Roth only —
-    rule takes effect for tax years after 2026 (per final 2025 IRS rules)
+└── High earners (prior-year wages >$145k, indexed — $150k for 2025 wages):
+    catch-up must be Roth — requirement is effective for 2026 (the Notice 2023-62
+    transition period ended after 2025); IRS final regs generally apply from 2027,
+    but good-faith compliance is required for 2026
 
 New opportunities:
 ├── Automatic enrollment in 401(k) (from 2025)
