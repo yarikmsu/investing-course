@@ -491,7 +491,9 @@ Subject to US estate tax:
 
 NOT subject:
 ├── Irish/Luxembourg ETFs (UCITS): CSPX, VWRA, EIMI
-├── Cash in a brokerage account (usually)
+├── Deposits at a US bank (bank-deposit exemption, §2105(b))
+│   └── ⚠️ NOT uninvested brokerage cash / money-market funds —
+│       those can be US-situs and count toward the $60,000!
 └── US Treasury bonds (under the portfolio interest rule — usually)
 ```
 
