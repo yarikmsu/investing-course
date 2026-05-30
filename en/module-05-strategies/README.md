@@ -494,6 +494,30 @@ Examples:
 
 ---
 
+## Lesson 5.7: Global Diversification (VXUS / VEA / VWO)
+
+### 🌍 Why International Diversification (VXUS / VEA / VWO)
+
+```
+The US is ~60% of the global stock market — not 100%.
+Over the past decade US stocks have far outpaced the rest of the world,
+but that has NOT always been the case:
+
+├── 2000-2009: international stocks beat the US (the S&P 500's "lost decade")
+├── 2010-2024: the US led decisively
+└── No one knows whose turn is next
+
+Practical takeaway:
+├── An ex-US allocation of 20-40% of stocks reduces single-country risk
+├── Simple route: VT (whole world) or VTI + VXUS
+└── Don't mistake recent performance for a guarantee of future returns (recency bias)
+```
+
+> 💡 Past results don't predict future returns — and for individual countries
+> that's especially true. Global diversification is insurance, not a bet.
+
+---
+
 ## Practical Assignment
 
 1. **Determine your style**:
