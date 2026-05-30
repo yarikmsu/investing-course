@@ -640,7 +640,8 @@ Short-term gains (holding < 1 year) are taxed as **ordinary income** on a progre
 ├── Standard deduction raised and locked in
 │   └── 2025: $15,750 (single) / $31,500 (MFJ); indexed thereafter
 ├── State tax deduction cap (SALT): $40,000 (2025), $40,400 (2026)
-│   └── Rises ~1%/yr through 2029, then reverts to $10,000 (2030); reduced above $500,000 MAGI
+│   └── Cap & threshold both rise ~1%/yr through 2029, then revert to $10,000 (2030);
+│       reduced above $505,000 MAGI (2026; $500k base, also +1%/yr)
 ├── New deduction for seniors 65+: up to $6,000 per person (2025-2028)
 ├── Estate tax exemption: $15M (2026), permanent + indexed
 └── New savings accounts for children ("Trump Accounts")
@@ -1072,7 +1073,7 @@ Step 5: Start investing
 <details>
 <summary><b>Question 3:</b> What is the 401(k) contribution limit for 2026?</summary>
 
-**Answer:** $24,500 (or $32,500 for people over 50).
+**Answer:** $24,500 (or $32,500 for ages 50+; ages 60–63 get an enhanced catch-up, for $35,750 total).
 
 </details>
 

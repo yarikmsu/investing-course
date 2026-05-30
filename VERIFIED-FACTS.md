@@ -36,7 +36,7 @@
 | Provision | Detail | Source |
 |---|---|---|
 | TCJA rates permanent | 10/12/22/24/32/35/37% made permanent; top rate stays **37%** (does NOT revert to 39.6% in 2026) | IRS 2026 release |
-| SALT cap | **$40,000 (2025) → $40,400 (2026)**, rises ~1%/yr through 2029, **reverts to $10,000 in 2030**; 30% phase-down above $500,000 MAGI (floor $10,000) | CRS R48611 |
+| SALT cap | **$40,000 (2025) → $40,400 (2026)**, rises ~1%/yr through 2029, **reverts to $10,000 in 2030**; 30% phase-down above MAGI **$500,000 (2025) → $505,000 (2026)** — threshold also +1%/yr (floor $10,000) | CRS R48611 |
 | Senior bonus deduction (65+) | **$6,000 per qualifying filer** ($12,000 MFJ if both qualify); **years 2025–2028**; phases out 6¢/$ above $75,000 single / $150,000 MFJ MAGI | IRS newsroom |
 | Estate & gift basic exclusion | **$15,000,000** per individual ($30M/couple); GST exemption $15M; **permanent, indexed after 2026** | Rev. Proc. 2025-32 |
 | Gift annual exclusion | **$19,000** (2026) | Rev. Proc. 2025-32 |
