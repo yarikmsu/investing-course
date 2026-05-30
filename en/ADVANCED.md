@@ -250,7 +250,8 @@ Solution — Backdoor Roth:
 
 Mega Backdoor Roth:
 ├── Through after-tax contributions to 401(k)
-├── Limit: $72,000 in 2026 (total for all 401k contributions, IRC §415(c) limit)
+├── Limit: $72,000 in 2026 — IRC §415(c) annual additions (employee + employer
+│   + after-tax), EXCLUDING the 50+ catch-up (so 50+ total $80,000; 60-63 $83,250)
 ├── Requires employer plan that allows it
 └── Allows putting $30,000+ additional into Roth
 ```

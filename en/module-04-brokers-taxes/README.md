@@ -96,7 +96,7 @@ Key factors:
 | **Retirement accounts** | All types | All types | All types | All types | IRA only |
 | **SIPC protection** | ✅ $500k | ✅ $500k | ✅ $500k | ✅ $500k | ✅ $500k |
 | **Additional insurance** | Up to $1M+ | Up to $600M | ❌ | Up to $30M | ❌ |
-| **Cryptocurrencies** | ✅ (Fidelity Crypto / FBTC) | ❌ | ❌ | ✅ | ✅ |
+| **Cryptocurrencies** (native trading) | ✅ (Fidelity Crypto) | ❌ | ❌ | ✅ | ✅ |
 | **Margin rate** | ~12% | ~12% | ~11% | ~6-7% | ~12% |
 | **Support** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
 
