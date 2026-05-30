@@ -334,7 +334,7 @@ Qualified Expenses:
 | Параметр | Значение |
 |----------|----------|
 | Лимит взносов | ~$300K-$500K lifetime (зависит от штата) |
-| Годовой взнос без gift tax | $18,000 (или $90K superfunding на 5 лет) |
+| Годовой взнос без gift tax | $19,000 (или $95K superfunding на 5 лет) |
 | Штраф за non-qualified | 10% + налог на earnings |
 
 > 💡 **Совет:** Проверьте план своего штата — часто он даёт налоговый вычет. Сравните на [SavingForCollege.com](https://www.savingforcollege.com/)

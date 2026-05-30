@@ -328,7 +328,7 @@ Qualified Expenses:
 | Parameter | Value |
 |-----------|-------|
 | Contribution limit | ~$300K-$500K lifetime (varies by state) |
-| Annual contribution without gift tax | $18,000 (or $90K superfunding over 5 years) |
+| Annual contribution without gift tax | $19,000 (or $95K superfunding over 5 years) |
 | Penalty for non-qualified | 10% + tax on earnings |
 
 > 💡 **Tip:** Check your state's plan — it often provides a tax deduction. Compare at [SavingForCollege.com](https://www.savingforcollege.com/)
