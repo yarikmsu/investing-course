@@ -100,9 +100,12 @@ Key factors:
 | **Margin rate** | ~12% | ~12% | ~11% | ~6-7% | ~12% |
 | **Support** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
 
-> ℹ️ Since 2024, spot Bitcoin/Ethereum ETFs (e.g., FBTC, IBIT) have been
-> available and can be bought through any broker like a regular ETF. This is
-> educational background, not a recommendation — crypto remains a high-risk asset.
+> ℹ️ Since 2024, spot Bitcoin/Ethereum ETFs (e.g., FBTC, IBIT) trade like a
+> regular ETF and are now available at most major brokers — Vanguard, long the
+> last major holdout, opened access in December 2025 (a few brokers or account
+> types may still restrict them). This is separate from native crypto trading
+> shown in the table above, and is educational background, not a recommendation —
+> crypto remains a high-risk asset.
 
 ### Which Broker to Choose?
 
