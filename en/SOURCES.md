@@ -11,7 +11,7 @@ permalink: /SOURCES/
 
 > All key claims in this course are backed by research and official data.
 >
-> **Last updated:** January 2026
+> **Last updated:** May 2026
 
 ---
 
@@ -218,11 +218,11 @@ Bonds (1926-2023):
 ```
 Source: IRS.gov
 
-2025:
-├── 401(k): $23,500 (+ $7,500 if 50+)
-├── IRA: $7,000 (+ $1,000 if 50+)
-├── HSA: $4,300 individual / $8,550 family
-└── SEP IRA: lesser of $70,000 or 25% of income
+2026:
+├── 401(k): $24,500 (+ $8,000 if 50+)
+├── IRA: $7,500 (+ $1,100 if 50+)
+├── HSA: $4,400 individual / $8,750 family
+└── SEP IRA: lesser of $72,000 or 25% of income
 
 Updates published October-November each year.
 Link: irs.gov/retirement-plans/plan-participant-employee/retirement-topics-contributions
@@ -233,9 +233,9 @@ Link: irs.gov/retirement-plans/plan-participant-employee/retirement-topics-contr
 ```
 Source: IRS.gov
 
-Long-Term Capital Gains (2025):
-├── 0%: up to $48,350 (single) / $96,700 (married)
-├── 15%: up to $533,400 (single) / $600,050 (married)
+Long-Term Capital Gains (2026):
+├── 0%: up to $49,450 (single) / $98,900 (married)
+├── 15%: up to $545,500 (single) / $613,700 (married)
 └── 20%: above these thresholds
 
 Link: irs.gov/taxtopics/tc409

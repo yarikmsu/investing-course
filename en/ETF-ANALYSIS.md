@@ -10,7 +10,8 @@ permalink: /ETF-ANALYSIS/
 # Popular ETF Analysis
 
 > **This is educational material, not financial advice.**
-> **Current as of:** January 2026. Data may change — verify current values before making decisions.
+> **Current as of:** May 2026. Data may change — verify current values before making decisions.
+> Return charts reflect data as of early 2025.
 
 Detailed analysis of 5 popular ETFs for long-term investing.
 
@@ -47,9 +48,9 @@ Detailed analysis of 5 popular ETFs for long-term investing.
 
 | Parameter | Value |
 |-----------|-------|
-| **Share Price** | ~$540 |
+| **Share Price** | check on [etf.com](https://www.etf.com) |
 | **Expense Ratio** | 0.03% |
-| **Assets Under Management (AUM)** | ~$840B |
+| **Assets Under Management (AUM)** | ~$840B (verify current value) |
 | **Dividend Yield** | ~1.3% |
 | **Number of Companies** | 503 |
 | **Average P/E** | ~25 |
@@ -57,7 +58,7 @@ Detailed analysis of 5 popular ETFs for long-term investing.
 ### Historical Returns
 
 ```
-Average Annual Returns (as of January 2025):
+Average Annual Returns (data as of early 2025 — update before using):
 
 1 year:  ████████████████████████░░ +26%
 3 years: ██████████░░░░░░░░░░░░░░░░ +10% per year
@@ -150,7 +151,7 @@ You MORE THAN TRIPLED your capital!
 │  VTI — Vanguard Total Stock Market ETF                      │
 ├─────────────────────────────────────────────────────────────┤
 │  Tracks: CRSP US Total Market Index                         │
-│  Companies: ~4,000 (entire US market)                       │
+│  Companies: ~3,600 (entire US market)                       │
 │  Provider: Vanguard                                         │
 │  Inception: May 24, 2001                                    │
 └─────────────────────────────────────────────────────────────┘
@@ -160,11 +161,11 @@ You MORE THAN TRIPLED your capital!
 
 | Parameter | Value |
 |-----------|-------|
-| **Share Price** | ~$290 |
+| **Share Price** | check on [etf.com](https://www.etf.com) |
 | **Expense Ratio** | 0.03% |
-| **Assets Under Management (AUM)** | ~$570B |
+| **Assets Under Management (AUM)** | ~$570B (verify current value) |
 | **Dividend Yield** | ~1.3% |
-| **Number of Companies** | ~4,000 |
+| **Number of Companies** | ~3,600 |
 | **Average P/E** | ~24 |
 
 ### How VTI Differs from VOO
@@ -173,7 +174,7 @@ You MORE THAN TRIPLED your capital!
 VTI vs VOO:
 
                         VTI             VOO
-Companies:              ~4,000          ~500
+Companies:              ~3,600          ~500
 Large Cap:              ~85%            ~100%
 Mid Cap:                ~10%            0%
 Small Cap:              ~5%             0%
@@ -188,7 +189,7 @@ Historical return difference: ~0.5% per year
 ### Historical Returns
 
 ```
-Average Annual Returns (as of January 2025):
+Average Annual Returns (data as of early 2025 — update before using):
 
 1 year:  ████████████████████████░░ +25%
 3 years: █████████░░░░░░░░░░░░░░░░░  +9% per year
@@ -275,9 +276,9 @@ Or... just pick either and stick with it!
 
 | Parameter | Value |
 |-----------|-------|
-| **Share Price** | ~$520 |
+| **Share Price** | check on [etf.com](https://www.etf.com) |
 | **Expense Ratio** | 0.20% |
-| **Assets Under Management (AUM)** | ~$410B |
+| **Assets Under Management (AUM)** | ~$410B (verify current value) |
 | **Dividend Yield** | ~0.5% |
 | **Number of Companies** | 101 |
 | **Average P/E** | ~35 |
@@ -303,7 +304,7 @@ QQQ is more concentrated and volatile than VOO!
 ### Historical Returns
 
 ```
-Average Annual Returns (as of January 2025):
+Average Annual Returns (data as of early 2025 — update before using):
 
 1 year:  ██████████████████████████ +28%
 3 years: ███████████░░░░░░░░░░░░░░░ +11% per year
@@ -426,9 +427,9 @@ For long-term investors, QQQM is better!
 
 | Parameter | Value |
 |-----------|-------|
-| **Share Price** | ~$115 |
+| **Share Price** | check on [etf.com](https://www.etf.com) |
 | **Expense Ratio** | 0.07% |
-| **Assets Under Management (AUM)** | ~$60B |
+| **Assets Under Management (AUM)** | ~$60B (verify current value) |
 | **Dividend Yield** | ~1.8% |
 | **Number of Companies** | ~9,900 |
 | **Countries** | 47 |
@@ -451,7 +452,7 @@ US = ~60% (US market = 60% of global)
 ### Historical Returns
 
 ```
-Average Annual Returns (as of January 2025):
+Average Annual Returns (data as of early 2025 — update before using):
 
 1 year:  ████████████████████░░░░░░ +20%
 3 years: ███████░░░░░░░░░░░░░░░░░░░  +7% per year
@@ -554,9 +555,9 @@ Nothing else needed.
 
 | Parameter | Value |
 |-----------|-------|
-| **Share Price** | ~$72 |
+| **Share Price** | check on [etf.com](https://www.etf.com) |
 | **Expense Ratio** | 0.03% |
-| **Assets Under Management (AUM)** | ~$145B |
+| **Assets Under Management (AUM)** | ~$145B (verify current value) |
 | **SEC Yield** | ~4.5% |
 | **Number of Bonds** | ~11,000 |
 | **Average Duration** | 6.2 years |
@@ -583,7 +584,7 @@ All bonds are Investment Grade (BBB and above)
 ### Historical Returns
 
 ```
-Average Annual Returns (as of January 2025):
+Average Annual Returns (data as of early 2025 — update before using):
 
 1 year:  ██░░░░░░░░░░░░░░░░░░░░░░░░ +2%
 3 years: ░░░░░░░░░░░░░░░░░░░░░░░░░░ -3% per year
@@ -685,7 +686,7 @@ Or more aggressive:
 | Parameter | VOO | VTI | QQQ | VT | BND |
 |-----------|-----|-----|-----|-----|-----|
 | **Expense Ratio** | 0.03% | 0.03% | 0.20% | 0.07% | 0.03% |
-| **Holdings** | 500 | 4,000 | 100 | 9,900 | 11,000 |
+| **Holdings** | 500 | ~3,600 | 100 | 9,900 | 11,000 |
 | **Dividend** | 1.3% | 1.3% | 0.5% | 1.8% | 4.5% |
 | **10-yr Return** | 13% | 12% | 17% | 10% | 1.5% |
 | **Volatility** | Medium | Medium | High | Medium | Low |

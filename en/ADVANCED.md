@@ -250,7 +250,8 @@ Solution — Backdoor Roth:
 
 Mega Backdoor Roth:
 ├── Through after-tax contributions to 401(k)
-├── Limit: $69,000 in 2024 (total for all 401k contributions)
+├── Limit: $72,000 in 2026 — IRC §415(c) annual additions (employee + employer
+│   + after-tax), EXCLUDING the 50+ catch-up (so 50+ total $80,000; 60-63 $83,250)
 ├── Requires employer plan that allows it
 └── Allows putting $30,000+ additional into Roth
 ```
@@ -272,10 +273,13 @@ RMD (Required Minimum Distributions):
 └── Roth 401(k) — NO more RMD!
 
 Catch-up contributions (for 50+):
-├── IRA: $1,000 additional (same as before)
-├── 401(k): $7,500 additional (2024)
-├── Starting 2025 for ages 60-63: $10,000 or 150%
-└── High earners (>$145k): Roth catch-up only
+├── IRA: $1,100 additional (2026)
+├── 401(k): $8,000 additional (2026, for 50+)
+├── For ages 60-63: enhanced catch-up of $11,250 (SECURE 2.0)
+└── High earners (prior-year wages >$145k, indexed — $150k for 2025 wages):
+    catch-up must be Roth — requirement is effective for 2026 (the Notice 2023-62
+    transition period ended after 2025); IRS final regs generally apply from 2027,
+    but good-faith compliance is required for 2026
 
 New opportunities:
 ├── Automatic enrollment in 401(k) (from 2025)
@@ -309,6 +313,11 @@ Modern alternatives:
 ├── Guardrails approach
 └── Floor-and-upside strategy
 ```
+
+> 💡 **Up-to-date context:** William Bengen himself (the rule's author) has raised
+> the safe withdrawal rate to roughly 4.7% in recent work, while Morningstar in its
+> 2024-2025 annual reviews lifted its estimate back toward ~3.7-4% as bond yields rose.
+> The 3.3-3.5% range is a conservative lower bound, not the only valid answer.
 
 #### Variable Percentage Withdrawal (VPW)
 
@@ -474,7 +483,8 @@ Risks:
 I-Bonds (Series I Savings Bonds):
 ├── Inflation protection
 ├── Rate = fixed + inflation (CPI-U)
-├── Limit: $10,000/year (+ $5,000 via tax refund)
+├── Limit: $10,000/year (electronic only)
+├── ⚠️ Paper I-Bonds via tax refund ENDED January 1, 2025
 ├── Cannot sell in first year
 ├── 3-month interest penalty before 5 years
 ├── Not subject to state tax
@@ -492,7 +502,7 @@ TIPS (Treasury Inflation-Protected Securities):
 
 | Feature | I-Bonds | TIPS (via ETF) |
 |---------|---------|----------------|
-| Purchase limit | $15,000/year | Unlimited |
+| Purchase limit | $10,000/year | Unlimited |
 | Liquidity | 1 year lock-up | Instant |
 | Minimum | $25 | 1 ETF share price |
 | State tax | No | Yes |
@@ -546,9 +556,8 @@ Conclusion: I-Bonds — unique protection tool
 
 ```
 Recommendation:
-├── Max I-Bonds: $15,000/year per person
-│   ├── $10,000 through TreasuryDirect
-│   └── $5,000 through tax refund (paper)
+├── Max I-Bonds: $10,000/year per person (electronic only)
+│   └── $10,000 through TreasuryDirect (treasurydirect.gov)
 ├── Remainder in TIPS ETF (if more needed)
 └── Hold in tax-advantaged (TIPS) or separately (I-Bonds)
 
@@ -723,6 +732,13 @@ Beneficiary Designations — CRITICALLY IMPORTANT:
 └── Review annually
 ```
 
+> 💡 **When does the federal estate tax even apply?**
+> The 2026 exemption is **$15 million per individual** ($30 million per couple),
+> made permanent by the OBBBA (2025) and indexed going forward. Most investors are
+> below this threshold and owe no federal estate tax — but check your state's estate
+> tax (some states have a much lower threshold).
+> ⚠️ For **non-US residents**, the threshold is only $60,000 — see the section in [NON-RESIDENTS](/investing-course/en/NON-RESIDENTS/).
+
 ### Transfer on Death (TOD) and Step-up in Basis
 
 ```
@@ -789,7 +805,7 @@ Donor-Advised Fund (DAF):
 QCD (Qualified Charitable Distribution):
 ├── For age 70.5+
 ├── Directly from IRA to charity
-├── Up to $100,000/year
+├── Up to $108,000/year (2025), $111,000 (2026); amount is indexed
 ├── Satisfies RMD
 ├── Not included in income!
 └── Better than withdrawal + donation
@@ -911,7 +927,7 @@ Calculators:
 
 ---
 
-> **Current as of:** January 2026
+> **Current as of:** May 2026
 >
 > Tax law changes. Verify current information and consult with professionals.
 
