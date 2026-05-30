@@ -67,6 +67,7 @@ exclude:
   - IMPROVEMENT_PLAN.md
   - AUDIT-REPORT.md
   - REMEDIATION-PLAN-2026.md
+  - VERIFIED-FACTS.md
   - "*.sh"
   - .gitignore
 

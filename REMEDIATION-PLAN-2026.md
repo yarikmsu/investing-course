@@ -31,10 +31,10 @@ These are used by multiple tasks below. Confirm each against the cited source du
 | Roth IRA phase-out — MFJ | $236,000–$246,000 | **$242,000–$252,000** | same |
 | LTCG 0% ceiling — Single | $48,350 | **~$49,450** | IRS Rev. Proc. (2026 inflation adj.) |
 | LTCG 0% ceiling — MFJ | $96,700 | **~$98,900** | same |
-| QCD annual limit | "$100,000" | **$108,000 (2025), indexed for 2026 (~$115,000)** | IRS (SECURE 2.0 indexing) |
+| QCD annual limit | "$100,000" | **$108,000 (2025) → $111,000 (2026)** [VERIFIED — Notice 2025-67] | IRS (SECURE 2.0 indexing) |
 | Federal estate/gift exemption | (never stated) | **$15,000,000 (2026, OBBBA, permanent + indexed)** | OBBBA / IRS |
 | Standard deduction (OBBBA) | (not stated) | **2025: $15,750 single / $31,500 MFJ; 2026 indexed** | OBBBA / IRS |
-| SALT cap (OBBBA) | $10,000 (implicit) | **$40,000 through 2029 (phase-down >$500k MAGI)** | OBBBA |
+| SALT cap (OBBBA) | $10,000 (implicit) | **$40,000 (2025) → $40,400 (2026), +~1%/yr to 2029, reverts to $10,000 in 2030; phase-down >$500k MAGI** [VERIFIED] | OBBBA / CRS R48611 |
 | NRA estate-tax exemption | (missing) | **$60,000 on US-situs assets, up to 40%** | IRC §2101–2107 / IRS |
 | I-Bond annual limit | "$15,000 ($10k + $5k paper via tax refund)" | **$10,000 electronic only (paper/tax-refund route ended Jan 1, 2025)** | TreasuryDirect |
 
@@ -252,7 +252,7 @@ with:
     правило вступает в силу для налоговых годов после 2026 (по итоговым правилам IRS 2025)
 ```
 
-- [ ] **Step 4: Fix the QCD limit** (`:791`): "├── До $100,000/год" → "├── До $108,000/год (2025; сумма индексируется)".
+- [ ] **Step 4: Fix the QCD limit** (`:791`): "├── До $100,000/год" → "├── До $108,000/год (2025), $111,000 (2026); сумма индексируется".
 
 - [ ] **Step 5: Verify**
 
@@ -421,8 +421,8 @@ git commit -m "docs(ru): add NRA US estate-tax section, reframe Irish-ETF ration
 │   └── Ожидавшегося роста ставок в 2026 НЕ произошло
 ├── Стандартный вычет повышен и закреплён
 │   └── 2025: $15,750 (single) / $31,500 (MFJ); далее индексируется
-├── Лимит вычета налогов штата (SALT) поднят с $10,000 до $40,000
-│   └── Действует до 2029; уменьшается при доходе выше $500,000
+├── Лимит вычета налогов штата (SALT): $40,000 (2025), $40,400 (2026)
+│   └── Растёт ~1%/год до 2029, затем возврат к $10,000 (2030); уменьшается при MAGI выше $500,000
 ├── Новый вычет для пенсионеров 65+: до $6,000 на человека (2025-2028)
 ├── Освобождение от налога на наследство: $15 млн (2026), постоянно + индексация
 └── Новые накопительные счета для детей («Trump accounts»)
