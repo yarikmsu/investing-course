@@ -11,7 +11,7 @@ permalink: /SOURCES/
 
 > All key claims in this course are backed by research and official data.
 >
-> **Last updated:** January 2026
+> **Last updated:** May 2026
 
 ---
 

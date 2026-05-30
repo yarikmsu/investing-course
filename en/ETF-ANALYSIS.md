@@ -10,7 +10,7 @@ permalink: /ETF-ANALYSIS/
 # Popular ETF Analysis
 
 > **This is educational material, not financial advice.**
-> **Current as of:** January 2026. Data may change — verify current values before making decisions.
+> **Current as of:** May 2026. Data may change — verify current values before making decisions.
 > Return charts reflect data as of early 2025.
 
 Detailed analysis of 5 popular ETFs for long-term investing.

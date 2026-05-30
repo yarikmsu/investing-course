@@ -11,7 +11,7 @@ permalink: /NON-RESIDENTS/
 
 > **This is educational material, not financial advice.** Consult a tax professional in your country.
 >
-> **Last updated:** January 2026
+> **Last updated:** May 2026
 
 ---
 
@@ -810,7 +810,7 @@ Main steps:
 
 ---
 
-> **Last updated:** January 2026
+> **Last updated:** May 2026
 
 ---
 
