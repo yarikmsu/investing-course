@@ -562,7 +562,7 @@ Box 1d: $6,500 (proceeds)
 Box 1e: $5,000 (cost basis)
 Box 1g: $1,500 (long-term gain)
 
-Tax: $1,500 × 15% = $225 (if income $48,351-$533,400, 2025)
+Tax: $1,500 × 15% = $225 (if income $49,451-$545,500, single, 2026)
 ```
 
 ### Brokerage Statement
@@ -992,7 +992,7 @@ Or simply: 90% VTI + 10% BND.
 <summary><b>Question 19:</b> What's the difference between VTI and VOO?</summary>
 
 **Answer:**
-- VTI — entire US market (~4,000 companies), including small/mid-cap
+- VTI — entire US market (~3,500 companies), including small/mid-cap
 - VOO — only S&P 500 (500 largest)
 - Returns are very similar, VTI has slightly more diversification
 

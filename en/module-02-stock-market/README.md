@@ -251,8 +251,12 @@ Used for:
 └── Locking in profits (Take-Profit)
 ```
 
+> ⚠️ Stop-Loss and Take-Profit are market-timing tools that work against a long-term buy-and-hold strategy. A stop-loss can knock you out of a position on a temporary dip right before the market recovers. A passive index investor doesn't need them.
+
 #### Stop-Limit Order
 Combination of stop and limit order.
+
+> 💡 **Modern reality (2026):** at major US brokers (Fidelity, Schwab, Vanguard), trading US-listed stocks and ETFs is **$0 commission** — the standard since 2019 (this covers online orders; options and some foreign/OTC trades may carry fees). Trades now settle on a **T+1** basis — the next business day (effective May 28, 2024). For a passive investor this means buying VOO/VTI is free, and proceeds from a sale are available the next business day.
 
 ---
 
@@ -312,7 +316,7 @@ Combination of stop and limit order.
 - NYSE and NASDAQ are the two main US exchanges
 - S&P 500 is the main indicator of the American market
 - Market operates 9:30 AM to 4:00 PM Eastern Time
-- Understanding order types is critical for successful trading
+- For a long-term passive investor, a market or limit order is all you need; stop-losses and take-profits are traders' tools and aren't needed in a buy-and-hold strategy
 
 ---
 

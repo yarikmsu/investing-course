@@ -61,6 +61,11 @@ Year    7% annually     10% annually    Difference
 $10,000 × 30 years × 3% difference = almost $100,000!
 ```
 
+> ⚠️ The 10–12% returns here are an illustration, not a forecast. 10% is the
+> long-run **nominal** historical US return; the real (after-inflation) return
+> is lower — around 6–7%, and forward-looking estimates for the next 10 years
+> are roughly 4–6% real. Use a more conservative 7% for planning.
+
 ### Early Start Effect
 
 ```
@@ -157,12 +162,13 @@ Lump sum captures all the growth
 ### Historically: Lump Sum vs DCA
 
 ```
-Vanguard study (1926-2019):
+Vanguard study (US, 1926-2011):
 
-In 68% of cases lump sum beat DCA
-In 32% of cases DCA won
+In roughly two-thirds of cases (~67%) lump sum beat DCA;
+in about one-third DCA came out ahead
 
-BUT! Average difference: ~2% per year
+BUT! The average gap in ending wealth is small (~2%),
+and it's a one-time difference over the period, not +2%/year.
 
 Conclusion:
 ├── If you have money now → invest now
@@ -309,7 +315,7 @@ Conclusion:
 ├── 1 stock = huge risk
 ├── 20-30 stocks = most risk eliminated
 ├── 500+ stocks (S&P 500) = close to optimal
-└── VTI (4000+) = maximum US diversification
+└── VTI (~3,500) = maximum US diversification
 ```
 
 ### Types of Risk

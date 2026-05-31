@@ -107,21 +107,23 @@ For niche ETFs:
 
 ### Broad US Market
 
-| Ticker | Provider | Expense Ratio | AUM | Description |
-|--------|----------|---------------|-----|-------------|
-| VTI | Vanguard | 0.03% | ~$570B | Entire US market (~4000 stocks) |
-| ITOT | iShares | 0.03% | ~$65B | Entire US market |
-| SPTM | SPDR | 0.03% | ~$10B | Entire US market |
+| Ticker | Provider | Expense Ratio | Description |
+|--------|----------|---------------|-------------|
+| VTI | Vanguard | 0.03% | Entire US market (~3,500 stocks) |
+| ITOT | iShares | 0.03% | Entire US market |
+| SPTM | SPDR | 0.03% | Entire US market |
+
+> ℹ️ AUM (assets under management) for every fund listed here is far above the >$1B reliability threshold. Exact figures go stale quickly — verify current values on [etf.com](https://www.etf.com) when needed.
 
 ### S&P 500
 
-| Ticker | Provider | Expense Ratio | AUM | 10yr Return* | 20yr Return* |
-|--------|----------|---------------|-----|--------------|--------------|
-| VOO | Vanguard | 0.03% | ~$840B | ~12.5%/yr | ~10.5%/yr |
-| SPY | SPDR | 0.09% | ~$710B | ~12.5%/yr | ~10.5%/yr |
-| IVV | iShares | 0.03% | ~$760B | ~12.5%/yr | ~10.5%/yr |
+| Ticker | Provider | Expense Ratio | 10yr Return* | 20yr Return* |
+|--------|----------|---------------|--------------|--------------|
+| VOO | Vanguard | 0.03% | ~12.5%/yr | ~10.5%/yr |
+| SPY | SPDR | 0.09% | ~12.5%/yr | ~10.5%/yr |
+| IVV | iShares | 0.03% | ~12.5%/yr | ~10.5%/yr |
 
-*Historical average annual return of S&P 500 (with dividend reinvestment). Past results do not guarantee future performance.
+*Historical average annual return of the S&P 500 (with dividend reinvestment), shown for illustration. These are past results, not expected future returns. All three funds track the same index, so their returns are virtually identical.
 
 ### NASDAQ-100
 
@@ -134,10 +136,10 @@ For niche ETFs:
 
 | Ticker | Provider | Expense Ratio | Description |
 |--------|----------|---------------|-------------|
-| VXUS | Vanguard | 0.07% | Entire world ex-US |
-| VEA | Vanguard | 0.05% | Developed markets ex-US |
-| VWO | Vanguard | 0.08% | Emerging markets |
-| VT | Vanguard | 0.07% | Entire world including US |
+| VXUS | Vanguard | 0.05% | Entire world ex-US |
+| VEA | Vanguard | 0.03% | Developed markets ex-US |
+| VWO | Vanguard | 0.06% | Emerging markets |
+| VT | Vanguard | 0.06% | Entire world including US |
 | IEFA | iShares | 0.07% | Developed markets ex-US |
 | IEMG | iShares | 0.09% | Emerging markets |
 
@@ -257,7 +259,7 @@ Example: S&P 500 ETFs
 
           VOO        SPY        IVV
 Expense:  0.03%      0.09%      0.03%
-AUM:      ~$840B     ~$710B     ~$760B
+AUM:      all >$1B (mega-funds, verify on etf.com)
 Spread:   $0.01      $0.01      $0.01
 Provider: Vanguard   SPDR       iShares
 
@@ -302,6 +304,13 @@ Advantages:
 └── Set it and forget it
 ```
 
+> ⚠️ **This is a US tilt, not a neutral default.** By market capitalization, roughly
+> 40% of global stocks are outside the US (that's how much ex-US sits in VT). In this
+> portfolio ex-US = VXUS 20% out of 80% in stocks, i.e. only ~25% of equities ex-US —
+> well below the market-cap weight. That's a legitimate, deliberate home-country tilt,
+> but it's a bet on continued US leadership, not a "market-neutral" middle. To be
+> market-cap-neutral, hold ~40% of your equities outside the US (or simply hold VT).
+
 ### Four-Fund Portfolio
 
 ```
@@ -329,15 +338,21 @@ Downside: may lag stocks in bull markets
 ### Aggressive Growth (for young investors)
 
 ```
-100% stocks, maximum growth:
+100% stocks, maximum growth (broad market):
 ├── VTI (US Stocks): 60%
-├── VGT (Technology): 15%
-├── VWO (Emerging Markets): 15%
-└── VEA (Developed Markets): 10%
+├── VWO (Emerging Markets): 25%
+└── VEA (Developed Markets): 15%
 
 ⚠️ High volatility!
 Only for long-term horizon (15+ years)
 ```
+
+> ⚠️ **"Aggressive" in the passive sense means more stocks and fewer bonds — not a bet
+> on one sector.** If you want it even simpler: 100% VTI + VXUS. Adding VGT (technology)
+> or any other sector fund is an **optional, speculative tilt**, not part of the core
+> portfolio: it concentrates risk in a single sector, which this course warns against
+> (see the QQQ / NASDAQ-100 concentration warning in [ETF-ANALYSIS](/investing-course/en/ETF-ANALYSIS/)). If you do add such a tilt, keep it small (e.g. ≤10%) and
+> understand that it's a bet, not a "neutral" aggressive portfolio.
 
 ### Dividend Portfolio
 

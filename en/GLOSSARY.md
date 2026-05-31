@@ -51,7 +51,7 @@ permalink: /GLOSSARY/
 
 **Correction** — A market decline of 10-20% from peak. A normal part of market cycles.
 
-**Cost Basis** — The purchase price of an asset (for calculating gains).
+**Cost Basis** — The amount invested in an asset for tax purposes: purchase price plus commissions/fees, increased by reinvested dividends (each DRIP purchase adds its own basis lot, since the dividend was already taxed as income), and adjusted for events such as wash-sale loss disallowances (added to the replacement shares' basis) and nondividend distributions / return of capital (which reduce basis). Used to compute capital gain or loss on sale. (Relevant in a taxable brokerage account; inside an IRA/401(k)/Roth, per-lot basis doesn't matter.)
 
 ---
 
@@ -113,7 +113,7 @@ permalink: /GLOSSARY/
 
 **Liquidity** — The ability to quickly buy/sell an asset at market price. Apple stock is more liquid than real estate.
 
-**Long-term Capital Gains** — Profit from selling an asset held for more than 1 year. Taxed at preferential rates (0/15/20%).
+**Long-term Capital Gains** — Profit from selling an asset held for more than 1 year. Taxed at preferential rates (0/15/20%; a 3.8% NIIT can stack on top for high earners, making the true ceiling ~23.8% — see NIIT).
 
 ---
 
@@ -138,6 +138,8 @@ permalink: /GLOSSARY/
 
 **Net Worth** — Assets minus liabilities. Overall measure of financial position.
 
+**NIIT (Net Investment Income Tax)** — A 3.8% surtax (IRC §1411) on net investment income (dividends, interest, capital gains) for taxpayers with MAGI above $200,000 (single/HoH), $250,000 (MFJ), or $125,000 (MFS). It stacks on top of long-term and ordinary rates, so the true ceiling becomes ~23.8% on long-term gains/qualified dividends and ~40.8% on short-term gains. These thresholds are fixed by statute and are NOT indexed for inflation (unchanged since 2013). See module-04-brokers-taxes for a worked example.
+
 **Nominal vs Real Return** — Nominal is before inflation, real is after. 7% nominal - 2% inflation = 5% real.
 
 ---
@@ -154,7 +156,7 @@ permalink: /GLOSSARY/
 
 ## Q
 
-**Qualified Dividends** — Dividends taxed at preferential rates (0%, 15%, 20%) instead of ordinary income tax rates.
+**Qualified Dividends** — Dividends taxed at preferential rates (0%, 15%, 20%) instead of ordinary income tax rates. The 3.8% NIIT can also apply for high earners (see NIIT).
 
 ---
 
@@ -168,6 +170,8 @@ permalink: /GLOSSARY/
 
 **Risk** — The possibility of losing some or all investments. High potential return is usually associated with high risk.
 
+**RMD (Required Minimum Distribution)** — The minimum amount the IRS requires you to withdraw annually from pre-tax retirement accounts (Traditional IRA, 401(k)) starting at age 73 (SECURE 2.0; age 75 for those reaching age 74 after 2032, i.e. born 1960 or later). Roth IRAs have no RMDs during the owner's lifetime. Missing an RMD triggers a 25% excise tax on the shortfall, reduced to 10% if corrected promptly (within the two-year correction window, Form 5329).
+
 ---
 
 ## S
@@ -176,7 +180,7 @@ permalink: /GLOSSARY/
 
 **Security** — A financial instrument: stocks, bonds, ETFs, options, etc.
 
-**Short-term Capital Gains** — Profit from selling an asset held for less than 1 year. Taxed as ordinary income (up to 37%).
+**Short-term Capital Gains** — Profit from selling an asset held for one year or less. Taxed as ordinary income (up to 37%; a 3.8% NIIT can also apply for high earners — see NIIT).
 
 **Specific ID** — A method allowing you to choose specific lots to sell (for tax optimization).
 
@@ -206,7 +210,7 @@ permalink: /GLOSSARY/
 
 ## W
 
-**Wash Sale** — A rule prohibiting deducting losses when buying the same asset within 30 days.
+**Wash Sale** — A rule (IRC §1091) disallowing a capital-loss deduction if you acquire a substantially identical stock or security within 30 days *before* or 30 days *after* the loss sale — a 61-day window (30 days before + the sale day + 30 days after). In a **taxable** account the disallowed loss is added to the cost basis of the replacement shares (and the original holding period carries over), so the loss is deferred, not erased. **Exception:** if the replacement is purchased in an IRA/Roth IRA (yours or a spouse's), the loss is permanently disallowed with **no** basis add-back (IRS Rev. Rul. 2008-5) — erased, not deferred. See Module 4.
 
 ---
 
@@ -230,7 +234,7 @@ permalink: /GLOSSARY/
 
 | Ticker | Name | What It Tracks |
 |--------|------|----------------|
-| VTI | Vanguard Total Stock Market | Entire US stock market (~4,000 companies) |
+| VTI | Vanguard Total Stock Market | Entire US stock market (~3,500 companies) |
 | VOO | Vanguard S&P 500 | 500 largest US companies |
 | VXUS | Vanguard Total International Stock | International stocks (ex-US) |
 | VT | Vanguard Total World Stock | Entire global stock market |
@@ -252,8 +256,8 @@ permalink: /GLOSSARY/
 | 1099-DIV | Report of received dividends |
 | 1099-B | Report of securities sales |
 | 1099-INT | Report of received interest |
-| Cost Basis | Purchase price of an asset (for calculating gains) |
-| Wash Sale | Rule prohibiting loss deduction when buying same asset within 30 days |
+| Cost Basis | Amount invested for tax purposes: purchase price plus commissions, increased by reinvested dividends (each DRIP purchase adds basis) and adjusted for events like wash-sale disallowances or return of capital. Used to compute capital gain/loss on sale (taxable accounts) |
+| Wash Sale | Rule (IRC §1091) disallowing a capital-loss deduction if you buy a substantially identical security within 30 days before or after the sale (a 61-day window). In a taxable account the disallowed loss is added to the replacement shares' cost basis; if the replacement is bought in an IRA/Roth, the loss is permanently lost (Rev. Rul. 2008-5) |
 | FIFO | First In, First Out — oldest shares sold first |
 | Specific ID | Method to choose specific lots for sale (for tax optimization) |
 
@@ -285,6 +289,7 @@ permalink: /GLOSSARY/
 | SEC | Securities and Exchange Commission |
 | SIPC | Securities Investor Protection Corporation |
 | FDIC | Federal Deposit Insurance Corporation |
+| NIIT | Net Investment Income Tax |
 | RMD | Required Minimum Distribution |
 | TDF | Target Date Fund |
 | ER | Expense Ratio |

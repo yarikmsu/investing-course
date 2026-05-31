@@ -1,0 +1,10 @@
+# Local planning / audit scratch (not part of the published course)
+.planning/
+
+# Personal Claude Code config & local automation hooks (not part of the course)
+.claude/
+
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata

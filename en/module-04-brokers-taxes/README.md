@@ -209,13 +209,34 @@ Individual Retirement Account with tax-deferred growth.
 
 ```
 Characteristics:
-├── Contributions reduce taxable income
+├── Contributions reduce taxable income — NOT always (see below)
 ├── 2026 limit: $7,500 ($8,600 if 50+)
+├── Requires earned income (compensation) ≥ the amount contributed
 ├── Tax-free growth
 ├── Tax on withdrawal
 ├── 10% penalty for early withdrawal (before 59.5)
 └── Required distributions from age 73 (RMD)
 ```
+
+> ⚠️ **The deduction is not automatic.** If **neither you nor your spouse** is
+> covered by a workplace retirement plan (401(k), etc.), your contribution is
+> **fully deductible at any income.** Once either spouse is covered, the
+> deduction phases out over a 2026 MAGI range — and **which** range applies
+> depends on **who** is covered (being covered yourself phases out far earlier
+> than only your spouse being covered):
+>
+> | Your situation (2026) | MAGI phase-out range |
+> |---|---|
+> | Single / HoH | $81,000–$91,000 |
+> | MFJ (you are covered) | $129,000–$149,000 |
+> | MFJ (only spouse is covered) | $242,000–$252,000 |
+> | MFS | $0–$10,000 (not indexed) |
+>
+> Above the top of the range the contribution becomes **nondeductible** —
+> its basis is tracked on **Form 8606**. This is precisely the setup for the
+> Backdoor Roth (see Lesson 4.2). Earned income (wages or self-employment
+> income) is required; a non-working spouse can use a **spousal IRA** against
+> the working spouse's compensation.
 
 ### Roth IRA
 
@@ -225,11 +246,17 @@ Retirement account with tax now, but no tax later.
 Characteristics:
 ├── Contributions from after-tax income
 ├── 2026 limit: $7,500 ($8,600 if 50+)
+├── Requires earned income (compensation) ≥ the amount contributed
 ├── Tax-FREE growth
 ├── Tax-FREE withdrawal (after 59.5)
 ├── Income limits apply
 └── No required distributions (RMD)
 ```
+
+> ℹ️ Like a Traditional IRA, a Roth IRA requires **earned income** (wages or
+> self-employment income) at least equal to the amount contributed. A retiree
+> or a student living only on investment income cannot contribute; a non-working
+> spouse can use a **spousal IRA** against the working spouse's compensation.
 
 ### 401(k)
 
@@ -310,6 +337,15 @@ Requirements:
 2026 limit: $4,400 (individual) / $8,750 (family)
 ```
 
+> ⚠️ **Penalty and tax on non-medical withdrawals:**
+> - **Before age 65:** a withdrawal for anything other than qualified medical
+>   expenses is hit with a **20% penalty** (not 10% like an IRA) plus ordinary
+>   income tax.
+> - **After age 65:** the 20% penalty goes away; a non-medical withdrawal is
+>   taxed as ordinary income only (just like a Traditional IRA).
+> - **At any age:** withdrawals for qualified medical expenses stay
+>   **completely tax-free** — that's the "triple" benefit.
+
 ### 529 Plan (College Savings)
 
 Tax-advantaged savings account for education expenses.
@@ -334,9 +370,31 @@ Qualified Expenses:
 | Annual contribution without gift tax | $19,000 (or $95K superfunding over 5 years) |
 | Penalty for non-qualified | 10% + tax on earnings |
 
-> 💡 **Tip:** Check your state's plan — it often provides a tax deduction. Compare at [SavingForCollege.com](https://www.savingforcollege.com/)
+> ⚠️ **Form 709 for superfunding.** A gift to any one recipient above $19,000
+> for the year (2026) requires filing **Form 709** (the gift-tax return) by the
+> income-tax deadline (generally April 15 of the following year; extendable via
+> Form 4868/8892). **Superfunding $95K** (5×$19,000; $190K per couple) uses the
+> 5-year election under §529(c)(2)(B), and the spread is valid **only if the
+> election is made on a timely Form 709** in year one. Skip the election and the
+> whole $95K counts as a year-one gift — only $19K is excluded and the other
+> $76K draws down your lifetime exemption. **Done correctly, the election spreads
+> it as $19K/year, each fully covered by the annual exclusion — so no gift tax
+> and no lifetime-exemption use** at exactly $95K. You dip into the lifetime
+> exemption ($15M per person, 2026) only if you give above the electable amount,
+> or make other gifts to that same beneficiary during the 5 years.
 
-> ⚠️ **SECURE 2.0 (from 2024):** Unused 529 funds can be rolled into beneficiary's Roth IRA (up to $35K lifetime, account must be open 15+ years).
+> ⚠️ **SECURE 2.0 (from 2024):** Unused 529 funds can be rolled into the beneficiary's Roth IRA (up to $35K lifetime, account must be open 15+ years).
+>
+> But $35K is a **lifetime** cap, not a one-shot move. The binding limits:
+> - Each year's rollover is capped at that year's Roth contribution limit
+>   ($7,500 for 2026; $8,600 if 50+), and that cap is **reduced** by any other
+>   Traditional/Roth IRA contributions the beneficiary made that year (they share one cap).
+> - The **beneficiary** (not the parent) must have earned income at least equal
+>   to the rollover amount.
+> - Contributions made to the 529 in the **last 5 years** (and their earnings)
+>   are not eligible.
+> - As a result the full $35K takes roughly 5+ years to move.
+> - Bonus: the usual Roth MAGI income limits are **waived** for these rollovers.
 
 ### Contribution Priority (Optimal Order)
 
@@ -435,6 +493,22 @@ SECURE 2.0 reduced penalties:
 └── With quick correction (within 2 years): only 10%!
 ```
 
+> ⚠️ **None of this is automatic — you must file Form 5329.** A missed RMD is
+> self-reported on **Form 5329, Part IX**.
+> - **The 10% rate (instead of 25%)** applies only if, within the correction
+>   window — which ends on the **earliest** of: the date the IRS mails a
+>   deficiency notice, the date it assesses the tax, or the last day of the 2nd
+>   tax year after the shortfall year — you (1) take a distribution of the
+>   shortfall and (2) file Form 5329 reflecting the tax.
+> - **Full reasonable-cause waiver:** complete lines 52–53, write "RC" and the
+>   amount you want waived in parentheses next to line 54, subtract it, and
+>   attach a brief explanation. The IRS commonly grants reasonable-cause waivers
+>   once the shortfall is corrected, but approval is **not guaranteed** — the
+>   IRS reviews each case.
+>
+> Simply "taking the missed RMD" without filing Form 5329 secures neither the
+> 10% rate nor the waiver.
+
 ### First Year Rule
 
 ```
@@ -483,10 +557,21 @@ After owner's death (since 2020):
 | Traditional/Roth IRA | $7,500 | $8,600 | Per person (catch-up $1,100) |
 | 401(k)/403(b) | $24,500 | $32,500 | + employer match (catch-up $8,000) |
 | 401(k) catch-up 60–63 | — | up to $11,250 | Enhanced catch-up (SECURE 2.0) |
-| HSA (individual) | $4,400 | $5,400 | Requires HDHP (catch-up 55+: $1,000) |
-| HSA (family) | $8,750 | $9,750 | Requires HDHP |
+| HSA (individual) | $4,400 | $5,400 (55+) | Requires HDHP (catch-up 55+: $1,000) |
+| HSA (family) | $8,750 | $9,750 (55+) | Requires HDHP |
 
 > ℹ️ 2025 limits (for reference): IRA $7,000, 401(k) $23,500, HSA $4,300/$8,550.
+>
+> ⚠️ **The HSA catch-up is age 55+ (not 50!).** It is a fixed $1,000 **per
+> eligible spouse**, and each spouse's catch-up must go into **their own HSA**
+> (IRS Pub 969: "Each spouse must make the additional contribution to their own
+> HSA"). A single accountholder maxes out at $4,400+$1,000=$5,400 (self-only) or
+> $8,750+$1,000=$9,750 (family) — and all $9,750 may sit in that one
+> accountholder's own HSA. For a married couple to capture **both** catch-ups you
+> need **two separate HSAs**: the combined 2026 family ceiling is
+> $8,750+$1,000+$1,000=$10,750, but the second spouse's $1,000 catch-up must go
+> into **their own** HSA. So a single HSA tops out at $9,750; $10,750 cannot sit
+> in one account.
 
 ### Roth IRA Income Limits
 
@@ -514,7 +599,17 @@ Example (2026, Single, MAGI = $160,500):
 └── You can contribute up to $3,750 to Roth IRA
 ```
 
-> 💡 **Income above limit?** Use **Backdoor Roth IRA**: contribute to Traditional IRA (no deduction), then convert to Roth. Details in [ADVANCED](/investing-course/en/ADVANCED/).
+> 💡 **Income above limit?** Use **Backdoor Roth IRA**: contribute to Traditional IRA (no deduction), then convert to Roth. Details — including the pro-rata rule and the trick of rolling a pre-tax IRA into a 401(k) first — in [ADVANCED](/investing-course/en/ADVANCED/).
+>
+> ⚠️ **Don't forget Form 8606.** A backdoor Roth is reported on **Form 8606**.
+> When you contribute and convert in the **same tax year**, one form per person
+> covers both steps — Part I (the nondeductible contribution and basis) and
+> Part II (the conversion); you don't file two 8606s for the two steps. **But if
+> you contribute *for a prior year* (a Jan–Apr contribution) and convert in the
+> next calendar year, you file two 8606s:** the prior-year form (Part I, to
+> record the basis) and the conversion-year form (Part II, from the 1099-R).
+> Without a filed 8606 the IRS doesn't see your basis and may tax the conversion
+> a second time.
 
 ---
 
@@ -661,6 +756,12 @@ An additional **3.8% tax** on investment income for high earners.
 | Married Filing Jointly | > $250,000 |
 | Married Filing Separately | > $125,000 |
 
+> ⚠️ **These thresholds are NOT adjusted for inflation.** They are fixed by
+> statute and have not changed since 2013 — unlike the tax brackets and
+> contribution limits, which rise every year. So more middle-income investors
+> cross them over time. Do not assume these $200k/$250k/$125k figures rise with
+> inflation like everything else on this page.
+
 ```
 Example (Single, MAGI $220,000):
 ├── Excess over threshold: $20,000
@@ -670,6 +771,13 @@ Example (Single, MAGI $220,000):
 
 Total: 15% + 3.8% = 18.8% on long-term gains
 ```
+
+> ⚠️ **The broker does not withhold NIIT — you self-assess it on Form 8960.**
+> It appears on no 1099; you compute it on **Form 8960** and carry it to
+> **Schedule 2 (Form 1040), Line 12**. Capital-loss carryforwards, investment
+> expenses, and state taxes flow differently for NIIT than for regular tax.
+> When 1099 income pushes MAGI over $200k/$250k, failing to report NIIT is a
+> common under-reporting and audit trigger.
 
 > 📖 Source: [IRS Topic 559](https://www.irs.gov/taxtopics/tc559)
 
@@ -783,6 +891,18 @@ Cannot buy:
 └── Convertible bonds of the same company
 ```
 
+> ⚠️ **Turn off automatic dividend reinvestment (DRIP).** A reinvested dividend
+> is a purchase. If it lands inside the 61-day window on the same or a
+> "substantially identical" fund, it triggers a wash sale even though you never
+> manually re-bought. Switch DRIP off on the harvested fund during the window.
+
+> ⚠️ **The broker only catches wash sales within a single account.** It reports
+> a disallowed loss in **1099-B, Box 1g**, but **only per-account**. A wash sale
+> spanning two different accounts, your IRA, or a spouse's account is NOT seen
+> by the broker and won't appear on the 1099-B — you must identify it yourself
+> and enter the adjustment on **Form 8949**. This is exactly where audit
+> adjustments arise.
+
 ### ⚠️ IRA Trap — CRITICALLY IMPORTANT!
 
 ```
@@ -878,11 +998,16 @@ Bond Interest:
 ```
 Recommendations:
 ├── Complete W-8BEN immediately when opening account
-├── Prefer growth stocks vs dividend stocks
-├── Use accumulating ETFs vs distributing
+├── Reduce dividend withholding STRUCTURALLY, not by stock-picking:
+│   ├── accumulating (acc) UCITS ETFs reinvest dividends internally
+│   └── or broad funds with a naturally lower dividend yield
 ├── Consult with a tax professional
 └── Account for taxes in country of residence
 ```
+
+> ℹ️ The goal is to cut the dividend-withholding drag, NOT to pick individual
+> stocks. Use the passive-investor tool — accumulating-vs-distributing ETFs —
+> rather than selecting single names.
 
 ---
 
@@ -911,6 +1036,25 @@ Box 4: Federal Tax Withheld
 Box 6: Foreign Tax Paid (can be credited!)
 ```
 
+> 💡 **Foreign Tax Credit (FTC) — how to claim the foreign tax in Box 6.**
+> This matters for anyone holding international funds (VXUS, VEA, VWO).
+> - **Claimed as a credit on Schedule 3 (Form 1040), Part I, line 1.** The
+>   foreign tax is generally claimed on **Form 1116**, which carries to
+>   Schedule 3.
+> - **De minimis exception:** if your total creditable foreign tax is
+>   ≤ **$300** (single) / **$600** (MFJ), all foreign-source income is
+>   passive-category (fund dividends meet this), and all of it was reported on a
+>   1099-DIV/1099-INT, you may claim the credit **directly on Schedule 3 with no
+>   Form 1116** (electing this forfeits the FTC carryback/carryforward).
+> - **Credit vs deduction:** you pick one or the other for all foreign taxes
+>   that year. The **credit is almost always better** (dollar-for-dollar vs.
+>   merely reducing taxable income; the deduction also requires itemizing).
+> - **The FTC is lost inside an IRA/401(k):** foreign tax on income in a
+>   retirement account can be neither credited nor deducted — a reason to hold
+>   international funds in a **taxable** account.
+>
+> ⚠️ Educational background, not tax advice — verify the details on IRS.gov.
+
 **Form 1099-B — Sales**
 ```
 For each transaction:
@@ -933,6 +1077,12 @@ Box 7: Distribution Code (type of distribution)
    ├── Code 7: Normal distribution (59½+)
    └── Code G: Rollover (no tax)
 ```
+
+> ⚠️ **Code 1 but a penalty exception applies? File Form 5329.** If Box 7 shows
+> Code 1 but an exception from the Lesson 4.2 table applies to you, the 10%
+> penalty is **not waived automatically** — you must claim it on **Form 5329**.
+> Without it, the IRS will assess the 10% based on the 1099-R code. Conversely,
+> claiming an exception the code doesn't support is a known audit flag.
 
 ### Typical Broker Consolidated Statement
 
@@ -966,6 +1116,28 @@ Schedule B:
 ├── Dividends > $1,500
 └── If less — just on Form 1040
 ```
+
+### Compliance Forms YOU File
+
+> 💡 **Important:** Broker 1099s report income, but the strategies this module
+> teaches (backdoor Roth, HSA, NIIT, FTC, gifting) require their own forms that
+> the broker does NOT file for you. Each form maps to a topic in this module.
+
+| Form | What It Covers | When Needed |
+|------|----------------|-------------|
+| **Form 8606** | Nondeductible IRA contributions, basis, backdoor Roth (Part I + II) | Lesson 4.2 |
+| **Form 5329** | 10% early-withdrawal penalty; 25%/10% RMD excise tax (Part IX) | Lesson 4.2 |
+| **Form 8889** | HSA contributions and distributions | Lesson 4.2 (HSA) |
+| **Form 8960** | NIIT 3.8% → Schedule 2, Line 12 | Lesson 4.3 (NIIT) |
+| **Form 1116** | Foreign Tax Credit (if foreign tax > $300 single / $600 MFJ) | Lesson 4.3 / Box 6 |
+| **Form 709** | Gifts over $19,000/yr / 5-year 529 superfunding | Lesson 4.2 (529) |
+
+> ℹ️ **Form 5498** is issued by your broker/custodian (usually in May): it
+> confirms IRA contributions, account FMV, and RMDs. You don't file it — it's
+> for reconciliation.
+
+> ⚠️ Educational background, not tax advice — verify forms and thresholds on
+> IRS.gov.
 
 > 💡 **Practical tip:** Most tax software (TurboTax, H&R Block) imports 1099 automatically. Just enter your broker login, and data loads itself.
 

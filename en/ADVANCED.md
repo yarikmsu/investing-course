@@ -53,6 +53,14 @@ Example:
 └── Savings: $2,000 × 15% = $300 in taxes
 ```
 
+> ℹ️ **Important: TLH mainly DEFERS tax, it doesn't erase it.**
+> Buying the replacement (ITOT) gives you a lower basis, so the
+> harvested loss largely resurfaces as a bigger future gain. The
+> durable benefit comes from the deferral (time value of money), the
+> up-to-$3,000/yr offset against ordinary income at a higher rate
+> than LTCG, and the step-up at death or a charitable donation of
+> the appreciated shares.
+
 #### Tax-Loss Harvesting Rules
 
 ```
@@ -68,11 +76,18 @@ What counts as "substantially identical":
 ├── Similar but different index ✓
 └── Example: VTI (Total Market) → VOO (S&P 500) ✓
 
-Replacement pairs:
-├── VTI ↔ ITOT, SCHB, SPTM
-├── VXUS ↔ IXUS, SCHF
-├── BND ↔ AGG, SCHZ
-└── VOO ↔ IVV, SPY, SPLG
+Conservative (defensible) approach — swap to a DIFFERENT index:
+├── VTI (Total Market) ↔ VOO (S&P 500)
+├── VOO (S&P 500) ↔ VXF (Extended Market) or VTI (Total Market)
+├── VXUS (total ex-US) ↔ a different international index
+└── BND (aggregate) ↔ a different bond index
+
+⚠️ Gray area — swapping WITHIN the same index:
+├── VTI ↔ ITOT, SCHB, SPTM (all = Total Market)
+├── VOO ↔ IVV, SPY, SPLG (all = S&P 500)
+├── The IRS has never ruled that two ETFs tracking the same
+│   index are NOT "substantially identical"
+└── This is an unsettled interpretation, not a green light — at your own risk
 ```
 
 #### When Tax-Loss Harvesting Makes Sense
@@ -101,17 +116,20 @@ Limitations:
 #### Automating Tax-Loss Harvesting
 
 ```
-Services with automatic TLH:
-├── Wealthfront — free from $500
+Services with automatic TLH (fees as of writing —
+verify current terms with the provider):
+├── Wealthfront — from $500; index-level TLH at NO extra cost
+│   (the 0.25%/yr account fee still applies)
 ├── Betterment — from 0.25% annually
-├── Vanguard Digital Advisor — 0.15%
-└── Fidelity Go — free up to $25k
+├── Vanguard Digital Advisor — ~0.15% (net fee)
+└── Fidelity Go — no fee up to $25k
 
 Direct Indexing (advanced level):
 ├── Buying individual stocks instead of ETF
-├── TLH at individual stock level
+├── TLH at the individual-stock level, not just the index
 ├── More optimization opportunities
-├── Minimum usually $100,000+
+├── Minimum usually $100,000+ (Wealthfront's standalone
+│   S&P 500 Direct / Nasdaq-100 Direct start at $5,000)
 └── Providers: Parametric, Aperio, Wealthfront
 ```
 
@@ -145,7 +163,7 @@ In TAXABLE accounts:
 ├── Total market / S&P 500 ETF (low turnover)
 ├── Growth stocks (fewer dividends)
 ├── Tax-managed funds
-├── Municipal bonds (for high earners)
+├── Municipal bonds (for high earners — see rule below)
 └── International stocks (Foreign Tax Credit!)
 
 In ROTH (best for growth):
@@ -154,6 +172,13 @@ In ROTH (best for growth):
 ├── Emerging markets
 └── Whatever will grow most by retirement
 ```
+
+> ℹ️ **Municipal bonds — only at high brackets.** Compare via the
+> taxable-equivalent yield = muni yield / (1 − marginal rate). Munis
+> generally beat taxable bonds only at roughly the 32%+ federal bracket
+> (higher once you add state tax) AND only once tax-deferred space for
+> taxable bonds is exhausted — otherwise "bonds in tax-deferred" from the
+> table above often dominates munis entirely.
 
 #### Optimization Example
 
@@ -186,6 +211,28 @@ Savings: approximately 0.2-0.5% annually
 on $500,000 = $1,000-2,500/year
 ```
 
+> ℹ️ **How to claim the Foreign Tax Credit (1099-DIV Box 6).**
+> Foreign tax is claimed as a credit on Schedule 3 (Form 1040), Part I, line 1.
+> Under the de-minimis exception you can claim it with NO Form 1116 if all of
+> these hold: total creditable foreign tax is ≤ $300 ($600 MFJ), all foreign-
+> source income is passive-category, AND all of it was reported on a 1099-DIV/
+> 1099-INT/K-1/K-3. For index-fund investors this is almost always the case.
+> Above that threshold, Form 1116 is required (and the credit may be limited).
+> Alternatively, foreign income tax can be taken as an itemized deduction on
+> Schedule A instead of a credit (elected year by year; you can't do both for
+> the same taxes).
+>
+> *This is educational material, not tax advice. Verify on IRS.gov.*
+
+> ⚠️ **Caution: the same ticker in taxable AND an IRA is a wash-sale trap.**
+> In the example above, VTI sits in both the Roth IRA ($80,000) and the
+> taxable account ($170,000). If you harvest a VTI loss in taxable and your
+> IRA/Roth buys VTI within 30 days before or after (via DRIP or a rebalance),
+> the loss is disallowed PERMANENTLY — with no basis add-back in the IRA
+> (Rev. Rul. 2008-5). Merely co-holding VTI isn't a violation, but a purchase
+> inside that 61-day window triggers it. Fix: turn off DRIP on VTI in the IRA,
+> or hold a different (not "substantially identical") fund there.
+
 ---
 
 ### Roth Conversion
@@ -216,9 +263,18 @@ The problem:
 
 Solution — Roth Conversion Ladder:
 ├── Convert a portion Traditional → Roth each year
-├── After 5 years, can withdraw CONTRIBUTIONS (not growth) penalty-free
+├── After 5 years, each year's CONVERTED principal (the amount
+│   that was taxed at conversion) can be withdrawn penalty-free
+│   before 59.5 — this is NOT "contributions" (those follow a
+│   different rule)
+├── The 5-year clock runs from Jan 1 of the conversion year
 ├── Each year a new portion "unlocks"
 └── Pay tax at current (low) rate
+
+ℹ️ Don't confuse these: regular Roth contributions can be
+withdrawn anytime, penalty-free and with no waiting period.
+Here we mean the converted amount — it has its own 5-year clock
+(IRC §408A(d)(3)(F)). Once you reach 59.5, this rule is moot.
 
 Example:
 ├── 2025: convert $50,000 (pay ~$6,000 tax)
@@ -234,7 +290,8 @@ Example:
 ```
 The problem:
 ├── Income above Roth IRA limit
-├── 2025: $150,000 (single) / $236,000 (married)
+├── 2026: phase-out $153,000–$168,000 (single) / $242,000–$252,000 (married)
+│   (2025 for reference: $150,000 / $236,000)
 └── Direct Roth contribution prohibited
 
 Solution — Backdoor Roth:
@@ -245,16 +302,37 @@ Solution — Backdoor Roth:
 ⚠️ Pro-rata Rule:
 ├── If you have other Traditional IRAs with pre-tax money
 ├── Conversion is taxed proportionally
-├── Solution: roll pre-tax into 401(k)
-└── Or convert ALL to Roth
+├── Primary fix: roll pre-tax into a 401(k) (cheap and clean)
+└── Or convert ALL pre-tax IRA balances to Roth — but this is
+    fully taxable this year; only worth it if the balance is small
+    or you specifically want a full conversion
 
 Mega Backdoor Roth:
 ├── Through after-tax contributions to 401(k)
 ├── Limit: $72,000 in 2026 — IRC §415(c) annual additions (employee + employer
 │   + after-tax), EXCLUDING the 50+ catch-up (so 50+ total $80,000; 60-63 $83,250)
 ├── Requires employer plan that allows it
-└── Allows putting $30,000+ additional into Roth
+└── After-tax room = §415(c) limit ($72,000 in 2026) − your own
+    elective deferrals − employer contributions; a large employer
+    match reduces or eliminates this room
 ```
+
+> 🔴 **MANDATORY: File Form 8606 for every Backdoor Roth.**
+> Every non-deductible Traditional IRA contribution AND every Roth conversion
+> must be reported on Form 8606 for that tax year:
+> - **Part I** records your after-tax basis (it carries forward year to year
+>   on line 14 — keep every Form 8606 permanently);
+> - **Part II** reports the conversion and computes the taxable amount.
+>
+> Without an 8606 on file, the IRS has no record the money is after-tax and may
+> treat the whole conversion as taxable (double taxation of the same dollars).
+> But the basis is **not** forfeited — file the missing/late 8606 (retroactively,
+> and standalone, as long as you can substantiate the contributions) to preserve
+> it; a delinquent 8606 carries a $50-per-form penalty unless you show reasonable
+> cause. For the **Mega Backdoor** (after-tax
+> 401(k)), the plan administrator tracks basis — NOT Form 8606.
+>
+> *This is educational material, not tax advice. Verify against the Form 8606 instructions on IRS.gov.*
 
 ---
 
@@ -271,6 +349,20 @@ RMD (Required Minimum Distributions):
 ├── Penalty for missing: 25% (was 50%)
 ├── Can correct within 2 years → 10%
 └── Roth 401(k) — NO more RMD!
+
+A missed RMD — how to handle it (Form 5329, Part IX):
+├── The excise tax is self-reported on Form 5329, Part IX
+├── To get the reduced 10%: take the shortfall distribution within
+│   the correction window (earliest of: IRS deficiency notice mailed,
+│   tax assessed, or end of the 2nd tax year after the tax year) AND
+│   file Form 5329
+├── To request a full reasonable-cause waiver: complete lines 52-53,
+│   enter "RC" and the amount to be waived next to line 54, subtract
+│   it, and attach a brief explanation
+└── The IRS commonly grants reasonable-cause waivers once the shortfall
+    is corrected, but approval is not guaranteed — it "will review and
+    decide"; merely "taking the missed RMD" without filing Form 5329
+    secures neither the 10% rate nor the waiver
 
 Catch-up contributions (for 50+):
 ├── IRA: $1,100 additional (2026)
@@ -297,8 +389,12 @@ New opportunities:
 Classic rule:
 ├── Withdraw 4% in first year
 ├── Increase by inflation each year
-├── 95% chance of not running out over 30 years
-└── Based on 1926-1995 data
+├── In US historical backtests, an initial 4% withdrawal adjusted
+│   for inflation survived 30 years in ~95% of sequences
+│   (Trinity Study, 1998, 50/50 portfolio) — a backward-looking
+│   US-historical success rate, NOT a forward guarantee
+├── Bengen (1994) called the worst-case-survivable rate the SAFEMAX
+└── Requires roughly a 50-75% equity allocation
 
 Problems with the rule:
 ├── Doesn't account for current market valuations
@@ -312,12 +408,26 @@ Modern alternatives:
 ├── Dynamic withdrawal strategies
 ├── Guardrails approach
 └── Floor-and-upside strategy
+
+Sequence-of-returns risk:
+├── The central risk of the decumulation phase
+├── Poor returns in the FIRST decade of retirement are far more
+│   damaging than the same returns later
+├── Withdrawing during a drawdown permanently shrinks the share
+│   base — even a fine average return won't rescue the portfolio
+└── Backtests rely on US data (survivorship/recency bias); in
+    several other markets the 4% rate did not hold up (Pfau)
 ```
 
-> 💡 **Up-to-date context:** William Bengen himself (the rule's author) has raised
-> the safe withdrawal rate to roughly 4.7% in recent work, while Morningstar in its
-> 2024-2025 annual reviews lifted its estimate back toward ~3.7-4% as bond yields rose.
-> The 3.3-3.5% range is a conservative lower bound, not the only valid answer.
+> 💡 **Up-to-date context:** In his 2025 book *A Richer Retirement*, William Bengen
+> cites 4.7% as the worst-case SAFEMAX floor for a new diversified portfolio — not
+> as his recommendation; he now suggests closer to ~5-5.5%. Morningstar's 2024
+> "State of Retirement Income" report put the starting safe rate at ~3.7% (4.0% in
+> the 2023 report). The 3.3-3.5% range is a conservative lower bound, not the only
+> valid answer.
+>
+> ⚠️ All of these figures are backtest/model outputs sensitive to assumed asset
+> allocation, market valuations, and inflation — they are not guarantees.
 
 #### Variable Percentage Withdrawal (VPW)
 
@@ -328,18 +438,22 @@ The idea:
 ├── Less when it falls
 └── Adapts to reality
 
-VPW table (approximate values):
-├── Age 60: 3.5%
-├── Age 65: 4.0%
-├── Age 70: 4.5%
-├── Age 75: 5.2%
-├── Age 80: 6.0%
-├── Age 85: 7.1%
-└── Age 90: 8.5%
+VPW table (% depends on allocation; below is 50/50,
+with 60/40 stocks/bonds in parentheses):
+├── Age 60: 4.5% (4.7%)
+├── Age 65: 4.8% (5.0%)
+├── Age 70: 5.2% (5.4%)
+├── Age 75: 5.8% (6.0%)
+├── Age 80: 6.8% (6.9%)
+├── Age 85: 8.4% (8.5%)
+└── Age 90: 11.6% (11.7%)
 
-Formula: accounts for life expectancy
-and desired bequest
+The percentage rises with age and exceeds 10% in the high 80s
+(the table is not capped at 10%). For the canonical figures, see
+the Bogleheads VPW wiki (link below).
 ```
+
+> 📖 Canonical table: [Bogleheads — Variable percentage withdrawal](https://www.bogleheads.org/wiki/Variable_percentage_withdrawal)
 
 #### Bucket Strategy
 
@@ -361,7 +475,10 @@ Bucket 2 — Bonds (3-7 years of expenses):
 Bucket 3 — Stocks (8+ years of expenses):
 ├── VTI, VXUS
 ├── Maximum growth
-├── Will survive any downturn
+├── Historically US equities have recovered over 8+ year horizons,
+│   but this is NOT guaranteed — a prolonged bear market can still
+│   force selling at depressed prices (sequence-of-returns risk);
+│   the bucket structure reduces, but does not eliminate, that risk
 └── Replenishes Bucket 2
 
 Example for $1,000,000:
@@ -739,6 +856,26 @@ Beneficiary Designations — CRITICALLY IMPORTANT:
 > tax (some states have a much lower threshold).
 > ⚠️ For **non-US residents**, the threshold is only $60,000 — see the section in [NON-RESIDENTS](/investing-course/en/NON-RESIDENTS/).
 
+> ℹ️ **Form 706 and portability of the exemption (DSUE).**
+> The estate-tax return is Form 706 (Form 706-NA for non-resident aliens with
+> US-situs assets over $60,000). Deadline: 9 months after death (+6-month
+> extension via Form 4768).
+>
+> To transfer a deceased spouse's unused exclusion (DSUE, up to the full $15M)
+> to the surviving spouse, the executor MUST file a timely, complete Form 706 —
+> even if the estate is below $15M and owes no tax (IRC §2010(c)(5)(A)). Missing
+> the deadline is not necessarily fatal: under Rev. Proc. 2022-32, a below-
+> threshold estate can make a late portability election by filing Form 706 within
+> **5 years** of death, with no user fee. Bottom line: file timely (9 mo.) or
+> within the 5-year late window, or the DSUE is lost.
+>
+> On step-up: most sub-$15M estates file no 706 at all; heirs establish the
+> date-of-death values via appraisals and broker date-of-death statements. For
+> taxable estates required to file a 706, consistent basis is reported to heirs
+> via Form 8971/Schedule A (IRC §1014(f)/§6035), not the 706 itself.
+>
+> *This is educational material, not legal advice. Verify on IRS.gov.*
+
 ### Transfer on Death (TOD) and Step-up in Basis
 
 ```
@@ -757,9 +894,15 @@ Example:
 ├── Bought stock for $50,000
 ├── Grew to $500,000
 ├── Unrealized gain: $450,000
-├── If sold during lifetime: tax ~$67,500
+├── If sold during lifetime (single, little other income):
+│   first ~$49,450 in the 0% LTCG bracket → $0; the rest
+│   (~$384k, after the $16,100 std deduction) at 15% → ~$57,700;
+│   + NIIT 3.8% on MAGI over $200k → ~$9,500; total ≈ $67,000
+│   (state tax not included)
+├── For high earners (taxable income > $545,500, single 2026)
+│   the rate is 23.8% → ~$107,100
 ├── If heirs sell immediately after death: $0
-└── Step-up = $450,000 in savings!
+└── Step-up wins either way!
 
 Strategy:
 ├── Hold appreciated assets until the end

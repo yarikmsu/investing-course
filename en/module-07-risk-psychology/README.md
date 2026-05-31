@@ -13,7 +13,7 @@ permalink: /module-07-risk-psychology/
 >
 > **Investing involves risks. You can lose some or ALL of your invested money.**
 >
-> - S&P 500 dropped 57% (2008-2009), 34% (2020), 25% (2022)
+> - S&P 500 dropped 49% (2000-2002), 57% (2008-2009), 34% (2020), 25% (2022)
 > - Past results DO NOT guarantee future performance
 > - Consult with a licensed financial professional (CFA/CFP) before investing
 
@@ -32,7 +32,7 @@ After completing this module, you'll be able to:
 - Determine your risk tolerance
 - Recognize psychological traps (FOMO, panic)
 - Control emotions during market drops
-- Learn from real crises (2008, 2020, 2022)
+- Learn from real crises (2000-2002, 2008, 2020, 2022)
 - Develop a crisis action plan
 
 ---
@@ -55,6 +55,26 @@ Specific Risk (Unsystematic Risk):
 └── Not compensated (no risk premium)
 ```
 
+Market risk is not the only one. A long-horizon investor faces three
+more risks that are easy to overlook:
+
+```
+Inflation risk (loss of purchasing power):
+├── Cash and nominal bonds lose real value over time
+├── At 3% inflation, cash "under the mattress" loses ~26% in 10 years
+└── Mitigation: stocks, TIPS, I-bonds
+
+Longevity risk:
+├── The risk of outliving your portfolio (running out of money)
+├── Most acute in retirement (see sequence-of-returns risk, Lesson 7.6)
+└── Mitigation: don't over-allocate to cash, set a sane withdrawal rate
+
+Liquidity risk:
+├── The risk of not being able to sell quickly at a fair price
+├── Affects real estate, private businesses, exotic funds
+└── Mitigation: emergency fund + avoid illiquid holdings
+```
+
 ### Measuring Risk
 
 ```
@@ -72,9 +92,16 @@ Beta:
 
 Maximum Drawdown:
 ├── Maximum decline from peak
+├── S&P 500 in 2000-2002: -49%
 ├── S&P 500 in 2008: -57%
 ├── S&P 500 in 2020: -34%
 └── Important for understanding real risk
+
+Two separate dimensions of risk:
+├── Depth — how far the market falls (%)
+├── Duration — how long until it returns to the prior peak
+└── Duration is what usually breaks investors
+    (see 2000-2002 below: ~7 years back to the prior high)
 ```
 
 ### Risk vs Volatility
@@ -108,7 +135,7 @@ Principle:
 ├── Different assets move differently
 ├── When one falls, another may rise
 ├── Overall portfolio risk decreases
-└── Returns remain stable
+└── Risk-adjusted return improves (volatility falls)
 ```
 
 ### Levels of Diversification
@@ -172,6 +199,13 @@ Conclusion: ETF on the entire market = optimal diversification
 | Stocks ↔ Bonds | ~0.20 | 🟢 Low | Good diversification |
 | Stocks ↔ Gold | ~0.05 | 🟢 Almost none | Excellent diversification |
 | Stocks ↔ Cash | ~0.00 | 🟢 None | Ideal diversification |
+
+> ⚠️ **Correlations are not constant.** The figures above are long-run
+> averages, not stable properties. In inflationary regimes the stock-bond
+> correlation can turn positive (as in 2022 — see Lesson 7.7), and the two
+> fall together. In liquidity crises most risk assets fall at once
+> (correlations approach +1). Diversification cushions but does NOT remove
+> systematic (market) risk.
 
 ### False Diversification
 
@@ -254,6 +288,37 @@ Answer the questions:
    └── Have other income sources: Aggressive
 ```
 
+### Risk Capacity vs Tolerance vs Need
+
+The questions above blend three DISTINCT concepts. Professionals keep them separate:
+
+```
+Risk capacity:
+├── Your OBJECTIVE ability to absorb a loss
+├── Driven by: time horizon, income stability, other assets
+└── Example: 30 years to retirement + steady paycheck = high
+
+Risk tolerance:
+├── Your EMOTIONAL/psychological willingness to ride out drops
+├── Driven by temperament, experience, how well you sleep
+└── Example: you panic at -20% = low
+
+Risk need:
+├── The return you ACTUALLY require to reach your goal
+├── Driven by goal size and capital already accumulated
+└── Example: goal is nearly funded = low
+```
+
+> 💡 **The binding constraint is the LOWER of capacity and tolerance.**
+> A retiree with high tolerance but low capacity (no income besides the
+> portfolio) should still invest conservatively. A young saver with high
+> capacity but low tolerance risks selling at the bottom — they need a
+> portfolio they can live with, not the "optimal" one.
+>
+> If your risk need is LOW (the goal is already nearly funded), taking
+> on more risk than you need is itself a risk: you are gambling a result
+> you have already secured for a reward you do not need.
+
 ### 🎯 Risk Tolerance Test
 
 Take one of the professional questionnaires:
@@ -277,17 +342,19 @@ Important: Answer honestly, not how you "should" answer.
 
 ### 📊 Sample Portfolios by Age
 
-| Age | Stocks | Bonds | Volatility* | Worst Year** |
-|-----|--------|-------|-------------|--------------|
-| 25 | 90% | 10% | High (~17%) | -45% |
-| 35 | 80% | 20% | Moderately high (~15%) | -40% |
-| 45 | 70% | 30% | Moderate (~13%) | -35% |
-| 55 | 60% | 40% | Moderately low (~11%) | -25% |
-| 65 | 50% | 50% | Low (~9%) | -20% |
-| 75 | 40% | 60% | Very low (~7%) | -15% |
+| Age | Stocks | Bonds | Volatility* | Max drawdown** |
+|-----|--------|-------|-------------|----------------|
+| 25 | 90% | 10% | High (~17%) | -50% |
+| 35 | 80% | 20% | Moderately high (~15%) | -45% |
+| 45 | 70% | 30% | Moderate (~13%) | -40% |
+| 55 | 60% | 40% | Moderately low (~11%) | -35% |
+| 65 | 50% | 50% | Low (~9%) | -30% |
+| 75 | 40% | 60% | Very low (~7%) | -25% |
 
 *Expected standard deviation of annual returns.
-**Approximate drop in worst year (like 2008).
+**Approximate maximum peak-to-trough drawdown (as in 2008-2009, S&P 500 ~-57%).
+Note: bonds do NOT always cushion the fall — in rate-shock years (2022)
+they declined too, so even conservative portfolios lost money.
 
 ```
 Specific portfolio examples:
@@ -327,12 +394,12 @@ Comparison in 2008 crisis:
 └── $100,000 → $43,000 at bottom
 
 60/40 portfolio (60% S&P 500, 40% bonds):
-├── Drop: -35%
+├── Drop: ~-30%
 ├── Time to recovery: 2 years
-└── $100,000 → $65,000 at bottom
+└── $100,000 → $70,000 at bottom
 
 Difference:
-├── 60/40 fell 22% LESS
+├── 60/40 fell about 27 percentage points less
 ├── Recovered 2 years EARLIER
 └── Psychologically much easier to endure
 ```
@@ -437,6 +504,14 @@ Before investing:
 ├── In high-yield savings account
 ├── NOT invested in stocks
 └── Protection from selling at wrong time
+
+Size it to your income stability (it's a risk control,
+not a fixed number):
+├── Two stable W-2 incomes: ~3 months is enough
+├── Single / self-employed / commission income: 6-12 months
+└── In retirement (drawing down): 1-2+ years of spending in
+    cash/short-term bonds — a buffer against sequence-of-
+    returns risk (see the Bucket Strategy in Lesson 7.6)
 ```
 
 ### Position Sizing Rules
@@ -505,24 +580,39 @@ Order of returns is especially important:
 ├── With large regular withdrawals
 └── When investing a large sum
 
-Example with identical average return:
+With no withdrawals or contributions, order does NOT matter:
+
+Scenario A (growth first):  +30%, +20%, -10%, -5%
+Scenario B (decline first): -10%, -5%, +30%, +20%
+
+$100k → $133,380 in BOTH cases
+(returns multiply; the order of the factors cannot change the result)
+
+────────────────────────────────────────────────────────────
+
+Now add a $5,000 withdrawal at the end of each year
+(as in retirement) — and the order becomes critical:
 
 Scenario A (growth first):
-Year 1: +30%
-Year 2: +20%
-Year 3: -10%
-Year 4: -5%
-$100k → $142k
+Year 1: +30% → $125,000
+Year 2: +20% → $145,000
+Year 3: -10% → $125,500
+Year 4: -5%  → $114,225
 
 Scenario B (decline first):
-Year 1: -10%
-Year 2: -5%
-Year 3: +30%
-Year 4: +20%
-$100k → $134k
+Year 1: -10% → $85,000
+Year 2: -5%  → $75,750
+Year 3: +30% → $93,475
+Year 4: +20% → $107,170
 
-With withdrawals the difference is even more dramatic!
+Difference: $114,225 vs $107,170 — same returns, but bad
+years early, combined with withdrawals, eat into capital.
 ```
+
+> 💡 The key point: with no cash flows, the order of returns is
+> irrelevant (see the identical $133,380 above). Sequence-of-returns
+> risk appears ONLY with periodic withdrawals (retirement) or
+> contributions — that is when the order starts to matter.
 
 ### How to Protect Yourself
 
@@ -543,6 +633,34 @@ Strategies:
 ---
 
 ## Lesson 7.7: Lessons from Past Crises
+
+### Dot-Com Crash 2000-2002: The Longest Recovery
+
+```
+What happened:
+├── The internet (dot-com) bubble burst
+├── Inflated tech valuations collapsed
+├── 2001 recession, September 11 attacks
+└── A slow, grinding decline over ~2.5 years
+
+Market decline:
+├── S&P 500: ~-49% from peak (March 2000 → October 2002)
+├── Duration of decline: ~31 months
+├── NASDAQ: ~-78% (tech was hit catastrophically)
+└── Recovery to peak: the index did not regain its
+    2000 high until 2007 (~7 years)
+
+Why this matters more than the depth:
+├── The drop was NOT the deepest (2008 was worse)
+├── But it was the LONGEST and slowest
+├── NASDAQ did not set a new high above 2000 until 2015 (~15 yrs)
+└── A long drawdown wears investors down more than a deep one
+```
+
+> 💡 Depth and duration are two separate dimensions of risk.
+> 2008 was deeper, but 2000-2002 lasted far longer. When you
+> set your asset allocation, plan not only for "how far it
+> falls" but also for "how many years you may wait to recover."
 
 ### 2008-2009 Crisis: The Great Recession
 
@@ -626,7 +744,7 @@ What happened:
 Market decline:
 ├── S&P 500: -25% (January 2022 → October 2022)
 ├── NASDAQ: -33% (tech suffered more)
-├── BND (bonds): -17% (rare bond decline!)
+├── BND (bonds): ~-17% by price / -13% total return for the year
 └── 60/40 portfolio had worst year since 1937
 
 Uniqueness of 2022:
@@ -635,6 +753,28 @@ Uniqueness of 2022:
 ├── Many doubted classic strategies
 └── By end of 2023, market nearly recovered (~99% of ATH)
 ```
+
+#### Why bonds fell: interest-rate risk (duration)
+
+BND's 2022 decline was not bad luck — it was the direct result of
+**interest-rate risk**:
+
+```
+Duration rule:
+price change ≈ −duration × change in rates
+
+BND: effective duration ~6 years
+2022: the 10-year Treasury yield rose ~2.7 percentage points
+→ −6 × 2.7% ≈ −16-17% (which is what we saw)
+```
+
+That is why long-term bonds (TLT, duration ~17 years) fell ~-30%
+while short-term bonds barely moved. The second type of bond risk is
+**credit (default) risk** — the risk the issuer defaults; it is higher
+for corporate and high-yield bonds than for US Treasuries.
+
+> 📖 More on interest-rate and credit risk in [Module 3](/investing-course/en/module-03-instruments/),
+> and on BND's duration in [ETF-ANALYSIS](/investing-course/en/ETF-ANALYSIS/).
 
 ```
 If you invested $10,000 in S&P 500 January 3, 2022 (at peak):
@@ -651,25 +791,31 @@ LESSON: Even after "non-working diversification" of 2022,
 ### Comparing Crises
 
 ```
-┌──────────────────┬──────────────┬──────────────┬──────────────┐
-│                  │ 2008-2009    │ COVID 2020   │ 2022         │
-├──────────────────┼──────────────┼──────────────┼──────────────┤
-│ S&P 500 decline  │ -57%         │ -34%         │ -25%         │
-│ Decline duration │ 17 months    │ 33 days      │ 10 months    │
-│ Time to peak     │ 4 years      │ 5 months     │ ~2 years     │
-│ Cause            │ Mortgage     │ Pandemic     │ Inflation    │
-│ Bonds            │ +5%          │ +7%          │ -17%         │
-└──────────────────┴──────────────┴──────────────┴──────────────┘
+┌──────────────────┬──────────────┬──────────────┬──────────────┬──────────────┐
+│                  │ 2000-2002    │ 2008-2009    │ COVID 2020   │ 2022         │
+├──────────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
+│ S&P 500 decline  │ ~-49%        │ -57%         │ -34%         │ -25%         │
+│ Decline duration │ ~31 months   │ 17 months    │ 33 days      │ 10 months    │
+│ Time to recover  │ ~7 years     │ 4 years      │ 5 months     │ ~2 years     │
+│ Cause            │ Tech bubble  │ Mortgage     │ Pandemic     │ Inflation    │
+│ Bonds            │ +positive    │ +5%          │ +7%          │ -17%         │
+└──────────────────┴──────────────┴──────────────┴──────────────┴──────────────┘
 ```
+
+> 💡 Note the "Time to recover" row (duration). 2008 was the
+> DEEPEST drawdown, but 2000-2002 was the LONGEST: depth and
+> duration are two independent dimensions of risk.
 
 ### Main Lessons
 
 ```
 1. Crises ALWAYS end
+   ├── 2000-2002: recovery took ~7 years
    ├── 2008: recovery took 4 years
    ├── 2020: recovery took 5 months
    ├── 2022: recovery took ~2 years
-   └── Every time market reached new highs
+   └── Every time the market reached new highs
+       (but it can take years — see 2000-2002)
 
 2. Impossible to predict the bottom
    ├── In 2009 many waited for "even lower"
@@ -696,10 +842,27 @@ LESSON: Even after "non-working diversification" of 2022,
    └── Simply by staying invested
 ```
 
-### Real Investor Stories
+### The Cost of Panic: What the Data Shows
+
+Behavioral losses are not just a story. Per Morningstar's "Mind the Gap"
+study (2024 edition, the 10 years ended Dec 31, 2023), the average fund
+investor earned ~6.3% per year versus ~7.3% for the funds themselves — a
+gap of ~1.1 percentage points per year. The 2025 edition (through Dec 2024)
+puts it near ~1.2 pp. The cause is mistimed buying and selling (buying after
+gains, selling after drops) — exactly what the illustrations below depict.
+
+> ℹ️ We cite Morningstar's estimate (~1-1.2 pp/yr), NOT the larger DALBAR
+> figures (~4-6 pp/yr): DALBAR's QAIB methodology is contested by researchers
+> (Pfau; Morningstar's Blanchett) for not properly accounting for cash-flow
+> timing. This is educational material, not financial advice.
+
+### Illustrative Examples (Hypothetical)
+
+> ℹ️ Anna, Boris, and Vera are fictional characters. The numbers are for
+> illustration only and are not real data.
 
 ```
-Story 1: Investor Anna (2008)
+Example 1: Investor Anna (2008)
 ├── Invested $50,000 in S&P 500 in 2007
 ├── Panicked in March 2009, sold everything for $21,500
 ├── "I'll wait until it stabilizes"
@@ -707,7 +870,7 @@ Story 1: Investor Anna (2008)
 ├── Result: missed the 2009-2012 rally (+100%)
 └── If she had stayed: $190,000+ in 2025
 
-Story 2: Investor Boris (2020)
+Example 2: Investor Boris (2020)
 ├── $100,000 in portfolio by February 2020
 ├── Panicked in March, sold everything for $66,000
 ├── "COVID will destroy the economy forever"
@@ -715,7 +878,7 @@ Story 2: Investor Boris (2020)
 ├── Returned in November 2020 (market above peak!)
 └── Lost 20%+ due to panic
 
-Story 3: Investor Vera (2022)
+Example 3: Investor Vera (2022)
 ├── Continued investing $1,000/month
 ├── Didn't check portfolio in panic
 ├── Bought more during the drop
@@ -788,7 +951,7 @@ AFTER the crisis:
 
 ## Key Takeaways
 
-- Diversification reduces risk without reducing returns
+- Diversification improves risk-adjusted returns: it reduces volatility and drawdown for a given level of expected return
 - Asset allocation is the main investment decision
 - Emotions are the investor's main enemy
 - Have a plan and follow it
@@ -809,7 +972,7 @@ AFTER the crisis:
 <details>
 <summary><b>Question 2:</b> How many stocks are needed to approach market-level risk?</summary>
 
-**Answer:** 20-30 stocks substantially reduce specific risk. A total market ETF (VTI) provides optimal diversification with 4000+ stocks.
+**Answer:** 20-30 stocks substantially reduce specific risk. A total market ETF (VTI) provides optimal diversification with ~3,500 stocks.
 
 </details>
 

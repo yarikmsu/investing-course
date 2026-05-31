@@ -61,6 +61,8 @@ The US stock market is the largest in the world by capitalization. Here are the 
 - Long-term growth trend
 - Recovery after every crisis
 
+> ℹ️ **About that "~10%":** this is a **nominal** total return (with dividends reinvested) **before inflation**. The **real** (inflation-adjusted) long-run return has been about ~6–7% per year. It's a long-run **average** with wide year-to-year swings — not an expected or guaranteed return.
+
 ### Investment Risks
 
 #### Market Risks
@@ -141,7 +143,9 @@ Basic investing principle: **Higher potential returns = Higher risk**
 |------------|--------|---------------------|
 | 🟢 **Low** | Low | Bank deposits, Treasury Bonds, Money Market Funds |
 | 🟡 **Medium** | Medium | Corporate bonds, dividend stocks, index funds |
-| 🔴 **High** | High | Growth stocks, tech companies, cryptocurrencies |
+| 🔴 **High** | High | Growth stocks, tech companies, cryptocurrencies* |
+
+> ℹ️ *Cryptocurrencies are a speculative asset with no intrinsic return grounded in cash flows: high risk **without** a justified expected return. They are not simply "another rung" of return alongside stocks, and crypto is not part of this course's recommended portfolios.
 
 ### Compound Interest — The Eighth Wonder of the World
 
@@ -157,16 +161,18 @@ r — Annual return rate
 n — Number of years
 ```
 
-**Example:**
+**Example (illustrative, not a forecast):**
 ```
 Initial capital: $10,000
-Return rate: 10% annually
+Return rate: IF 10% annually (not guaranteed)
 Time period: 30 years
 
 Result: $10,000 × (1.10)^30 = $174,494
 
-You turned $10,000 into $174,494!
+Under this scenario, $10,000 would grow to $174,494.
 ```
+
+> ℹ️ This illustrates how compounding works — it is not a promise of results. Real-world returns vary from year to year and can be higher or lower. The $174,494 is in **nominal** dollars (before inflation), so its purchasing power 30 years from now would be meaningfully lower.
 
 ### Rule of 72
 
@@ -235,7 +241,7 @@ Test how well you understood the module material.
 <details>
 <summary><b>Question 3:</b> What is the historical average annual return of the S&P 500?</summary>
 
-**Answer:** Approximately 10% per year.
+**Answer:** Roughly 10% per year **nominal** (with dividends reinvested, before inflation). The **real** return after inflation has been about 6–7% per year. It's a long-run average with wide year-to-year swings, not a guarantee.
 
 </details>
 

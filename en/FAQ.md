@@ -38,10 +38,18 @@ Even in the worst crisis (2008-2009) it dropped ~57%, then recovered.
 **Short answer:** No. The best time is always "now."
 
 ```
-Schwab research (1926-2020):
-├── Investor who hits market highs: +9.2% annually
-├── Investor who hits market lows: +10.1% annually
-├── Difference: less than 1% annually
+Schwab study "Does Market Timing Work?":
+Five investors each put $2,000/year into the S&P 500 over a
+20-year window (results in DOLLARS, not annualized %):
+├── Perfect timing (buys each year's low): finishes 1st
+├── Invests immediately on the first trading day: close 2nd
+├── Dollar-cost averaging monthly: 3rd
+├── Worst timing (buys each year's high): 4th
+└── Stays in cash / T-bills: last
+
+Takeaway: investing immediately captures ~92% of perfect timing's
+gain, and even the worst timer beats staying in cash.
+(2005-2024 edition: $186,077 vs $170,555 — a gap of just $15,522.)
 
 "Time in the market beats timing the market"
 
@@ -162,7 +170,7 @@ Non-US Resident:
 
 ```
 Why VTI:
-├── Entire US market (~4,000 companies)
+├── Entire US market (~3,500 companies)
 ├── Expense ratio: 0.03%
 ├── Maximum diversification
 └── One ETF — and you're in the game
@@ -252,14 +260,27 @@ Rule: The bigger the drop — the more you should buy.
 US Residents:
 ├── Dividends: 0-20% (depends on income)
 ├── Long-term gains (>1 year): 0-20%
-├── Short-term gains (<1 year): up to 37%
+├── Short-term gains (1 year or less): up to 37%
+├── High earners (MAGI > $200k single / $250k MFJ) also owe the
+│   3.8% NIIT on investment income — effective top rates become
+│   ~23.8% (long-term) and ~40.8% (short-term)
 └── Use IRA/Roth IRA for tax benefits!
 
 Non-US Residents:
 ├── Dividends: 30% (or 10-15% with W-8BEN)
 ├── Capital gains: 0% in US
-└── But tax in your country!
+│   Caveats: this 0% applies only to portfolio gains of a true
+│   non-resident; it does NOT cover US real-property gains (FIRPTA)
+│   or NRAs present 183+ days/year.
+├── US ESTATE tax on US-situs assets (US stocks / US ETFs) above a
+│   $60,000 threshold — consider Irish-domiciled (UCITS) ETFs
+└── And tax in your country!
 ```
+
+> ⚠️ This is educational material, not tax advice.
+> Verify current rates and thresholds on IRS.gov.
+>
+> 🌍 **For non-residents:** [NON-RESIDENTS](/investing-course/en/NON-RESIDENTS/)
 
 ---
 
@@ -331,8 +352,12 @@ Example:
 ├── Pay tax on $5,000 instead of $10,000
 └── Savings: ~$750-1,500
 
-⚠️ Wash sale rule: cannot buy the same asset
-   30 days before or after sale.
+⚠️ Wash sale rule: cannot buy a substantially identical security
+   30 days before or after the sale (a 61-day window).
+   This includes purchases in your IRA/Roth or a spouse's account,
+   and DRIP reinvestments — pause DRIP on a fund you are tax-loss
+   harvesting. Use a similar-but-not-identical ETF (e.g., VOO ↔ VTI)
+   for the replacement.
 ```
 
 ---

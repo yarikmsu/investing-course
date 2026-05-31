@@ -67,8 +67,10 @@ Some companies have different share classes:
 | Company | Class A | Class B | Class C |
 |---------|---------|---------|---------|
 | Alphabet | GOOGL (voting) | — | GOOG (non-voting) |
-| Berkshire | BRK.A (~$500k) | BRK.B (~$350) | — |
+| Berkshire | BRK.A (~$715k) | BRK.B (~$475) | — |
 | Meta | META (1 vote) | Class B (10 votes, not traded) | — |
+
+> ℹ️ The BRK.A/BRK.B prices are approximate as of May 2026 — always check the live quote. To keep the comparison from going stale, remember the ratio instead: by Berkshire's charter, **BRK.B ≈ 1/1500 of BRK.A's price** (one Class B share equals 1/1500 of a Class A share's economic stake).
 
 ### Fundamental Metrics
 
@@ -76,13 +78,15 @@ Some companies have different share classes:
 ```
 P/E = Stock Price / Earnings Per Share (EPS)
 
-Interpretation:
-├── P/E < 15 — possibly undervalued
-├── P/E 15-25 — fair valuation
-└── P/E > 25 — possibly overvalued or high growth
+Rough guideposts (descriptive, NOT a buy signal):
+├── P/E < 15 — the market prices the company modestly
+├── P/E 15-25 — a typical range
+└── P/E > 25 — the market is pricing in high growth
 
 ⚠️ Only compare P/E within the same industry!
 ```
+
+> ℹ️ P/E helps you **understand** how the market values a company, but for a passive index investor it is **not** an entry-timing tool. A broad index (such as the S&P 500) can sit above a P/E of 25 for years without being "overvalued" in any actionable sense for a long-term holder. Picking individual stocks on a "low P/E" is not what this course teaches.
 
 #### EPS (Earnings Per Share)
 ```
@@ -233,6 +237,8 @@ Compare:
 └── Difference over 30 years: thousands of dollars!
 ```
 
+> ℹ️ The expense ratio is the **fund's annual fee**, not a trading charge. Buying or selling the ETF itself costs nothing in commissions: since 2019, online trades of US-listed stocks and ETFs are **$0 commission** at major US brokers (options and some foreign/OTC trades may carry fees — irrelevant for a VOO/VTI buyer). So the ETF "fees" row is about the expense ratio, not a per-order brokerage commission.
+
 ---
 
 ## Lesson 3.4: Mutual Funds
@@ -242,10 +248,12 @@ Compare:
 | Feature | ETF | Mutual Fund |
 |---------|-----|-------------|
 | Trading | Throughout day | Once per day (NAV) |
-| Minimum investment | 1 share | Often $1,000+ |
+| Minimum investment | ~$1 (fractional shares) | $0–$1 at many index funds* |
 | Fees | Usually lower | Can be higher |
 | Tax efficiency | Higher | Lower |
-| Automatic investments | More difficult | Easy |
+| Automatic investments | Easy (fractional shares) | Easy |
+
+> ℹ️ *As of 2026, the practical ETF minimum is ~$1 thanks to fractional shares at Fidelity and Vanguard (Schwab offers fractional buys via Stock Slices, a narrower lineup). Many flagship index funds now have no minimum (Fidelity ZERO funds = $0; Schwab SWPPX/SWTSX = $0), though some share classes still carry one (e.g., Vanguard Admiral shares are often ~$3,000). Automatic recurring purchases are available for both ETFs (via fractional shares) and mutual funds. ETFs keep their tax-efficiency edge — the in-kind creation/redemption mechanism largely avoids capital-gains distributions.
 
 ### Types of Mutual Funds
 
@@ -416,7 +424,7 @@ Selling Covered Call:
 <details>
 <summary><b>Question 3:</b> What does P/E Ratio mean and how do you interpret it?</summary>
 
-**Answer:** P/E = Stock Price / Earnings Per Share. P/E < 15 — possibly undervalued, 15-25 — fair valuation, > 25 — possibly overvalued or high growth. Only compare within the same industry.
+**Answer:** P/E = Stock Price / Earnings Per Share. Rough guideposts: P/E < 15 — a modest valuation, 15-25 — a typical range, > 25 — the market is pricing in high growth. Only compare within the same industry. It's a descriptive metric, not a buy signal: for a passive index investor, P/E is not an entry-timing tool.
 
 </details>
 
@@ -439,7 +447,7 @@ Selling Covered Call:
 <details>
 <summary><b>Question 6:</b> Which ETF tracks the entire US market and what is its expense ratio?</summary>
 
-**Answer:** VTI (Vanguard Total Stock Market) — covers ~3,600 US stocks with expense ratio of 0.03%.
+**Answer:** VTI (Vanguard Total Stock Market) — covers ~3,500 US stocks with expense ratio of 0.03%.
 
 </details>
 
