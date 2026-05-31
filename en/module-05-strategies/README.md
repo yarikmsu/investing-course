@@ -244,8 +244,10 @@ Recommendation:
 
 > ⚠️ **Key clarification.** If you already hold the money (an inheritance, a bonus,
 > proceeds from a sale), investing it all at once (lump sum) is the
-> expected-value-maximizing default: spreading it out over months trades away
-> about 1/3 of your expected return for psychological comfort. DCA-ing a lump sum
+> expected-value-maximizing default: historically lump sum has beaten DCA about
+> **two-thirds of the time**, by a modest average margin (~2.3 percentage points
+> of the amount over a one-year deployment, per Vanguard) — you trade that small
+> edge for psychological comfort. DCA-ing a lump sum
 > is a behavioral safeguard against your own panic, not a way to earn more. And
 > contributing from each paycheck isn't a "DCA vs lump sum" decision at all —
 > you're simply investing money as you earn it, because you don't yet hold the
