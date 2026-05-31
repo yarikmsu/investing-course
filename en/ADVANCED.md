@@ -324,10 +324,12 @@ Mega Backdoor Roth:
 >   on line 14 — keep every Form 8606 permanently);
 > - **Part II** reports the conversion and computes the taxable amount.
 >
-> Without an 8606 on file, the IRS has no record the money is after-tax, so the
-> whole conversion is treated as taxable (double taxation of the same dollars).
-> A missing/forgotten 8606 carries a $50-per-form penalty plus loss of basis; it
-> can be filed retroactively (and standalone). For the **Mega Backdoor** (after-tax
+> Without an 8606 on file, the IRS has no record the money is after-tax and may
+> treat the whole conversion as taxable (double taxation of the same dollars).
+> But the basis is **not** forfeited — file the missing/late 8606 (retroactively,
+> and standalone, as long as you can substantiate the contributions) to preserve
+> it; a delinquent 8606 carries a $50-per-form penalty unless you show reasonable
+> cause. For the **Mega Backdoor** (after-tax
 > 401(k)), the plan administrator tracks basis — NOT Form 8606.
 >
 > *This is educational material, not tax advice. Verify against the Form 8606 instructions on IRS.gov.*
