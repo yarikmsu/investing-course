@@ -601,10 +601,13 @@ Example (2026, Single, MAGI = $160,500):
 
 > 💡 **Income above limit?** Use **Backdoor Roth IRA**: contribute to Traditional IRA (no deduction), then convert to Roth. Details — including the pro-rata rule and the trick of rolling a pre-tax IRA into a 401(k) first — in [ADVANCED](/investing-course/en/ADVANCED/).
 >
-> ⚠️ **Don't forget Form 8606.** A backdoor Roth is reported on **Form 8606**:
-> a single form per person covers both steps — Part I (the nondeductible
-> contribution and basis) and Part II (the conversion). You don't file separate
-> 8606s "for the contribution and for the conversion" — only one per spouse.
+> ⚠️ **Don't forget Form 8606.** A backdoor Roth is reported on **Form 8606**.
+> When you contribute and convert in the **same tax year**, one form per person
+> covers both steps — Part I (the nondeductible contribution and basis) and
+> Part II (the conversion); you don't file two 8606s for the two steps. **But if
+> you contribute *for a prior year* (a Jan–Apr contribution) and convert in the
+> next calendar year, you file two 8606s:** the prior-year form (Part I, to
+> record the basis) and the conversion-year form (Part II, from the 1099-R).
 > Without a filed 8606 the IRS doesn't see your basis and may tax the conversion
 > a second time.
 
