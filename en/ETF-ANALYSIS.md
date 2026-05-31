@@ -50,7 +50,7 @@ Detailed analysis of 5 popular ETFs for long-term investing.
 |-----------|-------|
 | **Share Price** | check on [etf.com](https://www.etf.com) |
 | **Expense Ratio** | 0.03% |
-| **Assets Under Management (AUM)** | ~$840B (verify current value) |
+| **Assets Under Management (AUM)** | ~$960B (verify current value) |
 | **Dividend Yield** | ~1.3% |
 | **Number of Companies** | 503 |
 | **Average P/E** | ~25 |
@@ -58,7 +58,9 @@ Detailed analysis of 5 popular ETFs for long-term investing.
 ### Historical Returns
 
 ```
-Average Annual Returns (data as of early 2025 — update before using):
+Illustrative trailing returns (as of early 2025).
+These are NOT expected future returns — update before using.
+Current data: etf.com / morningstar.com
 
 1 year:  ████████████████████████░░ +26%
 3 years: ██████████░░░░░░░░░░░░░░░░ +10% per year
@@ -151,7 +153,7 @@ You MORE THAN TRIPLED your capital!
 │  VTI — Vanguard Total Stock Market ETF                      │
 ├─────────────────────────────────────────────────────────────┤
 │  Tracks: CRSP US Total Market Index                         │
-│  Companies: ~3,600 (entire US market)                       │
+│  Companies: ~3,500 (entire US market)                       │
 │  Provider: Vanguard                                         │
 │  Inception: May 24, 2001                                    │
 └─────────────────────────────────────────────────────────────┘
@@ -163,9 +165,9 @@ You MORE THAN TRIPLED your capital!
 |-----------|-------|
 | **Share Price** | check on [etf.com](https://www.etf.com) |
 | **Expense Ratio** | 0.03% |
-| **Assets Under Management (AUM)** | ~$570B (verify current value) |
+| **Assets Under Management (AUM)** | ~$640B (verify current value) |
 | **Dividend Yield** | ~1.3% |
-| **Number of Companies** | ~3,600 |
+| **Number of Companies** | ~3,500 |
 | **Average P/E** | ~24 |
 
 ### How VTI Differs from VOO
@@ -174,7 +176,7 @@ You MORE THAN TRIPLED your capital!
 VTI vs VOO:
 
                         VTI             VOO
-Companies:              ~3,600          ~500
+Companies:              ~3,500          ~500
 Large Cap:              ~85%            ~100%
 Mid Cap:                ~10%            0%
 Small Cap:              ~5%             0%
@@ -189,7 +191,9 @@ Historical return difference: ~0.5% per year
 ### Historical Returns
 
 ```
-Average Annual Returns (data as of early 2025 — update before using):
+Illustrative trailing returns (as of early 2025).
+These are NOT expected future returns — update before using.
+Current data: etf.com / morningstar.com
 
 1 year:  ████████████████████████░░ +25%
 3 years: █████████░░░░░░░░░░░░░░░░░  +9% per year
@@ -278,7 +282,7 @@ Or... just pick either and stick with it!
 |-----------|-------|
 | **Share Price** | check on [etf.com](https://www.etf.com) |
 | **Expense Ratio** | 0.20% |
-| **Assets Under Management (AUM)** | ~$410B (verify current value) |
+| **Assets Under Management (AUM)** | ~$440B (verify current value) |
 | **Dividend Yield** | ~0.5% |
 | **Number of Companies** | 101 |
 | **Average P/E** | ~35 |
@@ -304,7 +308,9 @@ QQQ is more concentrated and volatile than VOO!
 ### Historical Returns
 
 ```
-Average Annual Returns (data as of early 2025 — update before using):
+Illustrative trailing returns (as of early 2025).
+These are NOT expected future returns — update before using.
+Current data: etf.com / morningstar.com
 
 1 year:  ██████████████████████████ +28%
 3 years: ███████████░░░░░░░░░░░░░░░ +11% per year
@@ -362,7 +368,6 @@ Since inception (1999): ~10% per year
 Expense Ratio:          0.20%           0.03%
 Companies:              100             500
 Dividend:               ~0.5%           ~1.3%
-10-year return:         ~17%            ~13%
 Volatility:             HIGH            MEDIUM
 Concentration:          HIGH            MEDIUM
 Technology:             ~50%            ~31%
@@ -428,8 +433,8 @@ For long-term investors, QQQM is better!
 | Parameter | Value |
 |-----------|-------|
 | **Share Price** | check on [etf.com](https://www.etf.com) |
-| **Expense Ratio** | 0.07% |
-| **Assets Under Management (AUM)** | ~$60B (verify current value) |
+| **Expense Ratio** | 0.06% |
+| **Assets Under Management (AUM)** | ~$90B (verify current value) |
 | **Dividend Yield** | ~1.8% |
 | **Number of Companies** | ~9,900 |
 | **Countries** | 47 |
@@ -449,10 +454,20 @@ Regional distribution:
 US = ~60% (US market = 60% of global)
 ```
 
+> 💱 **Currency risk.** If you measure money in a currency other than US dollars,
+> evaluate returns in your home currency. The risk depends on the currency of the
+> underlying holdings: VT holds ~40% of its assets outside the US (yen, euro, pound,
+> etc.), so it's an exposure to a basket of world currencies, not purely USD. VTI/VOO/BND
+> are almost entirely USD inside — for a non-USD investor that's effectively a "home
+> currency vs USD" exposure. A global fund smooths some currency risk but doesn't
+> remove it.
+
 ### Historical Returns
 
 ```
-Average Annual Returns (data as of early 2025 — update before using):
+Illustrative trailing returns (as of early 2025).
+These are NOT expected future returns — update before using.
+Current data: etf.com / morningstar.com
 
 1 year:  ████████████████████░░░░░░ +20%
 3 years: ███████░░░░░░░░░░░░░░░░░░░  +7% per year
@@ -497,7 +512,7 @@ VT Pros:
 VTI + VXUS Pros:
 ├── Control over proportions
 ├── Tax-loss harvesting between them
-└── Slightly lower total expense ratio (0.04% vs 0.07%)
+└── Slightly lower total expense ratio (0.04% vs 0.06%)
 
 For most people, VT is an excellent choice!
 ```
@@ -557,7 +572,7 @@ Nothing else needed.
 |-----------|-------|
 | **Share Price** | check on [etf.com](https://www.etf.com) |
 | **Expense Ratio** | 0.03% |
-| **Assets Under Management (AUM)** | ~$145B (verify current value) |
+| **Assets Under Management (AUM)** | ~$153B (verify current value) |
 | **SEC Yield** | ~4.5% |
 | **Number of Bonds** | ~11,000 |
 | **Average Duration** | 6.2 years |
@@ -584,7 +599,9 @@ All bonds are Investment Grade (BBB and above)
 ### Historical Returns
 
 ```
-Average Annual Returns (data as of early 2025 — update before using):
+Illustrative trailing returns (as of early 2025).
+These are NOT expected future returns — update before using.
+Current data: etf.com / morningstar.com
 
 1 year:  ██░░░░░░░░░░░░░░░░░░░░░░░░ +2%
 3 years: ░░░░░░░░░░░░░░░░░░░░░░░░░░ -3% per year
@@ -618,6 +635,11 @@ Example 2008:
 Bonds cushion the falls!
 ```
 
+> 💱 BND holds US-dollar bonds. For an investor who measures money in another currency,
+> BND's "defensive" role is diluted by currency risk: in home-currency terms, the dollar
+> itself can move more than the bond sleeve calms things down. See the VT section for
+> more.
+
 ### Impact of Interest Rates
 
 ```
@@ -632,16 +654,21 @@ This means:
 ├── Rates +1% → BND drops ~6%
 └── Rates -1% → BND rises ~6%
 
-At high rates (like 2024):
-├── Current yield is high (~4.5%)
-├── When Fed cuts rates, BND price will rise
-└── Good time to buy bonds
+How this works in practice:
+├── A higher yield to maturity = higher future expected return
+├── Falling rates → BND price rises; rising rates → BND price falls
+└── Duration ~6.2 years: the move is symmetric up and down
 
-At low rates:
-├── Current yield is low
-├── Risk of drop when rates rise
-└── Less attractive
+⚠️ This is NOT a reason to "time" your purchase:
+├── If rates rise or stay higher for longer, BND falls further (~6% per +1%)
+├── No one knows in advance what the Fed will do
+└── Hold bonds for ballast and your horizon, not as a bet on rate cuts
 ```
+
+> ℹ️ Bonds serve as ballast in a portfolio: they dampen volatility and provide funds
+> for rebalancing. Match your bond allocation and duration to your time horizon and
+> asset allocation — don't try to time the Fed's rate cycle. This is consistent with
+> the "don't try to predict rates" rule from the macroeconomics section.
 
 ### Who BND Is For
 
@@ -679,20 +706,32 @@ Or more aggressive:
 └── 55+ years: 40-60% bonds
 ```
 
+> ⚠️ **Why even young investors should consider a small bond sleeve.** 100% equities
+> maximizes expected long-run return but raises two risks that are easy to overlook:
+> - **Behavioral risk.** In a deep bear market, investors with zero bonds are more
+>   likely to panic and sell at the bottom, locking in the loss. That — not "suboptimal
+>   allocation" — is the biggest real-world driver of underperformance.
+> - **Sequence risk.** A large drawdown early in accumulation, or shortly before you
+>   need the money, can do disproportionate damage.
+>
+> Even a modest bond allocation (10-20%) is primarily behavioral/risk insurance, not a
+> return play. It reframes the glide path as risk management, not just age-based math.
+
 ---
 
 ## Comparison Table
 
 | Parameter | VOO | VTI | QQQ | VT | BND |
 |-----------|-----|-----|-----|-----|-----|
-| **Expense Ratio** | 0.03% | 0.03% | 0.20% | 0.07% | 0.03% |
-| **Holdings** | 500 | ~3,600 | 100 | 9,900 | 11,000 |
+| **Expense Ratio** | 0.03% | 0.03% | 0.20% | 0.06% | 0.03% |
+| **Holdings** | 500 | ~3,500 | 100 | 9,900 | 11,000 |
 | **Dividend** | 1.3% | 1.3% | 0.5% | 1.8% | 4.5% |
-| **10-yr Return** | 13% | 12% | 17% | 10% | 1.5% |
 | **Volatility** | Medium | Medium | High | Medium | Low |
 | **Geo Focus** | US | US | US | Global | US |
 | **Asset Class** | Stocks | Stocks | Stocks | Stocks | Bonds |
 | **For Whom** | Most | Most | Aggressive | Globalists | Conservative |
+
+> ℹ️ Historical returns are intentionally left out of this at-a-glance table: past results go stale quickly and are not expected future returns. For current total-return charts, see [etf.com](https://www.etf.com) or [morningstar.com](https://www.morningstar.com).
 
 ---
 

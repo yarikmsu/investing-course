@@ -134,17 +134,29 @@ Psychological:
 ### Historical Perspective
 
 ```
-S&P 500 (data from 1926):
+S&P 500 — NOMINAL US returns (data from 1926):
 
 If you held:
 ├── 1 year: positive result ~74% of the time
 ├── 5 years: positive result ~88% of the time
 ├── 10 years: positive result ~95% of the time
-├── 20 years: positive result ~100% of the time
+├── 20 years: positive result ~100% of the time (nominal)
 
-Worst 20-year return: ~6% annually
-Average 20-year return: ~10-11% annually
+Worst 20-year return: ~2-3% annually (nominal, with reinvestment)
+Average 20-year return: ~10-11% annually (nominal)
 ```
+
+> ⚠️ **Important caveats to the "~100% over 20 years" stat.** These figures are NOMINAL
+> (not adjusted for inflation) and apply only to the US market over a specific historical
+> period.
+> - **On an inflation-adjusted (real) basis,** the worst 20-year window was roughly
+>   flat — about +0.8% per year (early 1960s start). Positive, but barely growing in
+>   purchasing power. So "always positive over 20 years" is a nominal statement; the
+>   real outcome could be only marginally above zero.
+> - **The US is a single country.** Several other developed markets have had 20+ year
+>   stretches of negative real returns. Past US leadership doesn't guarantee a repeat —
+>   an argument for global diversification (see Lesson 5.7) and against 100% US stocks
+>   for retirement-horizon money.
 
 ### When Buy and Hold Does NOT Work
 
@@ -156,6 +168,14 @@ Warnings:
 ├── Don't confuse with "buy and forget"
 └── Periodic rebalancing is needed
 ```
+
+> ⚠️ **100% equities isn't a "free" maximization, even over a long horizon.** An
+> all-stock portfolio has the highest expected return but raises two risks: (1)
+> **behavioral** — without bonds, investors are more likely to panic and sell at the
+> bottom in a deep bear market, locking in the loss (the biggest real-world driver of
+> underperformance), and (2) **sequence risk** — a large drawdown early in accumulation,
+> or just before you need the money, hurts disproportionately. Even a modest bond sleeve
+> (10-20%) is primarily behavioral/risk insurance, not a way to earn more.
 
 ---
 
@@ -221,6 +241,15 @@ Recommendation:
 ├── Regular income → DCA
 └── Feeling nervous → DCA
 ```
+
+> ⚠️ **Key clarification.** If you already hold the money (an inheritance, a bonus,
+> proceeds from a sale), investing it all at once (lump sum) is the
+> expected-value-maximizing default: spreading it out over months trades away
+> about 1/3 of your expected return for psychological comfort. DCA-ing a lump sum
+> is a behavioral safeguard against your own panic, not a way to earn more. And
+> contributing from each paycheck isn't a "DCA vs lump sum" decision at all —
+> you're simply investing money as you earn it, because you don't yet hold the
+> full sum.
 
 ### 💡 Detailed Example: DCA vs Lump Sum
 
@@ -289,7 +318,16 @@ Investing **$500/month** in S&P 500 (historically ~10% annually):
 | 20 years | $120,000 | ~$380,000 | +$260,000 |
 | 30 years | $180,000 | **~$1,130,000** | +$950,000 |
 
-> 💰 **$500/month turns into a million in 30 years!** The power of compound interest.
+> 💰 **$500/month could grow to roughly a million over 30 years** — thanks to compound
+> interest. But this is an illustration, not a promise.
+
+> ⚠️ **Two important caveats.**
+> - **10% is a historical US market AVERAGE**, not a guarantee. The actual path depends
+>   on the sequence of returns (sequence risk): two portfolios with the same average
+>   return but a different order of good and bad years end up at different values.
+> - **This is a nominal figure.** Adjusted for ~2.5% annual inflation, ~$1.13M in 30
+>   years is roughly **$540k in today's dollars** — about half as much in purchasing
+>   power. Plan your goals in real (inflation-adjusted) terms.
 
 ---
 
@@ -483,6 +521,15 @@ Low Volatility:
 └── ETFs: USMV, SPLV
 ```
 
+> ⚠️ **Factors are not a "free lunch."** The historical size and value premia are not
+> guaranteed: the standalone size premium has been weak and insignificant out of sample,
+> and value endured a drawdown of more than a decade (roughly 2007-2020). These are
+> optional tilts — a bet on extra (uncompensated) risk, not reliable outperformance. One
+> important detail: to actually capture these factors you need small-cap *value*
+> specifically (e.g. AVUV), since plain small-cap funds like VB or IWM don't deliver the
+> size premium on their own. For most investors, a broad index fund (VTI) is more than
+> enough.
+
 ### Multifactor ETFs
 
 ```
@@ -513,8 +560,39 @@ Practical takeaway:
 └── Don't mistake recent performance for a guarantee of future returns (recency bias)
 ```
 
+> ⚠️ **The neutral point is the market, not "100% US."** By market capitalization, the
+> world is roughly 60% US and 40% ex-US (that's exactly how VT is built). So a 20-25%
+> ex-US allocation (as in the classic three-fund VTI 60% / VXUS 20%) is not a neutral
+> default — it's a deliberate US home-country tilt. That's a legitimate choice, but it's
+> a bet that the US keeps outperforming the rest of the world, not a "safe middle."
+
 > 💡 Past results don't predict future returns — and for individual countries
 > that's especially true. Global diversification is insurance, not a bet.
+
+### 💱 Currency Risk
+
+If you spend and measure your savings in a currency other than US dollars, you carry
+an extra source of risk: exchange-rate risk. Any result has to be evaluated in your
+home currency, not in dollars.
+
+```
+Why it matters:
+├── A portfolio can be up +10% in US dollars
+│   yet be flat or down in your home currency if that currency strengthened
+├── And vice versa: if your home currency weakens, a USD portfolio "grows" in it
+└── Over short horizons, currency swings can outweigh the stocks' return
+```
+
+> ⚠️ **Key nuance: the risk depends on the currency of the UNDERLYING holdings, not the
+> currency the ETF trades in.** A USD ticker by itself does not create the risk. What
+> matters is what the companies and bonds inside the fund are denominated in:
+> - **VOO, VTI, BND** — almost everything inside is in US dollars → for a non-USD
+>   investor this is effectively a "home currency vs USD" exposure.
+> - **VT, VXUS** — about 40% of the holdings are outside the US (yen, euro, pound,
+>   etc.) → the exposure is to a basket of world currencies, not purely USD.
+>
+> Takeaway: a global fund (VT) incidentally diversifies some currency risk too, but
+> doesn't remove it. Think about returns in your own currency.
 
 ---
 
@@ -582,7 +660,7 @@ Practical takeaway:
 <details>
 <summary><b>Question 3:</b> If you held the S&P 500 for 20 years, what is the probability of a positive result?</summary>
 
-**Answer:** Virtually 100% — historically there has never been a 20-year period with negative returns.
+**Answer:** Historically very high for US NOMINAL returns — there has been virtually no 20-year period with a negative nominal result. But it's not guaranteed: on an inflation-adjusted basis the worst 20-year windows delivered near-zero real growth, and the US is only one country (other developed markets have had 20+ year stretches of negative real returns).
 
 </details>
 
