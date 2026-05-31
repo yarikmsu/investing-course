@@ -134,9 +134,13 @@ Option B: Pay off debt
 ├── Saved on interest: $1,000
 └── Net result: +$1,000
 
-Conclusion: Paying off 20% debt = guaranteed
-           20% return. Investments only give ~10%.
+Conclusion: Paying off 20% debt = a guaranteed
+           20% return. Investments have historically
+           returned ~10% on average (nominal, before
+           inflation) and are NOT guaranteed.
 ```
+
+> ℹ️ That's exactly the point of the contrast: paying down debt is a **certain** return (you save precisely the interest you'd otherwise pay), while equity returns are **uncertain** and vary year to year. That's why high-rate debt is worth clearing first.
 
 ### Debt Payoff Strategies
 
