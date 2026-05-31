@@ -375,10 +375,13 @@ Qualified Expenses:
 > income-tax deadline (generally April 15 of the following year; extendable via
 > Form 4868/8892). **Superfunding $95K** (5×$19,000; $190K per couple) uses the
 > 5-year election under §529(c)(2)(B), and the spread is valid **only if the
-> election is made on a timely Form 709** in year one. Skip it and you risk
-> treating $95K as a taxable gift in the first year. Filing 709 usually means
-> **no tax is owed** — it just draws down your lifetime exemption ($15M per
-> person, 2026).
+> election is made on a timely Form 709** in year one. Skip the election and the
+> whole $95K counts as a year-one gift — only $19K is excluded and the other
+> $76K draws down your lifetime exemption. **Done correctly, the election spreads
+> it as $19K/year, each fully covered by the annual exclusion — so no gift tax
+> and no lifetime-exemption use** at exactly $95K. You dip into the lifetime
+> exemption ($15M per person, 2026) only if you give above the electable amount,
+> or make other gifts to that same beneficiary during the 5 years.
 
 > ⚠️ **SECURE 2.0 (from 2024):** Unused 529 funds can be rolled into the beneficiary's Roth IRA (up to $35K lifetime, account must be open 15+ years).
 >
