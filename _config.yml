@@ -68,9 +68,11 @@ exclude:
   - AUDIT-REPORT.md
   - REMEDIATION-PLAN-2026.md
   - VERIFIED-FACTS.md
+  - FOUR-LENS-REVIEW-2026.md
   - CHANGELOG.md
   - "*.sh"
   - .gitignore
+  - .planning
 
 # Include files
 include:

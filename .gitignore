@@ -1,0 +1,7 @@
+# Local planning / audit scratch (not part of the published course)
+.planning/
+
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
