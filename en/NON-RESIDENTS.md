@@ -361,8 +361,9 @@ Line 4: Mailing address (if different)
 Line 5: US tax ID number (usually not required)
 Line 6: Tax ID number from your country
 Line 7: Account number at broker
-Line 9a: Country of tax residence
-Line 10: Treaty article for dividends (usually Article 10)
+Line 9: Country of tax residence — this claims the standard treaty rate
+Line 10: Leave blank for the standard dividend rate; use only for a special,
+         lower-than-standard rate that requires extra conditions
 
 Signature and date at the end
 ```
