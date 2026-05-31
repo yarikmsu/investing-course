@@ -496,9 +496,10 @@ SECURE 2.0 reduced penalties:
 > ⚠️ **None of this is automatic — you must file Form 5329.** A missed RMD is
 > self-reported on **Form 5329, Part IX**.
 > - **The 10% rate (instead of 25%)** applies only if, within the correction
->   window (through the last day of the 2nd tax year after the year of the
->   shortfall), you (1) take a distribution of the shortfall and (2) file
->   Form 5329 reflecting the tax.
+>   window — which ends on the **earliest** of: the date the IRS mails a
+>   deficiency notice, the date it assesses the tax, or the last day of the 2nd
+>   tax year after the shortfall year — you (1) take a distribution of the
+>   shortfall and (2) file Form 5329 reflecting the tax.
 > - **Full reasonable-cause waiver:** complete lines 52–53, write "RC" and the
 >   amount you want waived in parentheses next to line 54, subtract it, and
 >   attach a brief explanation. The IRS commonly grants reasonable-cause waivers

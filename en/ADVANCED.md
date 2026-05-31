@@ -351,8 +351,9 @@ RMD (Required Minimum Distributions):
 A missed RMD — how to handle it (Form 5329, Part IX):
 ├── The excise tax is self-reported on Form 5329, Part IX
 ├── To get the reduced 10%: take the shortfall distribution within
-│   the correction window (through the end of the 2nd tax year after
-│   the year the tax was imposed) AND file Form 5329
+│   the correction window (earliest of: IRS deficiency notice mailed,
+│   tax assessed, or end of the 2nd tax year after the tax year) AND
+│   file Form 5329
 ├── To request a full reasonable-cause waiver: complete lines 52-53,
 │   enter "RC" and the amount to be waived next to line 54, subtract
 │   it, and attach a brief explanation
