@@ -565,10 +565,12 @@ After owner's death (since 2020):
 > eligible spouse**, and each spouse's catch-up must go into **their own HSA**
 > (IRS Pub 969: "Each spouse must make the additional contribution to their own
 > HSA"). A single accountholder maxes out at $4,400+$1,000=$5,400 (self-only) or
-> $8,750+$1,000=$9,750 (family). For a married couple to capture **both**
-> catch-ups you need **two separate HSAs**: the combined 2026 family ceiling is
-> $8,750+$1,000+$1,000=$10,750. You cannot put $9,750 (let alone $10,750) of
-> catch-up-inclusive money into one shared family HSA.
+> $8,750+$1,000=$9,750 (family) — and all $9,750 may sit in that one
+> accountholder's own HSA. For a married couple to capture **both** catch-ups you
+> need **two separate HSAs**: the combined 2026 family ceiling is
+> $8,750+$1,000+$1,000=$10,750, but the second spouse's $1,000 catch-up must go
+> into **their own** HSA. So a single HSA tops out at $9,750; $10,750 cannot sit
+> in one account.
 
 ### Roth IRA Income Limits
 
