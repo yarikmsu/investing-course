@@ -892,9 +892,10 @@ Example:
 ├── Bought stock for $50,000
 ├── Grew to $500,000
 ├── Unrealized gain: $450,000
-├── If sold during lifetime (single, low other income):
-│   tax ~$77,000 = 15% × $450,000 ($67,500)
-│   + NIIT 3.8% × $250,000 of MAGI above $200k ($9,500)
+├── If sold during lifetime (single, little other income):
+│   first ~$49,450 in the 0% LTCG bracket → $0; the rest
+│   (~$384k, after the $16,100 std deduction) at 15% → ~$57,700;
+│   + NIIT 3.8% on MAGI over $200k → ~$9,500; total ≈ $67,000
 │   (state tax not included)
 ├── For high earners (taxable income > $545,500, single 2026)
 │   the rate is 23.8% → ~$107,100
