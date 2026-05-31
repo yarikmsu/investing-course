@@ -229,8 +229,10 @@ Step 2: Fill out online application
 
 Step 3: Complete W-8BEN form
 ├── Required to reduce dividend tax
-├── Valid for 3 years
-└── Update when it expires
+├── Valid through the end of the THIRD calendar year after signing
+│   └── (signed any time in 2026 → valid through Dec 31, 2029)
+└── File a new form sooner on a "change in circumstances"
+    (US address, new country of residence/treaty) — within 30 days
 
 Step 4: Fund your account
 ├── Wire transfer (SWIFT)
@@ -253,13 +255,14 @@ Step 5: Start investing
 W-8BEN — Certificate of Foreign Status
 
 What it does:
-├── Confirms your non-US resident status
-├── Claims reduced tax rate under treaty
-├── Avoids 24% backup withholding
+├── Certifies your foreign (non-US) status
+│   └── Removes the account from 24% backup withholding (§3406)
+│       and from the 1099 reporting that applies to US persons
+├── Claims the reduced treaty rate on dividends (Chapter 3)
 └── Required by most brokers
 
 Without W-8BEN:
-└── Dividend tax: 30%
+└── Dividend tax: 30% (statutory NRA rate, not 24%)
 
 With W-8BEN (most countries):
 └── Dividend tax: 15%
@@ -388,6 +391,23 @@ Important:
 ├── This doesn't apply to US real estate profits
 ├── Check your country's rules
 └── You need to declare income in your residence country
+
+⚠️ Two exceptions where the US DOES tax capital gains:
+
+1. The 183-day rule (IRC §871(a)(2)):
+   ├── If you (while remaining a non-resident) are physically
+   │   present in the US 183+ days in a single calendar year
+   ├── Flat 30% tax (or lower treaty rate) on net US-source
+   │   capital gains (Form 1040-NR, Schedule NEC)
+   ├── This day-count is separate from the Substantial Presence Test
+   └── Gain on stocks/ETFs is "US-source" for this purpose ONLY if
+       you have a US tax home; with a foreign tax home the gain is
+       foreign-source and is not taxed
+
+2. US real estate (FIRPTA):
+   ├── Disposing of US real property interests, including USRPHC stock
+   ├── Taxed regardless of days present in the US
+   └── 15% withholding at sale (IRC §1445)
 ```
 
 ### Taxes in Your Country
@@ -419,15 +439,16 @@ Recommendation:
 ```
 Minimizing dividend tax:
 
-1. Prefer growth stocks vs dividend stocks
-   ├── Growth: Amazon, Google (little/no dividends)
-   └── Dividend: AT&T, Verizon (high dividends)
-
-2. Accumulating ETFs vs Distributing ETFs
+1. Accumulating ETFs vs Distributing ETFs
    ├── Accumulating: reinvest dividends inside fund
    └── Distributing: pay out dividends (→ tax)
 
-3. Irish-domiciled ETFs
+   Address the dividend-withholding drag structurally — through
+   accumulating (acc) UCITS ETFs that reinvest internally, or broad
+   index funds with a naturally lower dividend yield — NOT by picking
+   individual growth stocks.
+
+2. Irish-domiciled ETFs
    ├── Dividend tax rate: 15%
    ├── Example: CSPX (S&P 500 on London Stock Exchange)
    └── Less taxes for Europeans
@@ -504,13 +525,37 @@ A non-resident (e.g., a resident of the UAE or Singapore) holds $500,000 in VOO.
 The owner dies.
 
 ├── US-situs asset: $500,000
-├── Exemption: $60,000
-├── Taxable base: $440,000
-├── US estate tax: ~$130,000-176,000 (progressive, up to 40%)
+├── The progressive schedule (Table A) applies to the FULL $500,000
+│   └── Tentative tax ≈ $155,800
+├── Minus the NRA unified credit: $13,000
+│   └── ($60,000 is the filing threshold whose tax this credit offsets,
+│       NOT a deduction from the base)
+├── US estate tax due: ≈ $142,800
 └── Heirs receive the asset only after the tax is paid
 
 If the same money had been in the Irish CSPX (S&P 500):
 └── US estate tax: $0 (not a US-situs asset)
+```
+
+### What the Heirs Must File (Form 706-NA)
+
+```
+If the decedent's US-situs assets exceed the $60,000 filing threshold:
+
+├── The executor/heirs must file Form 706-NA
+│   (United States Estate Tax Return, Estate of nonresident
+│   not a citizen of the United States)
+├── Deadline: within 9 months of death
+├── Unified credit: $13,000
+│   └── offsets the tax on the first ~$60,000
+├── Maximum tax rate: 40%
+└── The $60,000 threshold is NOT indexed for inflation
+
+⚠️ A US broker will typically NOT release the decedent's account to
+   the heirs until the IRS issues a federal transfer certificate
+   (Form 5173).
+   └── Issued only after the estate tax is paid or provided for;
+       IRS processing commonly takes 6-18 months
 ```
 
 > 💡 **This is why Irish ETFs are about more than just dividends.** The main reason
@@ -535,6 +580,24 @@ If the same money had been in the Irish CSPX (S&P 500):
 ---
 
 ## Irish ETFs — Detailed Section
+
+> 🔴 **WARNING if you might move to the US (PFIC).**
+> Any non-US fund — including every Irish/Luxembourg UCITS ETF (CSPX, VWRA,
+> EIMI) — is a **PFIC** (Passive Foreign Investment Company, IRC §1297) for a
+> US tax person. The moment you become a US tax resident (Green Card or the
+> Substantial Presence Test), these holdings trigger a punitive regime:
+> - annual **Form 8621** filing;
+> - the default **§1291** excess-distribution regime: tax at the highest
+>   ordinary rate of each prior year plus a compounding interest charge on the
+>   deferred gain (no favorable LTCG rates);
+> - a **QEF** election is usually unavailable — UCITS funds don't issue the
+>   required PFIC Annual Information Statement; a **mark-to-market (§1296)**
+>   election is generally available for publicly traded UCITS ETFs but still
+>   loses LTCG treatment.
+>
+> If there's a realistic chance you'll move to the US, either hold
+> US-domiciled ETFs or **sell your UCITS holdings BEFORE** establishing US tax
+> residency, and consult a cross-border tax advisor before relocating.
 
 ### What Are Irish ETFs
 
@@ -735,7 +798,7 @@ For tax return in your country:
 
 ```
 Annually:
-├── Update W-8BEN if expired (every 3 years)
+├── Update W-8BEN if expired (through end of the 3rd calendar year after signing)
 ├── File tax return in your country
 ├── Check tax withholding is correct
 └── Save broker reports
@@ -773,6 +836,26 @@ When moving to the US:
 ├── Tax rules will change
 └── Need consultation with tax advisor
 ```
+
+> 🔴 **Two traps to handle BEFORE you move:**
+>
+> **1. PFIC — Irish/Luxembourg UCITS ETFs.**
+> Any non-US fund (CSPX, VWRA, EIMI) is a PFIC for a US person: annual
+> Form 8621 plus the punitive §1291 regime (no favorable LTCG rates). Where
+> possible, sell your UCITS holdings BEFORE you establish US tax residency.
+> See the box at the top of the "Irish ETFs" section above.
+>
+> **2. FBAR and FATCA — foreign accounts.**
+> Once you are a US tax person, foreign financial accounts (e.g., at Exante in
+> Malta or Degiro in the EU) aggregating over $10,000 at any point in the year
+> require an annual **FBAR (FinCEN Form 114)** — due Apr 15 with an automatic
+> extension to Oct 15. Larger balances also require **Form 8938 (FATCA)**
+> attached to your Form 1040. Penalties are severe (FBAR: up to ~$16k per year
+> non-willful; willful up to the greater of ~$160k or 50% of the balance).
+> This stacks on top of the PFIC reporting for any UCITS funds you hold.
+>
+> ⚠️ This is educational material, not tax advice — verify on IRS.gov and
+> consult a cross-border specialist.
 
 ### How to Avoid Double Taxation?
 
