@@ -372,9 +372,12 @@ Current allocation:
 □ Checked unrealized gains
    □ Large gains → Don't sell unnecessarily
 □ Maximized contributions to tax-advantaged accounts?
-   □ 401(k): invested $_______ of $24,500 limit (2026)
-   □ IRA: invested $_______ of $7,500 limit (2026)
-   □ HSA (if applicable): invested $_______ of $4,400 limit (2026, self-only)
+   □ 401(k): invested $_______ of $24,500 (2026)
+      (+$8,000 catch-up at 50+, or +$11,250 at ages 60-63,
+       which REPLACES the $8,000 rather than stacking on it)
+   □ IRA: invested $_______ of $7,500 (2026) (+$1,100 at 50+)
+   □ HSA (if applicable): invested $_______ of $4,400 self-only /
+      $8,750 family (2026) (+$1,000 at 55+)
 ```
 
 ### Data Updates
