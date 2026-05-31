@@ -992,7 +992,7 @@ Or simply: 90% VTI + 10% BND.
 <summary><b>Question 19:</b> What's the difference between VTI and VOO?</summary>
 
 **Answer:**
-- VTI — entire US market (~4,000 companies), including small/mid-cap
+- VTI — entire US market (~3,500 companies), including small/mid-cap
 - VOO — only S&P 500 (500 largest)
 - Returns are very similar, VTI has slightly more diversification
 

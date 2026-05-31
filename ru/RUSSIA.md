@@ -457,9 +457,10 @@ W-8BEN по-прежнему нужна для:
     налоговым юристом
 ```
 
-> ℹ️ Сверочные данные по налогу на наследство NRA — см. строки 49-51
-> файла VERIFIED-FACTS.md ($60,000 порог, $13,000 кредит, ставка 40%,
-> Form 706-NA, US-situs для US-ETF, не-US-situs для UCITS).
+> ℹ️ Источник и подробности по налогу на наследство NRA ($60,000 порог,
+> $13,000 кредит, ставка 40%, Form 706-NA; US-ETF — US-situs, UCITS —
+> не-US-situs): инструкции IRS к Form 706-NA на irs.gov и раздел
+> [NON-RESIDENTS](/investing-course/ru/NON-RESIDENTS/).
 
 ---
 

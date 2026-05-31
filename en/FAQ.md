@@ -170,7 +170,7 @@ Non-US Resident:
 
 ```
 Why VTI:
-├── Entire US market (~4,000 companies)
+├── Entire US market (~3,500 companies)
 ├── Expense ratio: 0.03%
 ├── Maximum diversification
 └── One ETF — and you're in the game

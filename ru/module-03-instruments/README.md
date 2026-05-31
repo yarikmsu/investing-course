@@ -447,7 +447,7 @@ Put Option — право продать актив по фиксированн�
 <details>
 <summary><b>Вопрос 6:</b> Какой ETF отслеживает весь рынок США и какой его expense ratio?</summary>
 
-**Ответ:** VTI (Vanguard Total Stock Market) — охватывает ~3,600 акций США с expense ratio 0.03%.
+**Ответ:** VTI (Vanguard Total Stock Market) — охватывает ~3,500 акций США с expense ratio 0.03%.
 
 </details>
 

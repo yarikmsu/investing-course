@@ -972,7 +972,7 @@ AFTER the crisis:
 <details>
 <summary><b>Question 2:</b> How many stocks are needed to approach market-level risk?</summary>
 
-**Answer:** 20-30 stocks substantially reduce specific risk. A total market ETF (VTI) provides optimal diversification with 4000+ stocks.
+**Answer:** 20-30 stocks substantially reduce specific risk. A total market ETF (VTI) provides optimal diversification with ~3,500 stocks.
 
 </details>
 

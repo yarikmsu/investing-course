@@ -447,7 +447,7 @@ Selling Covered Call:
 <details>
 <summary><b>Question 6:</b> Which ETF tracks the entire US market and what is its expense ratio?</summary>
 
-**Answer:** VTI (Vanguard Total Stock Market) — covers ~3,600 US stocks with expense ratio of 0.03%.
+**Answer:** VTI (Vanguard Total Stock Market) — covers ~3,500 US stocks with expense ratio of 0.03%.
 
 </details>
 

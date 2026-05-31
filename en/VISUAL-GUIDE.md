@@ -315,7 +315,7 @@ Conclusion:
 ├── 1 stock = huge risk
 ├── 20-30 stocks = most risk eliminated
 ├── 500+ stocks (S&P 500) = close to optimal
-└── VTI (4000+) = maximum US diversification
+└── VTI (~3,500) = maximum US diversification
 ```
 
 ### Types of Risk

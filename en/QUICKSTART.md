@@ -200,7 +200,7 @@ Don't transfer everything at once:
 VTI — Vanguard Total Stock Market ETF
 
 Why VTI:
-├── Entire US market (~4,000 companies)
+├── Entire US market (~3,500 companies)
 ├── Maximum diversification
 ├── Expense ratio: 0.03% ($3 per $10,000/year)
 ├── One of the world's largest ETFs
@@ -360,7 +360,7 @@ You've done what 90% of people keep "putting off."
 
 You are now:
 ├── An investor with real assets
-├── Owner of a piece of 4,000 American companies
+├── Owner of a piece of ~3,500 American companies
 ├── On the path to financial independence
 └── Ahead of most people
 

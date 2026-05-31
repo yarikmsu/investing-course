@@ -201,7 +201,7 @@ What happened:
 └── Result: chaos instead of a portfolio
 
 What I thought: "More stocks = safer"
-Reality: VTI = 4000 stocks in one purchase
+Reality: VTI = ~3,500 stocks in one purchase
 
 Lesson: 2-4 ETFs is enough. Simplicity wins.
 ```

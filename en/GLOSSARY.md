@@ -234,7 +234,7 @@ permalink: /GLOSSARY/
 
 | Ticker | Name | What It Tracks |
 |--------|------|----------------|
-| VTI | Vanguard Total Stock Market | Entire US stock market (~4,000 companies) |
+| VTI | Vanguard Total Stock Market | Entire US stock market (~3,500 companies) |
 | VOO | Vanguard S&P 500 | 500 largest US companies |
 | VXUS | Vanguard Total International Stock | International stocks (ex-US) |
 | VT | Vanguard Total World Stock | Entire global stock market |

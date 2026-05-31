@@ -242,7 +242,7 @@ permalink: /GLOSSARY/
 
 | Тикер | Название | Что отслеживает |
 |-------|----------|-----------------|
-| VTI | Vanguard Total Stock Market | Весь рынок акций США (~4,000 компаний) |
+| VTI | Vanguard Total Stock Market | Весь рынок акций США (~3,500 компаний) |
 | VOO | Vanguard S&P 500 | 500 крупнейших компаний США |
 | VXUS | Vanguard Total International Stock | Международные акции (кроме США) |
 | VT | Vanguard Total World Stock | Весь мировой рынок акций |

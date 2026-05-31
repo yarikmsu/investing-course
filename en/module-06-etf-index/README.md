@@ -351,7 +351,7 @@ Only for long-term horizon (15+ years)
 > on one sector.** If you want it even simpler: 100% VTI + VXUS. Adding VGT (technology)
 > or any other sector fund is an **optional, speculative tilt**, not part of the core
 > portfolio: it concentrates risk in a single sector, which this course warns against
-> (see the QQQ risk section). If you do add such a tilt, keep it small (e.g. ≤10%) and
+> (see the QQQ / NASDAQ-100 concentration warning in [ETF-ANALYSIS](/investing-course/en/ETF-ANALYSIS/)). If you do add such a tilt, keep it small (e.g. ≤10%) and
 > understand that it's a bet, not a "neutral" aggressive portfolio.
 
 ### Dividend Portfolio
