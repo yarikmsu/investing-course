@@ -323,9 +323,11 @@ With W-8BEN (most countries):
 > ℹ️ These are the US treaty dividend-article rates; verify against the current
 > text at irs.gov/treaties (Tax Treaty Tables, Table 1), as of May 2026. A reduced
 > rate applies only when the treaty's beneficial-owner and Limitation-on-Benefits
-> conditions are met — claimed in Part II of Form W-8BEN (lines 9–10). For some
-> qualified holders (pension funds, large corporate shareholders) the rate can be
-> lower than shown, down to 0%.
+> conditions are met. For the standard portfolio-dividend rate you just claim
+> your country of residence in **Part II, line 9**; **line 10** is needed only for
+> a special, lower-than-standard rate that depends on extra conditions — e.g. a
+> preferential ownership-based rate down to 0% for some qualified holders (pension
+> funds, large corporate shareholders).
 
 #### How to Find the Rate for Your Country
 
