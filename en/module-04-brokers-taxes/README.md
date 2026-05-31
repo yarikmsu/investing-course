@@ -218,12 +218,14 @@ Characteristics:
 └── Required distributions from age 73 (RMD)
 ```
 
-> ⚠️ **The deduction is not automatic.** A Traditional IRA contribution is
-> **fully deductible only** if neither you nor your spouse is covered by a
-> workplace retirement plan (401(k), etc.). If you are an active participant,
-> the deduction phases out over these 2026 MAGI ranges:
+> ⚠️ **The deduction is not automatic.** If **neither you nor your spouse** is
+> covered by a workplace retirement plan (401(k), etc.), your contribution is
+> **fully deductible at any income.** Once either spouse is covered, the
+> deduction phases out over a 2026 MAGI range — and **which** range applies
+> depends on **who** is covered (being covered yourself phases out far earlier
+> than only your spouse being covered):
 >
-> | Status (active participant) | 2026 phase-out range |
+> | Your situation (2026) | MAGI phase-out range |
 > |---|---|
 > | Single / HoH | $81,000–$91,000 |
 > | MFJ (you are covered) | $129,000–$149,000 |
