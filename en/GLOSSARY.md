@@ -210,7 +210,7 @@ permalink: /GLOSSARY/
 
 ## W
 
-**Wash Sale** — A rule (IRC §1091) disallowing a capital-loss deduction if you acquire a substantially identical stock or security within 30 days *before* or 30 days *after* the loss sale — a 61-day window (30 days before + the sale day + 30 days after). The disallowed loss is added to the cost basis of the replacement shares (and the original holding period carries over), so the loss is deferred, not erased.
+**Wash Sale** — A rule (IRC §1091) disallowing a capital-loss deduction if you acquire a substantially identical stock or security within 30 days *before* or 30 days *after* the loss sale — a 61-day window (30 days before + the sale day + 30 days after). In a **taxable** account the disallowed loss is added to the cost basis of the replacement shares (and the original holding period carries over), so the loss is deferred, not erased. **Exception:** if the replacement is purchased in an IRA/Roth IRA (yours or a spouse's), the loss is permanently disallowed with **no** basis add-back (IRS Rev. Rul. 2008-5) — erased, not deferred. See Module 4.
 
 ---
 
@@ -257,7 +257,7 @@ permalink: /GLOSSARY/
 | 1099-B | Report of securities sales |
 | 1099-INT | Report of received interest |
 | Cost Basis | Amount invested for tax purposes: purchase price plus commissions, increased by reinvested dividends (each DRIP purchase adds basis) and adjusted for events like wash-sale disallowances or return of capital. Used to compute capital gain/loss on sale (taxable accounts) |
-| Wash Sale | Rule (IRC §1091) disallowing a capital-loss deduction if you buy a substantially identical security within 30 days before or after the sale (a 61-day window). The disallowed loss is added to the cost basis of the replacement shares |
+| Wash Sale | Rule (IRC §1091) disallowing a capital-loss deduction if you buy a substantially identical security within 30 days before or after the sale (a 61-day window). In a taxable account the disallowed loss is added to the replacement shares' cost basis; if the replacement is bought in an IRA/Roth, the loss is permanently lost (Rev. Rul. 2008-5) |
 | FIFO | First In, First Out — oldest shares sold first |
 | Specific ID | Method to choose specific lots for sale (for tax optimization) |
 
