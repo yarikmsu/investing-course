@@ -92,6 +92,11 @@ $500/month at 10% for 30 years = $1,130,000
 That's the power of compound interest.
 ```
 
+> ⚠️ Not a guarantee. 10% is the long-run *nominal* historical return;
+> the real (after-inflation) return is lower (~6–7%), and forward-looking
+> estimates for the next 10 years are around 4–6% real. Individual years
+> can be -20% or +30%.
+
 ---
 
 ## Ready?

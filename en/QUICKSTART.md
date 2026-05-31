@@ -386,6 +386,12 @@ A: That's normal and even good — your next purchases
 ```
 A: No! The important thing is to start. $500/month
    at 10% annually for 30 years becomes ~$1,000,000.
+
+   ⚠️ This is not a guarantee. 10% is the long-run nominal
+   historical US return; the real (after-inflation) return is
+   lower (~6–7%), and forward-looking estimates for the next
+   10 years are around 4–6% real. Treat this as a rough guide,
+   not a promise.
 ```
 
 **Q: Why VTI specifically?**

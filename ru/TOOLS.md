@@ -146,8 +146,8 @@ permalink: /TOOLS/
 
 | Инструмент | Описание | |
 |------------|----------|:-:|
-| [portfoliovisualizer.com](https://www.portfoliovisualizer.com) | **ГЛАВНЫЙ ИНСТРУМЕНТ** — бэктест портфелей | 💰 |
-| [testfol.io](https://testfol.io) | Бесплатный бэктестинг | 🆓 |
+| [testfol.io](https://testfol.io) | **ЛУЧШИЙ БЕСПЛАТНЫЙ** — бэктест портфелей без ограничений | 🆓 |
+| [portfoliovisualizer.com](https://www.portfoliovisualizer.com) | Мощный бэктест, но история ограничена ~10 годами без подписки | 💰 |
 | [portfoliocharts.com](https://portfoliocharts.com) | Визуализация разных стратегий | 🆓 |
 
 ### Как использовать Portfolio Visualizer
@@ -166,6 +166,12 @@ permalink: /TOOLS/
 3. Выбрать период
 4. Analyze!
 ```
+
+> ℹ️ С 2024 года часть функций Portfolio Visualizer стала платной.
+> В бесплатном тарифе остаются базовые Backtest Portfolio и Monte Carlo,
+> но история бэктеста ограничена ~10 годами и ~15 активами; расширенная
+> история, факторный анализ и оптимизация — по подписке (~$30–55/мес).
+> Для бесплатного бэктеста без ограничений используйте **testfol.io**.
 
 ### Готовые модельные портфели
 
@@ -396,7 +402,7 @@ permalink: /TOOLS/
    └── etf.com — для изучения ETF
 
 3. АНАЛИЗ
-   └── portfoliovisualizer.com — для бэктестов
+   └── testfol.io — бесплатный бэктест портфелей
 
 4. ОБРАЗОВАНИЕ
    └── bogleheads.org — философия и форум

@@ -108,6 +108,14 @@ Year   Invested   Value       Growth
 $100 → $95,000 in 10 years of discipline
 ```
 
+> ⚠️ **This is an illustration, not a forecast.** The year-by-year figures
+> are a composite model, not a real track record. 2014–2024 was an unusually
+> strong decade for US equities; the ~11% annual return shown here is neither
+> normal nor a promise. Past returns don't guarantee future ones: forward-looking
+> estimates of real (after-inflation) returns for the next 10 years are
+> materially lower — roughly 4–6% per year (see the CAPE section in ADVANCED.md).
+> The power of this story is the discipline and consistency, not any specific percentage.
+
 ### Key Lesson
 
 ```
@@ -528,8 +536,16 @@ Time per year           1,000 hours     6 hours
 Commissions             $1,600/year     $20/year
 Stress                  High            Minimal
 Taxes                   Maximum         Minimum
-Success probability     15%             99%
+Odds of beating index   Low             Matches the index
+                        (see below)     by design
 Suitable for            Professionals   Everyone
+
+Note: over long horizons the vast majority of active funds
+trail the index — per S&P Global SPIVA (US, year-end 2024),
+roughly 90% of active large-cap funds underperformed the
+S&P 500 over 15 years. A passive portfolio doesn't "guarantee
+success" — by design it matches the market's return (which has
+been negative in real terms over some decades).
 ```
 
 ### Key Lesson

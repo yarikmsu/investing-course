@@ -562,7 +562,7 @@ Box 1d: $6,500 (proceeds)
 Box 1e: $5,000 (cost basis)
 Box 1g: $1,500 (long-term gain)
 
-Tax: $1,500 × 15% = $225 (if income $48,351-$533,400, 2025)
+Tax: $1,500 × 15% = $225 (if income $49,451-$545,500, single, 2026)
 ```
 
 ### Brokerage Statement

@@ -146,8 +146,8 @@ Recommendation for non-residents:
 
 | Tool | Description | |
 |------|-------------|:-:|
-| [portfoliovisualizer.com](https://www.portfoliovisualizer.com) | **MAIN TOOL** — portfolio backtesting | 💰 |
-| [testfol.io](https://testfol.io) | Free backtesting | 🆓 |
+| [testfol.io](https://testfol.io) | **BEST FREE** — portfolio backtesting with no limits | 🆓 |
+| [portfoliovisualizer.com](https://www.portfoliovisualizer.com) | Powerful backtester, but history capped at ~10 years without a subscription | 💰 |
 | [portfoliocharts.com](https://portfoliocharts.com) | Visualization of different strategies | 🆓 |
 
 ### How to Use Portfolio Visualizer
@@ -166,6 +166,12 @@ Example: compare VTI and VOO over 10 years
 3. Select period
 4. Analyze!
 ```
+
+> ℹ️ Since 2024, some Portfolio Visualizer features are behind a paywall.
+> The free tier still includes basic Backtest Portfolio and Monte Carlo,
+> but backtest history is capped at ~10 years and ~15 assets; extended
+> history, factor analysis, and optimization require a subscription
+> (~$30–55/mo). For free, unlimited backtesting use **testfol.io**.
 
 ### Ready-Made Model Portfolios
 
@@ -343,7 +349,7 @@ don't multiply tools unnecessarily.
 |-----|----------|-------------|:-:|
 | **YNAB** | iOS/Android | Best for budgeting | 💵 |
 | **Copilot** | iOS | Beautiful and smart | 💵 |
-| **Mint** | iOS/Android | Free and comprehensive | 🆓 |
+| **Wallet** | iOS/Android | Simple and free | 🆓 |
 
 ### Calculators
 
@@ -366,7 +372,7 @@ For a beginning investor, this is enough:
    └── etf.com — for studying ETFs
 
 3. ANALYSIS
-   └── portfoliovisualizer.com — for backtests
+   └── testfol.io — free portfolio backtesting
 
 4. EDUCATION
    └── bogleheads.org — philosophy and forum
