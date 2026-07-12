@@ -652,4 +652,4 @@ $500 × [((1 + 0.00833)^240 - 1) / 0.00833] = $382,846
 
 ---
 
-[← Вернуться к курсу](README.md) | [Истории инвесторов →](INVESTOR-STORIES.md)
+[← Вернуться к курсу](/investing-course/ru/) | [Истории инвесторов →](/investing-course/ru/INVESTOR-STORIES/)

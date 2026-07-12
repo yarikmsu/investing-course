@@ -500,4 +500,4 @@ permalink: /TEMPLATES/
 
 ---
 
-[← Чек-листы](CHECKLISTS.md) | [Вернуться к курсу](README.md) | [Инструменты →](TOOLS.md)
+[← Чек-листы](/investing-course/ru/CHECKLISTS/) | [Вернуться к курсу](/investing-course/ru/) | [Инструменты →](/investing-course/ru/TOOLS/)

@@ -636,4 +636,4 @@ Your first step:
 
 ---
 
-[← Back to course](README.md) | [ETF Analysis →](ETF-ANALYSIS.md)
+[← Back to course](/investing-course/en/) | [ETF Analysis →](/investing-course/en/ETF-ANALYSIS/)

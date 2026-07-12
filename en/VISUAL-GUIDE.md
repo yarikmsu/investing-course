@@ -651,4 +651,4 @@ Recommended calculators:
 
 ---
 
-[← Back to Course](index.md) | [Investor Stories →](INVESTOR-STORIES.md)
+[← Back to Course](/investing-course/en/) | [Investor Stories →](/investing-course/en/INVESTOR-STORIES/)

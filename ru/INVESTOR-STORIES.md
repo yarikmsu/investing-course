@@ -793,4 +793,4 @@ SPIVA (US, конец 2024) около 90% активно управляемых
 
 ---
 
-[← Вернуться к курсу](README.md) | [Разбор ETF →](ETF-ANALYSIS.md)
+[← Вернуться к курсу](/investing-course/ru/) | [Разбор ETF →](/investing-course/ru/ETF-ANALYSIS/)

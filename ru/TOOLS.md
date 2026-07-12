@@ -434,4 +434,4 @@ permalink: /TOOLS/
 
 ---
 
-[← Шаблоны](TEMPLATES.md) | [Вернуться к курсу](README.md)
+[← Шаблоны](/investing-course/ru/TEMPLATES/) | [Вернуться к курсу](/investing-course/ru/)

@@ -304,4 +304,4 @@ How this section is updated:
 
 ---
 
-[← About](ABOUT.md) | [Back to Course](index.md)
+[← About](/investing-course/en/ABOUT/) | [Back to Course](/investing-course/en/)

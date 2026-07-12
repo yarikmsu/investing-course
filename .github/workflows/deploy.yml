@@ -3,6 +3,8 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: ["main", "claude/*"]
+  pull_request:
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -60,6 +62,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
 
   deploy:
+    # Только main деплоится на продакшен; остальные ветки и PR — только сборка-проверка
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

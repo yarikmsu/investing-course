@@ -482,4 +482,4 @@ Before starting to invest, make sure:
 
 ---
 
-[← Back to Course](index.md)
+[← Back to Course](/investing-course/en/)

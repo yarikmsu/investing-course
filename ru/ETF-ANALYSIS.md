@@ -803,4 +803,4 @@ VT (80%) + BND (20%)
 
 ---
 
-[← Вернуться к курсу](README.md) | [Упражнения →](EXERCISES.md)
+[← Вернуться к курсу](/investing-course/ru/) | [Упражнения →](/investing-course/ru/EXERCISES/)

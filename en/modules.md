@@ -23,7 +23,7 @@ The course consists of 9 modules arranged in logical sequence — from basics to
 | 5 | Investment Strategies | 🟡 Intermediate |
 | 6 | ETFs and Index Funds | 🟡 Intermediate |
 | 7 | Risk and Psychology | 🔴 Advanced |
-| 8 | Practical Guide | 🔴 Advanced |
+| 8 | Practical Guide | 🟡 Intermediate |
 
 ## Recommended Order
 

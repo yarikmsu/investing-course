@@ -802,4 +802,4 @@ Most important:
 
 ---
 
-[← Back to Course](index.md) | [Exercises →](EXERCISES.md)
+[← Back to Course](/investing-course/en/) | [Exercises →](/investing-course/en/EXERCISES/)
