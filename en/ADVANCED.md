@@ -1076,4 +1076,4 @@ Calculators:
 
 ---
 
-[← Back to main course](./) | [Glossary](./GLOSSARY/)
+[← Back to main course](./) | [Glossary](/investing-course/en/GLOSSARY/)

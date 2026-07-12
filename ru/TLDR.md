@@ -66,7 +66,7 @@ BND  = Облигации США
 |----|--------|----------|
 | Резидент США | Fidelity или Schwab | $0 |
 | Нерезидент | Interactive Brokers | $0-низкая |
-| Россиянин | См. [RUSSIA](./RUSSIA/) | Уточняйте |
+| Россиянин | См. [RUSSIA](/investing-course/ru/RUSSIA/) | Уточняйте |
 
 ---
 
@@ -140,13 +140,13 @@ BND  = Облигации США
 
 | Тема | Куда смотреть |
 |------|---------------|
-| Подготовка к инвестированию | [Модуль 0](./module-00-preparation/) |
-| Пошаговый старт | [Быстрый старт](./QUICKSTART/) |
-| Фондовый рынок США | [Модуль 2](./module-02-stock-market/) |
-| ETF и портфели | [Модуль 6](./module-06-etf-index/) |
-| Психология | [Модуль 7](./module-07-risk-psychology/) |
-| Все вопросы | [FAQ](./FAQ/) |
-| Для россиян | [RUSSIA](./RUSSIA/) |
+| Подготовка к инвестированию | [Модуль 0](/investing-course/ru/module-00-preparation/) |
+| Пошаговый старт | [Быстрый старт](/investing-course/ru/QUICKSTART/) |
+| Фондовый рынок США | [Модуль 2](/investing-course/ru/module-02-stock-market/) |
+| ETF и портфели | [Модуль 6](/investing-course/ru/module-06-etf-index/) |
+| Психология | [Модуль 7](/investing-course/ru/module-07-risk-psychology/) |
+| Все вопросы | [FAQ](/investing-course/ru/FAQ/) |
+| Для россиян | [RUSSIA](/investing-course/ru/RUSSIA/) |
 
 ---
 
