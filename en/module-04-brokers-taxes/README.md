@@ -430,8 +430,6 @@ AGE 59½ — key date:
 
 ### Exceptions to 10% Penalty (Early Withdrawal Before 59½)
 
-> 💡 **Penalty reduced from 50% to 25%** under SECURE 2.0 (since 2023). With quick correction (within 2 years) — only 10%.
-
 | Exception | IRA | 401(k) | Limit |
 |-----------|-----|--------|-------|
 | First-time home purchase | ✅ | ❌ | up to $10,000 |
@@ -1033,10 +1031,10 @@ Box 1a: Ordinary Dividends (total amount)
 Box 1b: Qualified Dividends (taxed at preferential rate)
 Box 2a: Capital Gain Distributions (from funds)
 Box 4: Federal Tax Withheld
-Box 6: Foreign Tax Paid (can be credited!)
+Box 7: Foreign Tax Paid (can be credited!)
 ```
 
-> 💡 **Foreign Tax Credit (FTC) — how to claim the foreign tax in Box 6.**
+> 💡 **Foreign Tax Credit (FTC) — how to claim the foreign tax in Box 7.**
 > This matters for anyone holding international funds (VXUS, VEA, VWO).
 > - **Claimed as a credit on Schedule 3 (Form 1040), Part I, line 1.** The
 >   foreign tax is generally claimed on **Form 1116**, which carries to
@@ -1129,7 +1127,7 @@ Schedule B:
 | **Form 5329** | 10% early-withdrawal penalty; 25%/10% RMD excise tax (Part IX) | Lesson 4.2 |
 | **Form 8889** | HSA contributions and distributions | Lesson 4.2 (HSA) |
 | **Form 8960** | NIIT 3.8% → Schedule 2, Line 12 | Lesson 4.3 (NIIT) |
-| **Form 1116** | Foreign Tax Credit (if foreign tax > $300 single / $600 MFJ) | Lesson 4.3 / Box 6 |
+| **Form 1116** | Foreign Tax Credit (if foreign tax > $300 single / $600 MFJ) | Lesson 4.3 / Box 7 |
 | **Form 709** | Gifts over $19,000/yr / 5-year 529 superfunding | Lesson 4.2 (529) |
 
 > ℹ️ **Form 5498** is issued by your broker/custodian (usually in May): it

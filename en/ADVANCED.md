@@ -211,7 +211,7 @@ Savings: approximately 0.2-0.5% annually
 on $500,000 = $1,000-2,500/year
 ```
 
-> ℹ️ **How to claim the Foreign Tax Credit (1099-DIV Box 6).**
+> ℹ️ **How to claim the Foreign Tax Credit (1099-DIV Box 7).**
 > Foreign tax is claimed as a credit on Schedule 3 (Form 1040), Part I, line 1.
 > Under the de-minimis exception you can claim it with NO Form 1116 if all of
 > these hold: total creditable foreign tax is ≤ $300 ($600 MFJ), all foreign-
