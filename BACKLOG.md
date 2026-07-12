@@ -13,6 +13,8 @@
 
 **Totals: 65 items — 8 × P0 · 20 × P1 · 24 × P2 · 13 × P3.**
 
+> **Status (2026-07-12): Sprint 1 complete.** ✅ Done: all 8 P0 items (BL-101…104, BL-201…204), plus BL-105 (root orphans removed), BL-401 (CI quality gate — `scripts/check-parity.py` + `quality.yml`; the gate immediately caught 20 more dead relative links, also fixed) and BL-215 (suspension dates, fixed alongside BL-204 in the same block). Next: Sprint 2 — Epic 2/3 P1 items + BL-402.
+
 ---
 
 ## P0 — Ship-blockers (do first, in this order)
