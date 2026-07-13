@@ -22,6 +22,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Контент-гейт внутри деплой-пайплайна: сборка (и значит деплой)
+      # падает при битых ссылках или расхождении файлов ru/ ↔ en/
+      - name: Check links and RU/EN parity
+        run: python3 scripts/check-parity.py
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
