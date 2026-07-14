@@ -545,9 +545,9 @@ How to mitigate:
 
 Study the full course:
 - [Module 0: Preparation](/investing-course/en/module-00-preparation/)
-- [Modules 1-8: Main Course](./)
+- [Modules 1-8: Main Course](/investing-course/en/)
 - [For Non-Residents: NON-RESIDENTS](/investing-course/en/NON-RESIDENTS/)
 
 ---
 
-[← Back to Course](./)
+[← Back to Course](/investing-course/en/)

@@ -323,28 +323,28 @@ Combination of stop and limit order.
 ## Self-Check Test
 
 <details>
-<summary><b>Question 1:</b> On which exchange do Apple, Microsoft, and Tesla trade?</summary>
+<summary markdown="span"><b>Question 1:</b> On which exchange do Apple, Microsoft, and Tesla trade?</summary>
 
 **Answer:** NASDAQ — the first electronic exchange, focusing on technology companies.
 
 </details>
 
 <details>
-<summary><b>Question 2:</b> What time does the US market open in Eastern Time?</summary>
+<summary markdown="span"><b>Question 2:</b> What time does the US market open in Eastern Time?</summary>
 
 **Answer:** 9:30 AM ET (the main session starts at 9:30 AM Eastern Time).
 
 </details>
 
 <details>
-<summary><b>Question 3:</b> How many companies are in the S&P 500 index and what market share does it cover?</summary>
+<summary markdown="span"><b>Question 3:</b> How many companies are in the S&P 500 index and what market share does it cover?</summary>
 
 **Answer:** 500 companies, covering about 80% of total US market capitalization.
 
 </details>
 
 <details>
-<summary><b>Question 4:</b> What is a Market Order and Limit Order?</summary>
+<summary markdown="span"><b>Question 4:</b> What is a Market Order and Limit Order?</summary>
 
 **Answer:**
 - **Market Order** — buy/sell at current market price (instant execution)
@@ -353,14 +353,14 @@ Combination of stop and limit order.
 </details>
 
 <details>
-<summary><b>Question 5:</b> What does the ticker AAPL mean?</summary>
+<summary markdown="span"><b>Question 5:</b> What does the ticker AAPL mean?</summary>
 
 **Answer:** Apple Inc. — the unique letter code for the company on the exchange.
 
 </details>
 
 <details>
-<summary><b>Question 6:</b> How does the Dow Jones index differ from S&P 500?</summary>
+<summary markdown="span"><b>Question 6:</b> How does the Dow Jones index differ from S&P 500?</summary>
 
 **Answer:**
 - Dow Jones: 30 companies, price-weighted

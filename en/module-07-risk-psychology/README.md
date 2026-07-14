@@ -963,42 +963,42 @@ AFTER the crisis:
 ## Self-Check Test
 
 <details>
-<summary><b>Question 1:</b> What is systematic risk and can it be eliminated through diversification?</summary>
+<summary markdown="span"><b>Question 1:</b> What is systematic risk and can it be eliminated through diversification?</summary>
 
 **Answer:** Systematic (market) risk affects the entire market (recession, pandemic). It CANNOT be eliminated through diversification, but is compensated by expected returns.
 
 </details>
 
 <details>
-<summary><b>Question 2:</b> How many stocks are needed to approach market-level risk?</summary>
+<summary markdown="span"><b>Question 2:</b> How many stocks are needed to approach market-level risk?</summary>
 
 **Answer:** 20-30 stocks substantially reduce specific risk. A total market ETF (VTI) provides optimal diversification with ~3,500 stocks.
 
 </details>
 
 <details>
-<summary><b>Question 3:</b> What is Loss Aversion and how does it harm investors?</summary>
+<summary markdown="span"><b>Question 3:</b> What is Loss Aversion and how does it harm investors?</summary>
 
 **Answer:** Loss Aversion — the pain from loss is stronger than joy from equal gain. Leads to selling at the bottom and holding losing positions. Solution: automation and following a plan.
 
 </details>
 
 <details>
-<summary><b>Question 4:</b> What emergency fund size is recommended before investing?</summary>
+<summary markdown="span"><b>Question 4:</b> What emergency fund size is recommended before investing?</summary>
 
 **Answer:** 3-6 months of expenses in a high-yield savings account. Protects from needing to sell investments at the wrong time.
 
 </details>
 
 <details>
-<summary><b>Question 5:</b> What to do when the market drops 30%?</summary>
+<summary markdown="span"><b>Question 5:</b> What to do when the market drops 30%?</summary>
 
 **Answer:** Follow your plan, rebalance (buy stocks), continue regular investments, use tax-loss harvesting. DON'T panic sell, DON'T try to guess the bottom.
 
 </details>
 
 <details>
-<summary><b>Question 6:</b> What is Herd Mentality and why is it dangerous?</summary>
+<summary markdown="span"><b>Question 6:</b> What is Herd Mentality and why is it dangerous?</summary>
 
 **Answer:** "Herd mentality" — buying when everyone buys (at the top) and selling when everyone sells (at the bottom). This is the opposite of correct behavior. Solution: stick to a pre-made plan.
 

@@ -909,4 +909,4 @@ Main steps:
 
 ---
 
-[← Back to Course](./) | [FAQ](/investing-course/en/FAQ/)
+[← Back to Course](/investing-course/en/) | [FAQ](/investing-course/en/FAQ/)

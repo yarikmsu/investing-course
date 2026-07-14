@@ -43,13 +43,6 @@ aux_links:
 
 aux_links_new_tab: true
 
-# Defaults
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
-
 # Exclude files
 exclude:
   - Gemfile

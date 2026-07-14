@@ -646,42 +646,42 @@ Why it matters:
 ## Self-Check Test
 
 <details>
-<summary><b>Question 1:</b> What percentage of active funds underperform the index over 15 years?</summary>
+<summary markdown="span"><b>Question 1:</b> What percentage of active funds underperform the index over 15 years?</summary>
 
 **Answer:** About 85-90% of active funds underperform the index over the long term.
 
 </details>
 
 <details>
-<summary><b>Question 2:</b> What is DCA (Dollar-Cost Averaging)?</summary>
+<summary markdown="span"><b>Question 2:</b> What is DCA (Dollar-Cost Averaging)?</summary>
 
 **Answer:** A strategy of regular investments of a fixed amount regardless of price. Reduces the impact of volatility and removes emotions from investing.
 
 </details>
 
 <details>
-<summary><b>Question 3:</b> If you held the S&P 500 for 20 years, what is the probability of a positive result?</summary>
+<summary markdown="span"><b>Question 3:</b> If you held the S&P 500 for 20 years, what is the probability of a positive result?</summary>
 
 **Answer:** Historically very high for US NOMINAL returns — there has been virtually no 20-year period with a negative nominal result. But it's not guaranteed: on an inflation-adjusted basis the worst 20-year windows delivered near-zero real growth, and the US is only one country (other developed markets have had 20+ year stretches of negative real returns).
 
 </details>
 
 <details>
-<summary><b>Question 4:</b> What are Dividend Aristocrats?</summary>
+<summary markdown="span"><b>Question 4:</b> What are Dividend Aristocrats?</summary>
 
 **Answer:** S&P 500 companies that have increased dividends for 25+ consecutive years. Examples: Johnson & Johnson, Coca-Cola, Procter & Gamble (60+ years).
 
 </details>
 
 <details>
-<summary><b>Question 5:</b> What is DRIP and why is it important?</summary>
+<summary markdown="span"><b>Question 5:</b> What is DRIP and why is it important?</summary>
 
 **Answer:** DRIP (Dividend Reinvestment Plan) — automatic reinvestment of dividends into additional shares. Accelerates capital growth through compound interest.
 
 </details>
 
 <details>
-<summary><b>Question 6:</b> How do Growth stocks differ from Value stocks?</summary>
+<summary markdown="span"><b>Question 6:</b> How do Growth stocks differ from Value stocks?</summary>
 
 **Answer:**
 - **Growth** — high growth rates, minimal dividends, high multiples (Tesla, NVIDIA)

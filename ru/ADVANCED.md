@@ -1073,4 +1073,4 @@ Estate Planning:
 
 ---
 
-[← Вернуться к основному курсу](./) | [Глоссарий](/investing-course/ru/GLOSSARY/)
+[← Вернуться к основному курсу](/investing-course/ru/) | [Глоссарий](/investing-course/ru/GLOSSARY/)

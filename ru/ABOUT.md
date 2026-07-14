@@ -269,4 +269,4 @@ SPIVA Scorecard (S&P Global, 2023):
 
 ---
 
-[← Вернуться к курсу](./)
+[← Вернуться к курсу](/investing-course/ru/)

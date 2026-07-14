@@ -1225,14 +1225,14 @@ Step 5: Start investing
 ## Self-Check Test
 
 <details>
-<summary><b>Question 1:</b> Which broker is best suited for non-US residents?</summary>
+<summary markdown="span"><b>Question 1:</b> Which broker is best suited for non-US residents?</summary>
 
 **Answer:** Interactive Brokers — works with most countries and provides full access to the American market.
 
 </details>
 
 <details>
-<summary><b>Question 2:</b> What's the difference between Traditional IRA and Roth IRA?</summary>
+<summary markdown="span"><b>Question 2:</b> What's the difference between Traditional IRA and Roth IRA?</summary>
 
 **Answer:**
 - **Traditional IRA** — contributions reduce taxes now, tax paid on withdrawal
@@ -1241,28 +1241,28 @@ Step 5: Start investing
 </details>
 
 <details>
-<summary><b>Question 3:</b> What is the 401(k) contribution limit for 2026?</summary>
+<summary markdown="span"><b>Question 3:</b> What is the 401(k) contribution limit for 2026?</summary>
 
 **Answer:** $24,500 (or $32,500 for ages 50+; ages 60–63 get an enhanced catch-up, for $35,750 total).
 
 </details>
 
 <details>
-<summary><b>Question 4:</b> What is Form W-8BEN and why do non-residents need it?</summary>
+<summary markdown="span"><b>Question 4:</b> What is Form W-8BEN and why do non-residents need it?</summary>
 
 **Answer:** W-8BEN is a declaration of foreign status that reduces dividend tax from 30% to 15% (for most countries with tax treaties). Valid for 3 years.
 
 </details>
 
 <details>
-<summary><b>Question 5:</b> What is the Long-Term Capital Gains tax rate for most investors?</summary>
+<summary markdown="span"><b>Question 5:</b> What is the Long-Term Capital Gains tax rate for most investors?</summary>
 
 **Answer:** 15% (for income from ~$49,000 to ~$545,000 for single filers, 2026). Long-term means holding the asset for more than 1 year.
 
 </details>
 
 <details>
-<summary><b>Question 6:</b> What is Tax-Loss Harvesting?</summary>
+<summary markdown="span"><b>Question 6:</b> What is Tax-Loss Harvesting?</summary>
 
 **Answer:** A strategy of selling losing positions to reduce taxable gains. Important: cannot buy a "substantially identical" asset 30 days before or after the sale (Wash Sale Rule).
 

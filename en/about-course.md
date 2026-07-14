@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "ℹ️ About"
+title: "About"
 nav_order: 30
 has_children: true
 permalink: /about-course/

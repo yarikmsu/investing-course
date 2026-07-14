@@ -549,9 +549,9 @@ $500/месяц при 10% годовых:
 
 Изучите полный курс:
 - [Модуль 0: Подготовка](/investing-course/ru/module-00-preparation/)
-- [Модуль 1-8: Основной курс](./)
+- [Модуль 1-8: Основной курс](/investing-course/ru/)
 - [Для россиян: RUSSIA](/investing-course/ru/RUSSIA/)
 
 ---
 
-[← Вернуться к курсу](./)
+[← Вернуться к курсу](/investing-course/ru/)

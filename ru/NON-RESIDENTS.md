@@ -938,4 +938,4 @@ SWIFT-перевод:
 
 ---
 
-[← Вернуться к курсу](./) | [Для россиян](/investing-course/ru/RUSSIA/) | [FAQ](/investing-course/ru/FAQ/)
+[← Вернуться к курсу](/investing-course/ru/) | [Для россиян](/investing-course/ru/RUSSIA/) | [FAQ](/investing-course/ru/FAQ/)

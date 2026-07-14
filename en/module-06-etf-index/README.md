@@ -500,14 +500,14 @@ Age 75: ████████████░░░░░░░░░░░░
 ## Self-Check Test
 
 <details>
-<summary><b>Question 1:</b> What is NAV and why might an ETF's price differ from it?</summary>
+<summary markdown="span"><b>Question 1:</b> What is NAV and why might an ETF's price differ from it?</summary>
 
 **Answer:** NAV (Net Asset Value) is the true value of the fund's assets. Market price can trade at a premium (above NAV) or discount (below NAV). For large ETFs, the difference is usually <0.05%.
 
 </details>
 
 <details>
-<summary><b>Question 2:</b> What ETFs make up the classic Bogleheads three-fund portfolio?</summary>
+<summary markdown="span"><b>Question 2:</b> What ETFs make up the classic Bogleheads three-fund portfolio?</summary>
 
 **Answer:**
 - VTI (US Stocks): 60%
@@ -517,28 +517,28 @@ Age 75: ████████████░░░░░░░░░░░░
 </details>
 
 <details>
-<summary><b>Question 3:</b> What rule helps determine stock allocation in a portfolio by age?</summary>
+<summary markdown="span"><b>Question 3:</b> What rule helps determine stock allocation in a portfolio by age?</summary>
 
 **Answer:** "110 minus age" = percentage in stocks. For example, at 30 years old: 110 - 30 = 80% stocks, 20% bonds.
 
 </details>
 
 <details>
-<summary><b>Question 4:</b> When should you rebalance your portfolio?</summary>
+<summary markdown="span"><b>Question 4:</b> When should you rebalance your portfolio?</summary>
 
 **Answer:** When deviation from target allocation exceeds 5%, or once a year. Also when there are significant changes in life situation.
 
 </details>
 
 <details>
-<summary><b>Question 5:</b> How does VOO differ from SPY?</summary>
+<summary markdown="span"><b>Question 5:</b> How does VOO differ from SPY?</summary>
 
 **Answer:** Both track the S&P 500, but VOO has an expense ratio of 0.03% (vs 0.09% for SPY). SPY has better liquidity for options trading. For long-term investing, VOO is more cost-effective.
 
 </details>
 
 <details>
-<summary><b>Question 6:</b> What determines 90% of portfolio returns according to research?</summary>
+<summary markdown="span"><b>Question 6:</b> What determines 90% of portfolio returns according to research?</summary>
 
 **Answer:** Asset Allocation — the main investment decision. Market timing and stock selection together account for only ~10%.
 

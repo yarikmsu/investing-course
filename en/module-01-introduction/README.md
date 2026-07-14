@@ -225,42 +225,42 @@ At 7% annually: 72 / 7 = 10.3 years
 Test how well you understood the module material.
 
 <details>
-<summary><b>Question 1:</b> What percentage of the global stock market does the US market represent?</summary>
+<summary markdown="span"><b>Question 1:</b> What percentage of the global stock market does the US market represent?</summary>
 
 **Answer:** More than 50% of global stock market capitalization.
 
 </details>
 
 <details>
-<summary><b>Question 2:</b> What is diversification?</summary>
+<summary markdown="span"><b>Question 2:</b> What is diversification?</summary>
 
 **Answer:** Spreading investments across different assets to reduce risk. "Don't put all your eggs in one basket."
 
 </details>
 
 <details>
-<summary><b>Question 3:</b> What is the historical average annual return of the S&P 500?</summary>
+<summary markdown="span"><b>Question 3:</b> What is the historical average annual return of the S&P 500?</summary>
 
 **Answer:** Roughly 10% per year **nominal** (with dividends reinvested, before inflation). The **real** return after inflation has been about 6–7% per year. It's a long-run average with wide year-to-year swings, not a guarantee.
 
 </details>
 
 <details>
-<summary><b>Question 4:</b> A company with $15 billion market cap belongs to which category?</summary>
+<summary markdown="span"><b>Question 4:</b> A company with $15 billion market cap belongs to which category?</summary>
 
 **Answer:** Large Cap (large capitalization, over $10 billion).
 
 </details>
 
 <details>
-<summary><b>Question 5:</b> Using the Rule of 72, how long will it take to double your capital at 8% annual returns?</summary>
+<summary markdown="span"><b>Question 5:</b> Using the Rule of 72, how long will it take to double your capital at 8% annual returns?</summary>
 
 **Answer:** 72 / 8 = 9 years.
 
 </details>
 
 <details>
-<summary><b>Question 6:</b> What does the compound interest formula A = P × (1 + r)^n mean?</summary>
+<summary markdown="span"><b>Question 6:</b> What does the compound interest formula A = P × (1 + r)^n mean?</summary>
 
 **Answer:**
 - A — Final amount

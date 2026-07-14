@@ -310,4 +310,4 @@ Long-Term Capital Gains (2026):
 
 ---
 
-[← О курсе](/investing-course/ru/ABOUT/) | [Вернуться к курсу](./)
+[← О курсе](/investing-course/ru/ABOUT/) | [Вернуться к курсу](/investing-course/ru/)

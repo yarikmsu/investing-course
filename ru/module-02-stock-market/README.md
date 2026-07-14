@@ -323,28 +323,28 @@ AAPL (Apple Inc.)
 ## Тест для самопроверки
 
 <details>
-<summary><b>Вопрос 1:</b> На какой бирже торгуются Apple, Microsoft и Tesla?</summary>
+<summary markdown="span"><b>Вопрос 1:</b> На какой бирже торгуются Apple, Microsoft и Tesla?</summary>
 
 **Ответ:** NASDAQ — первая электронная биржа, фокусирующаяся на технологических компаниях.
 
 </details>
 
 <details>
-<summary><b>Вопрос 2:</b> Во сколько открывается американский рынок по московскому времени?</summary>
+<summary markdown="span"><b>Вопрос 2:</b> Во сколько открывается американский рынок по московскому времени?</summary>
 
 **Ответ:** 16:30 МСК (основная сессия начинается в 9:30 по восточному времени США).
 
 </details>
 
 <details>
-<summary><b>Вопрос 3:</b> Сколько компаний входит в индекс S&P 500 и какую долю рынка он охватывает?</summary>
+<summary markdown="span"><b>Вопрос 3:</b> Сколько компаний входит в индекс S&P 500 и какую долю рынка он охватывает?</summary>
 
 **Ответ:** 500 компаний, охватывающих около 80% капитализации всего рынка США.
 
 </details>
 
 <details>
-<summary><b>Вопрос 4:</b> Что такое Market Order и Limit Order?</summary>
+<summary markdown="span"><b>Вопрос 4:</b> Что такое Market Order и Limit Order?</summary>
 
 **Ответ:**
 - **Market Order** — покупка/продажа по текущей рыночной цене (мгновенное исполнение)
@@ -353,14 +353,14 @@ AAPL (Apple Inc.)
 </details>
 
 <details>
-<summary><b>Вопрос 5:</b> Что означает тикер AAPL?</summary>
+<summary markdown="span"><b>Вопрос 5:</b> Что означает тикер AAPL?</summary>
 
 **Ответ:** Apple Inc. — уникальный буквенный код компании на бирже.
 
 </details>
 
 <details>
-<summary><b>Вопрос 6:</b> Чем отличается индекс Dow Jones от S&P 500?</summary>
+<summary markdown="span"><b>Вопрос 6:</b> Чем отличается индекс Dow Jones от S&P 500?</summary>
 
 **Ответ:**
 - Dow Jones: 30 компаний, взвешен по цене акции

@@ -1052,4 +1052,4 @@ FATCA устроена ОДНОСТОРОННЕ (нереципрокно):
 
 ---
 
-[← Вернуться к курсу](./) | [FAQ](/investing-course/ru/FAQ/)
+[← Вернуться к курсу](/investing-course/ru/) | [FAQ](/investing-course/ru/FAQ/)

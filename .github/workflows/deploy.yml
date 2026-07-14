@@ -64,6 +64,11 @@ jobs:
       - name: Copy landing page
         run: cp index.html _site/
 
+      # Пост-сборочный гейт: ловит регрессии рендеринга, невидимые для
+      # markdown-проверки (сломанные квизы <details>, невалидный search-data.json)
+      - name: Verify built HTML
+        run: bash scripts/check-built-html.sh _site
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 

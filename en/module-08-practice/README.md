@@ -832,7 +832,7 @@ Useful resources:
 ## Final Course Test
 
 <details>
-<summary><b>Question 1:</b> What three conditions should be met before you start investing?</summary>
+<summary markdown="span"><b>Question 1:</b> What three conditions should be met before you start investing?</summary>
 
 **Answer:**
 1. High-interest debts paid off (credit cards)
@@ -842,14 +842,14 @@ Useful resources:
 </details>
 
 <details>
-<summary><b>Question 2:</b> How much do you need to invest monthly to accumulate $1,000,000 in 30 years at 7% annual return?</summary>
+<summary markdown="span"><b>Question 2:</b> How much do you need to invest monthly to accumulate $1,000,000 in 30 years at 7% annual return?</summary>
 
 **Answer:** Approximately $820/month. Formula: $1,000,000 ÷ 1219.97 (multiplier for 30 years at 7%) = ~$820.
 
 </details>
 
 <details>
-<summary><b>Question 3:</b> What simple portfolio is suitable for a beginner 30-year-old investor?</summary>
+<summary markdown="span"><b>Question 3:</b> What simple portfolio is suitable for a beginner 30-year-old investor?</summary>
 
 **Answer:**
 - VTI (US Stocks): 70-80%
@@ -861,7 +861,7 @@ Or simply: 90% VTI + 10% BND.
 </details>
 
 <details>
-<summary><b>Question 4:</b> Name 3 of the most common beginner investor mistakes.</summary>
+<summary markdown="span"><b>Question 4:</b> Name 3 of the most common beginner investor mistakes.</summary>
 
 **Answer:** (any 3 from the list)
 1. Investing without an emergency fund
@@ -876,14 +876,14 @@ Or simply: 90% VTI + 10% BND.
 </details>
 
 <details>
-<summary><b>Question 5:</b> What is the main principle of the Bogleheads philosophy?</summary>
+<summary markdown="span"><b>Question 5:</b> What is the main principle of the Bogleheads philosophy?</summary>
 
 **Answer:** Passive index investing with low fees. "Buy the market and hold." Time in the market is more important than timing the market. 2-4 ETFs are enough for a complete portfolio.
 
 </details>
 
 <details>
-<summary><b>Question 6:</b> What should you do immediately after your first ETF purchase?</summary>
+<summary markdown="span"><b>Question 6:</b> What should you do immediately after your first ETF purchase?</summary>
 
 **Answer:**
 1. Check the position in your portfolio
@@ -894,14 +894,14 @@ Or simply: 90% VTI + 10% BND.
 </details>
 
 <details>
-<summary><b>Question 7:</b> What size emergency fund is recommended before starting to invest?</summary>
+<summary markdown="span"><b>Question 7:</b> What size emergency fund is recommended before starting to invest?</summary>
 
 **Answer:** 3-6 months of expenses in a savings account. For self-employed or unstable income — up to 12 months.
 
 </details>
 
 <details>
-<summary><b>Question 8:</b> What's the difference between NYSE and NASDAQ?</summary>
+<summary markdown="span"><b>Question 8:</b> What's the difference between NYSE and NASDAQ?</summary>
 
 **Answer:**
 - NYSE — oldest exchange (1792), physical trading floor, largest traditional companies
@@ -911,14 +911,14 @@ Or simply: 90% VTI + 10% BND.
 </details>
 
 <details>
-<summary><b>Question 9:</b> What is the S&P 500?</summary>
+<summary markdown="span"><b>Question 9:</b> What is the S&P 500?</summary>
 
 **Answer:** An index of the 500 largest US public companies by market capitalization. Covers ~80% of the US market. Main benchmark for evaluating investment results.
 
 </details>
 
 <details>
-<summary><b>Question 10:</b> What's the difference between a stock and a bond?</summary>
+<summary markdown="span"><b>Question 10:</b> What's the difference between a stock and a bond?</summary>
 
 **Answer:**
 - Stock = ownership share in a company. High risk, high potential return.
@@ -927,21 +927,21 @@ Or simply: 90% VTI + 10% BND.
 </details>
 
 <details>
-<summary><b>Question 11:</b> What is an ETF and why is it popular?</summary>
+<summary markdown="span"><b>Question 11:</b> What is an ETF and why is it popular?</summary>
 
 **Answer:** Exchange-Traded Fund — a fund that trades on an exchange like a stock. Popular because of: low fees (from 0.03%), instant diversification, liquidity, tax efficiency.
 
 </details>
 
 <details>
-<summary><b>Question 12:</b> What does Expense Ratio 0.03% mean?</summary>
+<summary markdown="span"><b>Question 12:</b> What does Expense Ratio 0.03% mean?</summary>
 
 **Answer:** Annual fund fee. 0.03% = $3 per year for every $10,000 invested. Automatically deducted from the fund's value.
 
 </details>
 
 <details>
-<summary><b>Question 13:</b> What's the difference between Traditional IRA and Roth IRA?</summary>
+<summary markdown="span"><b>Question 13:</b> What's the difference between Traditional IRA and Roth IRA?</summary>
 
 **Answer:**
 - Traditional IRA: contributions reduce taxes now, you pay tax on withdrawal
@@ -951,14 +951,14 @@ Or simply: 90% VTI + 10% BND.
 </details>
 
 <details>
-<summary><b>Question 14:</b> What is the IRA contribution limit for 2026?</summary>
+<summary markdown="span"><b>Question 14:</b> What is the IRA contribution limit for 2026?</summary>
 
 **Answer:** $7,500 per year ($8,600 for age 50+). The limit is combined for Traditional and Roth IRA.
 
 </details>
 
 <details>
-<summary><b>Question 15:</b> What's the advantage of 401(k) over IRA?</summary>
+<summary markdown="span"><b>Question 15:</b> What's the advantage of 401(k) over IRA?</summary>
 
 **Answer:**
 - Higher limit: $24,500 per year (vs $7,500 for IRA)
@@ -968,28 +968,28 @@ Or simply: 90% VTI + 10% BND.
 </details>
 
 <details>
-<summary><b>Question 16:</b> What is the tax rate on qualified dividends?</summary>
+<summary markdown="span"><b>Question 16:</b> What is the tax rate on qualified dividends?</summary>
 
 **Answer:** 0%, 15%, or 20% depending on income. For most people — 15%. This is lower than the ordinary income tax rate.
 
 </details>
 
 <details>
-<summary><b>Question 17:</b> What is Dollar-Cost Averaging (DCA)?</summary>
+<summary markdown="span"><b>Question 17:</b> What is Dollar-Cost Averaging (DCA)?</summary>
 
 **Answer:** Regular investing of a fixed amount regardless of market price. Reduces the risk of buying at the peak. Example: $500 every month.
 
 </details>
 
 <details>
-<summary><b>Question 18:</b> Why is passive investing usually better than active?</summary>
+<summary markdown="span"><b>Question 18:</b> Why is passive investing usually better than active?</summary>
 
 **Answer:** ~90% of active funds underperform the index over 15+ years. Reasons: high fees, trading costs, taxes, human errors.
 
 </details>
 
 <details>
-<summary><b>Question 19:</b> What's the difference between VTI and VOO?</summary>
+<summary markdown="span"><b>Question 19:</b> What's the difference between VTI and VOO?</summary>
 
 **Answer:**
 - VTI — entire US market (~3,500 companies), including small/mid-cap
@@ -999,7 +999,7 @@ Or simply: 90% VTI + 10% BND.
 </details>
 
 <details>
-<summary><b>Question 20:</b> When should you rebalance your portfolio?</summary>
+<summary markdown="span"><b>Question 20:</b> When should you rebalance your portfolio?</summary>
 
 **Answer:**
 1. When deviation exceeds 5% from target allocation
@@ -1009,70 +1009,70 @@ Or simply: 90% VTI + 10% BND.
 </details>
 
 <details>
-<summary><b>Question 21:</b> What is sequence of returns risk?</summary>
+<summary markdown="span"><b>Question 21:</b> What is sequence of returns risk?</summary>
 
 **Answer:** The risk of getting low returns in the first years after retirement. A market drop during active withdrawals can deplete the portfolio faster.
 
 </details>
 
 <details>
-<summary><b>Question 22:</b> What is FOMO and why is it dangerous?</summary>
+<summary markdown="span"><b>Question 22:</b> What is FOMO and why is it dangerous?</summary>
 
 **Answer:** Fear Of Missing Out — fear of missing profits. Dangerous because it makes you buy at the peak after a rise, ignoring risks.
 
 </details>
 
 <details>
-<summary><b>Question 23:</b> How does the Rule of 72 help investors?</summary>
+<summary markdown="span"><b>Question 23:</b> How does the Rule of 72 help investors?</summary>
 
 **Answer:** 72 ÷ return = years to double capital. Example: 72 ÷ 7% = ~10 years. Helps quickly estimate investment growth.
 
 </details>
 
 <details>
-<summary><b>Question 24:</b> What is W-8BEN form and who needs it?</summary>
+<summary markdown="span"><b>Question 24:</b> What is W-8BEN form and who needs it?</summary>
 
 **Answer:** A form for non-US residents to reduce dividend tax (usually from 30% to 10-15% under tax treaty). Valid for 3 years.
 
 </details>
 
 <details>
-<summary><b>Question 25:</b> What is DRIP?</summary>
+<summary markdown="span"><b>Question 25:</b> What is DRIP?</summary>
 
 **Answer:** Dividend Reinvestment Plan — automatic reinvestment of dividends into purchasing additional shares. Increases the compound interest effect.
 
 </details>
 
 <details>
-<summary><b>Question 26:</b> What is the maximum loss you can deduct from taxes annually?</summary>
+<summary markdown="span"><b>Question 26:</b> What is the maximum loss you can deduct from taxes annually?</summary>
 
 **Answer:** $3,000 net investment losses can be deducted against ordinary income. The remainder carries forward to future years.
 
 </details>
 
 <details>
-<summary><b>Question 27:</b> What is the wash sale rule?</summary>
+<summary markdown="span"><b>Question 27:</b> What is the wash sale rule?</summary>
 
 **Answer:** A rule prohibiting loss deduction if you bought the same or substantially identical asset within 30 days before or after the sale.
 
 </details>
 
 <details>
-<summary><b>Question 28:</b> How many ETFs are enough for a diversified portfolio?</summary>
+<summary markdown="span"><b>Question 28:</b> How many ETFs are enough for a diversified portfolio?</summary>
 
 **Answer:** 2-4 ETFs. For example: VTI (US stocks) + VXUS (international) + BND (bonds). Or simply VT (whole world).
 
 </details>
 
 <details>
-<summary><b>Question 29:</b> What is the 4% rule?</summary>
+<summary markdown="span"><b>Question 29:</b> What is the 4% rule?</summary>
 
 **Answer:** Safe withdrawal rule: you can withdraw 4% of your portfolio annually with high probability of not depleting funds over 30 years. $1M × 4% = $40,000/year.
 
 </details>
 
 <details>
-<summary><b>Question 30:</b> Why is "time in the market" more important than "timing the market"?</summary>
+<summary markdown="span"><b>Question 30:</b> Why is "time in the market" more important than "timing the market"?</summary>
 
 **Answer:** Missing even a few of the market's best days drastically reduces returns. It's impossible to predict those days. Staying invested consistently is statistically more profitable.
 

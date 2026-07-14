@@ -18,12 +18,20 @@
      BL-402); после его устранения проверку можно сделать строгой
      флагом --strict-headings.
 """
+import posixpath
 import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 LANGS = ("ru", "en")
+# Локальные артефакты сборки — не контент
+SKIP_DIRS = ("vendor/", ".bundle/", "node_modules/", "_site/", ".jekyll-cache/")
+
+
+def content_md(lang: str):
+    return [p for p in sorted((ROOT / lang).rglob("*.md"))
+            if not any(s in p.relative_to(ROOT / lang).as_posix() for s in SKIP_DIRS)]
 # Файлы, существующие только в одном языке (политика CLAUDE.md)
 FILE_WHITELIST = {"RUSSIA.md"}  # только в ru/
 BASE = "/investing-course"
@@ -49,7 +57,7 @@ def collect(lang: str):
     """permalink-набор и {файл: (permalink, текст)} для языка."""
     pages = {}
     permalinks = set()
-    for p in sorted((ROOT / lang).rglob("*.md")):
+    for p in content_md(lang):
         text = p.read_text(encoding="utf-8")
         m = PERMALINK_RE.search(front_matter(text))
         permalink = m.group(1) if m else None
@@ -83,31 +91,35 @@ def check_links(errors):
                     if tlang not in LANGS:
                         errors.append(f"{loc}: ссылка `{target}` — неизвестный раздел `{tlang}`")
                         continue
-                    norm = "/" + page if page.startswith(tuple()) else "/" + page
+                    norm = "/" + page
                     norm = norm if norm.endswith("/") or norm == "/" else norm + "/"
                     if norm == "//":
                         norm = "/"
                     if norm not in perma[tlang]:
                         errors.append(f"{loc}: ссылка `{target}` не соответствует ни одному permalink в {tlang}/")
+                    # ловушка самоссылки: футер «вернуться к курсу», ведущий на саму страницу
+                    elif tlang == lang and permalink and norm == _norm_permalink(permalink):
+                        errors.append(f"{loc}: ссылка `{target}` ведёт на саму страницу (ловушка самоссылки); ведите на /investing-course/{lang}/")
                 elif target.startswith("./") or not target.startswith("/"):
                     # относительная ссылка на каталог — резолвим от permalink страницы
                     base_path = permalink or "/"
-                    parts = [seg for seg in base_path.strip("/").split("/") if seg]
-                    for seg in target.lstrip("./").rstrip("/").split("/"):
-                        if seg == "..":
-                            parts = parts[:-1]
-                        elif seg and seg != ".":
-                            parts.append(seg)
-                    norm = "/" + "/".join(parts) + "/" if parts else "/"
+                    norm = posixpath.normpath(posixpath.join(base_path, target))
+                    norm = norm + "/" if norm != "/" else "/"
                     if norm not in perma[lang]:
                         errors.append(f"{loc}: относительная ссылка `{target}` (→ {norm}) не находит permalink в {lang}/")
+                    elif permalink and norm == _norm_permalink(permalink):
+                        errors.append(f"{loc}: относительная ссылка `{target}` ведёт на саму страницу (ловушка самоссылки); ведите на /investing-course/{lang}/")
                 # прочие абсолютные пути (/assets/ и т.п.) не проверяем
+
+
+def _norm_permalink(permalink):
+    return "/" if permalink == "/" else permalink.rstrip("/") + "/"
 
 
 def check_file_parity(errors):
     sets = {}
     for lang in LANGS:
-        sets[lang] = {p.relative_to(ROOT / lang).as_posix() for p in (ROOT / lang).rglob("*.md")}
+        sets[lang] = {p.relative_to(ROOT / lang).as_posix() for p in content_md(lang)}
     only_ru = sets["ru"] - sets["en"] - FILE_WHITELIST
     only_en = sets["en"] - sets["ru"]
     for f in sorted(only_ru):

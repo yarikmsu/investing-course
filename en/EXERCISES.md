@@ -52,7 +52,7 @@ If you can't do 20% right away:
 ```
 
 <details>
-<summary><b>Example calculation</b></summary>
+<summary markdown="span"><b>Example calculation</b></summary>
 
 | Parameter | Example |
 |-----------|---------|
@@ -110,7 +110,7 @@ Answer the questions:
 | **TOTAL** | | **100%** | **$10,000** |
 
 <details>
-<summary><b>Sample portfolios</b></summary>
+<summary markdown="span"><b>Sample portfolios</b></summary>
 
 **Aggressive (25-35 years):**
 - VTI: 70% = $7,000
@@ -152,7 +152,7 @@ All your friends are selling stocks.
 Select an option and read the explanation:
 
 <details>
-<summary><b>A) Sell everything before I lose more</b></summary>
+<summary markdown="span"><b>A) Sell everything before I lose more</b></summary>
 
 ❌ **Worst choice.**
 
@@ -163,7 +163,7 @@ Example: Those who sold in March 2020 during the 34% drop missed 100%+ growth ov
 </details>
 
 <details>
-<summary><b>B) Do nothing, wait it out</b></summary>
+<summary markdown="span"><b>B) Do nothing, wait it out</b></summary>
 
 ✅ **Good choice.**
 
@@ -174,7 +174,7 @@ Average recovery time: 1-3 years.
 </details>
 
 <details>
-<summary><b>C) Buy more at low prices</b></summary>
+<summary markdown="span"><b>C) Buy more at low prices</b></summary>
 
 ✅ **Excellent choice (if you have spare cash).**
 
@@ -185,7 +185,7 @@ Buying during a drop = buying at a discount. Rebalancing requires buying depreci
 </details>
 
 <details>
-<summary><b>D) Call my financial advisor in panic</b></summary>
+<summary markdown="span"><b>D) Call my financial advisor in panic</b></summary>
 
 ⚠️ **Understandable reaction, but...**
 
@@ -222,7 +222,7 @@ Both invest until 65 at 8% annually.
 Who will have more at retirement?
 
 <details>
-<summary><b>Show solution</b></summary>
+<summary markdown="span"><b>Show solution</b></summary>
 
 **Maria (40 years of investing):**
 - Invested: $300 × 12 × 40 = $144,000
@@ -268,7 +268,7 @@ Fill in the table:
 | 12% | 72 ÷ 12 = ___ years |
 
 <details>
-<summary><b>Answers</b></summary>
+<summary markdown="span"><b>Answers</b></summary>
 
 | Return | Years to Double |
 |--------|-----------------|
@@ -308,7 +308,7 @@ Result after 30 years = $100,000 × (1.0600)^30 = $_______
 **Difference:** $_______
 
 <details>
-<summary><b>Show solution</b></summary>
+<summary markdown="span"><b>Show solution</b></summary>
 
 **Cheap ETF (0.03%):**
 $100,000 × (1.0697)^30 = **$753,000**
@@ -376,7 +376,7 @@ Or use an online calculator: [investor.gov/calculator](https://www.investor.gov/
 ### Sample Calculations
 
 <details>
-<summary><b>Example 1: $1,000,000 Retirement</b></summary>
+<summary markdown="span"><b>Example 1: $1,000,000 Retirement</b></summary>
 
 | Parameter | Value |
 |-----------|-------|
@@ -398,7 +398,7 @@ Or use an online calculator: [investor.gov/calculator](https://www.investor.gov/
 </details>
 
 <details>
-<summary><b>Example 2: $100,000 Home Down Payment</b></summary>
+<summary markdown="span"><b>Example 2: $100,000 Home Down Payment</b></summary>
 
 | Parameter | Value |
 |-----------|-------|
@@ -415,7 +415,7 @@ Or use an online calculator: [investor.gov/calculator](https://www.investor.gov/
 </details>
 
 <details>
-<summary><b>Example 3: $200,000 Child's Education</b></summary>
+<summary markdown="span"><b>Example 3: $200,000 Child's Education</b></summary>
 
 | Parameter | Value |
 |-----------|-------|

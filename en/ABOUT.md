@@ -269,4 +269,4 @@ If you're having fun — you're probably doing something wrong."
 
 ---
 
-[← Back to course](./)
+[← Back to course](/investing-course/en/)
