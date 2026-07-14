@@ -434,4 +434,6 @@ permalink: /TOOLS/
 
 ---
 
+> **Последнее обновление:** июль 2026
+
 [← Шаблоны](/investing-course/ru/TEMPLATES/) | [Вернуться к курсу](/investing-course/ru/)
