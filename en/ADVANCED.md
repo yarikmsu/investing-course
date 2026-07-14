@@ -515,11 +515,19 @@ When to delay until 70:
 ├── Want to maximize survivor benefits
 └── Break-even: ~80-82 years old
 
-Spousal Benefits:
-├── Up to 50% of spouse's benefit
-├── Only if you didn't work / low income
-├── Strategy: higher earner delays to 70
-└── Lower earner claims at 62
+Spousal Benefits (while the spouse is alive):
+├── Up to 50% of the spouse's PIA (max, at their full retirement age)
+├── ⚠️ Does NOT grow by delaying to 70: delayed-retirement credits
+│   raise the spouse's OWN benefit and the future survivor benefit,
+│   but NOT the spousal benefit itself (capped at 50% of PIA)
+└── Works as a top-up: if your own benefit is below 50% of the
+    spouse's PIA, you are topped up to that level
+
+Survivor Benefits (for the surviving spouse — this is where delay matters):
+├── Up to 100% of the deceased spouse's benefit
+├── Strategy: the higher earner delays to 70 → maximizes the
+│   survivor benefit for the surviving spouse
+└── The lower earner can claim earlier (at 62)
 ```
 
 ---
@@ -568,7 +576,7 @@ Low Volatility:
 Combination of two factors:
 ├── Small-cap (size)
 ├── Value (valuation)
-└── Historically: +4-5% vs S&P 500
+└── Historically: ~3 pp vs the S&P 500
 
 Data (1927-2023):
 ├── Large Growth: 9.5% annually

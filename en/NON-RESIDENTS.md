@@ -27,6 +27,8 @@ This section is for you if:
 Examples:
 ├── European residents (Germany, France, UK)
 ├── Canadian residents
+├── Residents of CIS countries (Kazakhstan, Ukraine, Georgia)
+├── Residents of Israel
 ├── Residents of Asia (Singapore, Hong Kong, Japan)
 ├── Residents of Latin America
 ├── Residents of Middle East
@@ -55,7 +57,8 @@ Examples:
 │   └── Requires SSN or ITIN
 │
 └── US brokers for US residents
-    └── Fidelity, Vanguard, Schwab — only for US residents
+    └── Fidelity, Vanguard — only for US residents; Schwab — a separate
+        international program for a limited list of countries
 ```
 
 ### What IS Available to You
@@ -277,12 +280,13 @@ With W-8BEN (most countries):
 | **Europe** | | |
 | Austria | 15% | Standard |
 | Belgium | 15% | Standard |
+| Cyprus | 15% | Standard |
 | Czech Republic | 15% | Standard |
 | Denmark | 15% | Standard |
 | Finland | 15% | Standard |
 | France | 15% | Standard |
 | Germany | 15% | Standard |
-| Greece | 30% | No treaty |
+| Greece | 30% | 1950 treaty — no dividend relief |
 | Ireland | 15% | Standard |
 | Italy | 15% | Standard |
 | Luxembourg | 15% | Standard |
@@ -306,6 +310,18 @@ With W-8BEN (most countries):
 | South Korea | 15% | Standard |
 | Taiwan | 30% | No treaty |
 | Thailand | 15% | Standard |
+| **CIS** | | |
+| Armenia | **30%** | USSR 1973 treaty — no portfolio-dividend relief* |
+| Azerbaijan | **30%** | USSR 1973 treaty — no portfolio-dividend relief* |
+| Belarus | **30%** | USSR 1973 treaty — no portfolio-dividend relief* (also check sanctions) |
+| Georgia | **30%** | USSR 1973 treaty — no portfolio-dividend relief* |
+| Kazakhstan | 15% | Standard (own 1993 treaty) |
+| Kyrgyzstan | **30%** | USSR 1973 treaty — no portfolio-dividend relief* |
+| Moldova | **30%** | USSR 1973 treaty — no portfolio-dividend relief* |
+| Tajikistan | **30%** | USSR 1973 treaty — no portfolio-dividend relief* |
+| Turkmenistan | **30%** | USSR 1973 treaty — no portfolio-dividend relief* |
+| Ukraine | 15% | Standard (own 1994 treaty) |
+| Uzbekistan | **30%** | USSR 1973 treaty — no portfolio-dividend relief* |
 | **Americas** | | |
 | Argentina | 30% | No treaty |
 | Brazil | 30% | No treaty |
@@ -319,6 +335,12 @@ With W-8BEN (most countries):
 | South Africa | 15% | Standard |
 | Turkey | 20% | Higher |
 | UAE | 30% | No treaty |
+
+\* CIS countries without their own US treaty are covered by the 1973 US–USSR
+treaty, which contains no portfolio-dividend relief: in the IRS table (Tax
+Treaty Table 1, "Commonwealth of Independent States" row) the rate is 30% — the
+same as having no treaty. You still file the W-8BEN (to certify non-resident
+status), but for these countries it does not reduce the dividend rate.
 
 > ℹ️ These are the US treaty dividend-article rates; verify against the current
 > text at irs.gov/treaties (Tax Treaty Tables, Table 1), as of May 2026. A reduced
@@ -361,6 +383,7 @@ Line 4: Mailing address (if different)
 Line 5: US tax ID number (usually not required)
 Line 6: Tax ID number from your country
 Line 7: Account number at broker
+Line 8: Date of birth (required by US financial institutions)
 Line 9: Country of tax residence — this claims the standard treaty rate
 Line 10: Leave blank for the standard dividend rate; use only for a special,
          lower-than-standard rate that requires extra conditions
@@ -627,24 +650,27 @@ UCITS = Undertakings for Collective Investment in Transferable Securities
 ```
 Tax efficiency:
 
-US ETF (e.g., VOO):
+US ETF (e.g., VOO), distributing dividends:
 ├── Dividend: $100
-├── US tax: 15% → $15 withheld
-├── You receive: $85
-└── Plus tax in your country (e.g., 13%) → minus another $11
-    Total: $74
+├── US withholding at source: 15% → $15 withheld
+├── Your country taxes the dividend (e.g., 13% = $13),
+│   BUT the foreign tax credit fully offsets it
+│   (13% ≤ the 15% withheld) → nothing more to pay at home
+├── Total tax: 15% → you keep $85
+└── ⚠️ The residence tax is assessed EVERY year, right away
 
-Irish ETF (e.g., CSPX):
+Irish accumulating ETF (e.g., CSPX):
 ├── Dividend: $100
 ├── Tax inside fund: 15% → $15 (Ireland-US)
 ├── Reinvested: $85 (no payment to you)
-├── You don't receive dividend → no tax in your country
-└── Tax only when selling years later
-    Total: $85 working for you
+├── You receive no dividend → the residence dividend tax does
+│   NOT arise now — it is DEFERRED until you sell
+└── Total tax now: also 15%, but the $85 is reinvested
 
-Effect over 20 years:
-├── US ETF: lose 26% of each dividend immediately
-└── Irish ETF: lose 15%, rest grows tax-deferred
+The real advantage of the Irish ETF (NOT the rate — both are 15%):
+├── DEFERRAL of the residence tax: you pay the local dividend tax
+│   not annually but only on sale — the money compounds longer
+└── Protection from US estate tax (US-situs) — see the section below
 ```
 
 ### Accumulating vs Distributing
@@ -736,9 +762,12 @@ Choose Irish ETF (CSPX, VWRA) if:
 └── Investing for 10+ years (deferred tax)
 
 Approximate effect over 20 years ($100,000, 2% dividends):
-├── US ETF: lost to taxes ~$8,000-12,000
-└── Irish ETF: lost ~$6,000 (internal tax)
-    Difference: $2,000-6,000 in favor of Irish ETF
+├── Both lose ~15% US withholding (≈$6,000 before growth)
+├── US ETF (distributing): residence dividend tax assessed ANNUALLY
+│   (on top of the credit, if the local rate exceeds 15%)
+└── Irish ETF (accumulating): residence tax DEFERRED until sale,
+    dividends reinvested with no annual tax drag —
+    plus US estate-tax protection
 ```
 
 > **See the "US Estate Tax for Non-Residents" section above.**
