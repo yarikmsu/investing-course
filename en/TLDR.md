@@ -2,107 +2,165 @@
 layout: default
 title: "TL;DR"
 nav_order: 2
-description: "Course summary in 5 minutes"
+description: "The whole course in 5 minutes"
 permalink: /TLDR/
 ---
 
-# TL;DR — Course in 5 Minutes
+# TL;DR: Investing in the US in 5 Minutes
 
 > ⚠️ **This is educational material, not financial advice.** Consult a licensed financial professional before making investment decisions.
 
-> ⚠️ **This is educational material, not financial advice.**
+> A one-page summary of the whole course. For those who want the essence without the details.
 
 ---
 
-## The Core Idea
-
-**Buy index funds. Hold forever. Don't panic.**
-
----
-
-## What to Buy
-
-| ETF | What it is | Expense Ratio |
-|-----|------------|---------------|
-| **VTI** | Entire US market | 0.03% |
-| **VOO** | S&P 500 | 0.03% |
-
-**Pick one. That's it.**
-
----
-
-## Where to Buy
-
-### US Residents
-- **Fidelity** or **Schwab**
-- $0 commissions
-- Open Roth IRA if eligible
-
-### Non-US Residents
-- **Interactive Brokers**
-- Complete W-8BEN form
-
----
-
-## How Much to Invest
+## 🎯 The Main Idea
 
 ```
-Emergency fund first: 3-6 months expenses
-Then invest: Whatever you can afford monthly
-Start small: $100-500/month is fine
+1. Build an emergency fund (3-6 months of expenses)
+2. Pay off credit-card debt
+3. Open a brokerage account (Fidelity, Schwab, or IBKR)
+4. Buy VTI or VOO
+5. Set up automatic purchases
+6. Forget about it for 10-20 years
 ```
 
 ---
 
-## The Strategy
+## 💰 How Much to Invest?
 
-1. **Open account** (Day 1-3)
-2. **Set up automatic monthly investment** (Day 4)
-3. **Buy VTI or VOO** (Day 5)
-4. **Enable DRIP** (dividend reinvestment)
-5. **Forget about it** (Years 1-30)
-6. **Retire wealthy** (Year 30+)
-
----
-
-## What NOT to Do
-
-❌ Pick individual stocks
-❌ Time the market
-❌ Panic sell during crashes
-❌ Check portfolio daily
-❌ Chase hot trends
+| Situation | Recommendation |
+|-----------|----------------|
+| Minimum to start | $100-500 |
+| Monthly | 10-20% of income |
+| Ideal | As much as you can without strain |
 
 ---
 
-## Key Numbers
+## 📊 What to Invest In?
 
-| Metric | Value |
-|--------|-------|
-| Historical S&P 500 return | ~10%/year |
-| Good expense ratio | < 0.10% |
-| Time horizon | 10+ years |
-| Emergency fund | 3-6 months |
-
----
-
-## The Math
-
+### For beginners (one ETF):
 ```
-$500/month at 10% for 30 years = $1,130,000
-
-That's the power of compound interest.
+VTI — the entire US market (~3,500 companies)
+Expense Ratio: 0.03% (almost free)
 ```
 
-> ⚠️ Not a guarantee. 10% is the long-run *nominal* historical return;
-> the real (after-inflation) return is lower (~6–7%), and forward-looking
-> estimates for the next 10 years are around 4–6% real. Individual years
-> can be -20% or +30%.
+### A simple portfolio (2-3 ETFs):
+```
+Young (25-40):            Middle (40-55):          Conservative (55+):
+├── VTI: 80%             ├── VTI: 60%             ├── VTI: 40%
+└── BND: 20%             ├── VXUS: 20%            ├── VXUS: 20%
+                         └── BND: 20%             └── BND: 40%
+```
+
+### What these are:
+```
+VTI  = All US stocks
+VXUS = International stocks
+BND  = US bonds
+```
 
 ---
 
-## Ready?
+## 🏦 Where to Open an Account?
 
-→ [Quick Start Guide](/investing-course/en/QUICKSTART/)
+| You are | Broker | Commission |
+|---------|--------|------------|
+| US resident | Fidelity or Schwab | $0 |
+| Non-resident | Interactive Brokers | $0-low |
 
-→ [Full Course: Module 0](/investing-course/en/module-00-preparation/)
+---
+
+## 📋 5 Rules for Investors
+
+```
+1. DON'T try to time the market
+   → Nobody knows where it goes tomorrow
+
+2. DON'T panic during downturns
+   → Drops are temporary, growth is the long-term trend
+
+3. Diversify
+   → A whole-market ETF beats individual stocks
+
+4. Invest regularly
+   → The same amount every month (DCA)
+
+5. Think 10+ years ahead
+   → Short-term swings don't matter
+```
+
+---
+
+## 📈 What to Expect?
+
+```
+Average historical S&P 500 return: ~10% per year
+
+At $500/month and 10% per year:
+├── After 10 years: ~$100,000
+├── After 20 years: ~$380,000
+├── After 30 years: ~$1.13M
+
+⚠️ This is not a guarantee! The market is volatile.
+   Individual years can be -20% or +30%.
+   10% is a nominal return; the real (after-inflation)
+   return is lower (~6-7%), and forecasts for the next
+   10 years are around 4-6% real.
+```
+
+---
+
+## ⚠️ Do NOT Invest If:
+
+```
+❌ You have credit-card debt
+❌ You have no emergency fund
+❌ You need the money within 1-3 years
+❌ These are your last savings
+❌ You're not ready for temporary drops
+```
+
+---
+
+## 🚀 Quick Start (7 days)
+
+```
+Day 1:   Choose a broker
+Day 2-3: Open an account
+Day 4:   Transfer $500
+Day 5:   Buy VTI
+Day 6-7: Set up automation
+
+Done! You're an investor. 🎉
+```
+
+---
+
+## 📚 Want More?
+
+| Topic | Where to look |
+|-------|---------------|
+| Preparing to invest | [Module 0](/investing-course/en/module-00-preparation/) |
+| Step-by-step start | [Quick Start](/investing-course/en/QUICKSTART/) |
+| The US stock market | [Module 2](/investing-course/en/module-02-stock-market/) |
+| ETFs and portfolios | [Module 6](/investing-course/en/module-06-etf-index/) |
+| Psychology | [Module 7](/investing-course/en/module-07-risk-psychology/) |
+| All questions | [FAQ](/investing-course/en/FAQ/) |
+| Non-residents | [NON-RESIDENTS](/investing-course/en/NON-RESIDENTS/) |
+
+---
+
+## 💡 One Thought
+
+```
+"The best time to plant a tree was 20 years ago.
+ The second best time is now."
+
+The same is true of investing.
+Start today.
+```
+
+---
+
+[Full course →](/investing-course/en/)
