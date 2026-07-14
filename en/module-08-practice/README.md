@@ -93,7 +93,7 @@ n — number of months
 
 Example:
 Goal: $1,000,000 in 30 years
-Return: 7% annually (0.58% monthly)
+Return: 7% annually (0.5833% monthly = 7%/12)
 
 $1,000,000 = PMT × [((1.0058)^360 - 1) / 0.0058]
 $1,000,000 = PMT × 1,219.97
@@ -358,8 +358,8 @@ Expected annual income:
 ├── VYM: $25,000 × 3.0% = $750
 ├── VNQ: $15,000 × 4.0% = $600
 ├── VIGI: $10,000 × 2.5% = $250
-├── BND: $10,000 × 3.0% = $300
-└── Total: ~$3,300/year (~$275/month)
+├── BND: $10,000 × 4.4% = $440
+└── Total: ~$3,440/year (~$287/month)
 ```
 
 ---
@@ -516,8 +516,10 @@ Key fields:
 ├─────────────────────────────────────────────────┤
 │ Box 4: Federal income tax withheld              │
 │        Withheld federal tax                     │
-│        → Usually $0 for US residents            │
-│        → For non-residents: 15-30%              │
+│        → Usually $0 (24% backup withholding     │
+│          if TIN issues)                         │
+│        → Non-residents get Form 1042-S, not     │
+│          1099-DIV (tax withheld in Box 7a)      │
 ├─────────────────────────────────────────────────┤
 │ Box 7: Foreign tax paid                         │
 │        Foreign tax (for VXUS, etc.)             │
@@ -544,8 +546,8 @@ Key fields:
 ├─────────────────────────────────────────────────┤
 │ Box 1e: Cost basis (purchase cost)              │
 ├─────────────────────────────────────────────────┤
-│ Box 1g: Gain/loss                               │
-│         = Proceeds - Cost basis                 │
+│ Box 1g: Wash-sale loss disallowed (adj.)        │
+│         Gain/loss → computed on Form 8949       │
 ├─────────────────────────────────────────────────┤
 │ Box 1c: Date acquired (purchase date)           │
 ├─────────────────────────────────────────────────┤
@@ -555,12 +557,13 @@ Key fields:
 └─────────────────────────────────────────────────┘
 
 Example:
-Bought VTI for $5,000 in January 2023
-Sold for $6,500 in March 2025 (>1 year)
+Bought VTI for $5,000 in January 2024
+Sold for $6,500 in March 2026 (>1 year)
 
 Box 1d: $6,500 (proceeds)
 Box 1e: $5,000 (cost basis)
-Box 1g: $1,500 (long-term gain)
+Box 1g: $0 (wash-sale loss disallowed — N/A here)
+Gain = 1d − 1e = $1,500 (long-term, computed on Form 8949)
 
 Tax: $1,500 × 15% = $225 (if income $49,451-$545,500, single, 2026)
 ```

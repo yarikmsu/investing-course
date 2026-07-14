@@ -212,7 +212,7 @@ Characteristics:
 ├── Contributions reduce taxable income — NOT always (see below)
 ├── 2026 limit: $7,500 ($8,600 if 50+)
 ├── Requires earned income (compensation) ≥ the amount contributed
-├── Tax-free growth
+├── Tax-deferred growth (taxed on withdrawal)
 ├── Tax on withdrawal
 ├── 10% penalty for early withdrawal (before 59.5)
 └── Required distributions from age 73 (RMD)
@@ -456,7 +456,9 @@ Contributions (principal):
 
 Earnings:
 ├── Before 59½ + account less than 5 years old → tax + 10% penalty
-├── After 59½ + account more than 5 years old → NO taxes or penalties
+├── Before 59½ + account 5+ years old → tax + 10% penalty (unless an exception applies)
+├── After 59½ + account less than 5 years old → tax, NO penalty
+├── After 59½ + account 5+ years old → NO taxes or penalties
 └── 5-year rule counts from January 1 of first contribution year
 ```
 
@@ -498,8 +500,10 @@ SECURE 2.0 reduced penalties:
 >   deficiency notice, the date it assesses the tax, or the last day of the 2nd
 >   tax year after the shortfall year — you (1) take a distribution of the
 >   shortfall and (2) file Form 5329 reflecting the tax.
-> - **Full reasonable-cause waiver:** complete lines 52–53, write "RC" and the
->   amount you want waived in parentheses next to line 54, subtract it, and
+> - **Full reasonable-cause waiver:** complete lines 52a/52b and 53a/53b (the
+>   a-lines carry the 25%-rate shortfall, the b-lines the 10%-rate
+>   correction-window shortfall), write "RC" and the amount you want waived in
+>   parentheses next to line 54a and/or 54b, subtract it, and
 >   attach a brief explanation. The IRS commonly grants reasonable-cause waivers
 >   once the shortfall is corrected, but approval is **not guaranteed** — the
 >   IRS reviews each case.
@@ -660,7 +664,7 @@ Short-Term:
 └── Rate: same as ordinary income (up to 37%)
 
 Long-Term:
-├── Held asset 1+ year
+├── Held asset more than 1 year
 └── Rate: 0% / 15% / 20%
 ```
 
@@ -681,7 +685,7 @@ Let's say you bought stock and sold it for a **$10,000** profit.
 ```
 Rule of thumb:
 ┌──────────────────────────────────────────────────┐
-│  If you can wait until 1 year — wait!            │
+│  If you can wait MORE than 1 year — wait!        │
 │  Savings: from 7% to 22% of profit               │
 └──────────────────────────────────────────────────┘
 ```
