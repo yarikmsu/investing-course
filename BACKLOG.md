@@ -13,7 +13,9 @@
 
 **Totals: 65 items — 8 × P0 · 20 × P1 · 24 × P2 · 13 × P3.**
 
-> **Status (2026-07-12): Sprint 1 complete.** ✅ Done: all 8 P0 items (BL-101…104, BL-201…204), plus BL-105 (root orphans removed), BL-401 (CI quality gate — `scripts/check-parity.py` + `quality.yml`; the gate immediately caught 20 more dead relative links, also fixed) and BL-215 (suspension dates, fixed alongside BL-204 in the same block). Next: Sprint 2 — Epic 2/3 P1 items + BL-402.
+> **Status (2026-07-12): Sprint 1 complete.** ✅ Done: all 8 P0 items (BL-101…104, BL-201…204), plus BL-105 (root orphans removed), BL-401 (CI quality gate — `scripts/check-parity.py` + `quality.yml`; the gate immediately caught 20 more dead relative links, also fixed) and BL-215 (suspension dates, fixed alongside BL-204 in the same block).
+>
+> **Status (2026-07-13): Ultra-review complete.** ✅ A third, exhaustive pass (six expert clusters, real Jekyll build as ground truth, all figures recomputed) found and fixed **74 more findings** — see `ULTRA-REVIEW-2026.md`. Headline: three P0 rendering regressions the markdown-only audits couldn't see (quizzes broken + answers leaked, dead site search, a third of EN nav missing), plus operational cross-border errors, ~7× fee-math understatements, non-reproducing investor-story numbers, and the BL-203 CIS fix finally mirrored to EN. Delivered as 7 verified commits; final full rebuild is green (0 parity errors, 0 broken anchors, quizzes/search/nav all working). CI hardened with a build-time rendering guard. This absorbs and extends the Epic 2/3 P1 backlog items.
 
 ---
 
