@@ -118,9 +118,9 @@ Answer the questions:
 - BND: 10% = $1,000
 
 **Moderate (40-50 years):**
-- VTI: 50% = $5,000
+- VTI: 55% = $5,500
 - VXUS: 15% = $1,500
-- BND: 35% = $3,500
+- BND: 30% = $3,000
 
 **Conservative (55+ years):**
 - VTI: 35% = $3,500
@@ -391,9 +391,9 @@ Or use an online calculator: [investor.gov/calculator](https://www.investor.gov/
 **Required monthly contribution:** ~$550
 
 **Calculation:**
-- $10,000 will grow to $106,000
-- Contributions $550 × 12 × 35 = $231,000 → $860,000
-- Total: ~$966,000
+- $10,000 grows to ~$107,000 ($10,000 × 1.07^35)
+- Contributions ~$550/mo ≈ $6,600/yr for 35 years → ~$912,000
+- Total: ~$912,000 (contributions) + ~$107,000 (starting) ≈ $1,019,000 — goal met ✅
 
 </details>
 

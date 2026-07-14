@@ -54,7 +54,7 @@ permalink: /module-02-stock-market/
 - Полностью электронные торги
 
 #### Другие площадки
-- **AMEX** (American Stock Exchange) — малые и средние компании
+- **NYSE American** (бывшая AMEX) — малые и средние компании
 - **OTC Markets** — внебиржевой рынок
 - **Dark Pools** — приватные площадки для крупных сделок
 

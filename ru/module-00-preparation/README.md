@@ -352,6 +352,7 @@ permalink: /module-00-preparation/
 Бюджетирование:
 ├── YNAB (You Need A Budget) — платный
 ├── Monarch — платный
+├── Empower — бесплатный
 └── Простая таблица в Excel/Google Sheets — бесплатно
 
 Погашение долгов:

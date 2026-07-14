@@ -54,7 +54,7 @@ After completing this module, you'll be able to:
 - Fully electronic trading
 
 #### Other Venues
-- **AMEX** (American Stock Exchange) — small and mid-cap companies
+- **NYSE American** (formerly AMEX) — small and mid-cap companies
 - **OTC Markets** — over-the-counter market
 - **Dark Pools** — private venues for large trades
 

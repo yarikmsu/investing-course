@@ -350,9 +350,10 @@ After that: Return to investing!
 
 ```
 Budgeting:
-├── YNAB (You Need A Budget)
-├── Empower (formerly Personal Capital)
-└── Simple spreadsheet in Excel/Google Sheets
+├── YNAB (You Need A Budget) — paid
+├── Monarch — paid
+├── Empower — free
+└── Simple spreadsheet in Excel/Google Sheets — free
 
 Debt payoff:
 ├── unbury.me — payoff calculator
