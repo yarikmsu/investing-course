@@ -57,7 +57,7 @@ Advantages:
 ├── Minimal time required
 ├── Diversification
 ├── Tax efficiency
-└── Statistically beats 80% of active funds
+└── Statistically beats ~85-90% of active funds over a 15+ year horizon
 ```
 
 ### Active Investing
@@ -405,6 +405,8 @@ Example over 30 years:
 | NOBL | ProShares S&P 500 Aristocrats | ~2.5% | Dividend Aristocrats |
 | DGRO | iShares Core Dividend Growth | ~2.5% | Dividend growth |
 
+> ℹ️ Yields are approximate (as of early 2025) — historical/indicative figures; verify current values before deciding.
+
 ---
 
 ## Lesson 5.5: Growth vs Value Investing
@@ -526,7 +528,7 @@ Low Volatility:
 > ⚠️ **Factors are not a "free lunch."** The historical size and value premia are not
 > guaranteed: the standalone size premium has been weak and insignificant out of sample,
 > and value endured a drawdown of more than a decade (roughly 2007-2020). These are
-> optional tilts — a bet on extra (uncompensated) risk, not reliable outperformance. One
+> optional tilts — a bet on additional risk whose premium isn't guaranteed, not reliable outperformance. One
 > important detail: to actually capture these factors you need small-cap *value*
 > specifically (e.g. AVUV), since plain small-cap funds like VB or IWM don't deliver the
 > size premium on their own. For most investors, a broad index fund (VTI) is more than
