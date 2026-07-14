@@ -489,4 +489,4 @@ Current allocation:
 
 ---
 
-[← Back to Course](index.md) | [Templates →](TEMPLATES.md)
+[← Back to Course](/investing-course/en/) | [Templates →](/investing-course/en/TEMPLATES/)

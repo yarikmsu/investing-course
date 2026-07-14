@@ -212,7 +212,7 @@ Characteristics:
 ├── Contributions reduce taxable income — NOT always (see below)
 ├── 2026 limit: $7,500 ($8,600 if 50+)
 ├── Requires earned income (compensation) ≥ the amount contributed
-├── Tax-free growth
+├── Tax-deferred growth (taxed on withdrawal)
 ├── Tax on withdrawal
 ├── 10% penalty for early withdrawal (before 59.5)
 └── Required distributions from age 73 (RMD)
@@ -430,8 +430,6 @@ AGE 59½ — key date:
 
 ### Exceptions to 10% Penalty (Early Withdrawal Before 59½)
 
-> 💡 **Penalty reduced from 50% to 25%** under SECURE 2.0 (since 2023). With quick correction (within 2 years) — only 10%.
-
 | Exception | IRA | 401(k) | Limit |
 |-----------|-----|--------|-------|
 | First-time home purchase | ✅ | ❌ | up to $10,000 |
@@ -458,7 +456,9 @@ Contributions (principal):
 
 Earnings:
 ├── Before 59½ + account less than 5 years old → tax + 10% penalty
-├── After 59½ + account more than 5 years old → NO taxes or penalties
+├── Before 59½ + account 5+ years old → tax + 10% penalty (unless an exception applies)
+├── After 59½ + account less than 5 years old → tax, NO penalty
+├── After 59½ + account 5+ years old → NO taxes or penalties
 └── 5-year rule counts from January 1 of first contribution year
 ```
 
@@ -500,8 +500,10 @@ SECURE 2.0 reduced penalties:
 >   deficiency notice, the date it assesses the tax, or the last day of the 2nd
 >   tax year after the shortfall year — you (1) take a distribution of the
 >   shortfall and (2) file Form 5329 reflecting the tax.
-> - **Full reasonable-cause waiver:** complete lines 52–53, write "RC" and the
->   amount you want waived in parentheses next to line 54, subtract it, and
+> - **Full reasonable-cause waiver:** complete lines 52a/52b and 53a/53b (the
+>   a-lines carry the 25%-rate shortfall, the b-lines the 10%-rate
+>   correction-window shortfall), write "RC" and the amount you want waived in
+>   parentheses next to line 54a and/or 54b, subtract it, and
 >   attach a brief explanation. The IRS commonly grants reasonable-cause waivers
 >   once the shortfall is corrected, but approval is **not guaranteed** — the
 >   IRS reviews each case.
@@ -662,7 +664,7 @@ Short-Term:
 └── Rate: same as ordinary income (up to 37%)
 
 Long-Term:
-├── Held asset 1+ year
+├── Held asset more than 1 year
 └── Rate: 0% / 15% / 20%
 ```
 
@@ -683,7 +685,7 @@ Let's say you bought stock and sold it for a **$10,000** profit.
 ```
 Rule of thumb:
 ┌──────────────────────────────────────────────────┐
-│  If you can wait until 1 year — wait!            │
+│  If you can wait MORE than 1 year — wait!        │
 │  Savings: from 7% to 22% of profit               │
 └──────────────────────────────────────────────────┘
 ```
@@ -1033,10 +1035,10 @@ Box 1a: Ordinary Dividends (total amount)
 Box 1b: Qualified Dividends (taxed at preferential rate)
 Box 2a: Capital Gain Distributions (from funds)
 Box 4: Federal Tax Withheld
-Box 6: Foreign Tax Paid (can be credited!)
+Box 7: Foreign Tax Paid (can be credited!)
 ```
 
-> 💡 **Foreign Tax Credit (FTC) — how to claim the foreign tax in Box 6.**
+> 💡 **Foreign Tax Credit (FTC) — how to claim the foreign tax in Box 7.**
 > This matters for anyone holding international funds (VXUS, VEA, VWO).
 > - **Claimed as a credit on Schedule 3 (Form 1040), Part I, line 1.** The
 >   foreign tax is generally claimed on **Form 1116**, which carries to
@@ -1129,7 +1131,7 @@ Schedule B:
 | **Form 5329** | 10% early-withdrawal penalty; 25%/10% RMD excise tax (Part IX) | Lesson 4.2 |
 | **Form 8889** | HSA contributions and distributions | Lesson 4.2 (HSA) |
 | **Form 8960** | NIIT 3.8% → Schedule 2, Line 12 | Lesson 4.3 (NIIT) |
-| **Form 1116** | Foreign Tax Credit (if foreign tax > $300 single / $600 MFJ) | Lesson 4.3 / Box 6 |
+| **Form 1116** | Foreign Tax Credit (if foreign tax > $300 single / $600 MFJ) | Lesson 4.3 / Box 7 |
 | **Form 709** | Gifts over $19,000/yr / 5-year 529 superfunding | Lesson 4.2 (529) |
 
 > ℹ️ **Form 5498** is issued by your broker/custodian (usually in May): it
@@ -1227,14 +1229,14 @@ Step 5: Start investing
 ## Self-Check Test
 
 <details>
-<summary><b>Question 1:</b> Which broker is best suited for non-US residents?</summary>
+<summary markdown="span"><b>Question 1:</b> Which broker is best suited for non-US residents?</summary>
 
 **Answer:** Interactive Brokers — works with most countries and provides full access to the American market.
 
 </details>
 
 <details>
-<summary><b>Question 2:</b> What's the difference between Traditional IRA and Roth IRA?</summary>
+<summary markdown="span"><b>Question 2:</b> What's the difference between Traditional IRA and Roth IRA?</summary>
 
 **Answer:**
 - **Traditional IRA** — contributions reduce taxes now, tax paid on withdrawal
@@ -1243,28 +1245,28 @@ Step 5: Start investing
 </details>
 
 <details>
-<summary><b>Question 3:</b> What is the 401(k) contribution limit for 2026?</summary>
+<summary markdown="span"><b>Question 3:</b> What is the 401(k) contribution limit for 2026?</summary>
 
 **Answer:** $24,500 (or $32,500 for ages 50+; ages 60–63 get an enhanced catch-up, for $35,750 total).
 
 </details>
 
 <details>
-<summary><b>Question 4:</b> What is Form W-8BEN and why do non-residents need it?</summary>
+<summary markdown="span"><b>Question 4:</b> What is Form W-8BEN and why do non-residents need it?</summary>
 
 **Answer:** W-8BEN is a declaration of foreign status that reduces dividend tax from 30% to 15% (for most countries with tax treaties). Valid for 3 years.
 
 </details>
 
 <details>
-<summary><b>Question 5:</b> What is the Long-Term Capital Gains tax rate for most investors?</summary>
+<summary markdown="span"><b>Question 5:</b> What is the Long-Term Capital Gains tax rate for most investors?</summary>
 
 **Answer:** 15% (for income from ~$49,000 to ~$545,000 for single filers, 2026). Long-term means holding the asset for more than 1 year.
 
 </details>
 
 <details>
-<summary><b>Question 6:</b> What is Tax-Loss Harvesting?</summary>
+<summary markdown="span"><b>Question 6:</b> What is Tax-Loss Harvesting?</summary>
 
 **Answer:** A strategy of selling losing positions to reduce taxable gains. Important: cannot buy a "substantially identical" asset 30 days before or after the sale (Wash Sale Rule).
 

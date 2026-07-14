@@ -43,13 +43,6 @@ aux_links:
 
 aux_links_new_tab: true
 
-# Defaults
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
-
 # Exclude files
 exclude:
   - Gemfile
@@ -66,4 +59,5 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+  parse_block_html: true
   syntax_highlighter: rouge

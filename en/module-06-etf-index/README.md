@@ -123,7 +123,7 @@ For niche ETFs:
 | SPY | SPDR | 0.09% | ~12.5%/yr | ~10.5%/yr |
 | IVV | iShares | 0.03% | ~12.5%/yr | ~10.5%/yr |
 
-*Historical average annual return of the S&P 500 (with dividend reinvestment), shown for illustration. These are past results, not expected future returns. All three funds track the same index, so their returns are virtually identical.
+*Historical average annual return of the S&P 500 (with dividend reinvestment), shown for illustration. These are past results, not expected future returns. All three funds track the same index, so their returns are virtually identical. Figures are approximate (as of early 2025) — verify current values.
 
 ### NASDAQ-100
 
@@ -211,10 +211,10 @@ Investing **$10,000** for 30 years at 7% annual return:
 
 | Expense Ratio | Total | Fees over 30 years | You Lost |
 |---------------|-------|-------------------|----------|
-| 0.03% (VOO) | **$75,100** | ~$700 | — |
-| 0.20% (QQQ) | $71,700 | ~$4,100 | $3,400 |
-| 0.50% (active fund) | $66,400 | ~$9,400 | $8,700 |
-| 1.00% (expensive fund) | **$57,400** | ~$18,400 | **$17,700** |
+| 0.03% (VOO) | **$75,500** | ~$700 | — |
+| 0.20% (QQQ) | $72,000 | ~$4,100 | $3,500 |
+| 0.50% (active fund) | $66,100 | ~$10,000 | $9,400 |
+| 1.00% (expensive fund) | **$57,400** | ~$18,700 | **$18,100** |
 
 ```
 Formula: FV = PV × (1 + r - ER)^n
@@ -226,8 +226,8 @@ Where:
 └── n = number of years (30)
 ```
 
-> 📊 **Conclusion:** The difference between 0.03% and 1.00% fees = **$17,700** in losses per $10,000!
-> On $100,000 that's **$177,000** — the cost of a nice car or a house down payment.
+> 📊 **Conclusion:** The difference between 0.03% and 1.00% fees = **$18,100** in losses per $10,000!
+> On $100,000 that's **$181,000** — the cost of a nice car or a house down payment.
 
 ### 📈 Active vs Passive Funds: Statistics
 
@@ -500,14 +500,14 @@ Age 75: ████████████░░░░░░░░░░░░
 ## Self-Check Test
 
 <details>
-<summary><b>Question 1:</b> What is NAV and why might an ETF's price differ from it?</summary>
+<summary markdown="span"><b>Question 1:</b> What is NAV and why might an ETF's price differ from it?</summary>
 
 **Answer:** NAV (Net Asset Value) is the true value of the fund's assets. Market price can trade at a premium (above NAV) or discount (below NAV). For large ETFs, the difference is usually <0.05%.
 
 </details>
 
 <details>
-<summary><b>Question 2:</b> What ETFs make up the classic Bogleheads three-fund portfolio?</summary>
+<summary markdown="span"><b>Question 2:</b> What ETFs make up the classic Bogleheads three-fund portfolio?</summary>
 
 **Answer:**
 - VTI (US Stocks): 60%
@@ -517,30 +517,30 @@ Age 75: ████████████░░░░░░░░░░░░
 </details>
 
 <details>
-<summary><b>Question 3:</b> What rule helps determine stock allocation in a portfolio by age?</summary>
+<summary markdown="span"><b>Question 3:</b> What rule helps determine stock allocation in a portfolio by age?</summary>
 
 **Answer:** "110 minus age" = percentage in stocks. For example, at 30 years old: 110 - 30 = 80% stocks, 20% bonds.
 
 </details>
 
 <details>
-<summary><b>Question 4:</b> When should you rebalance your portfolio?</summary>
+<summary markdown="span"><b>Question 4:</b> When should you rebalance your portfolio?</summary>
 
 **Answer:** When deviation from target allocation exceeds 5%, or once a year. Also when there are significant changes in life situation.
 
 </details>
 
 <details>
-<summary><b>Question 5:</b> How does VOO differ from SPY?</summary>
+<summary markdown="span"><b>Question 5:</b> How does VOO differ from SPY?</summary>
 
 **Answer:** Both track the S&P 500, but VOO has an expense ratio of 0.03% (vs 0.09% for SPY). SPY has better liquidity for options trading. For long-term investing, VOO is more cost-effective.
 
 </details>
 
 <details>
-<summary><b>Question 6:</b> What determines 90% of portfolio returns according to research?</summary>
+<summary markdown="span"><b>Question 6:</b> What determines ~90% of a portfolio's return variability over time according to research?</summary>
 
-**Answer:** Asset Allocation — the main investment decision. Market timing and stock selection together account for only ~10%.
+**Answer:** Asset Allocation explains ~90% of the **variability (variance) of portfolio returns** over time — NOT 90% of the return *level* (a common misreading). Market timing and stock selection explain the rest. See Module 7 (Lesson 7.3) for the detail and caveat.
 
 </details>
 

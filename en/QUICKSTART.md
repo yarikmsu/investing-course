@@ -18,7 +18,7 @@ permalink: /QUICKSTART/
 
 ```
 □ No credit card debt
-□ Have emergency fund (at least 1-2 months)
+□ Have emergency fund (at least 3 months, target 3-6)
 □ Won't need this money for 5+ years
 □ Prepared for temporary drops in value
 ```
@@ -230,7 +230,7 @@ Step 4: Fill out the order
 ├── Action: Buy
 ├── Quantity: enter dollar amount
 │   (for example: $500)
-├── Order Type: Market
+├── Order Type: Limit (~0.1-0.2% above current price)
 ├── Duration: Day
 └── Account: your account
 
@@ -253,17 +253,18 @@ Step 7: Verify
 ### Market vs Limit Order
 
 ```
-Market Order:
-├── Executes immediately
-├── At current market price
-├── For ETFs — almost always appropriate
-└── Recommended for beginners
-
-Limit Order:
+Limit Order (recommended for your first purchase):
 ├── Executes at your price or better
-├── May not execute
-├── For advanced users or large amounts
-└── Useful during volatility
+├── To buy almost immediately, set the limit slightly above
+│   the current quote (~0.1-0.2%) — a "marketable limit"
+├── Protects you from a bad fill on a sharp move
+└── This is also what Module 8 recommends
+
+Market Order:
+├── Executes immediately at the current price
+├── Only for liquid ETFs (VOO/VTI/SPY)
+│   mid-day
+└── Avoid at the open (9:30) and close (16:00)
 ```
 
 ---
@@ -385,7 +386,7 @@ A: That's normal and even good — your next purchases
 **Q: Is $500 too little?**
 ```
 A: No! The important thing is to start. $500/month
-   at 10% annually for 30 years becomes ~$1,000,000.
+   at 10% annually for 30 years becomes ~$1.13M.
 
    ⚠️ This is not a guarantee. 10% is the long-run nominal
    historical US return; the real (after-inflation) return is

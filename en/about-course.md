@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "ℹ️ About"
+title: "About"
 nav_order: 30
 has_children: true
 permalink: /about-course/
@@ -9,6 +9,14 @@ permalink: /about-course/
 # ℹ️ About This Course
 
 Information about the course, sources, and changelog.
+
+## Contents
+
+| Section | Description |
+|---------|-------------|
+| **About the Project** | Course goals, authors, contacts |
+| **Sources** | Books, websites, and materials the course is based on |
+| **Changelog** | What's new in each version of the course |
 
 ## Course Philosophy
 

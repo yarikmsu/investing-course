@@ -489,4 +489,4 @@ permalink: /CHECKLISTS/
 
 ---
 
-[← Вернуться к курсу](README.md) | [Шаблоны →](TEMPLATES.md)
+[← Вернуться к курсу](/investing-course/ru/) | [Шаблоны →](/investing-course/ru/TEMPLATES/)

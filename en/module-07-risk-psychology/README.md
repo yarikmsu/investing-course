@@ -198,7 +198,7 @@ Conclusion: ETF on the entire market = optimal diversification
 | US Stocks ↔ International | ~0.70 | 🟡 Moderate | Some diversification |
 | Stocks ↔ Bonds | ~0.20 | 🟢 Low | Good diversification |
 | Stocks ↔ Gold | ~0.05 | 🟢 Almost none | Excellent diversification |
-| Stocks ↔ Cash | ~0.00 | 🟢 None | Ideal diversification |
+| Stocks ↔ Cash | ~0.00 | 🟢 None | No correlation — but no return either: reduces exposure, not diversification |
 
 > ⚠️ **Correlations are not constant.** The figures above are long-run
 > averages, not stable properties. In inflationary regimes the stock-bond
@@ -675,7 +675,7 @@ Market decline:
 ├── S&P 500: -57% from peak (October 2007 → March 2009)
 ├── Fell from 1565 to 666 points
 ├── Duration of decline: 17 months
-└── Recovery to peak: March 2013 (4 years)
+└── Recovery to peak: March 2013 (~5.5 years, price)
 
 What investors felt:
 ├── Fear of complete financial system collapse
@@ -688,7 +688,7 @@ What investors felt:
 If you invested $10,000 in S&P 500 in October 2007 (at peak):
 
 March 2009 (bottom):    $4,300  (-57%)
-March 2013 (5 years):   $10,500 (+5%)
+March 2013 (5.5 years): $10,500 (+5%)
 October 2017 (10 years): $18,700 (+87%)
 October 2022 (15 years): $26,400 (+164%)
 January 2025 (17 years): $38,000+ (+280%)
@@ -796,9 +796,9 @@ LESSON: Even after "non-working diversification" of 2022,
 ├──────────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
 │ S&P 500 decline  │ ~-49%        │ -57%         │ -34%         │ -25%         │
 │ Decline duration │ ~31 months   │ 17 months    │ 33 days      │ 10 months    │
-│ Time to recover  │ ~7 years     │ 4 years      │ 5 months     │ ~2 years     │
+│ Time to recover  │ ~7 years     │ ~5.5 years   │ 5 months     │ ~2 years     │
 │ Cause            │ Tech bubble  │ Mortgage     │ Pandemic     │ Inflation    │
-│ Bonds            │ +positive    │ +5%          │ +7%          │ -17%         │
+│ Bonds            │ +positive    │ +5%          │ +7%          │ -13%         │
 └──────────────────┴──────────────┴──────────────┴──────────────┴──────────────┘
 ```
 
@@ -806,12 +806,17 @@ LESSON: Even after "non-working diversification" of 2022,
 > DEEPEST drawdown, but 2000-2002 was the LONGEST: depth and
 > duration are two independent dimensions of risk.
 
+> ℹ️ **Notes on the figures.** "Time to recover" is measured on the S&P 500 price index
+> (excluding dividends); on a total-return basis (dividends reinvested) the 2008 market
+> recovered earlier — around 2012. The "Bonds" row is total return (with coupons): for
+> BND in 2022 that was ~−13% (about −17% on price alone).
+
 ### Main Lessons
 
 ```
 1. Crises ALWAYS end
    ├── 2000-2002: recovery took ~7 years
-   ├── 2008: recovery took 4 years
+   ├── 2008: recovery took ~5.5 years
    ├── 2020: recovery took 5 months
    ├── 2022: recovery took ~2 years
    └── Every time the market reached new highs
@@ -963,42 +968,42 @@ AFTER the crisis:
 ## Self-Check Test
 
 <details>
-<summary><b>Question 1:</b> What is systematic risk and can it be eliminated through diversification?</summary>
+<summary markdown="span"><b>Question 1:</b> What is systematic risk and can it be eliminated through diversification?</summary>
 
 **Answer:** Systematic (market) risk affects the entire market (recession, pandemic). It CANNOT be eliminated through diversification, but is compensated by expected returns.
 
 </details>
 
 <details>
-<summary><b>Question 2:</b> How many stocks are needed to approach market-level risk?</summary>
+<summary markdown="span"><b>Question 2:</b> How many stocks are needed to approach market-level risk?</summary>
 
 **Answer:** 20-30 stocks substantially reduce specific risk. A total market ETF (VTI) provides optimal diversification with ~3,500 stocks.
 
 </details>
 
 <details>
-<summary><b>Question 3:</b> What is Loss Aversion and how does it harm investors?</summary>
+<summary markdown="span"><b>Question 3:</b> What is Loss Aversion and how does it harm investors?</summary>
 
 **Answer:** Loss Aversion — the pain from loss is stronger than joy from equal gain. Leads to selling at the bottom and holding losing positions. Solution: automation and following a plan.
 
 </details>
 
 <details>
-<summary><b>Question 4:</b> What emergency fund size is recommended before investing?</summary>
+<summary markdown="span"><b>Question 4:</b> What emergency fund size is recommended before investing?</summary>
 
 **Answer:** 3-6 months of expenses in a high-yield savings account. Protects from needing to sell investments at the wrong time.
 
 </details>
 
 <details>
-<summary><b>Question 5:</b> What to do when the market drops 30%?</summary>
+<summary markdown="span"><b>Question 5:</b> What to do when the market drops 30%?</summary>
 
 **Answer:** Follow your plan, rebalance (buy stocks), continue regular investments, use tax-loss harvesting. DON'T panic sell, DON'T try to guess the bottom.
 
 </details>
 
 <details>
-<summary><b>Question 6:</b> What is Herd Mentality and why is it dangerous?</summary>
+<summary markdown="span"><b>Question 6:</b> What is Herd Mentality and why is it dangerous?</summary>
 
 **Answer:** "Herd mentality" — buying when everyone buys (at the top) and selling when everyone sells (at the bottom). This is the opposite of correct behavior. Solution: stick to a pre-made plan.
 

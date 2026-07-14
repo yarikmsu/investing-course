@@ -176,7 +176,7 @@ Conclusion:
 └── DCA is better for psychology (less stress)
 ```
 
-> 📖 Source: [Vanguard "Dollar-cost averaging just means taking risk later" (2012)](https://static.vgcontent.info/crp/intl/auw/docs/resources/Dollar_cost_averaging.pdf)
+> 📖 Source: [Vanguard "Cost averaging: Invest now or temporarily hold your cash?" (2023)](https://corporate.vanguard.com/content/dam/corp/research/pdf/cost_averaging_invest_now_or_temporarily_hold_your_cash.pdf)
 
 ---
 
@@ -205,18 +205,18 @@ Difference between 0.03% and 1%:
 ### Expense Ratio of Popular ETFs
 
 ```
-Fund            Expense Ratio       10 years on $100k
+Fund            Expense Ratio       10 years on $100k (7%/yr)
 ──────────────────────────────────────────────────────
-VTI             0.03%               $261 lost
-VOO             0.03%               $261
-SCHD            0.06%               $519
-QQQ             0.20%               $1,716
-SPY             0.09%               $777
+VTI             0.03%               ~$549 lost
+VOO             0.03%               ~$549
+SCHD            0.06%               ~$1,097
+QQQ             0.20%               ~$3,650
+SPY             0.09%               ~$1,646
 ──────────────────────────────────────────────────────
-Average         0.50%               $4,257
+Average         0.50%               ~$9,050
 mutual fund
 ──────────────────────────────────────────────────────
-Active          1.00%               $8,384
+Active          1.00%               ~$17,850
 fund
 
 Savings over 30 years (VTI vs 1% active fund):
@@ -355,7 +355,7 @@ Example correlations (10-year rolling, 2014-2024):
 
 S&P 500 ↔ NASDAQ          +0.95  ████████████████████ almost same
 S&P 500 ↔ Emerging Mkts   +0.75  ███████████████░░░░░ moderately together
-S&P 500 ↔ Bonds           +0.10  ██░░░░░░░░░░░░░░░░░░ almost independent
+S&P 500 ↔ Bonds           +0.2   ████░░░░░░░░░░░░░░░░ higher in 2022-24 inflation
 Stocks  ↔ Gold            +0.05  █░░░░░░░░░░░░░░░░░░░ independent
 
 Good diversification:
@@ -375,11 +375,11 @@ Good diversification:
 ```
 Crisis              Drop       Recovery          Growth After
 ────────────────────────────────────────────────────────────
-1973-74 (oil)       -48%       7 years           +125% in 5 yrs
+1973-74 (oil)       -48%       7 years           +70% in 5 yrs
 1987 (Black Monday) -34%       2 years           +96% in 5 yrs
 2000-02 (dot-com)   -49%       7 years           +101% in 5 yrs
 2008-09 (financial) -57%       5 years           +178% in 5 yrs
-2020 (COVID)        -34%       5 months          +114% in 3 yrs
+2020 (COVID)        -34%       5 months          +77% in 3 yrs
 2022 (inflation)    -25%       2 years           +46% in 1.5 yrs
 
 Conclusion: the market has ALWAYS recovered
@@ -390,7 +390,7 @@ Conclusion: the market has ALWAYS recovered
 ### Visualization of Drops and Recoveries
 
 ```
-S&P 500: path from $100 to $4,000+ (1950-2024)
+S&P 500: from ~17 (1950) to ~5,900 (end 2024)
 
          │                                        ╭──────
 $4000    │                                   ╭────╯
@@ -442,7 +442,7 @@ Probability of      10-15%              ~100%
 success
 ────────────────────────────────────────────────────────
 
-Over 30 years with $10,000 starting + $500/mo:
+Over 30 years with $500/mo:
 
 Active (7% after fees):
 ████████████████████████████████ $608,000
@@ -605,7 +605,7 @@ r = monthly return (annual / 12)
 n = number of months
 
 Example ($500/mo, 10%, 20 years):
-$500 × [((1 + 0.00833)^240 - 1) / 0.00833] = $382,846
+$500 × [((1 + 0.00833)^240 - 1) / 0.00833] = $382,846 (payments at start of month)
 ```
 
 ### Online Tools
@@ -651,4 +651,4 @@ Recommended calculators:
 
 ---
 
-[← Back to Course](index.md) | [Investor Stories →](INVESTOR-STORIES.md)
+[← Back to Course](/investing-course/en/) | [Investor Stories →](/investing-course/en/INVESTOR-STORIES/)

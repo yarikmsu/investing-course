@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "📝 Practice"
+title: "Practice"
 nav_order: 15
 has_children: true
 permalink: /practice/
@@ -14,9 +14,9 @@ Practical materials to reinforce your learning.
 
 | Section | Description |
 |---------|-------------|
-| **Exercises** | Hands-on assignments for each module |
-| **Checklists** | Ready-to-use lists for your actions |
-| **Templates** | Planning and tracking spreadsheets |
+| [**Exercises**](/investing-course/en/EXERCISES/) | Hands-on assignments for each module |
+| [**Checklists**](/investing-course/en/CHECKLISTS/) | Ready-to-use lists for your actions |
+| [**Templates**](/investing-course/en/TEMPLATES/) | Planning and tracking spreadsheets |
 
 ## Getting Started
 

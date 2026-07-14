@@ -8,3 +8,9 @@
 _site/
 .jekyll-cache/
 .jekyll-metadata
+
+# Локальные артефакты сборки Jekyll (bundle path vendor/bundle)
+*/.bundle/
+*/vendor/
+*/_site/
+*/.jekyll-cache/

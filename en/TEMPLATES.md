@@ -500,4 +500,4 @@ OPTION 3: Spreadsheets
 
 ---
 
-[← Checklists](CHECKLISTS.md) | [Back to Course](index.md) | [Tools →](TOOLS.md)
+[← Checklists](/investing-course/en/CHECKLISTS/) | [Back to Course](/investing-course/en/) | [Tools →](/investing-course/en/TOOLS/)

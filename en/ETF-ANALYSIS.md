@@ -78,8 +78,8 @@ Since inception (2010): ~14% per year
 | 2 | Microsoft | MSFT | 6.8% | Technology |
 | 3 | NVIDIA | NVDA | 6.1% | Technology |
 | 4 | Amazon | AMZN | 3.6% | Consumer |
-| 5 | Alphabet (Google) | GOOGL | 2.1% | Communication |
-| 6 | Meta (Facebook) | META | 2.5% | Communication |
+| 5 | Meta (Facebook) | META | 2.5% | Communication |
+| 6 | Alphabet (Google) | GOOGL | 2.1% | Communication |
 | 7 | Berkshire Hathaway | BRK.B | 1.7% | Financials |
 | 8 | Tesla | TSLA | 1.9% | Consumer |
 | 9 | Broadcom | AVGO | 1.6% | Technology |
@@ -113,7 +113,7 @@ After 10 years (January 2025):
 ├── Final value: ~$35,000
 ├── Average annual growth: ~13.4%
 ├── Dividends received: ~$3,500 (reinvested)
-└── Fees over 10 years: ~$30 (0.03% per year)
+└── Fees: ~$3 in year one, ~$60 over 10 years as the balance grows (0.03%/yr)
 
 You MORE THAN TRIPLED your capital!
 ```
@@ -222,7 +222,7 @@ Calculation (at 10% average return):
 ├── Total invested: $500 × 120 = $60,000
 ├── Final value: ~$103,000
 ├── Profit: ~$43,000 (+72%)
-└── Fees over 10 years: ~$180
+└── Fees: ~$2 in year one, ~$130 over 10 years as the balance grows (0.03%/yr)
 
 Disciplined investing works!
 ```
@@ -402,11 +402,11 @@ QQQM — "mini" version of QQQ
 Expense Ratio: 0.15% (vs 0.20% for QQQ)
 Difference: 0.05% per year
 
-On $100,000 over 30 years:
-├── QQQ (0.20%): lose ~$6,000 in fees
-└── QQQM (0.15%): lose ~$4,500 in fees
+On $100,000 over 30 years (7% annual, with compounding):
+├── QQQ (0.20%): fees eat ~$41,600 vs a zero-fee fund
+└── QQQM (0.15%): fees eat ~$31,300 vs a zero-fee fund
 
-Savings: ~$1,500
+QQQM savings vs QQQ: ~$10,300
 
 For long-term investors, QQQM is better!
 ```
@@ -608,7 +608,7 @@ Current data: etf.com / morningstar.com
 5 years: ░░░░░░░░░░░░░░░░░░░░░░░░░░ -0.5% per year
 10 years:██░░░░░░░░░░░░░░░░░░░░░░░░ +1.5% per year
 
-⚠️ 2022-2023 were the worst years for bonds in 40 years!
+⚠️ 2022 was the worst year for bonds in 40 years!
    (Fed rate hikes = bond price drops)
 ```
 
@@ -802,4 +802,4 @@ Most important:
 
 ---
 
-[← Back to Course](index.md) | [Exercises →](EXERCISES.md)
+[← Back to Course](/investing-course/en/) | [Exercises →](/investing-course/en/EXERCISES/)

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "📖 Reference"
+title: "Reference"
 nav_order: 20
 has_children: true
 permalink: /reference/

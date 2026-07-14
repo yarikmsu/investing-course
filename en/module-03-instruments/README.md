@@ -408,28 +408,28 @@ Selling Covered Call:
 ## Self-Check Test
 
 <details>
-<summary><b>Question 1:</b> What is an ETF and what is its main advantage?</summary>
+<summary markdown="span"><b>Question 1:</b> What is an ETF and what is its main advantage?</summary>
 
 **Answer:** ETF (Exchange-Traded Fund) — an exchange-traded fund that trades like a stock. Main advantage — diversification with low fees in a single purchase.
 
 </details>
 
 <details>
-<summary><b>Question 2:</b> What is Expense Ratio and what is considered good for index ETFs?</summary>
+<summary markdown="span"><b>Question 2:</b> What is Expense Ratio and what is considered good for index ETFs?</summary>
 
 **Answer:** Expense Ratio is the annual fund fee. For index ETFs, less than 0.10% is considered good (for example, 0.03% for VOO and VTI).
 
 </details>
 
 <details>
-<summary><b>Question 3:</b> What does P/E Ratio mean and how do you interpret it?</summary>
+<summary markdown="span"><b>Question 3:</b> What does P/E Ratio mean and how do you interpret it?</summary>
 
 **Answer:** P/E = Stock Price / Earnings Per Share. Rough guideposts: P/E < 15 — a modest valuation, 15-25 — a typical range, > 25 — the market is pricing in high growth. Only compare within the same industry. It's a descriptive metric, not a buy signal: for a passive index investor, P/E is not an entry-timing tool.
 
 </details>
 
 <details>
-<summary><b>Question 4:</b> How do T-Bills differ from T-Bonds?</summary>
+<summary markdown="span"><b>Question 4:</b> How do T-Bills differ from T-Bonds?</summary>
 
 **Answer:**
 - **T-Bills** — term up to 1 year, no coupon payments, sold at discount
@@ -438,14 +438,14 @@ Selling Covered Call:
 </details>
 
 <details>
-<summary><b>Question 5:</b> What is a REIT and why do they pay high dividends?</summary>
+<summary markdown="span"><b>Question 5:</b> What is a REIT and why do they pay high dividends?</summary>
 
 **Answer:** REIT (Real Estate Investment Trust) — a real estate fund. Must pay at least 90% of profits as dividends to receive tax benefits.
 
 </details>
 
 <details>
-<summary><b>Question 6:</b> Which ETF tracks the entire US market and what is its expense ratio?</summary>
+<summary markdown="span"><b>Question 6:</b> Which ETF tracks the entire US market and what is its expense ratio?</summary>
 
 **Answer:** VTI (Vanguard Total Stock Market) — covers ~3,500 US stocks with expense ratio of 0.03%.
 

@@ -3,23 +3,31 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: ["main", "claude/*"]
+  pull_request:
   workflow_dispatch:
 
+# Права деплоя (pages/id-token) выданы ТОЛЬКО deploy-джобе ниже:
+# build выполняет код из PR/веток (bundle install, jekyll build)
+# и не должен иметь deployment-scoped credentials
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Валидационные сборки не занимают слот "pages":
+    # у каждой ветки/PR своя группа
+    concurrency:
+      group: "build-${{ github.event_name }}-${{ github.ref }}"
+      cancel-in-progress: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      # Контент-гейт внутри деплой-пайплайна: сборка (и значит деплой)
+      # падает при битых ссылках или расхождении файлов ru/ ↔ en/
+      - name: Check links and RU/EN parity
+        run: python3 scripts/check-parity.py
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -56,10 +64,27 @@ jobs:
       - name: Copy landing page
         run: cp index.html _site/
 
+      # Пост-сборочный гейт: ловит регрессии рендеринга, невидимые для
+      # markdown-проверки (сломанные квизы <details>, невалидный search-data.json)
+      - name: Verify built HTML
+        run: bash scripts/check-built-html.sh _site
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
   deploy:
+    # Продакшен-деплой только с дефолтной ветки репозитория (push или ручной
+    # запуск workflow_dispatch); остальные ветки и PR — только сборка-проверка
+    if: >-
+      (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+      && github.ref_name == github.event.repository.default_branch
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: "pages"
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

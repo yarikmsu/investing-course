@@ -3,11 +3,11 @@ layout: default
 title: Investor Stories
 parent: "Reference"
 nav_order: 5
-description: "4 real cases: mistakes, successes, lessons"
+description: "4 illustrative cases (composite profiles): mistakes, successes, lessons"
 permalink: /INVESTOR-STORIES/
 ---
 
-# Investor Stories: 4 Real Cases
+# Investor Stories: 4 Illustrative Cases (Composite Profiles)
 
 > **This is educational material, not financial advice.**
 > Stories are based on typical scenarios and composite characters. Specific numbers may vary depending on investment period.
@@ -81,10 +81,10 @@ Portfolio value: ~$95,000
 ├── Net profit: ~$35,000 (+58%)
 ├── Average return: ~11% annually
 ├── Dividends reinvested: ~$4,500
-└── Commissions over 10 years: ~$18
+└── Fees: ~$1 in year one, ~$90 over 10 years as the balance grows (0.03%/yr)
 
 Path to $50,000:
-├── Reached $50,000 mark in year 7
+├── Reached $50,000 mark in year 9 (2023)
 └── Growth accelerated thanks to compound interest
 ```
 
@@ -97,12 +97,12 @@ Year   Invested   Value       Growth
 2015   $3,700     $4,100      +11%
 2016   $7,300     $8,500      +16%
 2017   $10,900    $14,200     +30%
-2018   $14,500    $13,800     -5%  ← small drop
-2019   $18,100    $22,500     +25%
-2020   $21,700    $30,100     +39%
-2021   $27,900    $45,200     +63%
-2022   $36,100    $38,500     +7%  ← correction
-2023   $48,700    $72,000     +48%
+2018   $16,900    $13,800     -5%  ← small drop
+2019   $22,900    $22,500     +25%
+2020   $28,900    $30,100     +39%
+2021   $34,900    $45,200     +63%
+2022   $43,300    $38,500     +7%  ← correction
+2023   $51,700    $72,000     +48%
 2024   $60,100    $95,000     +58%
 
 $100 → $95,000 in 10 years of discipline
@@ -248,7 +248,7 @@ New strategy:
 ├── 6. Automatic investments of $1,000/month
 └── 7. Don't read financial news
 
-Result of second year: +18% (vs index +16%)
+Second year (2022): −16% vs −19% for the index — fell with the market, but less, and kept investing
 ```
 
 ### Key Lesson
@@ -285,7 +285,7 @@ What happened in 2022:
 ├── NASDAQ: -33%
 ├── Bonds (BND): -13%
 ├── Even "safe" assets were falling
-└── Worst year for 60/40 portfolio in 100 years
+└── Worst year for a 60/40 portfolio since 1937
 
 My portfolio:
 ├── January 2022: $320,000
@@ -352,19 +352,19 @@ Voice of panic:
 ```
 Recovery:
 ├── October 2022 (bottom): $248,000
-├── December 2023: $385,000
-├── Growth from bottom: +55%
-└── Growth from start of 2022: +20%
+├── December 2023: ~$350,000
+├── Growth from bottom: +41% (including contributions)
+└── Growth from start of 2022 (Jan): ~+9%
 
 My purchases during the drop:
 ├── Invested $24,000 in 2022
 ├── Average purchase price: -15% from peak
-├── That $24,000 is now worth: ~$35,000
-└── Additional profit: $11,000
+├── That $24,000 is now worth: ~$28,000
+└── Additional profit: ~$4,000 (+17%)
 
 If I had sold in panic (October 2022):
 ├── Would have locked in $72,000 loss
-├── Would have missed 55% growth
+├── Would have missed 41% growth
 └── Would have lost ~$140,000 compared to current result
 ```
 
@@ -636,4 +636,4 @@ Your first step:
 
 ---
 
-[← Back to course](README.md) | [ETF Analysis →](ETF-ANALYSIS.md)
+[← Back to course](/investing-course/en/) | [ETF Analysis →](/investing-course/en/ETF-ANALYSIS/)

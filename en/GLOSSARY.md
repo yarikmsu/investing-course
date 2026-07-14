@@ -37,7 +37,7 @@ permalink: /GLOSSARY/
 
 **Bull Market** — A period of market growth of 20%+ from the bottom. Characterized by investor optimism.
 
-**Buyback** — A company repurchasing its own shares from the market. Increases the value of remaining shares.
+**Buyback** — A company repurchasing its own shares from the market. Increases each remaining share's claim on profits (EPS); the effect on value depends on the buyback price (repurchasing above fair value destroys value).
 
 ---
 
@@ -87,6 +87,8 @@ permalink: /GLOSSARY/
 
 **Fractional Shares** — The ability to buy part of a share. Allows investing any amount, even if a share costs $500+.
 
+**Fund** — A general term for mutual funds, ETFs, and other pooled (collective) investments.
+
 ---
 
 ## H
@@ -104,6 +106,8 @@ permalink: /GLOSSARY/
 **Inflation** — A rise in the general price level, reducing the purchasing power of money. Fed's target is 2% per year.
 
 **IPO (Initial Public Offering)** — A company's first public stock offering. The company goes public on an exchange.
+
+**Issuer** — An organization that issues securities. A company issues stock; a government issues bonds.
 
 ---
 
@@ -194,7 +198,7 @@ permalink: /GLOSSARY/
 
 ## T
 
-**Tax-Loss Harvesting** — Selling losing positions to use losses for reducing taxes. Can deduct up to $3,000 in losses annually.
+**Tax-Loss Harvesting** — Selling losing positions to use losses for reducing taxes. Losses offset capital gains without limit; beyond that, up to $3,000/year can offset ordinary income, and any remainder carries forward to future years.
 
 **Ticker Symbol** — A short designation for a security. Examples: AAPL (Apple), VTI (Vanguard Total Stock).
 
@@ -204,7 +208,7 @@ permalink: /GLOSSARY/
 
 ## V
 
-**Volatility** — A measure of price fluctuations. High volatility = high risk and high potential return.
+**Volatility** — A measure of price fluctuations. High volatility = high uncertainty of outcome; by itself it does NOT guarantee higher returns.
 
 ---
 

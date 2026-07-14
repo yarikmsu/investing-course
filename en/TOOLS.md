@@ -404,6 +404,6 @@ Rule: if it sounds too good — it's a scam.
 
 ---
 
-> **Last updated:** January 2026
+> **Last updated:** July 2026
 
-[← Back to Course](index.md)
+[← Templates](/investing-course/en/TEMPLATES/) | [Back to Course](/investing-course/en/)
