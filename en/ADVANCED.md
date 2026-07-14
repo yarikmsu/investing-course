@@ -301,6 +301,8 @@ Solution — Backdoor Roth:
 
 ⚠️ Pro-rata Rule:
 ├── If you have other Traditional IRAs with pre-tax money
+├── The rule aggregates ALL Traditional + SEP + SIMPLE IRAs
+│   by the Dec 31 year-end balance (Form 8606, line 6)
 ├── Conversion is taxed proportionally
 ├── Primary fix: roll pre-tax into a 401(k) (cheap and clean)
 └── Or convert ALL pre-tax IRA balances to Roth — but this is

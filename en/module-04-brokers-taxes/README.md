@@ -312,6 +312,11 @@ Tax (MFJ, 2026):
 ├── 12% on $55,200 = $6,624
 └── Total: ~$9,104 (effective rate ~11.4%)
 
+ℹ️ Simplification: $80,000 is treated here as already-taxable income.
+In reality the standard deduction ($32,200 MFJ, 2026) and the fact that
+Social Security is at most 85% taxable usually cut the actual tax to
+~$2,000-4,000. This example shows only how the rate brackets work.
+
 Important to understand:
 ├── This is NOT 15% (LTCG rate) — this is ordinary income tax
 ├── With high withdrawals, rate can reach 22-37%
@@ -361,7 +366,7 @@ Qualified Expenses:
 ├── Tuition and fees
 ├── Books and equipment
 ├── Room and board (at half-time enrollment)
-└── Up to $10K/year for K-12 (private schools)
+└── Up to $20K/year for K-12 (OBBBA, from 2026; was $10K) — check your state
 ```
 
 | Parameter | Value |
@@ -651,10 +656,12 @@ Always ordinary:
 |-----------|------------------|------|-----|
 | Qualified + income $40k (single) | From Apple | **0%** | **$0** |
 | Qualified + income $100k (single) | From Apple | **15%** | **$750** |
-| Ordinary + income $100k (single) | From REIT | **24%** | **$1,200** |
-| Ordinary + income $500k (single) | From REIT | **35%** | **$1,750** |
+| Ordinary + income $100k (single) | From REIT | **22%** | **$1,100** |
+| Ordinary + income $500k (single) | From REIT | **35% + 3.8% NIIT** | **$1,940** |
 
 > 💡 **Practical tip:** In taxable accounts, prefer ETFs with qualified dividends (VOO, VTI) over REIT funds (VNQ). REITs are better held in IRA, where dividend tax isn't charged annually.
+>
+> ℹ️ The rates above are marginal. Non-qualified REIT dividends qualify for the §199A (QBI) 20% deduction, so the effective rate is lower (e.g. ~17.6% instead of 22%).
 
 #### Capital Gains
 
@@ -674,13 +681,13 @@ Let's say you bought stock and sold it for a **$10,000** profit.
 
 | Scenario | Holding Period | Tax Rate | Tax | Net |
 |----------|----------------|----------|-----|-----|
-| **Short-term** | 6 months | up to 37%* | **$3,700** | $6,300 |
+| **Short-term** | 6 months | 24%* | **$2,400** | $7,600 |
 | **Long-term** | 2 years | 15%** | **$1,500** | $8,500 |
-| | | **Difference** | **$2,200** | |
+| | | **Difference** | **$900** | |
 
-*At income $100,000+. **At income $50,000-$500,000.
+*At income ~$150,000 (24% rate); the 37% rate applies only above $640,600. **At income $50,000-$500,000.
 
-> 📊 **Conclusion:** By waiting another 6 months, you save **$2,200** on taxes — that's 22% of your profit!
+> 📊 **Conclusion:** By waiting another 6 months, you save **$900** on taxes — that's 9% of your profit!
 
 ```
 Rule of thumb:
@@ -973,7 +980,8 @@ What it is:
 What it provides:
 ├── Reduced dividend tax
 ├── From 30% to 10-15% (depends on country)
-└── Exemption from capital gains tax
+└── NRA capital gains are already not US-taxed by statute
+    (this follows from the law, NOT from the W-8BEN form itself)
 ```
 
 ### Taxes for Non-Residents

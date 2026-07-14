@@ -103,9 +103,10 @@ Minimum requirements:
 ├── Age: 18+
 └── W-8BEN form completion
 
-Commissions (IBKR Lite):
-├── US stocks: $0
-├── ETFs: $0
+Commissions (IBKR Pro — the plan non-residents get;
+Lite is US-residents ONLY):
+├── US stocks/ETFs: tiered from $0.35/trade
+│   ($0.0035/share, max 1%) or fixed $0.005/share (min $1)
 ├── Options: from $0.65 per contract
 └── Currency conversion: 0.002%
 ```
@@ -115,8 +116,8 @@ Commissions (IBKR Lite):
 | Criteria | Interactive Brokers | Firstrade | Exante |
 |----------|---------------------|-----------|--------|
 | **Countries** | 200+ | ~100 | Europe, CIS |
-| **US stock commission** | $0 (Lite) / $0.005/share (Pro) | $0 | $1.50 min. |
-| **ETF commission** | $0 | $0 | $1.50 min. |
+| **US stock commission** | from $0.35/trade (Pro; Lite = US residents only) | $0 | $1.50 min. |
+| **ETF commission** | same as stocks (Pro) | $0 | $1.50 min. |
 | **Options** | $0.65/contract | $0 | $3/contract |
 | **Minimum deposit** | $0 | $0 | €10,000 |
 | **Currency conversion** | 0.002% (very low) | Spread ~0.5% | Spread ~0.3% |
@@ -131,17 +132,15 @@ Commissions (IBKR Lite):
 ```
 Two account types:
 
-IBKR Lite (recommended for most):
+IBKR Lite (⚠️ US residents ONLY):
 ├── $0 commission on US stocks and ETFs
-├── No inactivity fee
-├── No minimum deposit
-└── Suitable for long-term investors
+└── Not available to non-residents
 
-IBKR Pro (for active traders):
-├── $0.005/share commission (min $1)
+IBKR Pro (the plan non-residents get):
+├── Tiered: from $0.35/trade ($0.0035/share, max 1%)
+├── or Fixed: $0.005/share (min $1)
 ├── Better order execution
-├── Access to algorithms
-└── Suitable if you trade frequently
+└── This is the plan non-residents receive
 
 Benefits for non-residents:
 ├── W-8BEN completed online during opening
@@ -778,11 +777,12 @@ Approximate effect over 20 years ($100,000, 2% dividends):
 UK residents:
 ├── CSPX/VWRA on LSE in GBP
 ├── ISA account — tax-free (up to £20,000/year)
-└── US ETFs in ISA also beneficial
+└── ⚠️ US-domiciled ETFs (VOO, VTI) generally unavailable to UK
+    retail (PRIIPs KID rule) — use UCITS with UK reporting status
 
 German residents:
 ├── CSPX/VWCE on Xetra in EUR
-├── €801 Sparerpauschbetrag (tax-free allowance)
+├── €1,000 Sparerpauschbetrag (€2,000 married; raised in 2023)
 └── Vorabpauschale on accumulating funds
 
 Dutch residents:
