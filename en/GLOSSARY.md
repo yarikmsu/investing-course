@@ -9,6 +9,8 @@ permalink: /GLOSSARY/
 
 # Investment Terms Glossary
 
+> ⚠️ **This is educational material, not financial advice.** Consult a licensed financial professional before making investment decisions.
+
 > **A comprehensive dictionary** of investment terminology for the US market.
 
 ---

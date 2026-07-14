@@ -8,6 +8,8 @@ permalink: /TLDR/
 
 # TL;DR — Course in 5 Minutes
 
+> ⚠️ **This is educational material, not financial advice.** Consult a licensed financial professional before making investment decisions.
+
 > ⚠️ **This is educational material, not financial advice.**
 
 ---

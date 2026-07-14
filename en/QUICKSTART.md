@@ -8,6 +8,8 @@ permalink: /QUICKSTART/
 
 # Quick Start: Your First $500 in 7 Days
 
+> ⚠️ **This is educational material, not financial advice.** Consult a licensed financial professional before making investment decisions.
+
 > **Goal:** Go from "thinking about investing" to "I have investments" in one week.
 
 ---

@@ -9,6 +9,8 @@ permalink: /CHECKLISTS/
 
 # Investor Checklists
 
+> ⚠️ **This is educational material, not financial advice.** Consult a licensed financial professional before making investment decisions.
+
 > Practical checklists for every stage of investing.
 > Print or copy — check off completed items.
 

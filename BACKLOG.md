@@ -9,7 +9,7 @@
 - **Priority:** P0 = ship-blocker (misleads readers or breaks the live site today) · P1 = high (fix this sprint) · P2 = medium (next sprint) · P3 = polish/opportunity
 - **Effort:** S ≤ 1h · M = half-day to a day · L = multi-day
 - **Source:** finding ID(s) from the underlying reviews. Items found independently by two lenses are marked (×2) — treat their diagnosis as high-confidence.
-- Unless noted otherwise, content fixes apply to **both RU and EN** (RU is primary, then mirror to EN per `CLAUDE.md`).
+- Unless noted otherwise, content fixes apply to **both RU and EN** (RU is primary, then mirror to EN per the project content guidelines).
 
 **Totals: 65 items — 8 × P0 · 20 × P1 · 24 × P2 · 13 × P3.**
 
@@ -37,7 +37,7 @@
 
 ### BL-104 · Fix ~29 dead footer links — `S` · PO-04
 Bare `README.md` / relative `.md` links in the footer nav of ~14 rendered pages (TOOLS, EXERCISES, CHECKLISTS, TEMPLATES, ETF-ANALYSIS, VISUAL-GUIDE, INVESTOR-STORIES, SOURCES × RU/EN) 404 on the published site — pages publish at pretty permalinks and no relative-links plugin is installed. Both home pages also link `./LICENSE`, which isn't in either build dir.
-**Done when:** all links use the `/investing-course/{ru,en}/PAGE/` format mandated by CLAUDE.md; LICENSE linked to the GitHub blob or copied into each subsite.
+**Done when:** all links use the `/investing-course/{ru,en}/PAGE/` format mandated by the project content guidelines; LICENSE linked to the GitHub blob or copied into each subsite.
 
 ### BL-201 · 1099-DIV foreign tax is Box 7, not Box 6 — `S` · CPA-02 + INV-01 (×2, introduced by May fixes)
 `ru/module-04:1049,1052,1145`, `en/module-04:1036,1039,1132`, `ru/ADVANCED.md:213`, `en/ADVANCED.md:214` cite "1099-DIV Box 6: Foreign Tax Paid." On the current form Box 6 = investment expenses; foreign tax is **Box 7** (country: Box 8). Module 8 already says Box 7 — the course contradicts itself, and a reader would look up the wrong box at filing time.
@@ -133,7 +133,7 @@ Bare `README.md` / relative `.md` links in the footer nav of ~14 rendered pages 
 |----|-----|-----|--------|------|
 | BL-401 | P1 | M | PO-06, PO-03 | **CI parity gate:** a PR check that (a) link-checks internal links against declared permalinks and (b) diffs RU↔EN heading skeletons + file lists (whitelisting RUSSIA.md). Would have caught BL-103/104 and TLDR drift. The sync policy currently exists only as text and fails in both directions. |
 | BL-402 | P1 | M | PO-06 | EN `TLDR.md` is a completely different document from RU (11 unrelated sections vs 13) — the #2 nav item. Re-derive EN from RU. Also re-align INVESTOR-STORIES structure (Case 5 exclusion stays, per policy). |
-| BL-403 | P2 | S | PO-07 | 12 pages per language (incl. the most action-oriented: TLDR, QUICKSTART, CHECKLISTS) lack the body education-not-advice disclaimer CLAUDE.md requires on every page. Add the standard blockquote under each H1. |
+| BL-403 | P2 | S | PO-07 | 12 pages per language (incl. the most action-oriented: TLDR, QUICKSTART, CHECKLISTS) lack the body education-not-advice disclaimer the project content guidelines require on every page. Add the standard blockquote under each H1. |
 | BL-404 | P2 | S | PO-08 | Only 6 of 31 RU pages carry freshness dates; RUSSIA.md and TOOLS.md — the fastest-decaying pages — have none. Add `last_reviewed` front matter rendered near the H1; stamp RUSSIA/TOOLS/QUICKSTART first. |
 | BL-405 | P2 | S | PO-09 | Merge near-duplicate `ABOUT.md` / `about-course.md`; publish CHANGELOG as a child page (the hub promises a changelog that is unreachable — the audit history is a trust asset, show it). |
 | BL-406 | P2 | S | PO-10 | Reconcile difficulty labels (index.md says Module 8 🟡, modules.md says 🔴) and either give ADVANCED the nav parent the audiences hub promises or drop it from that table. |

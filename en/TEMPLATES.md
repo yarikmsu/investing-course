@@ -9,6 +9,8 @@ permalink: /TEMPLATES/
 
 # Investor Templates
 
+> ⚠️ **This is educational material, not financial advice.** Consult a licensed financial professional before making investment decisions.
+
 > Ready-to-use templates for planning and tracking investments.
 > Copy to your notes or spreadsheet and fill in.
 

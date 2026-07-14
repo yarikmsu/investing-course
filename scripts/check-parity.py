@@ -5,7 +5,7 @@
   1. Внутренние ссылки. Каждая markdown-ссылка вида
      /investing-course/{ru,en}/PAGE/ должна соответствовать permalink,
      объявленному во front matter какого-либо файла этого языка.
-     Относительные ссылки на .md-файлы запрещены (CLAUDE.md): на
+     Относительные ссылки на .md-файлы запрещены (правила проекта): на
      опубликованном сайте они ведут на 404.
      Относительные ссылки вида ./PAGE/ резолвятся от permalink страницы.
   2. Паритет файлов RU ↔ EN. Наборы .md-файлов должны совпадать,
@@ -32,7 +32,7 @@ SKIP_DIRS = ("vendor/", ".bundle/", "node_modules/", "_site/", ".jekyll-cache/")
 def content_md(lang: str):
     return [p for p in sorted((ROOT / lang).rglob("*.md"))
             if not any(s in p.relative_to(ROOT / lang).as_posix() for s in SKIP_DIRS)]
-# Файлы, существующие только в одном языке (политика CLAUDE.md)
+# Файлы, существующие только в одном языке (правило проекта)
 FILE_WHITELIST = {"RUSSIA.md"}  # только в ru/
 BASE = "/investing-course"
 
@@ -127,7 +127,7 @@ def check_file_parity(errors):
     for f in sorted(only_en):
         errors.append(f"паритет файлов: en/{f} не имеет пары ru/{f} (EN — перевод RU)")
     if "RUSSIA.md" in sets["en"]:
-        errors.append("паритет файлов: en/RUSSIA.md запрещён политикой CLAUDE.md")
+        errors.append("паритет файлов: en/RUSSIA.md запрещён политикой проекта (RUSSIA.md — только RU)")
 
 
 def check_heading_skeletons(warnings):

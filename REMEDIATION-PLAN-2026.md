@@ -4,7 +4,7 @@
 
 **Goal:** Bring the bilingual US investing course current to mid-2026 — refresh all stale tax figures to IRS 2026 values, add the two missing substantive sections (non-resident US estate tax; OBBBA tax-law primer), correct a handful of factual errors, and mirror everything RU → EN.
 
-**Architecture:** This is a Jekyll/GitHub-Pages Markdown content repo (`ru/` is the primary version, `en/` is the translation per `CLAUDE.md`). There is no code or unit-test harness, so each task's verification is a `grep` assertion (the stale string is gone, the new string is present) plus the CI build in `.github/workflows/deploy.yml`. RU is authored first; EN mirrors it. The `en/` version must **not** contain Russia-specific content (per `CLAUDE.md`).
+**Architecture:** This is a Jekyll/GitHub-Pages Markdown content repo (`ru/` is the primary version, `en/` is the translation per the project content guidelines). There is no code or unit-test harness, so each task's verification is a `grep` assertion (the stale string is gone, the new string is present) plus the CI build in `.github/workflows/deploy.yml`. RU is authored first; EN mirrors it. The `en/` version must **not** contain Russia-specific content (per the project content guidelines).
 
 **Tech Stack:** Markdown (kramdown/GFM), Jekyll, GitHub Pages. No build dependencies assumed locally; correctness is verified by `grep` + CI.
 
@@ -56,11 +56,11 @@ git checkout -b fix/2026-data-refresh
 
 - [ ] **Step 2: Exclude this plan from the published site (match existing convention)**
 
-In `_config.yml`, under the `exclude:` block (currently lists `CLAUDE.md`, `IMPROVEMENT_PLAN.md`, `AUDIT-REPORT.md`), add the plan file. Change:
+In `_config.yml`, under the `exclude:` block (currently lists the project guidelines file, `IMPROVEMENT_PLAN.md`, `AUDIT-REPORT.md`), add the plan file. Change:
 
 ```yaml
 exclude:
-  - CLAUDE.md
+  - <project-guidelines>.md
   - IMPROVEMENT_PLAN.md
   - AUDIT-REPORT.md
   - "*.sh"
@@ -71,7 +71,7 @@ to:
 
 ```yaml
 exclude:
-  - CLAUDE.md
+  - <project-guidelines>.md
   - IMPROVEMENT_PLAN.md
   - AUDIT-REPORT.md
   - REMEDIATION-PLAN-2026.md
@@ -649,7 +649,7 @@ git commit -m "docs(ru): add modern safe-withdrawal-rate context to 4% rule"
 
 ## Phase 5 — English mirror (en/)
 
-> Per `CLAUDE.md`: `en/` is the translation and must **NOT** contain Russia-specific content. So Tasks 9 (Russia) is **skipped** for EN. Everything else mirrors.
+> Per the project content guidelines: `en/` is the translation and must **NOT** contain Russia-specific content. So Tasks 9 (Russia) is **skipped** for EN. Everything else mirrors.
 
 ### Task 14: Mirror data corrections to EN (Tasks 1-5 equivalents)
 
@@ -733,7 +733,7 @@ Expected: empty (no stale value presented as current).
 ```bash
 git push -u origin fix/2026-data-refresh
 gh pr create --title "2026 data refresh + gap-fill (OBBBA, NRA estate tax, limits)" \
-  --body "Refreshes all tax figures to IRS 2026 values; adds OBBBA primer and non-resident US estate-tax section; corrects I-Bonds/QCD/mega-backdoor; fixes ETF data dating; updates Russia sanctions. RU authored, EN mirrored (Russia content excluded from EN per CLAUDE.md). All dollar figures confirmed against IRS.gov/Treasury during execution."
+  --body "Refreshes all tax figures to IRS 2026 values; adds OBBBA primer and non-resident US estate-tax section; corrects I-Bonds/QCD/mega-backdoor; fixes ETF data dating; updates Russia sanctions. RU authored, EN mirrored (Russia content excluded from EN per the project content guidelines). All dollar figures confirmed against IRS.gov/Treasury during execution."
 ```
 
 ---

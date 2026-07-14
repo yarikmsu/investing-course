@@ -9,6 +9,8 @@ permalink: /VISUAL-GUIDE/
 
 # Investor Visual Guide
 
+> ⚠️ **This is educational material, not financial advice.** Consult a licensed financial professional before making investment decisions.
+
 > Key investment concepts in charts and diagrams.
 
 ---

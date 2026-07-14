@@ -9,6 +9,8 @@ permalink: /TOOLS/
 
 # Investor Tools and Resources
 
+> ⚠️ **This is educational material, not financial advice.** Consult a licensed financial professional before making investment decisions.
+
 > Useful websites, calculators, apps, and educational resources.
 
 **Legend:** 🆓 Free | 💰 Freemium (basic features free) | 💵 Paid

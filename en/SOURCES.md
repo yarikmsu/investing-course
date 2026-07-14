@@ -9,6 +9,8 @@ permalink: /SOURCES/
 
 # Sources and Research
 
+> ⚠️ **This is educational material, not financial advice.** Consult a licensed financial professional before making investment decisions.
+
 > All key claims in this course are backed by research and official data.
 >
 > **Last updated:** May 2026
