@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>US Investing Course | Инвестирование в США</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Comprehensive investing course for US markets. Available in English and Russian.">
+    <meta name="description" content="A free, comprehensive course on investing in the US stock market using passive index-fund principles. Available in English and Russian.">
+    <link rel="canonical" href="https://yarikmsu.github.io/investing-course/">
+    <!-- Open Graph / social -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="US Investing Course | Инвестирование в США">
+    <meta property="og:description" content="A free, comprehensive course on investing in the US stock market using passive index-fund principles. English and Russian.">
+    <meta property="og:url" content="https://yarikmsu.github.io/investing-course/">
+    <meta name="twitter:card" content="summary">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -14,10 +21,12 @@
             align-items: center;
             justify-content: center;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 2rem 1rem;
         }
         .container {
             text-align: center;
             padding: 2rem;
+            max-width: 640px;
         }
         h1 {
             color: white;
@@ -30,10 +39,25 @@
             margin-bottom: 0.5rem;
         }
         .description {
-            color: rgba(255,255,255,0.7);
+            color: rgba(255,255,255,0.75);
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+        }
+        .props {
+            list-style: none;
+            display: flex;
+            gap: 0.5rem 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 1.5rem;
+            color: rgba(255,255,255,0.9);
             font-size: 0.9rem;
+        }
+        .props li::before { content: "\2713 "; color: #b8f5c8; }
+        .audience {
+            color: rgba(255,255,255,0.65);
+            font-size: 0.85rem;
             margin-bottom: 2rem;
-            max-width: 400px;
         }
         .languages {
             display: flex;
@@ -85,16 +109,22 @@
     <div class="container">
         <h1>📈 US Investing Course</h1>
         <p class="subtitle">Choose your language / Выберите язык</p>
-        <p class="description">A comprehensive guide to investing in the US stock market based on passive investing principles.</p>
+        <p class="description">A comprehensive guide to investing in the US stock market, built on passive index-fund principles.</p>
+        <ul class="props">
+            <li lang="en">Index ETFs, not stock-picking</li>
+            <li lang="en">Taxes &amp; account types explained</li>
+            <li lang="en">Free &amp; beginner-friendly</li>
+        </ul>
+        <p class="audience"><span lang="en">For US residents, non-residents, and investors from Russia.</span> <span lang="ru">Для резидентов США, нерезидентов и инвесторов из России.</span></p>
         <div class="languages">
-            <a href="./ru/" class="lang-btn">
+            <a href="./ru/" class="lang-btn" hreflang="ru" lang="ru">
                 <span class="flag">🇷🇺</span>
                 <span class="lang-name">
-                    <span class="lang-label">Russian</span>
+                    <span class="lang-label" lang="en">Russian</span>
                     <span>Русский</span>
                 </span>
             </a>
-            <a href="./en/" class="lang-btn">
+            <a href="./en/" class="lang-btn" hreflang="en" lang="en">
                 <span class="flag">🇺🇸</span>
                 <span class="lang-name">
                     <span class="lang-label">English</span>
@@ -103,7 +133,7 @@
             </a>
         </div>
         <p class="footer">
-            Educational material, not financial advice.<br>
+            <span lang="en">Educational material, not financial advice.</span><br>
             <a href="https://github.com/yarikmsu/investing-course">GitHub</a>
         </p>
     </div>

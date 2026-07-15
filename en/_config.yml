@@ -53,6 +53,7 @@ exclude:
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Markdown processor
 markdown: kramdown

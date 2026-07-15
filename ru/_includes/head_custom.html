@@ -1,0 +1,6 @@
+{%- comment -%}hreflang alternates — RU/EN permalinks are symmetric (RUSSIA.md is RU-only){%- endcomment -%}
+<link rel="alternate" hreflang="ru" href="{{ site.url }}/investing-course/ru{{ page.url }}">
+{%- unless page.url == "/RUSSIA/" %}
+<link rel="alternate" hreflang="en" href="{{ site.url }}/investing-course/en{{ page.url }}">
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}/investing-course/en{{ page.url }}">
+{%- endunless %}
