@@ -458,4 +458,4 @@ Put Option — право продать актив по фиксированн�
 
 ---
 
-[← Модуль 2](/investing-course/ru/module-02-stock-market/) | [Модуль 4 →](/investing-course/ru/module-04-brokers-taxes/)
+[← Модуль 2](/investing-course/ru/module-02-stock-market/) | [Модуль 4 →](/investing-course/ru/module-04-brokers-taxes/) · [📖 Глоссарий](/investing-course/ru/GLOSSARY/)

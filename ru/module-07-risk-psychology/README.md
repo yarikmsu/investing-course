@@ -1018,4 +1018,4 @@ BND: эффективная дюрация ~6 лет
 
 ---
 
-[← Модуль 6](/investing-course/ru/module-06-etf-index/) | [Модуль 8 →](/investing-course/ru/module-08-practice/)
+[← Модуль 6](/investing-course/ru/module-06-etf-index/) | [Модуль 8 →](/investing-course/ru/module-08-practice/) · [📖 Глоссарий](/investing-course/ru/GLOSSARY/)

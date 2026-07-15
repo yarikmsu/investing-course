@@ -1309,4 +1309,4 @@ Step 5: Start investing
 
 ---
 
-[← Module 3](/investing-course/en/module-03-instruments/) | [Module 5 →](/investing-course/en/module-05-strategies/)
+[← Module 3](/investing-course/en/module-03-instruments/) | [Module 5 →](/investing-course/en/module-05-strategies/) · [📖 Glossary](/investing-course/en/GLOSSARY/)

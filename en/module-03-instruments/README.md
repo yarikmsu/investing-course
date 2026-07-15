@@ -458,4 +458,4 @@ Selling Covered Call:
 
 ---
 
-[← Module 2](/investing-course/en/module-02-stock-market/) | [Module 4 →](/investing-course/en/module-04-brokers-taxes/)
+[← Module 2](/investing-course/en/module-02-stock-market/) | [Module 4 →](/investing-course/en/module-04-brokers-taxes/) · [📖 Glossary](/investing-course/en/GLOSSARY/)

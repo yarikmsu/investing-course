@@ -277,4 +277,4 @@ n — количество лет
 
 ---
 
-[← Модуль 0](/investing-course/ru/module-00-preparation/) | [Модуль 2 →](/investing-course/ru/module-02-stock-market/)
+[← Модуль 0](/investing-course/ru/module-00-preparation/) | [Модуль 2 →](/investing-course/ru/module-02-stock-market/) · [📖 Глоссарий](/investing-course/ru/GLOSSARY/)

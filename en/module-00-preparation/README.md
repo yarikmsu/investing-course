@@ -413,4 +413,4 @@ Emergency fund:
 
 ---
 
-[Next: Quick Start →](/investing-course/en/QUICKSTART/) | [Module 1: Introduction →](/investing-course/en/module-01-introduction/)
+[Next: Quick Start →](/investing-course/en/QUICKSTART/) | [Module 1: Introduction →](/investing-course/en/module-01-introduction/) · [📖 Glossary](/investing-course/en/GLOSSARY/)

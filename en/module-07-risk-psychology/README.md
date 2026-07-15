@@ -1016,4 +1016,4 @@ AFTER the crisis:
 
 ---
 
-[← Module 6](/investing-course/en/module-06-etf-index/) | [Module 8 →](/investing-course/en/module-08-practice/)
+[← Module 6](/investing-course/en/module-06-etf-index/) | [Module 8 →](/investing-course/en/module-08-practice/) · [📖 Glossary](/investing-course/en/GLOSSARY/)

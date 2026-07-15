@@ -699,4 +699,4 @@ Low Volatility (Низкая волатильность):
 
 ---
 
-[← Модуль 4](/investing-course/ru/module-04-brokers-taxes/) | [Модуль 6 →](/investing-course/ru/module-06-etf-index/)
+[← Модуль 4](/investing-course/ru/module-04-brokers-taxes/) | [Модуль 6 →](/investing-course/ru/module-06-etf-index/) · [📖 Глоссарий](/investing-course/ru/GLOSSARY/)

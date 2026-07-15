@@ -399,4 +399,4 @@ AAPL (Apple Inc.)
 
 ---
 
-[← Модуль 1](/investing-course/ru/module-01-introduction/) | [Модуль 3 →](/investing-course/ru/module-03-instruments/)
+[← Модуль 1](/investing-course/ru/module-01-introduction/) | [Модуль 3 →](/investing-course/ru/module-03-instruments/) · [📖 Глоссарий](/investing-course/ru/GLOSSARY/)

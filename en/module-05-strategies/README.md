@@ -698,4 +698,4 @@ Why it matters:
 
 ---
 
-[← Module 4](/investing-course/en/module-04-brokers-taxes/) | [Module 6 →](/investing-course/en/module-06-etf-index/)
+[← Module 4](/investing-course/en/module-04-brokers-taxes/) | [Module 6 →](/investing-course/en/module-06-etf-index/) · [📖 Glossary](/investing-course/en/GLOSSARY/)

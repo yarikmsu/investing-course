@@ -1119,4 +1119,4 @@ Or simply: 90% VTI + 10% BND.
 
 ---
 
-[← Module 7](/investing-course/en/module-07-risk-psychology/) | [Back to Home](/investing-course/en/)
+[← Module 7](/investing-course/en/module-07-risk-psychology/) | [Back to Home](/investing-course/en/) · [📖 Glossary](/investing-course/en/GLOSSARY/)

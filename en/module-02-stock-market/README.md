@@ -399,4 +399,4 @@ Combination of stop and limit order.
 
 ---
 
-[← Module 1](/investing-course/en/module-01-introduction/) | [Module 3 →](/investing-course/en/module-03-instruments/)
+[← Module 1](/investing-course/en/module-01-introduction/) | [Module 3 →](/investing-course/en/module-03-instruments/) · [📖 Glossary](/investing-course/en/GLOSSARY/)

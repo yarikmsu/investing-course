@@ -551,4 +551,4 @@ Age 75: ████████████░░░░░░░░░░░░
 
 ---
 
-[← Module 5](/investing-course/en/module-05-strategies/) | [Module 7 →](/investing-course/en/module-07-risk-psychology/)
+[← Module 5](/investing-course/en/module-05-strategies/) | [Module 7 →](/investing-course/en/module-07-risk-psychology/) · [📖 Glossary](/investing-course/en/GLOSSARY/)

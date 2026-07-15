@@ -277,4 +277,4 @@ Test how well you understood the module material.
 
 ---
 
-[← Module 0](/investing-course/en/module-00-preparation/) | [Module 2 →](/investing-course/en/module-02-stock-market/)
+[← Module 0](/investing-course/en/module-00-preparation/) | [Module 2 →](/investing-course/en/module-02-stock-market/) · [📖 Glossary](/investing-course/en/GLOSSARY/)

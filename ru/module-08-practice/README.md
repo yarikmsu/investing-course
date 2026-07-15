@@ -1122,4 +1122,4 @@ _________________________________
 
 ---
 
-[← Модуль 7](/investing-course/ru/module-07-risk-psychology/) | [Вернуться к началу](/investing-course/ru/)
+[← Модуль 7](/investing-course/ru/module-07-risk-psychology/) | [Вернуться к началу](/investing-course/ru/) · [📖 Глоссарий](/investing-course/ru/GLOSSARY/)

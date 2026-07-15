@@ -1321,4 +1321,4 @@ Schedule B:
 
 ---
 
-[← Модуль 3](/investing-course/ru/module-03-instruments/) | [Модуль 5 →](/investing-course/ru/module-05-strategies/)
+[← Модуль 3](/investing-course/ru/module-03-instruments/) | [Модуль 5 →](/investing-course/ru/module-05-strategies/) · [📖 Глоссарий](/investing-course/ru/GLOSSARY/)

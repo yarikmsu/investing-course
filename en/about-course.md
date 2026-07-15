@@ -14,9 +14,9 @@ Information about the course, sources, and changelog.
 
 | Section | Description |
 |---------|-------------|
-| **About the Project** | Course goals, authors, contacts |
-| **Sources** | Books, websites, and materials the course is based on |
-| **Changelog** | What's new in each version of the course |
+| [**About the Project**](/investing-course/en/ABOUT/) | Course goals, authors, contacts |
+| [**Sources**](/investing-course/en/SOURCES/) | Books, websites, and materials the course is based on |
+| [**Changelog**](/investing-course/en/CHANGELOG/) | What's new in each version of the course |
 
 ## Course Philosophy
 

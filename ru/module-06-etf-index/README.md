@@ -552,4 +552,4 @@ Provider: Vanguard   SPDR       iShares
 
 ---
 
-[← Модуль 5](/investing-course/ru/module-05-strategies/) | [Модуль 7 →](/investing-course/ru/module-07-risk-psychology/)
+[← Модуль 5](/investing-course/ru/module-05-strategies/) | [Модуль 7 →](/investing-course/ru/module-07-risk-psychology/) · [📖 Глоссарий](/investing-course/ru/GLOSSARY/)

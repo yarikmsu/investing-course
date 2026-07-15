@@ -413,4 +413,4 @@ permalink: /module-00-preparation/
 
 ---
 
-[Далее: Быстрый старт →](/investing-course/ru/QUICKSTART/) | [Модуль 1: Введение →](/investing-course/ru/module-01-introduction/)
+[Далее: Быстрый старт →](/investing-course/ru/QUICKSTART/) | [Модуль 1: Введение →](/investing-course/ru/module-01-introduction/) · [📖 Глоссарий](/investing-course/ru/GLOSSARY/)
