@@ -1,12 +1,16 @@
 ---
 layout: default
 title: "Advanced Strategies"
-nav_order: 10
+last_reviewed: 2026-07-15
+parent: "For Different Audiences"
+nav_order: 2
 description: "Tax-loss harvesting, Roth conversion, Estate planning"
 permalink: /ADVANCED/
 ---
 
 # Advanced Investment Strategies
+
+{% include reviewed.html %}
 
 > **For experienced US residents** | Prerequisite: Completion of core course (modules 0-8)
 
@@ -1080,8 +1084,6 @@ Calculators:
 
 ---
 
-> **Current as of:** May 2026
->
 > Tax law changes. Verify current information and consult with professionals.
 
 ---

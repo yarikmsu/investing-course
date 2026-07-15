@@ -1,11 +1,14 @@
 ---
 layout: default
 title: Главная
+last_reviewed: 2026-07-15
 nav_order: 1
 permalink: /
 ---
 
 # Курс: Инвестирование в США
+
+{% include reviewed.html %}
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
@@ -252,7 +255,3 @@ TLDR → Быстрый старт → FAQ → Модуль 8
 Этот курс распространяется под лицензией [CC BY-NC-ND 4.0](https://github.com/yarikmsu/investing-course/blob/main/LICENSE).
 
 Вы можете свободно читать, делиться и цитировать материал с указанием источника. Коммерческое использование и создание производных работ запрещено.
-
----
-
-*Актуально на: январь 2026*

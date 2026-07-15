@@ -1,12 +1,15 @@
 ---
 layout: default
 title: "TL;DR"
+last_reviewed: 2026-07-15
 nav_order: 2
 description: "The whole course in 5 minutes"
 permalink: /TLDR/
 ---
 
 # TL;DR: Investing in the US in 5 Minutes
+
+{% include reviewed.html %}
 
 > ⚠️ **This is educational material, not financial advice.** Consult a licensed financial professional before making investment decisions.
 

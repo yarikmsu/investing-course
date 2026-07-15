@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Module 4: Brokers & Taxes"
+last_reviewed: 2026-07-15
 parent: "Course Modules"
 nav_order: 5
 description: "Choosing a broker, account types, taxation"
@@ -8,6 +9,8 @@ permalink: /module-04-brokers-taxes/
 ---
 
 # Module 4: Brokerage Accounts and Taxes
+
+{% include reviewed.html %}
 
 > **IMPORTANT: This is educational material, not financial advice.**
 >
@@ -17,7 +20,7 @@ permalink: /module-04-brokers-taxes/
 > - Past results DO NOT guarantee future performance
 > - Consult with a licensed financial professional (CFA/CFP) before investing
 >
-> **Current as of:** May 2026 (2026 limits). Tax rates and limits change — verify current information on official sources (IRS.gov).
+> ⚠️ Tax rates and limits (2026) change — verify current information on official sources (IRS.gov).
 
 ---
 

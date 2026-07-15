@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Tools
+last_reviewed: 2026-07-15
 parent: "Reference"
 nav_order: 3
 description: "Calculators, brokers, and investor resources"
@@ -8,6 +9,8 @@ permalink: /TOOLS/
 ---
 
 # Investor Tools and Resources
+
+{% include reviewed.html %}
 
 > ⚠️ **This is educational material, not financial advice.** Consult a licensed financial professional before making investment decisions.
 
@@ -405,7 +408,5 @@ Rule: if it sounds too good — it's a scam.
 ```
 
 ---
-
-> **Last updated:** July 2026
 
 [← Templates](/investing-course/en/TEMPLATES/) | [Back to Course](/investing-course/en/)
