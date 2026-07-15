@@ -363,7 +363,7 @@ Match each account to its tax treatment. Options: "after-tax", "pre-tax (deducti
 
 | Account | Contribution | Growth | Withdrawal |
 |---------|--------------|--------|------------|
-| **Taxable** | after-tax | dividends/gains taxed annually | capital-gains tax on sale |
+| **Taxable** | after-tax | dividends taxed annually | capital-gains tax only on sale |
 | **Traditional IRA** | pre-tax (deductible\*) | tax-deferred until withdrawal | taxed as ordinary income |
 | **Roth IRA** | after-tax | never taxed | never taxed (qualified withdrawal) |
 
@@ -400,8 +400,10 @@ Put the steps of a first purchase in the right order: **a)** buy an ETF · **b)*
 1. **Choose a broker** (Fidelity/Schwab for US residents; IBKR for non-residents).
 2. **Open the account**, fill out forms (W-8BEN for non-residents).
 3. **Fund the account** (ACH/wire).
-4. **Buy an ETF** (VTI/VOO), ideally a marketable limit order mid-day.
-5. **Set up automatic** recurring purchases — and stop checking the account daily.
+4. **Buy a broad ETF**, ideally a marketable limit order mid-day.
+   - US residents — VTI/VOO.
+   - ⚠️ Non-residents: US-domiciled ETFs (VTI/VOO) are US-situs assets exposed to US estate tax (the $60,000 NRA threshold); Irish/Luxembourg UCITS ETFs are often used instead (see [NON-RESIDENTS](/investing-course/en/NON-RESIDENTS/)).
+5. **Set up automatic purchases** — if your broker supports them for ETFs (e.g., Fidelity). Schwab's automatic investing is mutual-funds-only, so use an equivalent index fund or buy manually on a schedule.
 
 **Takeaway:** the whole path takes about a week; after that, the main thing is to leave the portfolio alone.
 </details>
