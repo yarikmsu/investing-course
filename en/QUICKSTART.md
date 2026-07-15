@@ -1,12 +1,15 @@
 ---
 layout: default
 title: Quick Start
+last_reviewed: 2026-07-15
 nav_order: 3
 description: "From zero to first investment in 7 days"
 permalink: /QUICKSTART/
 ---
 
 # Quick Start: Your First $500 in 7 Days
+
+{% include reviewed.html %}
 
 > ⚠️ **This is educational material, not financial advice.** Consult a licensed financial professional before making investment decisions.
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Non-US Residents"
+last_reviewed: 2026-07-15
 parent: "For Different Audiences"
 nav_order: 1
 description: "Investing in the US from abroad"
@@ -9,9 +10,9 @@ permalink: /NON-RESIDENTS/
 
 # Investing in the US for Non-Residents
 
+{% include reviewed.html %}
+
 > **This is educational material, not financial advice.** Consult a tax professional in your country.
->
-> **Last updated:** May 2026
 
 ---
 
@@ -931,10 +932,6 @@ Main steps:
 4. Consider taxes when choosing instruments
 5. Declare income in your country
 ```
-
----
-
-> **Last updated:** May 2026
 
 ---
 

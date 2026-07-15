@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Module 3: Instruments"
+last_reviewed: 2026-07-15
 parent: "Course Modules"
 nav_order: 4
 description: "Stocks, bonds, ETFs, REITs"
@@ -8,6 +9,8 @@ permalink: /module-03-instruments/
 ---
 
 # Module 3: Investment Instruments
+
+{% include reviewed.html %}
 
 > **IMPORTANT: This is educational material, not financial advice.**
 >

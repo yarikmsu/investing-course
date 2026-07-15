@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Glossary
+last_reviewed: 2026-07-15
 parent: "Reference"
 nav_order: 1
 description: "Investment terms and definitions"
@@ -8,6 +9,8 @@ permalink: /GLOSSARY/
 ---
 
 # Investment Terms Glossary
+
+{% include reviewed.html %}
 
 > ⚠️ **This is educational material, not financial advice.** Consult a licensed financial professional before making investment decisions.
 
@@ -305,6 +308,4 @@ permalink: /GLOSSARY/
 
 ---
 
-> **Last updated:** January 2026
->
 > Can't find a term? Visit [Investopedia](https://www.investopedia.com/dictionary/) for a more comprehensive dictionary.

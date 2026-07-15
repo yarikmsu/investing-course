@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Модуль 3: Инструменты"
+last_reviewed: 2026-07-15
 parent: "📚 Модули курса"
 nav_order: 4
 description: "Акции, облигации, ETF, REITs"
@@ -8,6 +9,8 @@ permalink: /module-03-instruments/
 ---
 
 # Модуль 3: Инвестиционные инструменты
+
+{% include reviewed.html %}
 
 > ⚠️ **ВАЖНО: Это образовательный материал, а не финансовый совет.**
 >

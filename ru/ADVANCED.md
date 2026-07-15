@@ -1,12 +1,16 @@
 ---
 layout: default
 title: "🔴 Продвинутые стратегии"
-nav_order: 10
+last_reviewed: 2026-07-15
+parent: "🌍 Для разных аудиторий"
+nav_order: 3
 description: "Tax-loss harvesting, Roth conversion, Estate planning"
 permalink: /ADVANCED/
 ---
 
 # Продвинутые стратегии инвестирования
+
+{% include reviewed.html %}
 
 > **Для опытных резидентов США** | Требуется: прохождение основного курса (модули 0-8)
 
@@ -1077,8 +1081,6 @@ Estate Planning:
 
 ---
 
-> **Актуально на:** май 2026
->
 > Налоговое законодательство меняется. Проверяйте актуальную информацию и консультируйтесь со специалистами.
 
 ---

@@ -1,11 +1,14 @@
 ---
 layout: default
 title: Home
+last_reviewed: 2026-07-15
 nav_order: 1
 permalink: /
 ---
 
 # US Investing Course
+
+{% include reviewed.html %}
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
@@ -244,7 +247,3 @@ The same is true for investing. Start today.
 This course is distributed under the [CC BY-NC-ND 4.0](https://github.com/yarikmsu/investing-course/blob/main/LICENSE) license.
 
 You may freely read, share, and quote the material with attribution. Commercial use and creation of derivative works are prohibited.
-
----
-
-*Current as of: January 2026*

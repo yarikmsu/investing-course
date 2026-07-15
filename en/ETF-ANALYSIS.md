@@ -1,6 +1,7 @@
 ---
 layout: default
 title: ETF Analysis
+last_reviewed: 2026-07-15
 parent: "Reference"
 nav_order: 2
 description: "Detailed analysis of VOO, VTI, QQQ, VT, BND"
@@ -9,8 +10,10 @@ permalink: /ETF-ANALYSIS/
 
 # Popular ETF Analysis
 
+{% include reviewed.html %}
+
 > **This is educational material, not financial advice.**
-> **Current as of:** May 2026. Data may change — verify current values before making decisions.
+> ⚠️ ETF data (fees, holdings, returns) may change — verify current values before making decisions.
 > Return charts reflect data as of early 2025.
 
 Detailed analysis of 5 popular ETFs for long-term investing.

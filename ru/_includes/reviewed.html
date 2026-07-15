@@ -1,0 +1,8 @@
+{%- comment -%}
+  Freshness badge (BL-404). Renders "Актуально на: DD.MM.YYYY" under the H1
+  when the page declares `last_reviewed: YYYY-MM-DD` in front matter.
+  Usage in a page body, right after the H1:  {% include reviewed.html %}
+{%- endcomment -%}
+{%- if page.last_reviewed -%}
+<p class="ic-reviewed" style="margin:-0.4rem 0 1.1rem;font-size:0.8rem;color:#6b7280;" title="Дата последней проверки актуальности">🗓 Актуально на: {{ page.last_reviewed | date: "%d.%m.%Y" }}</p>
+{%- endif -%}

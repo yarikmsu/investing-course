@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Checklists
+last_reviewed: 2026-07-15
 parent: "Practice"
 nav_order: 2
 description: "6 checklists for every stage of investing"
@@ -8,6 +9,8 @@ permalink: /CHECKLISTS/
 ---
 
 # Investor Checklists
+
+{% include reviewed.html %}
 
 > ⚠️ **This is educational material, not financial advice.** Consult a licensed financial professional before making investment decisions.
 
