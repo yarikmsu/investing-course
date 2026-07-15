@@ -6,7 +6,8 @@
 {%- endunless %}
 <script>
 /* Course progress tracker + completion certificate (localStorage, no deps).
-   Shared across RU/EN, language-aware. */
+   Shared across RU/EN, language-aware. Hardened against tampered storage.
+   NOTE: the built HTML collapses this to one line — do NOT use // comments. */
 (function () {
   var MODULES = ["module-00-preparation", "module-01-introduction", "module-02-stock-market",
     "module-03-instruments", "module-04-brokers-taxes", "module-05-strategies",
@@ -28,36 +29,51 @@
     dateLabel: "Date", print: "Print / Save as PDF",
     locked: "Complete all 9 course modules to unlock your certificate."
   };
-  function load() { try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch (e) { return []; } }
+  function load() { try { var x = JSON.parse(localStorage.getItem(KEY)); return Array.isArray(x) ? x : []; } catch (e) { return []; } }
   function save(a) { try { localStorage.setItem(KEY, JSON.stringify(a)); } catch (e) {} }
   function get(k) { try { return localStorage.getItem(k) || ""; } catch (e) { return ""; } }
   function set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  function doneSet() { var s = {}, a = load(); for (var i = 0; i < a.length; i++) { if (MODULES.indexOf(a[i]) !== -1) s[a[i]] = 1; } return s; }
+  function doneCount() { return Object.keys(doneSet()).length; }
+  function allDone() { return doneCount() === MODULES.length; }
   function currentSlug() {
     for (var i = 0; i < MODULES.length; i++) { if (location.pathname.indexOf("/" + MODULES[i] + "/") !== -1) return MODULES[i]; }
     return null;
   }
   function certUrl() { return (isRU ? "/investing-course/ru" : "/investing-course/en") + "/CERTIFICATE/"; }
+  function today() { return new Date().toISOString().slice(0, 10); }
+  function safeDate() { var d = get(DATEKEY); if (!/^\d{4}-\d{2}-\d{2}$/.test(d)) { d = today(); set(DATEKEY, d); } return d; }
+  function bar(n) {
+    var pct = Math.round(n / MODULES.length * 100);
+    return '<div role="progressbar" aria-label="' + L.progress + '" aria-valuemin="0" aria-valuemax="' + MODULES.length +
+      '" aria-valuenow="' + n + '" style="height:8px;background:#e0e0e0;border-radius:4px;overflow:hidden;"><div style="height:100%;width:' + pct + '%;background:#4caf50;transition:width .3s;"></div></div>';
+  }
+  function addPrintStyle() {
+    if (document.getElementById("ic-print-style")) return;
+    var st = document.createElement("style");
+    st.id = "ic-print-style";
+    st.textContent = "@media print{.side-bar,.main-header,.site-footer,.aux-nav,#ic-cert-print,.ic-progress,.skip-to-main{display:none!important}.main,.main-content-wrap,.main-content{margin:0!important;max-width:none!important}#ic-cert-name{border:none!important}}";
+    document.head.appendChild(st);
+  }
 
-  function renderCertificate(root, completed) {
-    var all = completed.length === MODULES.length;
-    if (!all) {
-      var pct = Math.round(completed.length / MODULES.length * 100);
+  function renderCertificate(root) {
+    if (!allDone()) {
       root.innerHTML = '<div style="padding:1rem;border:1px dashed #bbb;border-radius:8px;background:#fafafa;">' +
         '<p style="margin-bottom:0.6rem;">' + L.locked + '</p>' +
         '<div style="display:flex;justify-content:space-between;margin-bottom:0.4rem;font-size:0.9rem;"><span>' + L.progress +
-        '</span><span><strong>' + completed.length + '</strong> ' + L.of + ' ' + MODULES.length + ' ' + L.complete + '</span></div>' +
-        '<div style="height:8px;background:#e0e0e0;border-radius:4px;overflow:hidden;"><div style="height:100%;width:' + pct + '%;background:#4caf50;"></div></div></div>';
+        '</span><span aria-live="polite"><strong>' + doneCount() + '</strong> ' + L.of + ' ' + MODULES.length + ' ' + L.complete + '</span></div>' +
+        bar(doneCount()) + '</div>';
       return;
     }
-    if (!get(DATEKEY)) set(DATEKEY, new Date().toISOString().slice(0, 10));
-    var date = get(DATEKEY);
+    addPrintStyle();
+    var date = safeDate();
     root.innerHTML =
       '<div id="ic-cert-card" style="text-align:center;padding:2.5rem 1.5rem;border:3px double #4caf50;border-radius:12px;background:#fff;max-width:640px;margin:1rem auto;">' +
-      '<div style="font-size:2.5rem;">🎓</div>' +
+      '<div style="font-size:2.5rem;" aria-hidden="true">🎓</div>' +
       '<h2 style="border:none;margin:0.5rem 0;">' + L.certTitle + '</h2>' +
       '<p style="margin:1rem 0 0.3rem;color:#555;">' + L.certBody + '</p>' +
-      '<input id="ic-cert-name" type="text" placeholder="' + L.namePlaceholder + '" ' +
-      'style="font-size:1.4rem;font-weight:600;text-align:center;border:none;border-bottom:2px solid #4caf50;padding:0.2rem 0.5rem;max-width:90%;" value="">' +
+      '<input id="ic-cert-name" type="text" aria-label="' + L.namePlaceholder + '" placeholder="' + L.namePlaceholder + '" ' +
+      'style="font-size:1.4rem;font-weight:600;text-align:center;border:none;border-bottom:2px solid #4caf50;padding:0.2rem 0.5rem;max-width:90%;">' +
       '<p style="margin:0.8rem 0;">' + L.certLine + '</p>' +
       '<p style="color:#777;font-size:0.9rem;">' + L.dateLabel + ': ' + date + '</p>' +
       '</div>' +
@@ -72,22 +88,22 @@
   document.addEventListener("DOMContentLoaded", function () {
     var main = document.getElementById("main-content");
     if (!main) return;
-    var completed = load();
+    if (main.querySelector(".ic-progress") || main.querySelector("#ic-cert-card")) return;
     var certRoot = document.getElementById("ic-cert-root");
-    if (certRoot) { renderCertificate(certRoot, completed); return; }
-
+    if (certRoot) { renderCertificate(certRoot); return; }
     var slug = currentSlug();
     var isHub = /\/modules\/?$/.test(location.pathname);
     if (!slug && !isHub) return;
-    var pct = Math.round(completed.length / MODULES.length * 100);
+    var n = doneCount();
     var wrap = document.createElement("div");
     wrap.className = "ic-progress";
     wrap.style.cssText = "margin:0 0 1.5rem;padding:0.75rem 1rem;border:1px solid #e0e0e0;border-radius:8px;background:#fafafa;font-size:0.9rem;";
     wrap.innerHTML =
       '<div style="display:flex;justify-content:space-between;margin-bottom:0.4rem;"><span>' + L.progress +
-      '</span><span><strong id="ic-count">' + completed.length + '</strong> ' + L.of + ' ' + MODULES.length + ' ' + L.complete + '</span></div>' +
-      '<div style="height:8px;background:#e0e0e0;border-radius:4px;overflow:hidden;"><div id="ic-bar" style="height:100%;width:' + pct + '%;background:#4caf50;transition:width .3s;"></div></div>' +
-      '<div id="ic-cert-link" style="margin-top:0.5rem;' + (completed.length === MODULES.length ? '' : 'display:none;') + '"><a href="' + certUrl() + '" style="color:#4caf50;font-weight:600;">' + L.viewCert + '</a></div>';
+      '</span><span aria-live="polite"><strong id="ic-count">' + n + '</strong> ' + L.of + ' ' + MODULES.length + ' ' + L.complete + '</span></div>' +
+      '<div id="ic-bar-wrap" role="progressbar" aria-label="' + L.progress + '" aria-valuemin="0" aria-valuemax="' + MODULES.length +
+      '" aria-valuenow="' + n + '" style="height:8px;background:#e0e0e0;border-radius:4px;overflow:hidden;"><div id="ic-bar" style="height:100%;width:' + Math.round(n / MODULES.length * 100) + '%;background:#4caf50;transition:width .3s;"></div></div>' +
+      '<div id="ic-cert-link" style="margin-top:0.5rem;' + (allDone() ? '' : 'display:none;') + '"><a href="' + certUrl() + '" style="color:#4caf50;font-weight:600;">' + L.viewCert + '</a></div>';
     if (slug) {
       var btn = document.createElement("button");
       btn.type = "button"; btn.id = "ic-toggle";
@@ -98,15 +114,17 @@
         btn.style.color = done ? "#fff" : "#4caf50";
         btn.setAttribute("aria-pressed", done ? "true" : "false");
       }
-      paint(completed.indexOf(slug) !== -1);
+      paint(!!doneSet()[slug]);
       btn.addEventListener("click", function () {
         var arr = load(), idx = arr.indexOf(slug);
         if (idx === -1) arr.push(slug); else arr.splice(idx, 1);
         save(arr);
-        paint(arr.indexOf(slug) !== -1);
-        document.getElementById("ic-count").textContent = arr.length;
-        document.getElementById("ic-bar").style.width = Math.round(arr.length / MODULES.length * 100) + "%";
-        document.getElementById("ic-cert-link").style.display = (arr.length === MODULES.length) ? "" : "none";
+        var c = doneCount();
+        paint(!!doneSet()[slug]);
+        document.getElementById("ic-count").textContent = c;
+        document.getElementById("ic-bar").style.width = Math.round(c / MODULES.length * 100) + "%";
+        document.getElementById("ic-bar-wrap").setAttribute("aria-valuenow", c);
+        document.getElementById("ic-cert-link").style.display = allDone() ? "" : "none";
       });
       wrap.appendChild(btn);
     }

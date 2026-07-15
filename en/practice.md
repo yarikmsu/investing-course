@@ -8,6 +8,8 @@ permalink: /practice/
 
 # 📝 Practice and Exercises
 
+> ⚠️ **This is educational material, not financial advice.** Consult a licensed financial professional before making investment decisions.
+
 Practical materials to reinforce your learning.
 
 ## What's Here
