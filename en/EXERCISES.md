@@ -326,6 +326,88 @@ That's almost **double the initial capital** lost to fees!
 
 ---
 
+## Exercise 6: Order Types (Module 2)
+
+Match each situation to the right order type (market or limit).
+
+| Situation | Your answer |
+|-----------|-------------|
+| Buying $500 of VOO in the middle of the trading day | ? |
+| You only want to buy if the price drops to $450 | ? |
+| Buying in the first minutes after the open (9:30) | ? |
+
+<details>
+<summary markdown="span"><b>Answer</b></summary>
+
+- **$500 of VOO mid-day → Market.** A liquid ETF, the spread is tiny, execution is instant.
+- **Buy at $450 → Limit.** The order fills only at your price or better.
+- **First minutes after the open → Limit** (or wait 15–30 minutes). Spreads are wider and prices jump at the open — a market order can fill at a bad price.
+
+**Takeaway:** a long-term passive investor only needs a market order (liquid ETFs, mid-day) or a limit order. Stop-losses and take-profits are traders' tools.
+</details>
+
+---
+
+## Exercise 7: Account Types and Taxes (Module 4)
+
+Match each account to its tax treatment. Options: "after-tax", "pre-tax (deductible)", "taxed annually", "tax-deferred until withdrawal", "never taxed".
+
+| Account | Contribution | Growth | Withdrawal |
+|---------|--------------|--------|------------|
+| Taxable | ? | ? | ? |
+| Traditional IRA | ? | ? | ? |
+| Roth IRA | ? | ? | ? |
+
+<details>
+<summary markdown="span"><b>Answer</b></summary>
+
+| Account | Contribution | Growth | Withdrawal |
+|---------|--------------|--------|------------|
+| **Taxable** | after-tax | dividends/gains taxed annually | capital-gains tax on sale |
+| **Traditional IRA** | pre-tax (deductible\*) | tax-deferred until withdrawal | taxed as ordinary income |
+| **Roth IRA** | after-tax | never taxed | never taxed (qualified withdrawal) |
+
+\* the Traditional IRA deduction is not automatic — it depends on workplace-plan coverage and income.
+
+**Takeaway:** Roth pays tax now, Traditional pays later. Expect a lower rate in retirement → Traditional; a higher rate or want flexibility → Roth.
+</details>
+
+---
+
+## Exercise 8: DCA vs. Lump Sum (Module 5)
+
+You have $12,000. Option A: invest it all at once. Option B: $1,000/month for 12 months. Which wins statistically, and when is B the sensible choice?
+
+<details>
+<summary markdown="span"><b>Answer</b></summary>
+
+- **Statistically A (lump sum) wins more often:** the market rises roughly 2 years out of 3, so "time in the market" usually beats waiting. Per Vanguard, lump-sum beat DCA about 2/3 of the time.
+- **B (DCA) makes sense** if it's psychologically easier and reduces the risk of "buying at the very top."
+- **Important:** investing monthly from your paycheck is NOT "DCA-ing a lump sum" — it's investing as the money arrives, which is the optimal approach.
+</details>
+
+---
+
+## Exercise 9: First-Purchase Plan (Module 8)
+
+Put the steps of a first purchase in the right order: **a)** buy an ETF · **b)** choose a broker · **c)** fund the account · **d)** open the account and fill out forms (W-8BEN for non-residents) · **e)** set up automatic purchases.
+
+<details>
+<summary markdown="span"><b>Answer</b></summary>
+
+**Order: b → d → c → a → e**
+
+1. **Choose a broker** (Fidelity/Schwab for US residents; IBKR for non-residents).
+2. **Open the account**, fill out forms (W-8BEN for non-residents).
+3. **Fund the account** (ACH/wire).
+4. **Buy an ETF** (VTI/VOO), ideally a marketable limit order mid-day.
+5. **Set up automatic** recurring purchases — and stop checking the account daily.
+
+**Takeaway:** the whole path takes about a week; after that, the main thing is to leave the portfolio alone.
+</details>
+
+---
+
 ## Investment Goal Simulator
 
 **Goal:** Calculate the path to your financial goal.
