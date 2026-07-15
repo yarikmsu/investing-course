@@ -19,6 +19,11 @@ Special sections for investors with different status and experience levels.
 
 ## How to Determine Your Status
 
+<div id="ic-wizard-root"></div>
+
+<details>
+<summary markdown="span">Text version (decision tree)</summary>
+
 ```
 Do you live in the US?
 ├── Yes → Main course (modules 1-8)
@@ -26,5 +31,7 @@ Do you live in the US?
     ├── See the "Non-US Residents" section
     └── Want to go deeper? → "Advanced Strategies"
 ```
+
+</details>
 
 > **Important**: The main course is written for US residents. If you're a non-resident, be sure to study the corresponding section.
