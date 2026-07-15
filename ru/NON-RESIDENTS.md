@@ -946,8 +946,4 @@ SWIFT-перевод:
 
 ---
 
-> 📅 **Последнее обновление:** Май 2026
-
----
-
 [← Вернуться к курсу](/investing-course/ru/) | [Для россиян](/investing-course/ru/RUSSIA/) | [FAQ](/investing-course/ru/FAQ/)
