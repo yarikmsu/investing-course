@@ -5,31 +5,80 @@
 <link rel="alternate" hreflang="x-default" href="{{ site.url }}/investing-course/en{{ page.url }}">
 {%- endunless %}
 <script>
-/* Client-side course progress tracker (localStorage). No dependencies.
-   Shows a progress bar on module pages and the modules hub, plus a
-   "mark complete" toggle on each module page. Shared across RU/EN. */
+/* Course progress tracker + completion certificate (localStorage, no deps).
+   Shared across RU/EN, language-aware. */
 (function () {
   var MODULES = ["module-00-preparation", "module-01-introduction", "module-02-stock-market",
     "module-03-instruments", "module-04-brokers-taxes", "module-05-strategies",
     "module-06-etf-index", "module-07-risk-psychology", "module-08-practice"];
-  var KEY = "ic-completed-modules";
+  var KEY = "ic-completed-modules", NAMEKEY = "ic-cert-name", DATEKEY = "ic-cert-date";
   var isRU = location.pathname.indexOf("/ru/") !== -1;
-  var L = isRU
-    ? { done: "Модуль пройден", mark: "Отметить модуль пройденным", progress: "Прогресс курса", of: "из", complete: "пройдено" }
-    : { done: "Module complete", mark: "Mark module complete", progress: "Course progress", of: "of", complete: "complete" };
+  var L = isRU ? {
+    done: "Модуль пройден", mark: "Отметить модуль пройденным", progress: "Прогресс курса",
+    of: "из", complete: "пройдено", viewCert: "🎓 Открыть сертификат →",
+    certTitle: "Сертификат о прохождении", certBody: "Настоящим подтверждается, что",
+    namePlaceholder: "Ваше имя", certLine: "прошёл(а) курс «Инвестирование в США»",
+    dateLabel: "Дата", print: "Печать / Сохранить PDF",
+    locked: "Завершите все 9 модулей курса, чтобы разблокировать сертификат."
+  } : {
+    done: "Module complete", mark: "Mark module complete", progress: "Course progress",
+    of: "of", complete: "complete", viewCert: "🎓 View your certificate →",
+    certTitle: "Certificate of Completion", certBody: "This certifies that",
+    namePlaceholder: "Your name", certLine: "completed the “Investing in the US” course",
+    dateLabel: "Date", print: "Print / Save as PDF",
+    locked: "Complete all 9 course modules to unlock your certificate."
+  };
   function load() { try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch (e) { return []; } }
   function save(a) { try { localStorage.setItem(KEY, JSON.stringify(a)); } catch (e) {} }
+  function get(k) { try { return localStorage.getItem(k) || ""; } catch (e) { return ""; } }
+  function set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
   function currentSlug() {
     for (var i = 0; i < MODULES.length; i++) { if (location.pathname.indexOf("/" + MODULES[i] + "/") !== -1) return MODULES[i]; }
     return null;
   }
+  function certUrl() { return (isRU ? "/investing-course/ru" : "/investing-course/en") + "/CERTIFICATE/"; }
+
+  function renderCertificate(root, completed) {
+    var all = completed.length === MODULES.length;
+    if (!all) {
+      var pct = Math.round(completed.length / MODULES.length * 100);
+      root.innerHTML = '<div style="padding:1rem;border:1px dashed #bbb;border-radius:8px;background:#fafafa;">' +
+        '<p style="margin-bottom:0.6rem;">' + L.locked + '</p>' +
+        '<div style="display:flex;justify-content:space-between;margin-bottom:0.4rem;font-size:0.9rem;"><span>' + L.progress +
+        '</span><span><strong>' + completed.length + '</strong> ' + L.of + ' ' + MODULES.length + ' ' + L.complete + '</span></div>' +
+        '<div style="height:8px;background:#e0e0e0;border-radius:4px;overflow:hidden;"><div style="height:100%;width:' + pct + '%;background:#4caf50;"></div></div></div>';
+      return;
+    }
+    if (!get(DATEKEY)) set(DATEKEY, new Date().toISOString().slice(0, 10));
+    var date = get(DATEKEY);
+    root.innerHTML =
+      '<div id="ic-cert-card" style="text-align:center;padding:2.5rem 1.5rem;border:3px double #4caf50;border-radius:12px;background:#fff;max-width:640px;margin:1rem auto;">' +
+      '<div style="font-size:2.5rem;">🎓</div>' +
+      '<h2 style="border:none;margin:0.5rem 0;">' + L.certTitle + '</h2>' +
+      '<p style="margin:1rem 0 0.3rem;color:#555;">' + L.certBody + '</p>' +
+      '<input id="ic-cert-name" type="text" placeholder="' + L.namePlaceholder + '" ' +
+      'style="font-size:1.4rem;font-weight:600;text-align:center;border:none;border-bottom:2px solid #4caf50;padding:0.2rem 0.5rem;max-width:90%;" value="">' +
+      '<p style="margin:0.8rem 0;">' + L.certLine + '</p>' +
+      '<p style="color:#777;font-size:0.9rem;">' + L.dateLabel + ': ' + date + '</p>' +
+      '</div>' +
+      '<div style="text-align:center;margin-top:0.5rem;"><button id="ic-cert-print" type="button" ' +
+      'style="padding:0.4rem 1rem;border:1px solid #4caf50;border-radius:6px;background:#4caf50;color:#fff;cursor:pointer;">' + L.print + '</button></div>';
+    var nameEl = root.querySelector("#ic-cert-name");
+    nameEl.value = get(NAMEKEY);
+    nameEl.addEventListener("input", function () { set(NAMEKEY, nameEl.value); });
+    root.querySelector("#ic-cert-print").addEventListener("click", function () { window.print(); });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     var main = document.getElementById("main-content");
     if (!main) return;
+    var completed = load();
+    var certRoot = document.getElementById("ic-cert-root");
+    if (certRoot) { renderCertificate(certRoot, completed); return; }
+
     var slug = currentSlug();
     var isHub = /\/modules\/?$/.test(location.pathname);
     if (!slug && !isHub) return;
-    var completed = load();
     var pct = Math.round(completed.length / MODULES.length * 100);
     var wrap = document.createElement("div");
     wrap.className = "ic-progress";
@@ -37,12 +86,11 @@
     wrap.innerHTML =
       '<div style="display:flex;justify-content:space-between;margin-bottom:0.4rem;"><span>' + L.progress +
       '</span><span><strong id="ic-count">' + completed.length + '</strong> ' + L.of + ' ' + MODULES.length + ' ' + L.complete + '</span></div>' +
-      '<div style="height:8px;background:#e0e0e0;border-radius:4px;overflow:hidden;"><div id="ic-bar" style="height:100%;width:' + pct + '%;background:#4caf50;transition:width .3s;"></div></div>';
+      '<div style="height:8px;background:#e0e0e0;border-radius:4px;overflow:hidden;"><div id="ic-bar" style="height:100%;width:' + pct + '%;background:#4caf50;transition:width .3s;"></div></div>' +
+      '<div id="ic-cert-link" style="margin-top:0.5rem;' + (completed.length === MODULES.length ? '' : 'display:none;') + '"><a href="' + certUrl() + '" style="color:#4caf50;font-weight:600;">' + L.viewCert + '</a></div>';
     if (slug) {
-      var isDone = completed.indexOf(slug) !== -1;
       var btn = document.createElement("button");
-      btn.type = "button";
-      btn.id = "ic-toggle";
+      btn.type = "button"; btn.id = "ic-toggle";
       btn.style.cssText = "margin-top:0.6rem;padding:0.35rem 0.8rem;border:1px solid #4caf50;border-radius:6px;cursor:pointer;font-size:0.85rem;";
       function paint(done) {
         btn.textContent = done ? "✓ " + L.done : L.mark;
@@ -50,15 +98,15 @@
         btn.style.color = done ? "#fff" : "#4caf50";
         btn.setAttribute("aria-pressed", done ? "true" : "false");
       }
-      paint(isDone);
+      paint(completed.indexOf(slug) !== -1);
       btn.addEventListener("click", function () {
         var arr = load(), idx = arr.indexOf(slug);
         if (idx === -1) arr.push(slug); else arr.splice(idx, 1);
         save(arr);
-        var now = arr.indexOf(slug) !== -1;
-        paint(now);
+        paint(arr.indexOf(slug) !== -1);
         document.getElementById("ic-count").textContent = arr.length;
         document.getElementById("ic-bar").style.width = Math.round(arr.length / MODULES.length * 100) + "%";
+        document.getElementById("ic-cert-link").style.display = (arr.length === MODULES.length) ? "" : "none";
       });
       wrap.appendChild(btn);
     }

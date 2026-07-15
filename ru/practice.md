@@ -17,6 +17,7 @@ permalink: /practice/
 | [**Упражнения**](/investing-course/ru/EXERCISES/) | Практические задания по каждому модулю |
 | [**Чек-листы**](/investing-course/ru/CHECKLISTS/) | Готовые списки для проверки ваших действий |
 | [**Шаблоны**](/investing-course/ru/TEMPLATES/) | Таблицы и формы для планирования |
+| [**Сертификат**](/investing-course/ru/CERTIFICATE/) | Сертификат о прохождении курса (по завершении всех модулей) |
 
 ## С чего начать
 
