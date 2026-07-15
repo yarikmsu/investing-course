@@ -130,3 +130,76 @@
   });
 })();
 </script>
+<script>
+/* Per-page "Was this page helpful?" feedback (BL-607). Client-side only, no
+   backend: stores the vote in localStorage and, on a thumbs-down, offers a
+   one-click pre-filled GitHub issue for details. Language-aware.
+   NOTE: the built HTML collapses this to one line — do NOT use // comments. */
+(function () {
+  var isRU = location.pathname.indexOf("/ru/") !== -1;
+  var L = isRU ? {
+    q: "Была ли эта страница полезной?", yes: "👍 Да", no: "👎 Нет",
+    thanks: "Спасибо за ваш отзыв!", report: "Что можно улучшить? →",
+    title: "Отзыв о странице: ", pageWord: "Страница: ", rateWord: "Оценка: ",
+    askWord: "Что можно улучшить и почему?"
+  } : {
+    q: "Was this page helpful?", yes: "👍 Yes", no: "👎 No",
+    thanks: "Thanks for your feedback!", report: "What could be improved? →",
+    title: "Page feedback: ", pageWord: "Page: ", rateWord: "Rating: ",
+    askWord: "What could be improved, and why?"
+  };
+  var REPO = "https://github.com/yarikmsu/investing-course";
+  function fget(k) { try { return localStorage.getItem(k) || ""; } catch (e) { return ""; } }
+  function fset(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  function issueUrl(vote) {
+    var body = L.pageWord + location.href + "\n" + L.rateWord + vote + "\n\n" + L.askWord + "\n";
+    return REPO + "/issues/new?labels=page-feedback&title=" +
+      encodeURIComponent(L.title + (document.title || location.pathname)) +
+      "&body=" + encodeURIComponent(body);
+  }
+  document.addEventListener("DOMContentLoaded", function () {
+    var main = document.getElementById("main-content");
+    if (!main) return;
+    if (document.getElementById("ic-cert-root")) return;
+    if (main.querySelector(".ic-feedback")) return;
+    var art = main.querySelector("main") || main;
+    var key = "ic-fb:" + location.pathname;
+    var box = document.createElement("div");
+    box.className = "ic-feedback";
+    box.style.cssText = "margin:2.5rem 0 0;padding:1rem 0 0;border-top:1px solid #e0e0e0;font-size:0.9rem;color:#555;";
+    function thanks(vote) {
+      box.innerHTML = "";
+      var span = document.createElement("span");
+      span.setAttribute("aria-live", "polite");
+      span.textContent = L.thanks + " ";
+      box.appendChild(span);
+      if (vote === "down") {
+        var a = document.createElement("a");
+        a.href = issueUrl(vote); a.target = "_blank"; a.rel = "noopener";
+        a.textContent = L.report;
+        a.style.cssText = "color:#4caf50;font-weight:600;";
+        box.appendChild(a);
+      }
+    }
+    var prior = fget(key);
+    if (prior === "up" || prior === "down") {
+      thanks(prior);
+    } else {
+      var label = document.createElement("span");
+      label.textContent = L.q + " ";
+      label.style.marginRight = "0.5rem";
+      box.appendChild(label);
+      var mk = function (text, vote) {
+        var b = document.createElement("button");
+        b.type = "button"; b.textContent = text;
+        b.style.cssText = "margin-right:0.5rem;padding:0.3rem 0.9rem;border:1px solid #4caf50;border-radius:6px;background:#fff;color:#333;cursor:pointer;font-size:0.9rem;";
+        b.addEventListener("click", function () { fset(key, vote); thanks(vote); });
+        return b;
+      };
+      box.appendChild(mk(L.yes, "up"));
+      box.appendChild(mk(L.no, "down"));
+    }
+    art.appendChild(box);
+  });
+})();
+</script>
