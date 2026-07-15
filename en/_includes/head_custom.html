@@ -203,3 +203,95 @@
   });
 })();
 </script>
+<script>
+/* Audience segmentation wizard (BL-605). Renders into #ic-wizard-root on the
+   audiences page: 3 questions route the reader to the right starting point.
+   Client-side only, language-aware (RU has a Russia branch; EN does not).
+   NOTE: the built HTML collapses this to one line — do NOT use // comments. */
+(function () {
+  var isRU = location.pathname.indexOf("/ru/") !== -1;
+  var base = isRU ? "/investing-course/ru" : "/investing-course/en";
+  var L = isRU ? {
+    heading: "Подберите свой маршрут",
+    q1: "Вы живёте в США?", q2: "Вы налоговый резидент России?",
+    yes: "Да", no: "Нет", restart: "← Начать заново", rec: "Рекомендуем:",
+    rUS: "Основной курс", rUSd: "Курс написан для резидентов США — начните с быстрого старта и проходите модули по порядку.",
+    rNon: "Раздел «Нерезиденты США»", rNond: "Вы инвестируете из-за пределов США — есть отдельный раздел про брокеров, налоги и форму W-8BEN.",
+    rRu: "Раздел «Россияне»", rRud: "Для резидентов России есть отдельный раздел про санкционные ограничения и налоговую отчётность.",
+    ctaQuick: "Быстрый старт →", ctaModules: "Все модули", ctaOpen: "Открыть раздел →"
+  } : {
+    heading: "Find your path",
+    q1: "Do you live in the US?", q2: "",
+    yes: "Yes", no: "No", restart: "← Start over", rec: "We recommend:",
+    rUS: "Main course", rUSd: "The course is written for US residents — start with the quick start and take the modules in order.",
+    rNon: "Non-US Residents section", rNond: "You're investing from outside the US — there's a dedicated section on brokers, taxes, and the W-8BEN form.",
+    rRu: "", rRud: "",
+    ctaQuick: "Quick start →", ctaModules: "All modules", ctaOpen: "Open the section →"
+  };
+  var STEPS = {
+    start: { q: L.q1, opts: [ { t: L.yes, go: "us" }, { t: L.no, go: isRU ? "q2" : "nonres" } ] },
+    q2: { q: L.q2, opts: [ { t: L.yes, go: "russia" }, { t: L.no, go: "nonres" } ] }
+  };
+  var RESULTS = {
+    us: { title: L.rUS, desc: L.rUSd, ctas: [ { t: L.ctaQuick, href: base + "/QUICKSTART/", primary: true }, { t: L.ctaModules, href: base + "/modules/" } ] },
+    nonres: { title: L.rNon, desc: L.rNond, ctas: [ { t: L.ctaOpen, href: base + "/NON-RESIDENTS/", primary: true } ] },
+    russia: { title: L.rRu, desc: L.rRud, ctas: [ { t: L.ctaOpen, href: base + "/RUSSIA/", primary: true } ] }
+  };
+  function el(tag, css, text) {
+    var e = document.createElement(tag);
+    if (css) e.style.cssText = css;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function renderStep(root, key) {
+    var step = STEPS[key];
+    root.innerHTML = "";
+    var card = el("div", "padding:1.25rem 1.5rem;border:1px solid #e0e0e0;border-radius:10px;background:#fafafa;max-width:560px;");
+    card.appendChild(el("div", "font-weight:600;margin-bottom:0.9rem;font-size:1.05rem;", step.q));
+    var row = el("div", "display:flex;gap:0.6rem;flex-wrap:wrap;");
+    for (var i = 0; i < step.opts.length; i++) {
+      (function (opt) {
+        var b = el("button", "padding:0.45rem 1.4rem;border:1px solid #4caf50;border-radius:6px;background:#fff;color:#2e7d32;cursor:pointer;font-size:0.95rem;font-weight:600;", opt.t);
+        b.type = "button";
+        b.addEventListener("click", function () {
+          if (RESULTS[opt.go]) renderResult(root, opt.go); else renderStep(root, opt.go);
+        });
+        row.appendChild(b);
+      })(step.opts[i]);
+    }
+    card.appendChild(row);
+    root.appendChild(card);
+  }
+  function renderResult(root, key) {
+    var r = RESULTS[key];
+    root.innerHTML = "";
+    var card = el("div", "padding:1.25rem 1.5rem;border:2px solid #4caf50;border-radius:10px;background:#f1f8f2;max-width:560px;");
+    card.appendChild(el("div", "font-size:0.8rem;text-transform:uppercase;letter-spacing:0.5px;color:#2e7d32;margin-bottom:0.3rem;", L.rec));
+    card.appendChild(el("div", "font-weight:700;font-size:1.15rem;margin-bottom:0.5rem;", r.title));
+    card.appendChild(el("p", "margin:0 0 1rem;color:#444;", r.desc));
+    var row = el("div", "display:flex;gap:0.6rem;flex-wrap:wrap;align-items:center;");
+    for (var i = 0; i < r.ctas.length; i++) {
+      var c = r.ctas[i];
+      var a = el("a", c.primary
+        ? "padding:0.5rem 1.2rem;border-radius:6px;background:#4caf50;color:#fff;font-weight:600;text-decoration:none;"
+        : "padding:0.5rem 1.2rem;border:1px solid #4caf50;border-radius:6px;color:#2e7d32;font-weight:600;text-decoration:none;", c.t);
+      a.href = c.href;
+      row.appendChild(a);
+    }
+    card.appendChild(row);
+    var again = el("a", "display:inline-block;margin-top:1rem;color:#666;font-size:0.9rem;cursor:pointer;", L.restart);
+    again.href = "#";
+    again.addEventListener("click", function (ev) { ev.preventDefault(); renderStep(root, "start"); });
+    card.appendChild(again);
+    root.appendChild(card);
+  }
+  document.addEventListener("DOMContentLoaded", function () {
+    var root = document.getElementById("ic-wizard-root");
+    if (!root) return;
+    root.appendChild(el("h3", "margin:0 0 0.8rem;border:none;", L.heading));
+    var host = el("div", null);
+    root.appendChild(host);
+    renderStep(host, "start");
+  });
+})();
+</script>
