@@ -17,6 +17,7 @@ Practical materials to reinforce your learning.
 | Section | Description |
 |---------|-------------|
 | [**Exercises**](/investing-course/en/EXERCISES/) | Hands-on assignments for each module |
+| [**Self-Check Quiz**](/investing-course/en/QUIZ/) | Interactive, auto-graded quiz on the course fundamentals |
 | [**Checklists**](/investing-course/en/CHECKLISTS/) | Ready-to-use lists for your actions |
 | [**Templates**](/investing-course/en/TEMPLATES/) | Planning and tracking spreadsheets |
 | [**Certificate**](/investing-course/en/CERTIFICATE/) | Course completion certificate (once all modules are done) |

@@ -295,3 +295,119 @@
   });
 })();
 </script>
+<script>
+/* Interactive scored quiz (BL-603). Renders into #ic-quiz-root from a JSON
+   block <script id="ic-quiz-data">. Client-side scoring, no backend; stores the
+   best score in localStorage. Questions come from the page JSON (already
+   localized); only the chrome is language-aware.
+   NOTE: the built HTML collapses this to one line — do NOT use // comments. */
+(function () {
+  var isRU = location.pathname.indexOf("/ru/") !== -1;
+  var L = isRU ? {
+    check: "Проверить ответы", retry: "Пройти заново", your: "Ваш результат:",
+    of: "из", best: "Лучший результат:", answerAll: "Ответьте на все вопросы.",
+    perfect: "Отлично! Основы усвоены. 🎉", good: "Неплохо — повторите отмеченные темы.",
+    low: "Стоит вернуться к материалам курса и попробовать снова."
+  } : {
+    check: "Check answers", retry: "Try again", your: "Your score:",
+    of: "of", best: "Best score:", answerAll: "Please answer every question.",
+    perfect: "Excellent! You've got the fundamentals. 🎉", good: "Nice — review the flagged topics.",
+    low: "Consider revisiting the course materials and trying again."
+  };
+  function qget(k) { try { return localStorage.getItem(k) || ""; } catch (e) { return ""; } }
+  function qset(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  function el(tag, css, text) {
+    var e = document.createElement(tag);
+    if (css) e.style.cssText = css;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  document.addEventListener("DOMContentLoaded", function () {
+    var root = document.getElementById("ic-quiz-root");
+    if (!root) return;
+    var dataEl = document.getElementById("ic-quiz-data");
+    if (!dataEl) return;
+    var data; try { data = JSON.parse(dataEl.textContent || "{}"); } catch (e) { return; }
+    var Q = (data && data.questions) || [];
+    if (!Q.length) return;
+    var BESTKEY = "ic-quiz-best:" + location.pathname;
+    function render() {
+      root.innerHTML = "";
+      var form = el("form", "display:block;");
+      var groups = [];
+      for (var i = 0; i < Q.length; i++) {
+        (function (idx) {
+          var item = Q[idx];
+          var fs = el("fieldset", "border:1px solid #e0e0e0;border-radius:8px;padding:0.9rem 1.25rem;margin:0 0 1rem;");
+          fs.appendChild(el("legend", "font-weight:600;padding:0 0.4rem;", (idx + 1) + ". " + item.q));
+          var opts = item.options || [];
+          for (var j = 0; j < opts.length; j++) {
+            var lab = el("label", "display:block;padding:0.25rem 0;cursor:pointer;");
+            var inp = document.createElement("input");
+            inp.type = "radio"; inp.name = "q" + idx; inp.value = String(j);
+            inp.style.marginRight = "0.5rem";
+            lab.appendChild(inp);
+            lab.appendChild(document.createTextNode(opts[j]));
+            fs.appendChild(lab);
+          }
+          var fb = el("div", "margin-top:0.5rem;font-size:0.9rem;display:none;");
+          fs.appendChild(fb);
+          groups.push({ fs: fs, fb: fb, item: item });
+          form.appendChild(fs);
+        })(i);
+      }
+      var status = el("div", "margin:0.5rem 0;font-weight:600;");
+      status.setAttribute("aria-live", "polite");
+      var bestLine = el("div", "margin-top:0.6rem;color:#666;font-size:0.9rem;display:none;");
+      var checkBtn = el("button", "padding:0.5rem 1.3rem;border:1px solid #4caf50;border-radius:6px;background:#4caf50;color:#fff;font-weight:600;cursor:pointer;", L.check);
+      checkBtn.type = "button";
+      var retryBtn = el("button", "padding:0.5rem 1.3rem;border:1px solid #4caf50;border-radius:6px;background:#fff;color:#2e7d32;font-weight:600;cursor:pointer;display:none;margin-left:0.5rem;", L.retry);
+      retryBtn.type = "button";
+      retryBtn.addEventListener("click", function () { render(); });
+      checkBtn.addEventListener("click", function () {
+        var answered = 0;
+        for (var i = 0; i < groups.length; i++) {
+          if (form.querySelector('input[name="q' + i + '"]:checked')) answered++;
+        }
+        if (answered < groups.length) { status.textContent = L.answerAll; return; }
+        var score = 0;
+        for (var i = 0; i < groups.length; i++) {
+          var g = groups[i];
+          var sel = form.querySelector('input[name="q' + i + '"]:checked');
+          var chosen = sel ? parseInt(sel.value, 10) : -1;
+          var ok = chosen === g.item.correct;
+          if (ok) score++;
+          g.fs.style.borderColor = ok ? "#4caf50" : "#e53935";
+          g.fs.style.background = ok ? "#f1f8f2" : "#fdecea";
+          g.fb.style.display = "block";
+          g.fb.innerHTML = "";
+          g.fb.appendChild(el("span", "font-weight:600;color:" + (ok ? "#2e7d32" : "#c62828") + ";", ok ? "✓ " : "✗ "));
+          if (g.item.explain) g.fb.appendChild(el("span", "color:#444;", g.item.explain));
+          var inputs = g.fs.querySelectorAll("input");
+          for (var k = 0; k < inputs.length; k++) inputs[k].disabled = true;
+        }
+        status.textContent = L.your + " " + score + " " + L.of + " " + groups.length + " — " +
+          (score === groups.length ? L.perfect : (score >= Math.ceil(groups.length * 0.6) ? L.good : L.low));
+        var best = parseInt(qget(BESTKEY), 10); if (isNaN(best)) best = 0;
+        if (score > best) { qset(BESTKEY, String(score)); best = score; }
+        bestLine.textContent = L.best + " " + best + " " + L.of + " " + groups.length;
+        bestLine.style.display = "";
+        checkBtn.style.display = "none";
+        retryBtn.style.display = "";
+      });
+      var bar = el("div", "display:flex;align-items:center;flex-wrap:wrap;");
+      bar.appendChild(checkBtn); bar.appendChild(retryBtn);
+      form.appendChild(status);
+      form.appendChild(bar);
+      form.appendChild(bestLine);
+      root.appendChild(form);
+      var best0 = parseInt(qget(BESTKEY), 10);
+      if (!isNaN(best0) && best0 > 0) {
+        bestLine.textContent = L.best + " " + best0 + " " + L.of + " " + Q.length;
+        bestLine.style.display = "";
+      }
+    }
+    render();
+  });
+})();
+</script>
