@@ -4,3 +4,65 @@
 <link rel="alternate" hreflang="en" href="{{ site.url }}/investing-course/en{{ page.url }}">
 <link rel="alternate" hreflang="x-default" href="{{ site.url }}/investing-course/en{{ page.url }}">
 {%- endunless %}
+<script>
+/* Client-side course progress tracker (localStorage). No dependencies.
+   Shows a progress bar on module pages and the modules hub, plus a
+   "mark complete" toggle on each module page. Shared across RU/EN. */
+(function () {
+  var MODULES = ["module-00-preparation", "module-01-introduction", "module-02-stock-market",
+    "module-03-instruments", "module-04-brokers-taxes", "module-05-strategies",
+    "module-06-etf-index", "module-07-risk-psychology", "module-08-practice"];
+  var KEY = "ic-completed-modules";
+  var isRU = location.pathname.indexOf("/ru/") !== -1;
+  var L = isRU
+    ? { done: "Модуль пройден", mark: "Отметить модуль пройденным", progress: "Прогресс курса", of: "из", complete: "пройдено" }
+    : { done: "Module complete", mark: "Mark module complete", progress: "Course progress", of: "of", complete: "complete" };
+  function load() { try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch (e) { return []; } }
+  function save(a) { try { localStorage.setItem(KEY, JSON.stringify(a)); } catch (e) {} }
+  function currentSlug() {
+    for (var i = 0; i < MODULES.length; i++) { if (location.pathname.indexOf("/" + MODULES[i] + "/") !== -1) return MODULES[i]; }
+    return null;
+  }
+  document.addEventListener("DOMContentLoaded", function () {
+    var main = document.getElementById("main-content");
+    if (!main) return;
+    var slug = currentSlug();
+    var isHub = /\/modules\/?$/.test(location.pathname);
+    if (!slug && !isHub) return;
+    var completed = load();
+    var pct = Math.round(completed.length / MODULES.length * 100);
+    var wrap = document.createElement("div");
+    wrap.className = "ic-progress";
+    wrap.style.cssText = "margin:0 0 1.5rem;padding:0.75rem 1rem;border:1px solid #e0e0e0;border-radius:8px;background:#fafafa;font-size:0.9rem;";
+    wrap.innerHTML =
+      '<div style="display:flex;justify-content:space-between;margin-bottom:0.4rem;"><span>' + L.progress +
+      '</span><span><strong id="ic-count">' + completed.length + '</strong> ' + L.of + ' ' + MODULES.length + ' ' + L.complete + '</span></div>' +
+      '<div style="height:8px;background:#e0e0e0;border-radius:4px;overflow:hidden;"><div id="ic-bar" style="height:100%;width:' + pct + '%;background:#4caf50;transition:width .3s;"></div></div>';
+    if (slug) {
+      var isDone = completed.indexOf(slug) !== -1;
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.id = "ic-toggle";
+      btn.style.cssText = "margin-top:0.6rem;padding:0.35rem 0.8rem;border:1px solid #4caf50;border-radius:6px;cursor:pointer;font-size:0.85rem;";
+      function paint(done) {
+        btn.textContent = done ? "✓ " + L.done : L.mark;
+        btn.style.background = done ? "#4caf50" : "#fff";
+        btn.style.color = done ? "#fff" : "#4caf50";
+        btn.setAttribute("aria-pressed", done ? "true" : "false");
+      }
+      paint(isDone);
+      btn.addEventListener("click", function () {
+        var arr = load(), idx = arr.indexOf(slug);
+        if (idx === -1) arr.push(slug); else arr.splice(idx, 1);
+        save(arr);
+        var now = arr.indexOf(slug) !== -1;
+        paint(now);
+        document.getElementById("ic-count").textContent = arr.length;
+        document.getElementById("ic-bar").style.width = Math.round(arr.length / MODULES.length * 100) + "%";
+      });
+      wrap.appendChild(btn);
+    }
+    main.insertBefore(wrap, main.firstChild);
+  });
+})();
+</script>
