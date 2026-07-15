@@ -21,7 +21,8 @@ The course consists of 9 modules arranged in logical sequence — from basics to
 | 1 | Introduction to Investing | 🟢 Beginner |
 | 2 | US Stock Market | 🟢 Beginner |
 | 3 | Investment Instruments | 🟡 Intermediate |
-| 4 | Brokers and Taxes | 🟡 Intermediate |
+| 4 | Brokers & Accounts | 🟡 Intermediate |
+| 4 · part 2 | [Taxes for Investors](/investing-course/en/module-04-taxes/) | 🟡 Intermediate |
 | 5 | Investment Strategies | 🟡 Intermediate |
 | 6 | ETFs and Index Funds | 🟡 Intermediate |
 | 7 | Risk and Psychology | 🔴 Advanced |

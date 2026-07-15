@@ -55,11 +55,11 @@ Don't want to read the whole course? Start here:
 - REITs (Real Estate Investment Trusts)
 - Options (for advanced)
 
-### Module 4: Brokerage Accounts and Taxes
+### Module 4: Brokers & Accounts
 - [Choosing a broker](./module-04-brokers-taxes/)
-- Account types (Taxable, IRA, 401k)
-- Taxation for US residents
-- W-8BEN form for non-residents
+- Account types (Taxable, IRA, 401k, Roth, HSA)
+- Opening a brokerage account
+- [Taxes for Investors →](./module-04-taxes/)
 
 ### Module 5: Investment Strategies
 - [Passive vs active](./module-05-strategies/)
