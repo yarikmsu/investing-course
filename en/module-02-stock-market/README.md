@@ -141,8 +141,8 @@ Characteristics:
 Top companies (approximate weights):
 ├── NVIDIA       ~8%
 ├── Apple        ~7%
+├── Alphabet     ~6%
 ├── Microsoft    ~5%
-├── Alphabet     ~4%
 └── Amazon       ~4%
 ```
 

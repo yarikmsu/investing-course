@@ -93,17 +93,17 @@ Since inception (2010): ~14% per year
 ### Sector Distribution
 
 ```
-Technology          ████████████████████████████ 31%
-Financials          ████████████░░░░░░░░░░░░░░░░ 13%
-Healthcare          ████████████░░░░░░░░░░░░░░░░ 12%
-Consumer Discret.   ██████████░░░░░░░░░░░░░░░░░░ 10%
-Communication       █████████░░░░░░░░░░░░░░░░░░░  9%
-Industrials         ████████░░░░░░░░░░░░░░░░░░░░  8%
-Consumer Staples    ██████░░░░░░░░░░░░░░░░░░░░░░  6%
-Energy              ████░░░░░░░░░░░░░░░░░░░░░░░░  4%
-Real Estate         ███░░░░░░░░░░░░░░░░░░░░░░░░░  2%
-Materials           ███░░░░░░░░░░░░░░░░░░░░░░░░░  2%
-Utilities           ███░░░░░░░░░░░░░░░░░░░░░░░░░  2%
+Technology          ████████████████████████████ 38%
+Financials          █████████░░░░░░░░░░░░░░░░░░░ 12%
+Healthcare          ███████░░░░░░░░░░░░░░░░░░░░░  9%
+Consumer Discret.   ███████░░░░░░░░░░░░░░░░░░░░░  9%
+Communication       ███████░░░░░░░░░░░░░░░░░░░░░ 10%
+Industrials         ██████░░░░░░░░░░░░░░░░░░░░░░  8%
+Consumer Staples    ████░░░░░░░░░░░░░░░░░░░░░░░░  5%
+Energy              ██░░░░░░░░░░░░░░░░░░░░░░░░░░  3%
+Real Estate         █░░░░░░░░░░░░░░░░░░░░░░░░░░░  2%
+Materials           █░░░░░░░░░░░░░░░░░░░░░░░░░░░  2%
+Utilities           █░░░░░░░░░░░░░░░░░░░░░░░░░░░  2%
 ```
 
 ### Investment Example
@@ -333,11 +333,11 @@ Since inception (1999): ~10% per year
 | 3 | Micron | MU | 4.7% | Technology |
 | 4 | Microsoft | MSFT | 4.6% | Technology |
 | 5 | Amazon | AMZN | 4.2% | Consumer |
-| 6 | Broadcom | AVGO | 4.0% | Technology |
+| 6 | AMD | AMD | 3.9% | Technology |
 | 7 | Meta (Facebook) | META | 3.5% | Communication |
-| 8 | Alphabet (Google) | GOOGL | 2.6% | Communication |
-| 9 | Tesla | TSLA | 2.5% | Consumer |
-| 10 | Netflix | NFLX | 2.3% | Communication |
+| 8 | Tesla | TSLA | 3.1% | Consumer |
+| 9 | Alphabet (GOOGL) | GOOGL | 3.0% | Communication |
+| 10 | Alphabet (GOOG) | GOOG | 3.0% | Communication |
 
 **Top 10 = ~45% of portfolio** (high concentration; as of mid-2026)
 

@@ -141,8 +141,8 @@ permalink: /module-02-stock-market/
 Топ компании (примерные веса):
 ├── NVIDIA       ~8%
 ├── Apple        ~7%
+├── Alphabet     ~6%
 ├── Microsoft    ~5%
-├── Alphabet     ~4%
 └── Amazon       ~4%
 ```
 
