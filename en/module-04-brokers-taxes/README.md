@@ -451,12 +451,12 @@ AGE 59½ — key date:
 | SEPP (equal payments 5+ years) | ✅ | ✅ | By formula |
 | IRS Levy (tax seizure) | ✅ | ✅ | Levy amount |
 | Reservist called to active duty | ✅ | ✅ | Unlimited |
-| Emergency personal expense (SECURE 2.0, from 2024) | ✅ | ✅\* | up to $1,000/yr (capped at the balance above $1,000) |
+| Emergency personal expense (SECURE 2.0, from 2024) | ✅ | ✅\* | up to $1,000/yr (capped at the vested balance above $1,000) |
 | Domestic-abuse victim (SECURE 2.0, from 2024) | ✅ | ✅\* | lesser of $10,500 (2026) or 50% of vested balance |
 
-> ✅\* For employer plans (401(k)), these two SECURE 2.0 exceptions are **optional** — available only if the plan adopts them (and the domestic-abuse distribution isn't available from plans subject to spousal-consent/QJSA rules). Always available from IRAs.
+> ✅\* From an IRA these are always available. For an employer plan (401(k)/403(b)), offering them as a distribution **type** is optional — the plan must adopt it, and the domestic-abuse option can't come from a plan under spousal-consent/QJSA rules. Even if the plan doesn't offer the special type, you can still claim the 10% **penalty** exception on Form 5329 for any otherwise-permissible distribution.
 >
-> Emergency distribution: one per year; capped at the vested balance above $1,000; a repeat isn't allowed for 3 years unless the prior amount is repaid or replaced by new contributions. The domestic-abuse cap is indexed ($10,000 in 2024, $10,300 in 2025, $10,500 in 2026).
+> Emergency distribution: one per year, and no repeat for 3 years unless the prior amount is repaid or replaced by new contributions. Domestic-abuse distribution: must be taken within 1 year of the abuse; the indexed cap is $10,000 (2024), $10,300 (2025), $10,500 (2026).
 
 > ⚠️ **Important:** Exception from 10% penalty ≠ tax exemption! When withdrawing from Traditional IRA/401(k), you still pay ordinary income tax — just without the additional 10% penalty.
 
