@@ -78,13 +78,13 @@ Both at 8% annually:
 
                         Investor A      Investor B
 Invested:               $24,000         $72,000
-Value at 65:            $314,000        $298,000
+Value at 65:            $400,000        $298,000
 
 Investor A invested 3X LESS,
 but accumulated MORE thanks to early start!
 
 Visually:
-Investor A: ▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ → $314k
+Investor A: ▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ → $400k
             ↑ investing     ↑ money works on its own
             25              35                       65
 

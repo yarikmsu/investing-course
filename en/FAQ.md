@@ -441,8 +441,8 @@ Every. Single. Time.
 $500/month at 10% annually:
 ├── After 10 years: ~$100,000
 ├── After 20 years: ~$380,000
-├── After 30 years: ~$1,000,000
-├── After 40 years: ~$2,600,000
+├── After 30 years: ~$1,130,000
+├── After 40 years: ~$3,160,000
 
 Accelerators:
 ├── Higher monthly contribution
@@ -452,6 +452,8 @@ Accelerators:
 
 Investing is a marathon, not a sprint.
 ```
+
+> ℹ️ Figures assume monthly contributions compounded monthly (≈10.47% effective annual) — the same convention as Module 5. With annual compounding the 30/40-year totals are lower (≈$1.03M / $2.78M).
 
 ---
 

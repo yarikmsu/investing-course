@@ -345,11 +345,11 @@ Important: Answer honestly, not how you "should" answer.
 | Age | Stocks | Bonds | Volatility* | Max drawdown** |
 |-----|--------|-------|-------------|----------------|
 | 25 | 90% | 10% | High (~17%) | -50% |
-| 35 | 80% | 20% | Moderately high (~15%) | -45% |
-| 45 | 70% | 30% | Moderate (~13%) | -40% |
-| 55 | 60% | 40% | Moderately low (~11%) | -35% |
-| 65 | 50% | 50% | Low (~9%) | -30% |
-| 75 | 40% | 60% | Very low (~7%) | -25% |
+| 35 | 80% | 20% | Moderately high (~15%) | -44% |
+| 45 | 70% | 30% | Moderate (~13%) | -37% |
+| 55 | 60% | 40% | Moderately low (~11%) | -30% |
+| 65 | 50% | 50% | Low (~9%) | -25% |
+| 75 | 40% | 60% | Very low (~7%) | -20% |
 
 *Expected standard deviation of annual returns.
 **Approximate maximum peak-to-trough drawdown (as in 2008-2009, S&P 500 ~-57%).
