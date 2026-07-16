@@ -284,10 +284,10 @@ Or... just pick either and stick with it!
 | Parameter | Value |
 |-----------|-------|
 | **Share Price** | check on [etf.com](https://www.etf.com) |
-| **Expense Ratio** | 0.20% |
+| **Expense Ratio** | 0.18% |
 | **Assets Under Management (AUM)** | ~$440B (verify current value) |
 | **Dividend Yield** | ~0.5% |
-| **Number of Companies** | 101 |
+| **Number of Companies** | ~100 (Nasdaq-100 index; ~104 holdings) |
 | **Average P/E** | ~35 |
 
 ### Important QQQ Characteristics
@@ -299,7 +299,7 @@ QQQ ≠ "Technology ETF"
 QQQ = 100 largest NON-FINANCIAL companies on NASDAQ
 
 This means:
-├── Lots of tech (~50%), but not only
+├── Lots of tech (~55%), but not only
 ├── Consumer sector (Amazon, Tesla, Costco)
 ├── Healthcare (Amgen, Gilead)
 ├── Communication (Google, Meta)
@@ -350,7 +350,7 @@ Since inception (1999): ~10% per year
    └── Top 10 = ~45% (vs ~39% for VOO)
 
 2. Technology dependence
-   └── ~50% in tech sector
+   └── ~55% in tech sector
 
 3. High volatility
    ├── 2022: dropped -33%
@@ -368,12 +368,12 @@ Since inception (1999): ~10% per year
 ```
                         QQQ             VOO
 ──────────────────────────────────────────────
-Expense Ratio:          0.20%           0.03%
+Expense Ratio:          0.18%           0.03%
 Companies:              100             500
 Dividend:               ~0.5%           ~1.3%
 Volatility:             HIGH            MEDIUM
 Concentration:          HIGH            MEDIUM
-Technology:             ~50%            ~31%
+Technology:             ~55%            ~38%
 
 QQQ = more risk, more potential
 VOO = balance of risk and return
@@ -402,14 +402,14 @@ VOO = balance of risk and return
 ```
 QQQM — "mini" version of QQQ
 
-Expense Ratio: 0.15% (vs 0.20% for QQQ)
-Difference: 0.05% per year
+Expense Ratio: 0.15% (vs 0.18% for QQQ)
+Difference: 0.03% per year
 
 On $100,000 over 30 years (7% annual, with compounding):
-├── QQQ (0.20%): fees eat ~$41,600 vs a zero-fee fund
+├── QQQ (0.18%): fees eat ~$37,400 vs a zero-fee fund
 └── QQQM (0.15%): fees eat ~$31,300 vs a zero-fee fund
 
-QQQM savings vs QQQ: ~$10,300
+QQQM savings vs QQQ: ~$6,100
 
 For long-term investors, QQQM is better!
 ```
@@ -726,7 +726,7 @@ Or more aggressive:
 
 | Parameter | VOO | VTI | QQQ | VT | BND |
 |-----------|-----|-----|-----|-----|-----|
-| **Expense Ratio** | 0.03% | 0.03% | 0.20% | 0.06% | 0.03% |
+| **Expense Ratio** | 0.03% | 0.03% | 0.18% | 0.06% | 0.03% |
 | **Holdings** | 500 | ~3,500 | 100 | 9,900 | 11,000 |
 | **Dividend** | 1.3% | 1.3% | 0.5% | 1.8% | 4.5% |
 | **Volatility** | Medium | Medium | High | Medium | Low |
