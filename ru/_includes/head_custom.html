@@ -4,6 +4,10 @@
 <link rel="alternate" hreflang="en" href="{{ site.url }}/investing-course/en{{ page.url }}">
 <link rel="alternate" hreflang="x-default" href="{{ site.url }}/investing-course/en{{ page.url }}">
 {%- endunless %}
+{%- comment -%}Privacy-friendly analytics (BL-601): GoatCounter — no cookies, no PII. Off unless `goatcounter_code` is set in _config.yml.{%- endcomment -%}
+{%- if site.goatcounter_code %}
+<script data-goatcounter="https://{{ site.goatcounter_code }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+{%- endif %}
 <script>
 /* Course progress tracker + completion certificate (localStorage, no deps).
    Shared across RU/EN, language-aware. Hardened against tampered storage.
