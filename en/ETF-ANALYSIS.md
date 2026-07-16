@@ -77,18 +77,18 @@ Since inception (2010): ~14% per year
 
 | # | Company | Ticker | Weight | Sector |
 |---|---------|--------|--------|--------|
-| 1 | Apple | AAPL | 7.2% | Technology |
-| 2 | Microsoft | MSFT | 6.8% | Technology |
-| 3 | NVIDIA | NVDA | 6.1% | Technology |
-| 4 | Amazon | AMZN | 3.6% | Consumer |
-| 5 | Meta (Facebook) | META | 2.5% | Communication |
-| 6 | Alphabet (Google) | GOOGL | 2.1% | Communication |
-| 7 | Berkshire Hathaway | BRK.B | 1.7% | Financials |
+| 1 | NVIDIA | NVDA | 7.9% | Technology |
+| 2 | Apple | AAPL | 7.0% | Technology |
+| 3 | Microsoft | MSFT | 5.1% | Technology |
+| 4 | Amazon | AMZN | 4.1% | Consumer |
+| 5 | Alphabet (Google) | GOOGL | 3.4% | Communication |
+| 6 | Broadcom | AVGO | 3.3% | Technology |
+| 7 | Meta (Facebook) | META | 2.1% | Communication |
 | 8 | Tesla | TSLA | 1.9% | Consumer |
-| 9 | Broadcom | AVGO | 1.6% | Technology |
-| 10 | JPMorgan Chase | JPM | 1.3% | Financials |
+| 9 | Berkshire Hathaway | BRK.B | 1.6% | Financials |
+| 10 | JPMorgan Chase | JPM | 1.5% | Financials |
 
-**Top 10 = ~35% of portfolio**
+**Top 10 = ~39% of portfolio** (as of mid-2026; weights drift — check the fund page)
 
 ### Sector Distribution
 
@@ -328,9 +328,9 @@ Since inception (1999): ~10% per year
 
 | # | Company | Ticker | Weight | Sector |
 |---|---------|--------|--------|--------|
-| 1 | Apple | AAPL | 9.0% | Technology |
-| 2 | Microsoft | MSFT | 8.2% | Technology |
-| 3 | NVIDIA | NVDA | 7.5% | Technology |
+| 1 | NVIDIA | NVDA | 9.5% | Technology |
+| 2 | Apple | AAPL | 8.0% | Technology |
+| 3 | Microsoft | MSFT | 7.5% | Technology |
 | 4 | Amazon | AMZN | 5.2% | Consumer |
 | 5 | Broadcom | AVGO | 4.8% | Technology |
 | 6 | Meta (Facebook) | META | 4.5% | Communication |
@@ -339,7 +339,7 @@ Since inception (1999): ~10% per year
 | 9 | Alphabet (GOOG) | GOOG | 2.7% | Communication |
 | 10 | Costco | COST | 2.6% | Consumer |
 
-**Top 10 = ~51% of portfolio** (high concentration!)
+**Top 10 = ~51% of portfolio** (high concentration; as of mid-2026)
 
 ### QQQ Risks
 

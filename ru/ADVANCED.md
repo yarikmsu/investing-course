@@ -644,16 +644,17 @@ TIPS (Treasury Inflation-Protected Securities):
 ├── Инфляционная ставка (inflation rate) — меняется каждые 6 мес
 └── Composite rate = Fixed + (2 × Inflation) + (Fixed × Inflation)
 
-Пример (январь 2025):
-├── Fixed rate: 1.20%
-├── Inflation rate: 1.50%
-├── Composite: 1.20% + 3.00% = ~4.20% годовых
+Пример (май 2026, ставка на 6 мес.):
+├── Fixed rate: 0.90%
+├── Inflation rate (годовая): 3.34%
+├── Composite: ~4.26% годовых (сверяйтесь с TreasuryDirect)
 └── Если инфляция вырастет → ставка вырастет
 
 Историческая перспектива:
 ├── 2022 (пик инфляции): I-Bonds давали 9.62%!
 ├── 2023: снижение до 5-6%
-├── 2024-2025: 4-5%
+├── 2024–2025: ~3–4% (нояб. 2024 composite = 3.11%)
+├── 2026: ~4.3%
 └── I-Bonds НЕ могут иметь отрицательную ставку
 ```
 
@@ -1074,9 +1075,9 @@ Estate Planning:
 
 Калькуляторы:
 ├── opensocialsecurity.com — оптимизация SS
-├── i-orp.com — оптимальный порядок вывода
+├── ficalc.app — симулятор стратегий вывода
 ├── cfiresim.com — Monte Carlo симуляции
-└── newretirement.com — комплексное планирование
+└── boldin.com — комплексное планирование (бывш. NewRetirement)
 ```
 
 ---

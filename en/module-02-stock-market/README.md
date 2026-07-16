@@ -139,11 +139,11 @@ Characteristics:
 └── Main benchmark for investors
 
 Top companies (approximate weights):
+├── NVIDIA       ~8%
 ├── Apple        ~7%
-├── Microsoft    ~6%
-├── Amazon       ~3%
-├── NVIDIA       ~3%
-└── Alphabet     ~4%
+├── Microsoft    ~5%
+├── Alphabet     ~4%
+└── Amazon       ~4%
 ```
 
 ### Dow Jones Industrial Average (DJIA)

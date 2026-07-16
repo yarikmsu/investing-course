@@ -46,7 +46,7 @@ permalink: /SOURCES/
 ```
 Research: SPIVA U.S. Scorecard (S&P Dow Jones Indices)
 
-Key data (as of 2023):
+Key data (latest report — verify on the SPIVA site):
 ├── 87.98% of active funds underperformed S&P 500 over 15 years
 ├── 92.19% of active funds underperformed over 20 years
 ├── Similar pattern across other categories
@@ -84,10 +84,10 @@ Source: advisors.vanguard.com/insights/article/IWE_ReijsM
 ### Morningstar Research
 
 ```
-Research: "Mind the Gap" (2023)
+Research: "Mind the Gap" (2025 edition, through December 2024)
 
 Behavioral costs for investors:
-├── Average investor lags their funds by 1.7% per year
+├── Average investor lags their funds by ~1.2 pp per year
 ├── Reason: buying at peaks, selling at bottoms
 ├── Especially notable in volatile categories
 └── Discipline and long-term focus are critical
@@ -186,7 +186,7 @@ The Four Pillars of Investing:
 | 2000-2002 | -49% | ~7 years |
 | 2007-2009 | -57% | ~5 years |
 | 2020 (COVID) | -34% | ~5 months |
-| 2022 | -25% | Ongoing |
+| 2022 | -25% | ~2 years (new highs by early 2024) |
 
 ```
 Data sources:
