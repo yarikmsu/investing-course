@@ -83,10 +83,10 @@ Since inception (2010): ~14% per year
 | 4 | Amazon | AMZN | 4.1% | Consumer |
 | 5 | Alphabet (Google) | GOOGL | 3.4% | Communication |
 | 6 | Broadcom | AVGO | 3.3% | Technology |
-| 7 | Meta (Facebook) | META | 2.1% | Communication |
-| 8 | Tesla | TSLA | 1.9% | Consumer |
-| 9 | Berkshire Hathaway | BRK.B | 1.6% | Financials |
-| 10 | JPMorgan Chase | JPM | 1.5% | Financials |
+| 7 | Alphabet (GOOG) | GOOG | 2.7% | Communication |
+| 8 | Meta (Facebook) | META | 2.1% | Communication |
+| 9 | Tesla | TSLA | 1.9% | Consumer |
+| 10 | Micron | MU | 1.7% | Technology |
 
 **Top 10 = ~39% of portfolio** (as of mid-2026; weights drift — check the fund page)
 
@@ -328,18 +328,18 @@ Since inception (1999): ~10% per year
 
 | # | Company | Ticker | Weight | Sector |
 |---|---------|--------|--------|--------|
-| 1 | NVIDIA | NVDA | 9.5% | Technology |
-| 2 | Apple | AAPL | 8.0% | Technology |
-| 3 | Microsoft | MSFT | 7.5% | Technology |
-| 4 | Amazon | AMZN | 5.2% | Consumer |
-| 5 | Broadcom | AVGO | 4.8% | Technology |
-| 6 | Meta (Facebook) | META | 4.5% | Communication |
-| 7 | Tesla | TSLA | 3.8% | Consumer |
-| 8 | Alphabet (GOOGL) | GOOGL | 2.8% | Communication |
-| 9 | Alphabet (GOOG) | GOOG | 2.7% | Communication |
-| 10 | Costco | COST | 2.6% | Consumer |
+| 1 | NVIDIA | NVDA | 8.0% | Technology |
+| 2 | Apple | AAPL | 7.4% | Technology |
+| 3 | Micron | MU | 4.7% | Technology |
+| 4 | Microsoft | MSFT | 4.6% | Technology |
+| 5 | Amazon | AMZN | 4.2% | Consumer |
+| 6 | Broadcom | AVGO | 4.0% | Technology |
+| 7 | Meta (Facebook) | META | 3.5% | Communication |
+| 8 | Alphabet (Google) | GOOGL | 2.6% | Communication |
+| 9 | Tesla | TSLA | 2.5% | Consumer |
+| 10 | Netflix | NFLX | 2.3% | Communication |
 
-**Top 10 = ~51% of portfolio** (high concentration; as of mid-2026)
+**Top 10 = ~45% of portfolio** (high concentration; as of mid-2026)
 
 ### QQQ Risks
 
@@ -347,7 +347,7 @@ Since inception (1999): ~10% per year
 ⚠️ HIGH RISKS:
 
 1. High concentration
-   └── Top 10 = 51% (vs 35% for VOO)
+   └── Top 10 = ~45% (vs ~39% for VOO)
 
 2. Technology dependence
    └── ~50% in tech sector

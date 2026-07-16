@@ -646,7 +646,7 @@ TIPS (Treasury Inflation-Protected Securities):
 
 Пример (май 2026, ставка на 6 мес.):
 ├── Fixed rate: 0.90%
-├── Inflation rate (годовая): 3.34%
+├── Inflation rate (полугодовая): 1.67%
 ├── Composite: ~4.26% годовых (сверяйтесь с TreasuryDirect)
 └── Если инфляция вырастет → ставка вырастет
 

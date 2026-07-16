@@ -46,7 +46,7 @@ permalink: /SOURCES/
 ```
 Research: SPIVA U.S. Scorecard (S&P Dow Jones Indices)
 
-Key data (latest report — verify on the SPIVA site):
+Key data (SPIVA U.S. Scorecard, year-end 2023 — check the latest edition):
 ├── 87.98% of active funds underperformed S&P 500 over 15 years
 ├── 92.19% of active funds underperformed over 20 years
 ├── Similar pattern across other categories

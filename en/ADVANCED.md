@@ -651,7 +651,7 @@ I-Bond rate:
 
 Example (May 2026, 6-month rate):
 ├── Fixed rate: 0.90%
-├── Inflation rate (annualized): 3.34%
+├── Inflation rate (semiannual): 1.67%
 ├── Composite: ~4.26% annually (verify on TreasuryDirect)
 └── If inflation rises → rate rises
 
