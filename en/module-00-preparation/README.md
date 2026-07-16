@@ -221,7 +221,7 @@ MAXIMUM: 12 months of expenses
 
 ```
 ✓ SUITABLE:
-├── High-Yield Savings Account (HYSA) — 4-5% APY
+├── High-Yield Savings Account (HYSA) — ~3.5-4.3% APY (check current rates)
 ├── Money Market Account
 ├── Short-term Treasury Bills
 └── Savings account at a reliable bank

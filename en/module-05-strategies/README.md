@@ -611,9 +611,9 @@ Why it matters:
    - Choose the day of the month for purchases
    - Calculate how much you'll accumulate over 20 years
 
-3. **Analyze dividend stocks**:
-   - Find the yield and payout ratio for JNJ, KO, PG
-   - Which one looks more attractive?
+3. **Compare dividend ETFs**:
+   - Find the dividend yield and expense ratio for SCHD and VYM
+   - How do their approaches differ (quality screen vs broad high-yield coverage)?
 
 4. **Compare ETFs**:
    - VTI (total market)

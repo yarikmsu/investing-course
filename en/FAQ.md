@@ -258,7 +258,8 @@ Rule: The bigger the drop — the more you should buy.
 
 ```
 US Residents:
-├── Dividends: 0-20% (depends on income)
+├── Qualified dividends: 0-20% (depends on income)
+├── Non-qualified dividends (REITs, bond funds): ordinary income, up to 37%
 ├── Long-term gains (>1 year): 0-20%
 ├── Short-term gains (1 year or less): up to 37%
 ├── High earners (MAGI > $200k single / $250k MFJ) also owe the

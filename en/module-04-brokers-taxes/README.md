@@ -451,6 +451,8 @@ AGE 59½ — key date:
 | SEPP (equal payments 5+ years) | ✅ | ✅ | By formula |
 | IRS Levy (tax seizure) | ✅ | ✅ | Levy amount |
 | Reservist called to active duty | ✅ | ✅ | Unlimited |
+| Emergency personal expense (SECURE 2.0, from 2024) | ✅ | ✅ | up to $1,000/yr |
+| Domestic-abuse victim (SECURE 2.0, from 2024) | ✅ | ✅ | lesser of $10,300 or 50% of account |
 
 > ⚠️ **Important:** Exception from 10% penalty ≠ tax exemption! When withdrawing from Traditional IRA/401(k), you still pay ordinary income tax — just without the additional 10% penalty.
 
@@ -488,7 +490,8 @@ Who needs to take RMD:
 
 | Birth Year | RMD Starting Age |
 |------------|------------------|
-| 1950 or earlier | 70½ (old rule) |
+| Before July 1, 1949 | 70½ (original rule) |
+| July 1, 1949 – 1950 | 72 (SECURE 1.0) |
 | 1951-1959 | **73 years** |
 | 1960 or later | **75 years** (from 2033) |
 

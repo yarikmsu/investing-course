@@ -179,7 +179,7 @@ permalink: /GLOSSARY/
 
 **Risk** — The possibility of losing some or all investments. High potential return is usually associated with high risk.
 
-**RMD (Required Minimum Distribution)** — The minimum amount the IRS requires you to withdraw annually from pre-tax retirement accounts (Traditional IRA, 401(k)) starting at age 73 (SECURE 2.0; age 75 for those reaching age 74 after 2032, i.e. born 1960 or later). Roth IRAs have no RMDs during the owner's lifetime. Missing an RMD triggers a 25% excise tax on the shortfall, reduced to 10% if corrected promptly (within the two-year correction window, Form 5329).
+**RMD (Required Minimum Distribution)** — The minimum amount the IRS requires you to withdraw annually from pre-tax retirement accounts (Traditional IRA, 401(k)) starting at age 73 (SECURE 2.0; age 75 for those born in 1960 or later). Roth IRAs have no RMDs during the owner's lifetime. Missing an RMD triggers a 25% excise tax on the shortfall, reduced to 10% if corrected promptly (within the two-year correction window, Form 5329).
 
 ---
 
