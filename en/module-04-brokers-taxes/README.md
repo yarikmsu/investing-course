@@ -451,8 +451,12 @@ AGE 59½ — key date:
 | SEPP (equal payments 5+ years) | ✅ | ✅ | By formula |
 | IRS Levy (tax seizure) | ✅ | ✅ | Levy amount |
 | Reservist called to active duty | ✅ | ✅ | Unlimited |
-| Emergency personal expense (SECURE 2.0, from 2024) | ✅ | ✅ | up to $1,000/yr |
-| Domestic-abuse victim (SECURE 2.0, from 2024) | ✅ | ✅ | lesser of $10,300 or 50% of account |
+| Emergency personal expense (SECURE 2.0, from 2024) | ✅ | ✅\* | up to $1,000/yr (capped at the balance above $1,000) |
+| Domestic-abuse victim (SECURE 2.0, from 2024) | ✅ | ✅\* | lesser of $10,500 (2026) or 50% of vested balance |
+
+> ✅\* For employer plans (401(k)), these two SECURE 2.0 exceptions are **optional** — available only if the plan adopts them (and the domestic-abuse distribution isn't available from plans subject to spousal-consent/QJSA rules). Always available from IRAs.
+>
+> Emergency distribution: one per year; capped at the vested balance above $1,000; a repeat isn't allowed for 3 years unless the prior amount is repaid or replaced by new contributions. The domestic-abuse cap is indexed ($10,000 in 2024, $10,300 in 2025, $10,500 in 2026).
 
 > ⚠️ **Important:** Exception from 10% penalty ≠ tax exemption! When withdrawing from Traditional IRA/401(k), you still pay ordinary income tax — just without the additional 10% penalty.
 
