@@ -453,6 +453,8 @@ Accelerators:
 Investing is a marathon, not a sprint.
 ```
 
+> ℹ️ Figures assume monthly contributions compounded monthly (≈10.47% effective annual) — the same convention as Module 5. With annual compounding the 30/40-year totals are lower (≈$1.03M / $2.78M).
+
 ---
 
 ### 22. Can I beat the market myself?
