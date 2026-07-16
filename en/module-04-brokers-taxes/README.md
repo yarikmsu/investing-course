@@ -451,6 +451,12 @@ AGE 59½ — key date:
 | SEPP (equal payments 5+ years) | ✅ | ✅ | By formula |
 | IRS Levy (tax seizure) | ✅ | ✅ | Levy amount |
 | Reservist called to active duty | ✅ | ✅ | Unlimited |
+| Emergency personal expense (SECURE 2.0, from 2024) | ✅ | ✅\* | up to $1,000/yr (capped at the vested balance above $1,000) |
+| Domestic-abuse victim (SECURE 2.0, from 2024) | ✅ | ✅\* | lesser of $10,500 (2026) or 50% of vested balance |
+
+> ✅\* From an IRA these are always available. For an employer plan (401(k)/403(b)), offering them as a distribution **type** is optional — the plan must adopt it, and the domestic-abuse option can't come from a plan under spousal-consent/QJSA rules. Even if the plan doesn't offer the special type, you can still claim the 10% **penalty** exception on Form 5329 for an otherwise-permissible distribution — this Form 5329 route covers the emergency distribution but does not override the QJSA bar on domestic-abuse distributions noted above.
+>
+> Emergency distribution: one per year (individual cap), and no repeat from that same plan for 3 years unless the prior amount is repaid or replaced by new contributions. Domestic-abuse distribution: must be taken within 1 year of the abuse; the indexed cap is $10,000 (2024), $10,300 (2025), $10,500 (2026). This is a summary — see IRS Notice 2024-55 for the exact conditions.
 
 > ⚠️ **Important:** Exception from 10% penalty ≠ tax exemption! When withdrawing from Traditional IRA/401(k), you still pay ordinary income tax — just without the additional 10% penalty.
 
@@ -488,7 +494,8 @@ Who needs to take RMD:
 
 | Birth Year | RMD Starting Age |
 |------------|------------------|
-| 1950 or earlier | 70½ (old rule) |
+| Before July 1, 1949 | 70½ (original rule) |
+| July 1, 1949 – 1950 | 72 (SECURE 1.0) |
 | 1951-1959 | **73 years** |
 | 1960 or later | **75 years** (from 2033) |
 

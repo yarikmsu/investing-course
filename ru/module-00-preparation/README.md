@@ -221,7 +221,7 @@ permalink: /module-00-preparation/
 
 ```
 ✓ ПОДХОДИТ:
-├── High-Yield Savings Account (HYSA) — 4-5% годовых
+├── High-Yield Savings Account (HYSA) — ~3.5-4.3% годовых (проверяйте актуальные ставки)
 ├── Money Market Account
 ├── Короткие Treasury Bills
 └── Накопительный счёт в надёжном банке
