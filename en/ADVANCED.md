@@ -495,6 +495,8 @@ Example for $1,000,000:
 
 ### Social Security Optimization
 
+> ℹ️ **Taxation of SS benefits:** up to **85%** of your Social Security benefit can be subject to federal income tax — the taxable share depends on your "combined income" (AGI + tax-exempt interest + ½ of benefits). Factor this into IRA/Roth withdrawal planning.
+
 ```
 When to start claiming:
 ├── Age 62: early — amount reduced by ~30%
@@ -975,6 +977,8 @@ Appreciated Stock Donation:
 ├── Charity sells tax-free
 └── Win-win situation
 ```
+
+> ℹ️ **OBBBA changes from 2026:** for itemizers, charitable gifts are deductible only to the extent they **exceed a new 0.5%-of-AGI floor**. Separately, a permanent deduction was added for non-itemizers — up to **$1,000 (single) / $2,000 (MFJ)** of **cash** gifts **on top of** the standard deduction (it is subtracted after AGI, so it does **not** reduce AGI, and it does **not** cover gifts to a donor-advised fund). The 0.5%-of-AGI floor applies to §170 itemized deductions only — **QCDs are unaffected** (a QCD is an income exclusion under §408(d)(8), not a charitable deduction).
 
 ---
 

@@ -17,6 +17,7 @@
 | HSA family | $8,550 | **$8,750** | Rev. Proc. 2025-19 |
 | HSA catch-up, age 55+ | $1,000 | **$1,000** (fixed, not indexed) | IRS Pub 969 |
 | Total DC limit, IRC §415(c) (mega-backdoor cap) | $70,000 | **$72,000** | Notice 2025-67 |
+| SECURE 2.0 mandatory-Roth catch-up wage threshold | — | **prior-year FICA wages from the plan-sponsoring employer > $150,000** → that person's age-50+ catch-ups must be Roth (per-employer test; if the plan has **no** Roth program the affected high earner's catch-up limit is **$0** — no age-50+ catch-ups until the plan adds Roth; §1.414(v)-2(b)(2); effective 2026) | Notice 2025-67 / SECURE 2.0 §603 / IRC §414(v)(7) |
 
 ## Roth phase-out, capital gains, brackets
 
@@ -26,7 +27,11 @@
 | Roth IRA phase-out, MFJ | $236,000–$246,000 | **$242,000–$252,000** | Notice 2025-67 |
 | LTCG/qualified-div 0% ceiling, single | $48,350 | **$49,450** | Rev. Proc. 2025-32 / IRB 2025-45 |
 | LTCG/qualified-div 0% ceiling, MFJ | $96,700 | **$98,900** | Rev. Proc. 2025-32 / IRB 2025-45 |
-| LTCG 15%→20% breakpoint, single | — | **$545,500** | IRB 2025-45 |
+| LTCG 15%→20% breakpoint, single | $533,400 | **$545,500** | IRB 2025-45 |
+| LTCG 15%→20% breakpoint, MFJ | $600,050 | **$613,700** | IRB 2025-45 |
+| Traditional IRA deduction phase-out, single/HoH (you covered by workplace plan) | $79,000–$89,000 | **$81,000–$91,000** | Notice 2025-67 |
+| Traditional IRA deduction phase-out, MFJ (contributor covered) | $126,000–$146,000 | **$129,000–$149,000** | Notice 2025-67 |
+| Traditional IRA deduction phase-out, MFJ (only spouse covered) | $236,000–$246,000 | **$242,000–$252,000** | Notice 2025-67 |
 | Ordinary brackets, single (2026) | — | 10% ≤$12,400 · 12% >$12,400 · 22% >$50,400 · 24% >$105,700 · 32% >$201,775 · 35% >$256,225 · 37% >$640,600 | IRS 2026 release |
 | Ordinary brackets, MFJ (2026) | — | 10% ≤$24,800 · 12% >$24,800 · 22% >$100,800 · 24% >$211,400 · 32% >$403,550 · 35% >$512,450 · 37% >$768,700 | IRS 2026 release |
 | Standard deduction | $15,750 single / $31,500 MFJ | **$16,100 single / $32,200 MFJ** | Rev. Proc. 2025-32 |
