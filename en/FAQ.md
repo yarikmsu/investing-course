@@ -441,8 +441,8 @@ Every. Single. Time.
 $500/month at 10% annually:
 ├── After 10 years: ~$100,000
 ├── After 20 years: ~$380,000
-├── After 30 years: ~$1,000,000
-├── After 40 years: ~$2,600,000
+├── After 30 years: ~$1,130,000
+├── After 40 years: ~$3,160,000
 
 Accelerators:
 ├── Higher monthly contribution

@@ -187,8 +187,8 @@ Expense Ratio:          0.03%           0.03%
 
 VTI = VOO + mid and small companies
 
-Historical return difference: ~0.5% per year
-(VTI slightly more volatile, but potentially higher returns)
+Historical return difference: usually ~0.1–0.2 pp per year — nearly identical
+(direction varies; VOO was slightly ahead over the last decade)
 ```
 
 ### Historical Returns
