@@ -139,11 +139,11 @@ permalink: /module-02-stock-market/
 └── Главный бенчмарк для инвесторов
 
 Топ компании (примерные веса):
+├── NVIDIA       ~8%
 ├── Apple        ~7%
-├── Microsoft    ~6%
-├── Amazon       ~3%
-├── NVIDIA       ~3%
-└── Alphabet     ~4%
+├── Alphabet     ~6%
+├── Microsoft    ~5%
+└── Amazon       ~4%
 ```
 
 ### Dow Jones Industrial Average (DJIA)

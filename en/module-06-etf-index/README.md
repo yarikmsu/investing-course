@@ -45,12 +45,12 @@ ETF Structure:
 ┌─────────────────────────────────────────────┐
 │                    ETF                       │
 │  ┌─────────┬─────────┬─────────┬─────────┐  │
-│  │  AAPL   │  MSFT   │  GOOGL  │  AMZN   │  │
-│  │  7.2%   │  6.5%   │  4.1%   │  3.2%   │  │
+│  │  NVDA   │  AAPL   │  MSFT   │  AMZN   │  │
+│  │  7.9%   │  7.0%   │  5.1%   │  4.1%   │  │
 │  └─────────┴─────────┴─────────┴─────────┘  │
 │  ┌─────────┬─────────┬─────────┬─────────┐  │
-│  │  NVDA   │  META   │  TSLA   │  ...    │  │
-│  │  3.0%   │  2.5%   │  1.8%   │  72%    │  │
+│  │  GOOGL  │  META   │  TSLA   │  ...    │  │
+│  │  3.4%   │  2.1%   │  1.9%   │  ~68%   │  │
 │  └─────────┴─────────┴─────────┴─────────┘  │
 └─────────────────────────────────────────────┘
           │
@@ -158,17 +158,17 @@ For niche ETFs:
 
 | Ticker | Sector | Expense Ratio |
 |--------|--------|---------------|
-| XLK | Technology | 0.10% |
-| XLF | Financials | 0.10% |
-| XLV | Healthcare | 0.10% |
-| XLE | Energy | 0.10% |
-| XLY | Consumer Discretionary | 0.10% |
-| XLRE | Real Estate | 0.10% |
-| XLI | Industrials | 0.10% |
-| XLC | Communications | 0.10% |
-| XLU | Utilities | 0.10% |
-| XLP | Consumer Staples | 0.10% |
-| XLB | Materials | 0.10% |
+| XLK | Technology | 0.08% |
+| XLF | Financials | 0.08% |
+| XLV | Healthcare | 0.08% |
+| XLE | Energy | 0.08% |
+| XLY | Consumer Discretionary | 0.08% |
+| XLRE | Real Estate | 0.08% |
+| XLI | Industrials | 0.08% |
+| XLC | Communications | 0.08% |
+| XLU | Utilities | 0.08% |
+| XLP | Consumer Staples | 0.08% |
+| XLB | Materials | 0.08% |
 
 ---
 

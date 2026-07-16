@@ -726,7 +726,7 @@ March 23, 2020 (bottom):   $6,600  (-34%)
 August 2020 (6 months):    $10,300 (+3%)
 February 2021 (1 year):    $11,800 (+18%)
 February 2022 (2 years):   $13,900 (+39%)
-January 2025 (5 years):    $15,500+ (+55%)
+Mid-2026 (~6 years):       ~$19,500 (+95%)
 
 LESSON: Those who panicked and sold in March 2020,
         missed one of the best rallies in history.

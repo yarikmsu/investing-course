@@ -77,33 +77,33 @@ Since inception (2010): ~14% per year
 
 | # | Company | Ticker | Weight | Sector |
 |---|---------|--------|--------|--------|
-| 1 | Apple | AAPL | 7.2% | Technology |
-| 2 | Microsoft | MSFT | 6.8% | Technology |
-| 3 | NVIDIA | NVDA | 6.1% | Technology |
-| 4 | Amazon | AMZN | 3.6% | Consumer |
-| 5 | Meta (Facebook) | META | 2.5% | Communication |
-| 6 | Alphabet (Google) | GOOGL | 2.1% | Communication |
-| 7 | Berkshire Hathaway | BRK.B | 1.7% | Financials |
-| 8 | Tesla | TSLA | 1.9% | Consumer |
-| 9 | Broadcom | AVGO | 1.6% | Technology |
-| 10 | JPMorgan Chase | JPM | 1.3% | Financials |
+| 1 | NVIDIA | NVDA | 7.9% | Technology |
+| 2 | Apple | AAPL | 7.0% | Technology |
+| 3 | Microsoft | MSFT | 5.1% | Technology |
+| 4 | Amazon | AMZN | 4.1% | Consumer |
+| 5 | Alphabet (Google) | GOOGL | 3.4% | Communication |
+| 6 | Broadcom | AVGO | 3.3% | Technology |
+| 7 | Alphabet (GOOG) | GOOG | 2.7% | Communication |
+| 8 | Meta (Facebook) | META | 2.1% | Communication |
+| 9 | Tesla | TSLA | 1.9% | Consumer |
+| 10 | Micron | MU | 1.7% | Technology |
 
-**Top 10 = ~35% of portfolio**
+**Top 10 = ~39% of portfolio** (as of mid-2026; weights drift — check the fund page)
 
 ### Sector Distribution
 
 ```
-Technology          ████████████████████████████ 31%
-Financials          ████████████░░░░░░░░░░░░░░░░ 13%
-Healthcare          ████████████░░░░░░░░░░░░░░░░ 12%
-Consumer Discret.   ██████████░░░░░░░░░░░░░░░░░░ 10%
-Communication       █████████░░░░░░░░░░░░░░░░░░░  9%
-Industrials         ████████░░░░░░░░░░░░░░░░░░░░  8%
-Consumer Staples    ██████░░░░░░░░░░░░░░░░░░░░░░  6%
-Energy              ████░░░░░░░░░░░░░░░░░░░░░░░░  4%
-Real Estate         ███░░░░░░░░░░░░░░░░░░░░░░░░░  2%
-Materials           ███░░░░░░░░░░░░░░░░░░░░░░░░░  2%
-Utilities           ███░░░░░░░░░░░░░░░░░░░░░░░░░  2%
+Technology          ████████████████████████████ 38%
+Financials          █████████░░░░░░░░░░░░░░░░░░░ 12%
+Healthcare          ███████░░░░░░░░░░░░░░░░░░░░░  9%
+Consumer Discret.   ███████░░░░░░░░░░░░░░░░░░░░░  9%
+Communication       ███████░░░░░░░░░░░░░░░░░░░░░ 10%
+Industrials         ██████░░░░░░░░░░░░░░░░░░░░░░  8%
+Consumer Staples    ████░░░░░░░░░░░░░░░░░░░░░░░░  5%
+Energy              ██░░░░░░░░░░░░░░░░░░░░░░░░░░  3%
+Real Estate         █░░░░░░░░░░░░░░░░░░░░░░░░░░░  2%
+Materials           █░░░░░░░░░░░░░░░░░░░░░░░░░░░  2%
+Utilities           █░░░░░░░░░░░░░░░░░░░░░░░░░░░  2%
 ```
 
 ### Investment Example
@@ -284,10 +284,10 @@ Or... just pick either and stick with it!
 | Parameter | Value |
 |-----------|-------|
 | **Share Price** | check on [etf.com](https://www.etf.com) |
-| **Expense Ratio** | 0.20% |
+| **Expense Ratio** | 0.18% |
 | **Assets Under Management (AUM)** | ~$440B (verify current value) |
 | **Dividend Yield** | ~0.5% |
-| **Number of Companies** | 101 |
+| **Number of Companies** | ~100 (Nasdaq-100 index; ~104 holdings) |
 | **Average P/E** | ~35 |
 
 ### Important QQQ Characteristics
@@ -299,7 +299,7 @@ QQQ ≠ "Technology ETF"
 QQQ = 100 largest NON-FINANCIAL companies on NASDAQ
 
 This means:
-├── Lots of tech (~50%), but not only
+├── Lots of tech (~55%), but not only
 ├── Consumer sector (Amazon, Tesla, Costco)
 ├── Healthcare (Amgen, Gilead)
 ├── Communication (Google, Meta)
@@ -328,18 +328,18 @@ Since inception (1999): ~10% per year
 
 | # | Company | Ticker | Weight | Sector |
 |---|---------|--------|--------|--------|
-| 1 | Apple | AAPL | 9.0% | Technology |
-| 2 | Microsoft | MSFT | 8.2% | Technology |
-| 3 | NVIDIA | NVDA | 7.5% | Technology |
-| 4 | Amazon | AMZN | 5.2% | Consumer |
-| 5 | Broadcom | AVGO | 4.8% | Technology |
-| 6 | Meta (Facebook) | META | 4.5% | Communication |
-| 7 | Tesla | TSLA | 3.8% | Consumer |
-| 8 | Alphabet (GOOGL) | GOOGL | 2.8% | Communication |
-| 9 | Alphabet (GOOG) | GOOG | 2.7% | Communication |
-| 10 | Costco | COST | 2.6% | Consumer |
+| 1 | NVIDIA | NVDA | 8.0% | Technology |
+| 2 | Apple | AAPL | 7.4% | Technology |
+| 3 | Micron | MU | 4.7% | Technology |
+| 4 | Microsoft | MSFT | 4.6% | Technology |
+| 5 | Amazon | AMZN | 4.2% | Consumer |
+| 6 | AMD | AMD | 3.9% | Technology |
+| 7 | Meta (Facebook) | META | 3.5% | Communication |
+| 8 | Tesla | TSLA | 3.1% | Consumer |
+| 9 | Alphabet (GOOGL) | GOOGL | 3.0% | Communication |
+| 10 | Alphabet (GOOG) | GOOG | 3.0% | Communication |
 
-**Top 10 = ~51% of portfolio** (high concentration!)
+**Top 10 = ~45% of portfolio** (high concentration; as of mid-2026)
 
 ### QQQ Risks
 
@@ -347,10 +347,10 @@ Since inception (1999): ~10% per year
 ⚠️ HIGH RISKS:
 
 1. High concentration
-   └── Top 10 = 51% (vs 35% for VOO)
+   └── Top 10 = ~45% (vs ~39% for VOO)
 
 2. Technology dependence
-   └── ~50% in tech sector
+   └── ~55% in tech sector
 
 3. High volatility
    ├── 2022: dropped -33%
@@ -368,12 +368,12 @@ Since inception (1999): ~10% per year
 ```
                         QQQ             VOO
 ──────────────────────────────────────────────
-Expense Ratio:          0.20%           0.03%
+Expense Ratio:          0.18%           0.03%
 Companies:              100             500
 Dividend:               ~0.5%           ~1.3%
 Volatility:             HIGH            MEDIUM
 Concentration:          HIGH            MEDIUM
-Technology:             ~50%            ~31%
+Technology:             ~55%            ~38%
 
 QQQ = more risk, more potential
 VOO = balance of risk and return
@@ -402,14 +402,14 @@ VOO = balance of risk and return
 ```
 QQQM — "mini" version of QQQ
 
-Expense Ratio: 0.15% (vs 0.20% for QQQ)
-Difference: 0.05% per year
+Expense Ratio: 0.15% (vs 0.18% for QQQ)
+Difference: 0.03% per year
 
 On $100,000 over 30 years (7% annual, with compounding):
-├── QQQ (0.20%): fees eat ~$41,600 vs a zero-fee fund
+├── QQQ (0.18%): fees eat ~$37,400 vs a zero-fee fund
 └── QQQM (0.15%): fees eat ~$31,300 vs a zero-fee fund
 
-QQQM savings vs QQQ: ~$10,300
+QQQM savings vs QQQ: ~$6,100
 
 For long-term investors, QQQM is better!
 ```
@@ -726,7 +726,7 @@ Or more aggressive:
 
 | Parameter | VOO | VTI | QQQ | VT | BND |
 |-----------|-----|-----|-----|-----|-----|
-| **Expense Ratio** | 0.03% | 0.03% | 0.20% | 0.06% | 0.03% |
+| **Expense Ratio** | 0.03% | 0.03% | 0.18% | 0.06% | 0.03% |
 | **Holdings** | 500 | ~3,500 | 100 | 9,900 | 11,000 |
 | **Dividend** | 1.3% | 1.3% | 0.5% | 1.8% | 4.5% |
 | **Volatility** | Medium | Medium | High | Medium | Low |

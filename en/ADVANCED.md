@@ -649,16 +649,17 @@ I-Bond rate:
 ├── Inflation rate — changes every 6 months
 └── Composite rate = Fixed + (2 × Inflation) + (Fixed × Inflation)
 
-Example (January 2025):
-├── Fixed rate: 1.20%
-├── Inflation rate: 1.50%
-├── Composite: 1.20% + 3.00% = ~4.20% annually
+Example (May 2026, 6-month rate):
+├── Fixed rate: 0.90%
+├── Inflation rate (semiannual): 1.67%
+├── Composite: ~4.26% annually (verify on TreasuryDirect)
 └── If inflation rises → rate rises
 
 Historical perspective:
 ├── 2022 (peak inflation): I-Bonds yielded 9.62%!
 ├── 2023: dropped to 5-6%
-├── 2024-2025: 4-5%
+├── 2024–2025: ~3–4% (Nov 2024 composite = 3.11%)
+├── 2026: ~4.3%
 └── I-Bonds CANNOT have negative rate
 ```
 
@@ -1077,9 +1078,9 @@ Online resources:
 
 Calculators:
 ├── opensocialsecurity.com — SS optimization
-├── i-orp.com — optimal withdrawal order
+├── ficalc.app — withdrawal-strategy simulator
 ├── cfiresim.com — Monte Carlo simulations
-└── newretirement.com — comprehensive planning
+└── boldin.com — comprehensive planning (formerly NewRetirement)
 ```
 
 ---
