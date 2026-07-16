@@ -978,7 +978,7 @@ Appreciated Stock Donation:
 └── Win-win situation
 ```
 
-> ℹ️ **OBBBA changes from 2026:** for itemizers, charitable gifts are deductible only to the extent they **exceed a new 0.5%-of-AGI floor**. At the same time, a permanent above-the-line deduction was added for non-itemizers: up to **$1,000 (single) / $2,000 (MFJ)** of cash gifts on top of the standard deduction.
+> ℹ️ **OBBBA changes from 2026:** for itemizers, charitable gifts are deductible only to the extent they **exceed a new 0.5%-of-AGI floor**. Separately, a permanent deduction was added for non-itemizers — up to **$1,000 (single) / $2,000 (MFJ)** of **cash** gifts **on top of** the standard deduction (it is subtracted after AGI, so it does **not** reduce AGI, and it does **not** cover gifts to a donor-advised fund).
 
 ---
 

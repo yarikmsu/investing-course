@@ -17,7 +17,7 @@
 | HSA family | $8,550 | **$8,750** | Rev. Proc. 2025-19 |
 | HSA catch-up, age 55+ | $1,000 | **$1,000** (fixed, not indexed) | IRS Pub 969 |
 | Total DC limit, IRC §415(c) (mega-backdoor cap) | $70,000 | **$72,000** | Notice 2025-67 |
-| SECURE 2.0 mandatory-Roth catch-up wage threshold | — | **prior-year FICA wages > $150,000** → age-50+ catch-ups must be Roth (plans with a Roth feature; effective 2026) | Notice 2025-67 / SECURE 2.0 §603 |
+| SECURE 2.0 mandatory-Roth catch-up wage threshold | — | **prior-year FICA wages from the plan-sponsoring employer > $150,000** → that person's age-50+ catch-ups must be Roth (only in plans that offer Roth; per-employer test, subject to regulatory aggregation; effective 2026) | Notice 2025-67 / SECURE 2.0 §603 / IRC §414(v)(7) |
 
 ## Roth phase-out, capital gains, brackets
 
