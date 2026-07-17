@@ -4,6 +4,12 @@
 > Lenses: **EdTech product owner** (UX/accessibility/SEO/growth), **investor/FRM**, **CPA/tax advisor**.
 > Every item here is **new** — nothing duplicates the completed `BACKLOG.md`.
 > Verified against the current site (2026-07-17). IDs are grouped by epic.
+>
+> **Status (2026-07-17): all items below implemented** — SEO (schema.org JSON-LD +
+> OG image), accessibility (WCAG contrast, focus, reduced-motion, wizard semantics),
+> engagement (per-module quizzes, resume, LinkedIn share, glossary pointers, path
+> diagnostic, streak, changelog footer, drip scaffolding), tax (TAX-1..7), and
+> investment (INV-1..10) content. Widget JS extracted to a cacheable asset (PERF-1).
 
 ## How to read
 
