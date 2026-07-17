@@ -681,8 +681,12 @@ underpayment penalty is computed on **Form 2210**.
 - **Withholding is spread over the whole year.** Unlike estimates, any
   **withholding** is treated by the IRS as paid evenly across the year — no matter
   when it actually happened. So a big Q4 gain can be covered by increasing your
-  W-4 withholding at work late in the year, or by taking an IRA distribution with
-  withholding — and there's no penalty even if you paid no estimates.
+  W-4 withholding at work late in the year — no penalty even if you paid no
+  estimates. (Withholding from an *IRA distribution* works the same way, but only
+  makes sense if you're **already** taking distributions or RMDs: the distribution
+  is itself taxable, and before age 59½ it can trigger the 10% early-withdrawal
+  penalty — likely costing more than the underpayment penalty you're trying to
+  avoid. Don't tap an IRA just to create withholding.)
 
 > ⚠️ This is an educational overview, not tax advice. Verify the exact thresholds
 > and rules on IRS.gov (Form 1040-ES, Form 2210) or with a CPA.
