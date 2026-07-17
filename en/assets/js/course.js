@@ -50,8 +50,9 @@
     var home = location.origin + (isRU ? "/investing-course/ru/" : "/investing-course/en/");
     return "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(home);
   }
-  function today() { return new Date().toISOString().slice(0, 10); }
-  function yesterday() { return new Date(Date.now() - 86400000).toISOString().slice(0, 10); }
+  function localDate(d) { function p(n) { return (n < 10 ? "0" : "") + n; } return d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate()); }
+  function today() { return localDate(new Date()); }
+  function yesterday() { var d = new Date(); d.setDate(d.getDate() - 1); return localDate(d); }
   function safeDate() { var d = get(DATEKEY); if (!/^\d{4}-\d{2}-\d{2}$/.test(d)) { d = today(); set(DATEKEY, d); } return d; }
   /* ENG-6: light day-streak nudge. Updates once per calendar day of activity. */
   function updateStreak() {

@@ -235,10 +235,15 @@ vs TX resident: only $1,500 (saves $930!)
 > ℹ️ **States tax more than capital gains.** States generally tax dividends and
 > bond interest at the same rate as ordinary income. But two exceptions lower the
 > bill:
-> - **US government-bond interest is exempt from state tax.** Income from T-bills
->   and Treasury funds (VGSH, SGOV, BIL), as well as I-Bonds, is not subject to
->   state income tax (federal tax still applies). In a high-tax state (CA, NY) this
->   meaningfully lifts their after-tax yield versus corporate bonds and CDs.
+> - **US government-bond interest is exempt from state tax.** Interest on T-bills
+>   and I-Bonds is not subject to state income tax (federal tax still applies), which
+>   in a high-tax state (CA, NY) meaningfully lifts their after-tax yield versus
+>   corporate bonds and CDs. For a Treasury **fund** (VGSH, SGOV, BIL) only the
+>   portion of the distribution attributable to US government obligations is
+>   state-exempt — the fund reports a year-end "% of income from US government
+>   obligations," and you apply that percentage yourself (a fund's cash/repo income
+>   isn't exempt). A few states (e.g. CA, CT, NY) also require the fund to hold ≥50%
+>   US-government assets to pass the exemption through, so check your state's rule.
 > - **Municipal bonds: in-state vs out-of-state.** Muni interest is exempt from
 >   federal tax, but from **your** state's tax usually only if the bond was issued
 >   in that same state. Out-of-state munis are typically taxed by your state. So
