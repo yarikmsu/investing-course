@@ -793,11 +793,14 @@ Ultra-simple (any age):
 └── VT: 100%
 ```
 
-> ℹ️ **QQQ here is a ≤10% tilt, not the "base."** QQQ (NASDAQ-100) is roughly half
-> technology and highly concentrated, so it's an optional sector tilt, not the core
-> of the portfolio. The course recommends keeping such tilts small (≤10%) so they
-> don't push the tech weight far past ~20% (see the concentration warnings in the
-> VOO and QQQ sections). The core is the broad market (VTI + VXUS).
+> ℹ️ **QQQ here is a deliberate tech overweight, not the "base."** Be honest about
+> the math: the broad US index is already ~38% technology, so 70% VTI alone is
+> ~26% tech — already past the course's ~20% sector guideline before you add
+> anything. A ~half-tech QQQ slice pushes it higher still. So this 10% QQQ isn't a
+> way to "stay under 20%" — it's an intentional bet on tech on top of an index
+> that's already tech-heavy (see the concentration warnings in the VOO and QQQ
+> sections). Keep such a tilt small if you take it, and know it's a bet; the
+> market-neutral core is just VTI + VXUS.
 
 ### Key Takeaways
 

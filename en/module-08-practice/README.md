@@ -845,6 +845,8 @@ Useful resources:
 
 ## Final Course Test
 
+**Quick self-check (4 sample questions).** This scored widget is a short warm-up — the full 30-question final test is right below it, and completing this sample doesn't mean you've finished the final test.
+
 <div id="ic-quiz-root"></div>
 
 <script type="application/json" id="ic-quiz-data">

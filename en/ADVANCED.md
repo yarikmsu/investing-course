@@ -173,7 +173,10 @@ Caveats — this is the whole point, get them right:
 (a) The wash-sale rule does NOT apply to GAINS:
 ├── Wash sale only blocks a quick rebuy that harvests a LOSS
 ├── It does not apply to gains
-└── You can rebuy the same fund immediately — no 30-day wait
+├── You can rebuy the same fund immediately — no 30-day wait
+└── BUT the rebuy resets the holding period — the new shares start a
+    fresh clock, so only harvest gains on shares you can hold 1+ year,
+    or later appreciation may be short-term (ordinary-rate)
 
 (b) LTCG "stack" ON TOP of ordinary income:
 ├── Ordinary income "fills up" first; LTCG stack on top
