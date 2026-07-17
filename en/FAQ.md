@@ -4,6 +4,57 @@ title: FAQ
 nav_order: 4
 description: "25 key questions about investing"
 permalink: /FAQ/
+faq:
+  - q: "Will I lose all my money?"
+    a: "With diversification it is extremely unlikely. You can only lose everything with leverage, a single-company bet or fraudulent schemes. In 150 years the S&P 500 has never gone to zero."
+  - q: "Is now a bad time to invest?"
+    a: "No, the best time is always now. Investing immediately captures about 92% of perfect timing's gain, and even the worst timer beats staying in cash. Time in the market beats timing the market."
+  - q: "Do I have too little money to start?"
+    a: "No, you can start with 1 dollar. Modern brokers allow fractional shares with no minimum deposit. The main thing is to start and do it regularly."
+  - q: "I don't understand finance at all, can I still invest?"
+    a: "Yes, you don't need a PhD for passive investing. You only need to understand ETFs, diversification, long-term horizons and regular contributions."
+  - q: "What if my broker goes bankrupt?"
+    a: "Your assets are protected: SIPC insures up to 500000 dollars, assets are held separately from the broker's funds and transferred to another broker in bankruptcy. Cryptocurrencies are not protected by SIPC."
+  - q: "The market is at all-time highs, isn't it too late to enter?"
+    a: "No, the S&P 500 spends about 30% of its time at all-time highs and that is normal. The long-term trend is growth, so enter and stay invested."
+  - q: "What is a realistic amount to start with?"
+    a: "About 100-500 dollars for a first purchase. A good plan: a first purchase around 500 dollars, then 100-500 monthly, increasing contributions with each raise."
+  - q: "Which broker is best for my situation?"
+    a: "For US residents: Fidelity, Schwab or Vanguard. For non-US residents: Interactive Brokers or Firstrade."
+  - q: "What should I buy first?"
+    a: "VTI (the entire US market, about 3500 companies) or VOO (the S&P 500). Both have a 0.03% expense ratio and nearly identical results, so the choice between them is not critical."
+  - q: "How often should I check my portfolio?"
+    a: "Once a month is enough and once a quarter is ideal. Checking daily leads to stress and emotional decisions."
+  - q: "When should I sell?"
+    a: "Almost never. Sell only when you reach a goal, need to rebalance, critically need the money or your life circumstances change, but not because the market dropped or an expert predicted a crash."
+  - q: "What should I do if the market drops 20% or 40%?"
+    a: "Nothing, or buy more. A 20% drop happens every 3-4 years and a 40% drop is rare (2008, 2020). Do not sell, because history shows the market recovers."
+  - q: "What taxes will I pay?"
+    a: "US residents: qualified dividends and long-term gains 0-20%, ordinary income up to 37%, plus a 3.8% NIIT for high earners. Non-residents: dividends 30% (or the applicable treaty rate with W-8BEN, which may be 0%, 10%, or 15%), 0% US tax on portfolio capital gains (but US real-property gains under FIRPTA, and non-residents present 183+ days in the US, can still be taxed), plus US estate tax on US-situs assets above 60000 dollars and tax in your own country."
+  - q: "Do I need an accountant?"
+    a: "To start, no, if you only hold ETFs in a regular account and your situation is simple. You need one for complex tax situations, a large non-resident portfolio or income from several countries."
+  - q: "What is W-8BEN and why should I complete it?"
+    a: "It is a form for non-US residents that confirms you are not a US resident and reduces the 30% dividend tax to the applicable treaty rate, which may be 0%, 10%, or 15% (or no reduction if there is no treaty). It is valid for 3 years and should be completed immediately when opening an account."
+  - q: "How do I report in my country?"
+    a: "Declare investment income, account for the tax credit already paid in the US, keep all broker documents and consult a local specialist. Brokers usually provide annual reports."
+  - q: "What is tax-loss harvesting?"
+    a: "A tax-reduction strategy: sell a losing position, lock in the loss and buy a similar but not identical asset. The loss reduces taxable income. Mind the wash sale rule with its 61-day window."
+  - q: "ETFs or individual stocks?"
+    a: "ETFs for 95% of investors: automatic diversification, low fees and statistically better results. Individual stocks require analysis, carry more risk and should be only a small part of a portfolio."
+  - q: "How many different ETFs do I need in my portfolio?"
+    a: "1-4 is enough. For example: just VTI; or VTI 80% and BND 20%; or VTI 60%, VXUS 20% and BND 20%. More ETFs is not better, and simplicity is an advantage."
+  - q: "What should I do if the market drops?"
+    a: "Turn off financial news, avoid checking your portfolio daily, continue regular investing, buy more if you can and do not sell. After every drop the market has recovered."
+  - q: "When will I become rich?"
+    a: "It depends on your plan. At 500 dollars a month at 10% annually: about 100000 after 10 years, 380000 after 20, 1130000 after 30 and 3160000 after 40 years. Larger contributions, an earlier start and reinvested dividends speed it up."
+  - q: "Can I beat the market myself?"
+    a: "Statistically no: about 90% of active funds and 95% of individual traders underperform the index because of fees, emotions and the impossibility of predicting the future. It is simpler to buy the index."
+  - q: "What is enough for retirement?"
+    a: "Under the 4% rule you can spend about 4% of your portfolio a year. Your target is annual expenses times 25: for example, 50000 a year needs 1250000. Add Social Security and other income sources. Note: 4% is a historical US 30-year rule of thumb, not a guarantee — it can be too high for longer retirements, non-US market histories, or poor early-year returns (more cautious estimates are ~3.3-3.7%)."
+  - q: "Can non-US residents invest in US stocks?"
+    a: "Yes. Open an account with Interactive Brokers, complete the W-8BEN form and fund it by wire. Benefits include access to the world's largest market, no US capital gains tax and a treaty-reduced dividend tax."
+  - q: "What risks do non-US investors face?"
+    a: "Currency fluctuations, wire transfer fees, tax reporting at home, potential regulatory changes and US estate tax on US assets. Mitigate with Irish-domiciled ETFs (CSPX, VWRA), detailed records and a tax professional."
 ---
 
 # FAQ: 25 Key Questions About Investing in the US
@@ -268,7 +319,7 @@ US Residents:
 └── Use IRA/Roth IRA for tax benefits!
 
 Non-US Residents:
-├── Dividends: 30% (or 10-15% with W-8BEN)
+├── Dividends: 30% (or the treaty rate with W-8BEN: 0/10/15%)
 ├── Capital gains: 0% in US
 │   Caveats: this 0% applies only to portfolio gains of a true
 │   non-resident; it does NOT cover US real-property gains (FIRPTA)
@@ -311,7 +362,7 @@ W-8BEN = form for non-US residents
 
 Why:
 ├── Confirms you are NOT a US resident
-├── Reduces dividend tax (from 30% to 10-15%)
+├── Reduces dividend tax (30% → treaty rate, 0/10/15%)
 ├── Confirms eligibility for tax treaty benefits
 └── Valid for 3 years, then renew
 

@@ -106,6 +106,20 @@ Materials           █░░░░░░░░░░░░░░░░░░░
 Utilities           █░░░░░░░░░░░░░░░░░░░░░░░░░░░  2%
 ```
 
+> ⚠️ **The index itself breaks the "≤5% per stock, ≤20% per sector" rule.** The
+> course teaches holding no more than ~5% in any one security and ~20% in any one
+> sector — but the cap-weighted S&P 500 currently doesn't follow that: as of
+> mid-2026 the largest position (NVDA) weighs about 8%, the top 10 companies about
+> 39%, and the technology sector about 38% (and if you add the "tech" names
+> formally classified in other sectors — Amazon, Alphabet, Meta — big-tech
+> concentration is higher still). This is **not an argument against indexing**: you
+> still own 500 companies, and the market — not a manager — sets the weights. But
+> when you buy VOO/VTI you're accepting a bet in which a handful of megacaps and
+> one sector carry a lot of the weight. The ≤5%/≤20% rule is about **your own**
+> individual positions and tilts, not about the index itself. If that concentration
+> makes you uncomfortable, you dilute it by adding international stocks (VXUS) or an
+> equal-weight fund (RSP) — not by abandoning the passive approach.
+
 ### Investment Example
 
 ```
@@ -762,8 +776,8 @@ Start with one ETF. You can always add complexity later.
 ```
 Aggressive (25-35 years):
 ├── VTI: 70%
-├── QQQ: 20%
-└── VXUS: 10%
+├── VXUS: 20%
+└── QQQ: 10% (optional tech tilt, not the base)
 
 Moderate (35-50 years):
 ├── VTI: 60%
@@ -778,6 +792,15 @@ Conservative (50+ years):
 Ultra-simple (any age):
 └── VT: 100%
 ```
+
+> ℹ️ **QQQ here is a deliberate tech overweight, not the "base."** Be honest about
+> the math: the broad US index is already ~38% technology, so 70% VTI alone is
+> ~26% tech — already past the course's ~20% sector guideline before you add
+> anything. A ~half-tech QQQ slice pushes it higher still. So this 10% QQQ isn't a
+> way to "stay under 20%" — it's an intentional bet on tech on top of an index
+> that's already tech-heavy (see the concentration warnings in the VOO and QQQ
+> sections). Keep such a tilt small if you take it, and know it's a bet; the
+> market-neutral core is just VTI + VXUS.
 
 ### Key Takeaways
 

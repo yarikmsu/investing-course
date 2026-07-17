@@ -289,6 +289,17 @@ Variation for young investors (100% stocks):
 └── VTI: 100%
 ```
 
+> 💡 **The simplest option is a single fund: a target-date index fund.** A
+> target-date fund (e.g. Vanguard Target Retirement, Fidelity Freedom Index, Schwab
+> Target Index) holds a globally diversified mix of stocks and bonds and
+> **automatically grows more conservative as you age** (a glide path) — you never
+> pick weights or rebalance. The mechanics of target-date funds are covered in
+> [Module 3](/investing-course/en/module-03-instruments/). It's the ideal
+> "set-and-forget" choice, especially **inside a 401(k)**. One caveat: in a
+> **taxable** account target-date funds are tax-inefficient (internal rebalancing
+> and the bond sleeve generate distributions) — there, separate ETFs are better.
+> Choose an index-based fund, not an actively managed one.
+
 ### Classic Three-Fund Portfolio
 
 ```
@@ -321,6 +332,13 @@ Adding international bonds:
 └── BNDX (International Bonds): 10%
 ```
 
+> ℹ️ **Why BNDX?** International bonds are the largest asset class in the world, and
+> BNDX diversifies the bond sleeve beyond the US (different economies and rate
+> cycles). The key detail: BNDX is **USD-hedged**, so its job is to reduce risk, not
+> to add currency swings (unhedged foreign bonds behave almost like a currency bet).
+> It's not mandatory — the three-fund portfolio is complete without it — BNDX just
+> broadens bond diversification a little for those who want it.
+
 ### All-Weather Portfolio (Ray Dalio)
 
 ```
@@ -335,24 +353,34 @@ Goal: stability in any conditions
 Downside: may lag stocks in bull markets
 ```
 
+> ⚠️ **40% in long-term bonds (TLT) is serious interest-rate risk.** TLT has a
+> duration of ~16–17 years: in 2022, when rates jumped, it fell about 30% — like stocks
+> in a crash. The portfolio's "all-weather" label doesn't change the fact that its
+> single largest position is extremely sensitive to rising rates. If you use this
+> model, understand what makes it "stable" and where its weak point is.
+
 ### Aggressive Growth (for young investors)
 
 ```
 100% stocks, maximum growth (broad market):
 ├── VTI (US Stocks): 60%
-├── VWO (Emerging Markets): 25%
-└── VEA (Developed Markets): 15%
+└── VXUS (International Stocks): 40%
 
 ⚠️ High volatility!
 Only for long-term horizon (15+ years)
 ```
 
 > ⚠️ **"Aggressive" in the passive sense means more stocks and fewer bonds — not a bet
-> on one sector.** If you want it even simpler: 100% VTI + VXUS. Adding VGT (technology)
-> or any other sector fund is an **optional, speculative tilt**, not part of the core
-> portfolio: it concentrates risk in a single sector, which this course warns against
-> (see the QQQ / NASDAQ-100 concentration warning in [ETF-ANALYSIS](/investing-course/en/ETF-ANALYSIS/)). If you do add such a tilt, keep it small (e.g. ≤10%) and
-> understand that it's a bet, not a "neutral" aggressive portfolio.
+> on one sector or region.** Here "aggressive" = 100% stocks (no bonds), and the
+> stocks themselves are held at market-cap weight (VTI + VXUS). Overweighting emerging
+> markets (EM) beyond their market weight — which is only ~10% of global equities and
+> ~25% of international — would be just as much an **uncompensated regional bet** as a
+> sector tilt: VXUS already includes EM at market weight, so there's no need to add VWO
+> separately. Adding VGT (technology) or any other sector/region fund is an optional,
+> speculative tilt, not part of the core portfolio (the course warns against
+> concentration — see QQQ / NASDAQ-100 in
+> [ETF-ANALYSIS](/investing-course/en/ETF-ANALYSIS/)). If you do add such a tilt, keep
+> it small (e.g. ≤10%) and understand that it's a bet.
 
 ### Dividend Portfolio
 
@@ -365,6 +393,15 @@ Focus on passive income:
 
 Expected yield: 3-4%
 ```
+
+> ⚠️ **A dividend tilt isn't "better" than the broad market — and it's tax-inefficient.**
+> What matters is total return (price appreciation + dividends), not dividend yield
+> alone: $1 of dividend is $1 that's no longer in the share price. In a taxable account
+> this portfolio forces you to pay tax on dividends every year even when you don't need
+> the cash — and a taxable account is exactly where a yield-chaser is most likely to
+> hold it. It's a deliberate choice for cash flow (e.g. in retirement), not a way to
+> "beat" the index. REITs (VNQ) also pay ordinary (non-qualified) dividends — they
+> belong in an IRA.
 
 ---
 
@@ -394,6 +431,15 @@ Solution: sell stocks, buy bonds
 | 📊 **Threshold (5%)** | When deviation >5% | Precise risk control | Requires monitoring |
 | 🔄 **Hybrid** | Quarterly check + rebalance if >5% | Optimal balance | Harder to automate |
 | 💰 **Via contributions** | New money to underweight | Tax-efficient | Requires regular deposits |
+
+> ℹ️ **"5%" means percentage points, not percent.** This is **5 absolute
+> percentage points**: at an 80/20 target you rebalance when stocks rise past 85%
+> or fall below 75%. It is not "5% relative" (for a 20% holding that would be just 1
+> point). The classic Bogleheads guideline is the **5/25 rule**: rebalance a
+> holding when it has drifted either 5 percentage points OR 25% relative to its
+> target — whichever comes first. For a large holding (stocks) the 5-point band
+> usually triggers first; for a small one (say a 5% tilt) the "25% relative"
+> band does — i.e. after a drift of only ~1.25 points.
 
 ### Tax Considerations
 
@@ -498,6 +544,41 @@ Age 75: ████████████░░░░░░░░░░░░
 ---
 
 ## Self-Check Test
+
+**Quick self-check (a few sample questions).** This scored widget is a short warm-up; the full self-check with answers is right below it, and a perfect score here doesn't replace it.
+
+<div id="ic-quiz-root"></div>
+
+<script type="application/json" id="ic-quiz-data">
+{
+  "questions": [
+    {
+      "q": "What ETFs make up the classic Bogleheads three-fund portfolio?",
+      "options": ["VOO, QQQ, GLD", "VTI, VXUS, BND", "SPY, DIA, IWM", "ARKK, TSLA, NVDA"],
+      "correct": 1,
+      "explain": "The classic three-fund portfolio: VTI (US stocks), VXUS (international stocks), and BND (bonds)."
+    },
+    {
+      "q": "What stock allocation does the «110 minus age» rule suggest for a 30-year-old investor?",
+      "options": ["60%", "70%", "80%", "100%"],
+      "correct": 2,
+      "explain": "110 minus 30 equals 80% stocks (and 20% bonds)."
+    },
+    {
+      "q": "When should you rebalance your portfolio?",
+      "options": ["When deviation from target exceeds 5%, or roughly once a year", "Every trading day", "Only when the market drops 50%", "Never"],
+      "correct": 0,
+      "explain": "Rebalance when the deviation from your target allocation exceeds 5%, or roughly once a year."
+    },
+    {
+      "q": "According to research, what explains ~90% of a portfolio's return variability over time?",
+      "options": ["Selecting individual stocks", "Market timing", "Broker fee levels", "Asset allocation"],
+      "correct": 3,
+      "explain": "Asset allocation explains about 90% of the variability (variance) of portfolio returns over time."
+    }
+  ]
+}
+</script>
 
 <details>
 <summary markdown="span"><b>Question 1:</b> What is NAV and why might an ETF's price differ from it?</summary>

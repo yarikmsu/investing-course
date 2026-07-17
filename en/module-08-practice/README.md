@@ -186,7 +186,7 @@ Methods:
 │   └── Newest shares sold first
 ├── SpecID (Specific Identification) — RECOMMENDED
 │   └── You choose specific lots when selling
-└── Average Cost — mutual funds only
+└── Average Cost — mutual funds and DRIP shares
 
 Why SpecID is better:
 ├── Can select lots with maximum loss (TLH)
@@ -195,6 +195,11 @@ Why SpecID is better:
 ```
 
 > 💡 **Action:** Go to Settings → Tax Lot Method → select "Specific Identification"
+
+> 📌 **Precision when selecting lots:**
+> - **Choose the specific lots when you place the sell order** (IRS Pub. 550: you must identify the shares at the time of sale; the written confirmation can arrive later). Confirm promptly — some brokers don't allow post-trade lot changes, and if you don't specify in time the default method (usually FIFO) locks in and generally can't be undone.
+> - **Covered vs noncovered.** Brokers are only required to report cost basis to the IRS for "covered" shares: stocks acquired 2011+, mutual funds and DRIP shares 2012+. For older "noncovered" shares the broker may not report basis, and you must track it yourself.
+> - **Average Cost isn't just for funds.** Average cost is also available for DRIP (dividend-reinvestment) shares. Once you sell using average cost, switching methods for that holding is restricted and hard to revoke.
 
 **DRIP (Dividend Reinvestment Plan):**
 
@@ -362,6 +367,8 @@ Expected annual income:
 └── Total: ~$3,440/year (~$287/month)
 ```
 
+> ⚠️ **A note on the dividend tilt.** A dividend tilt is not inherently better than a total-return approach (total return = price appreciation + dividends). In a taxable account it is also less tax-efficient, because it forces taxable distributions — which is exactly the account where a yield-focused investor is most likely to hold it. Dividends are convenient, but weigh the taxes and the total return.
+
 ---
 
 ## Lesson 8.5: Monitoring and Adjustment
@@ -468,6 +475,10 @@ cFIREsim:
 ├── $1,000,000 × 4% = $40,000/year
 └── Or: needed income × 25 = required capital
 ```
+
+> ⚠️ **4% is not a guarantee — it's a guideline.** The rule comes from historical US-market backtests (the Trinity study and William Bengen's work) and assumes a ~30-year horizon. It is vulnerable to sequence-of-returns risk (a steep drop in the early withdrawal years). More cautious modern estimates land around 3.3–3.7%, and non-US (global) historical data showed higher failure rates.
+>
+> 📖 More: [ADVANCED](/investing-course/en/ADVANCED/)
 
 ### Free Tracking Apps
 
@@ -834,6 +845,41 @@ Useful resources:
 
 ## Final Course Test
 
+**Quick self-check (4 sample questions).** This scored widget is a short warm-up — the full 30-question final test is right below it, and completing this sample doesn't mean you've finished the final test.
+
+<div id="ic-quiz-root"></div>
+
+<script type="application/json" id="ic-quiz-data">
+{
+  "questions": [
+    {
+      "q": "What conditions should be met before you start investing?",
+      "options": ["High-interest debts paid off, emergency fund created, goals defined", "Real estate bought and a business opened", "A finance degree obtained", "$1,000,000 already saved"],
+      "correct": 0,
+      "explain": "Before starting, pay off expensive debt, build a 3-6 month emergency fund, and define your financial goals."
+    },
+    {
+      "q": "How much do you need to invest monthly to accumulate $1,000,000 in 30 years at 7% annual return?",
+      "options": ["~$200/month", "~$820/month", "~$3,000/month", "~$5,000/month"],
+      "correct": 1,
+      "explain": "About $820 per month at a 7% average annual return over a 30-year horizon."
+    },
+    {
+      "q": "What is the main principle of the Bogleheads philosophy?",
+      "options": ["Active trading for maximum profit", "Timing the market on news", "Passive index investing with low fees", "Investing only in IPOs"],
+      "correct": 2,
+      "explain": "Bogleheads is passive index investing with low fees, following the buy the market and hold approach."
+    },
+    {
+      "q": "What portfolio suits a beginner 30-year-old investor?",
+      "options": ["100% in a single stock", "100% bonds", "50% crypto, 50% gold", "70-80% VTI plus VXUS and BND (or 90% VTI + 10% BND)"],
+      "correct": 3,
+      "explain": "A beginner is best served by a simple diversified portfolio built on VTI with some VXUS and BND."
+    }
+  ]
+}
+</script>
+
 <details>
 <summary markdown="span"><b>Question 1:</b> What three conditions should be met before you start investing?</summary>
 
@@ -1070,7 +1116,7 @@ Or simply: 90% VTI + 10% BND.
 <details>
 <summary markdown="span"><b>Question 29:</b> What is the 4% rule?</summary>
 
-**Answer:** Safe withdrawal rule: you can withdraw 4% of your portfolio annually with high probability of not depleting funds over 30 years. $1M × 4% = $40,000/year.
+**Answer:** A planning rule of thumb: withdrawing 4% of the portfolio per year historically survived ~30 years in US-market backtests — a useful guideline, NOT a guarantee (sequence-of-returns risk; more cautious estimates are ~3.3–3.7%). $1M × 4% = $40,000/year.
 
 </details>
 

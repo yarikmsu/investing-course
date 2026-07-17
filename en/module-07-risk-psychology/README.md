@@ -356,6 +356,14 @@ Important: Answer honestly, not how you "should" answer.
 Note: bonds do NOT always cushion the fall — in rate-shock years (2022)
 they declined too, so even conservative portfolios lost money.
 
+> ℹ️ **These are guidelines, not exact targets.** The course's baseline rule is
+> "110 minus age" (see [Module 6](/investing-course/en/module-06-etf-index/)): at
+> 25 that's ~85% stocks, at 65 ~45%. The table above is deliberately a touch more
+> aggressive — it matches "115 minus age" — a legitimate choice for high risk
+> tolerance and a long horizon. Your exact stock share depends on how well you
+> tolerate drawdowns, not on one formula; treat these values as a range, not a
+> hard target.
+
 ```
 Specific portfolio examples:
 
@@ -528,6 +536,15 @@ Rules for individual stocks:
 ├── No more than 20% in one sector
 └── Exception: index ETFs
 ```
+
+> ⚠️ **"Exception: index ETFs" — the catch.** The ≤5%/≤20% rule is about **your
+> own** bets on individual securities; a broad index isn't bound by it. But it's
+> worth knowing that the index itself is now quite concentrated — in the S&P 500 the
+> largest company weighs about 8% and the technology sector about 38%, so the index
+> exceeds both 5% and 20%. That's fine for a passive approach (the market, not you,
+> sets the weights), but a "diversified" fund today leans heavily on a handful of
+> megacaps. A detailed breakdown of the concentration is in
+> [ETF-ANALYSIS](/investing-course/en/ETF-ANALYSIS/).
 
 ### What to Do During a Crisis
 
@@ -966,6 +983,41 @@ AFTER the crisis:
 ---
 
 ## Self-Check Test
+
+**Quick self-check (a few sample questions).** This scored widget is a short warm-up; the full self-check with answers is right below it, and a perfect score here doesn't replace it.
+
+<div id="ic-quiz-root"></div>
+
+<script type="application/json" id="ic-quiz-data">
+{
+  "questions": [
+    {
+      "q": "Can systematic (market) risk be eliminated through diversification?",
+      "options": ["Yes, completely", "No, it cannot be eliminated through diversification", "Yes, if you buy 10 stocks", "Only with bonds"],
+      "correct": 1,
+      "explain": "Systematic risk affects the entire market and cannot be diversified away, but it is compensated by expected returns."
+    },
+    {
+      "q": "How many stocks substantially reduce specific risk, bringing a portfolio close to market-level risk?",
+      "options": ["20-30 stocks", "3-5 stocks", "At least 500 stocks", "Exactly 1 stock"],
+      "correct": 0,
+      "explain": "As few as 20-30 stocks substantially reduce specific risk; a total-market ETF gives maximum diversification."
+    },
+    {
+      "q": "What emergency fund size is recommended before investing?",
+      "options": ["No fund needed, invest everything", "1 week of expenses", "3-6 months of expenses", "10 years of expenses"],
+      "correct": 2,
+      "explain": "Keep 3-6 months of expenses in a high-yield savings account before investing."
+    },
+    {
+      "q": "What is Herd Mentality?",
+      "options": ["Buying at the top when everyone buys and selling at the bottom when everyone sells", "Holding an index fund long term", "Diversifying across 30 stocks", "Rebalancing the portfolio annually"],
+      "correct": 0,
+      "explain": "Herd mentality leads to buying at the peak and selling at the bottom — the opposite of correct behavior."
+    }
+  ]
+}
+</script>
 
 <details>
 <summary markdown="span"><b>Question 1:</b> What is systematic risk and can it be eliminated through diversification?</summary>

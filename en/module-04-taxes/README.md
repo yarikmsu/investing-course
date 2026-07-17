@@ -232,6 +232,24 @@ vs TX resident: only $1,500 (saves $930!)
 
 > 💡 **Tip:** Check your state's rates at [Tax Foundation](https://taxfoundation.org/data/all/state/state-income-tax-rates-2025/)
 
+> ℹ️ **States tax more than capital gains.** States generally tax dividends and
+> bond interest at the same rate as ordinary income. But two exceptions lower the
+> bill:
+> - **US government-bond interest is exempt from state tax.** Interest on T-bills
+>   and I-Bonds is not subject to state income tax (federal tax still applies), which
+>   in a high-tax state (CA, NY) meaningfully lifts their after-tax yield versus
+>   corporate bonds and CDs. For a Treasury **fund** (VGSH, SGOV, BIL) only the
+>   portion of the distribution attributable to US government obligations is
+>   state-exempt — the fund reports a year-end "% of income from US government
+>   obligations," and you apply that percentage yourself (a fund's cash/repo income
+>   isn't exempt). A few states (e.g. CA, CT, NY) also require the fund to hold ≥50%
+>   US-government assets to pass the exemption through, so check your state's rule.
+> - **Municipal bonds: in-state vs out-of-state.** Muni interest is exempt from
+>   federal tax, but from **your** state's tax usually only if the bond was issued
+>   in that same state. Out-of-state munis are typically taxed by your state. So
+>   residents of high-tax states sometimes choose in-state muni funds (e.g.
+>   California funds for CA residents).
+
 ### Tax-Loss Harvesting (TLH)
 
 Strategy to reduce taxes by realizing losses.
@@ -245,6 +263,13 @@ How it works:
 3. Can buy a similar (but not identical!) asset
 4. Maintain market exposure, save on taxes
 ```
+
+> 💡 **For TLH (and its mirror image — harvesting gains in the 0% bracket) to
+> actually work, you need the Specific Identification lot method.** By default the
+> broker sells FIFO — the oldest lot first — so you might accidentally sell a
+> profitable lot instead of a losing one. Set "Specific ID" and name the exact
+> lots when you sell; how to do it (and the deadline for choosing a lot) is covered
+> in [Module 8](/investing-course/en/module-08-practice/).
 
 ### Rules for Using Losses
 
@@ -405,9 +430,9 @@ What it provides:
 
 ```
 Dividends:
-├── Standard rate: 30%
-├── With W-8BEN (most countries): 15%
-├── With W-8BEN (Canada, UK, etc.): 15%
+├── Standard rate (no treaty): 30%
+├── Under a tax treaty (W-8BEN): usually 0%, 10%, or 15%
+│   └── The exact rate depends on the country — check the treaty
 └── Withheld by broker automatically
 
 Capital Gains:
@@ -462,6 +487,25 @@ Box 2a: Capital Gain Distributions (from funds)
 Box 4: Federal Tax Withheld
 Box 7: Foreign Tax Paid (can be credited!)
 ```
+
+> 💡 **Box 2a and "phantom" capital-gain distributions — why ETFs beat mutual
+> funds.** A fund must distribute the capital gains it realizes internally to its
+> holders every year, and you pay tax on that amount (Box 2a) **even if you sold
+> nothing yourself, and even if the share price fell that year.** Mutual funds are
+> especially exposed: when other investors head for the exit, the manager has to
+> sell holdings, and the taxable gain is spread across everyone who stayed.
+>
+> ETFs almost always avoid this thanks to the in-kind creation/redemption
+> mechanism: swapping baskets of securities with authorized participants isn't a
+> taxable event. So a broad index ETF (VOO, VTI) typically goes years without a
+> Box 2a distribution, while a comparable mutual fund may hand you one. This is one
+> reason to hold the least tax-efficient funds in an IRA and ETFs in taxable (see
+> asset location).
+>
+> ⚠️ **The "buying a dividend" trap.** Don't buy a fund (especially a mutual fund)
+> right before its year-end distribution: you'll receive a taxable payout you
+> didn't actually earn — the share price drops by exactly its amount. Check the
+> distribution (record) date before a large purchase in November–December.
 
 > 💡 **Foreign Tax Credit (FTC) — how to claim the foreign tax in Box 7.**
 > This matters for anyone holding international funds (VXUS, VEA, VWO).
@@ -580,11 +624,80 @@ What you need:
 
 ---
 
+## Quarterly Estimated Taxes and the Safe Harbor
+
+> ⚠️ **On a US resident's taxable account, the broker does not withhold tax on
+> your dividends, interest, or capital gains** — unlike an employer, who withholds
+> tax from your paycheck. (This is about US residents/citizens filing a 1040;
+> non-residents are different — their US dividends ARE withheld at source, see the
+> W-8BEN section above.) If you paid nothing in during the year on your investment
+> income, the IRS can charge an **underpayment penalty** — even if you settle up in
+> full by April 15. This is the most common way a passive investor who realized a
+> large gain or did a Roth conversion ends up with an actual penalty.
+
+**Who this affects.** If you expect to owe **$1,000 or more** for the year beyond
+what's already been withheld, the IRS expects estimated payments during the year,
+not a single payment in April.
+
+### The "safe harbor" — how to avoid the penalty for certain
+
+There is no penalty if your payments for the year (withholding + estimates) are at
+least the **lesser of** 90% of the current year's tax or 100% (110%) of the prior
+year's tax:
+
+| Benchmark | Value |
+|-----------|-------|
+| 90% of the **current** year's tax | most accurate, but needs an income forecast |
+| 100% of the **prior** year's tax | simpler: just take last year's tax amount |
+| 110% of the prior year's tax | if last year's AGI was **> $150,000** ($75,000 for MFS) |
+
+> 💡 The prior-year benchmark is the easiest: take the total-tax line from last
+> year's return — **100% of it, or 110% if last year's AGI was over $150,000
+> ($75,000 MFS)** — divide by 4, and pay it in equal installments. Then no matter
+> how much your income grows this year, there's no underpayment penalty (you still
+> owe the actual tax on the gain by April 15). Paying only 100% when you were over
+> the AGI threshold is a common way high earners still get penalized.
+
+### Estimated-payment due dates
+
+```
+For the period    Deadline
+├── Q1 (Jan–Mar)   April 15
+├── Q2 (Apr–May)   June 15
+├── Q3 (Jun–Aug)   September 15
+└── Q4 (Sep–Dec)   January 15 of the next year
+```
+
+You pay via **Form 1040-ES** (or online — IRS Direct Pay / EFTPS). The
+underpayment penalty is computed on **Form 2210**.
+
+### Two nuances that save money
+
+- **Uneven income — the annualized-installment method.** If a large gain arrived
+  late in the year (you sold in December), you don't have to back-pay estimates
+  for the earlier quarters. The annualized-installment method (Form 2210,
+  Schedule AI) ties the required payment to the quarter in which the income
+  actually occurred.
+- **Withholding is spread over the whole year.** Unlike estimates, any
+  **withholding** is treated by the IRS as paid evenly across the year — no matter
+  when it actually happened. So a big Q4 gain can be covered by increasing your
+  W-4 withholding at work late in the year — no penalty even if you paid no
+  estimates. (Withholding from an *IRA distribution* works the same way, but only
+  makes sense if you're **already** taking distributions or RMDs: the distribution
+  is itself taxable, and before age 59½ it can trigger the 10% early-withdrawal
+  penalty — likely costing more than the underpayment penalty you're trying to
+  avoid. Don't tap an IRA just to create withholding.)
+
+> ⚠️ This is an educational overview, not tax advice. Verify the exact thresholds
+> and rules on IRS.gov (Form 1040-ES, Form 2210) or with a CPA.
+
+---
+
 ## Practical Assignment
 
 1. **Calculate** tax on $10,000 in dividends:
    - As US resident (15% rate) = $1,500
-   - As non-resident with W-8BEN (15% — most countries) = $1,500
+   - As non-resident with W-8BEN (treaty rate, e.g. 15%) = $1,500
    - As non-resident without W-8BEN (30%) = $3,000
 
 2. **Find information** about the tax treaty between the USA and your country.
@@ -595,7 +708,7 @@ What you need:
 
 - Long-term investments (>1 year) are taxed at lower rates (0/15/20%)
 - Qualified dividends are taxed as long-term capital gains
-- Non-residents must complete Form W-8BEN (30% → 15%)
+- Non-residents must complete Form W-8BEN (30% → treaty rate, often ~15%)
 - Tax-loss harvesting helps optimize taxes (mind the Wash Sale Rule)
 - Key forms: 1099 (residents), 1042-S (non-residents), W-8BEN
 
@@ -603,10 +716,39 @@ What you need:
 
 ## Self-Check Test
 
+**Quick self-check (a few sample questions).** This scored widget is a short warm-up; the full self-check with answers is right below it, and a perfect score here doesn't replace it.
+
+<div id="ic-quiz-root"></div>
+
+<script type="application/json" id="ic-quiz-data">
+{
+  "questions": [
+    {
+      "q": "What is Form W-8BEN?",
+      "options": ["A declaration of foreign status that reduces dividend tax from 30% to the treaty rate (often ~15%)", "A form for reporting securities sales", "An application to open an IRA retirement account", "The brokerage's annual tax report"],
+      "correct": 0,
+      "explain": "W-8BEN certifies foreign status and reduces dividend tax from 30% to the treaty rate (around 15% for most countries with a treaty)."
+    },
+    {
+      "q": "What is the Long-Term Capital Gains tax rate for most investors?",
+      "options": ["0%", "10%", "15%", "25%"],
+      "correct": 2,
+      "explain": "For most investors the long-term capital gains rate is 15%."
+    },
+    {
+      "q": "What is the Wash Sale rule that applies to Tax-Loss Harvesting?",
+      "options": ["You cannot sell assets more than once a year", "You cannot buy a substantially identical asset 30 days before or after the sale", "Losses cannot be carried to the next year", "Tax is due immediately on any sale"],
+      "correct": 1,
+      "explain": "The Wash Sale Rule prohibits buying a substantially identical asset within 30 days before or after selling at a loss."
+    }
+  ]
+}
+</script>
+
 <details>
 <summary markdown="span"><b>Question 1:</b> What is Form W-8BEN and why do non-residents need it?</summary>
 
-**Answer:** W-8BEN is a declaration of foreign status that reduces dividend tax from 30% to 15% (for most countries with tax treaties). Valid for 3 years.
+**Answer:** W-8BEN is a declaration of foreign status that reduces dividend tax from 30% to the applicable treaty rate (often ~15%, but it varies by country — 0/10/15% or no reduction without a treaty). Valid for 3 years.
 
 </details>
 

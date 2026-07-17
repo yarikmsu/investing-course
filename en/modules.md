@@ -11,7 +11,7 @@ permalink: /modules/
 
 > ⚠️ **This is educational material, not financial advice.** Consult a licensed financial professional before making investment decisions.
 
-The course consists of 9 modules arranged in logical sequence — from basics to practice.
+The course consists of 9 modules — with Module 4 split into two parts (brokers and taxes) — arranged in logical sequence, from basics to practice.
 
 ## Course Structure
 
