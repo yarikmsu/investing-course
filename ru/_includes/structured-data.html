@@ -1,0 +1,56 @@
+{%- comment -%}
+  schema.org JSON-LD for rich search results (SEO-1). Emits markup by page type:
+    - Course        on the home page
+    - FAQPage       when the page declares a `faq:` list in front matter
+    - BreadcrumbList on every inner page that has a title (Home → this page)
+  Every value comes from _config.yml or front matter — no prose parsing, so the
+  markup can't silently drift from the page. `jsonify` handles JSON escaping.
+{%- endcomment -%}
+{%- assign home_url = site.url | append: site.baseurl | append: '/' -%}
+{%- if page.url == '/' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": {{ site.title | jsonify }},
+  "description": {{ site.description | jsonify }},
+  "inLanguage": "{{ site.lang }}",
+  "isAccessibleForFree": true,
+  "url": {{ home_url | jsonify }},
+  "provider": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }},
+    "url": {{ home_url | jsonify }}
+  }
+}
+</script>
+{%- endif -%}
+{%- if page.faq -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for item in page.faq -%}
+    {
+      "@type": "Question",
+      "name": {{ item.q | jsonify }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ item.a | jsonify }} }
+    }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ]
+}
+</script>
+{%- endif -%}
+{%- if page.title and page.url != '/' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": {{ site.title | jsonify }}, "item": {{ home_url | jsonify }} },
+    { "@type": "ListItem", "position": 2, "name": {{ page.title | jsonify }}, "item": {{ page.url | absolute_url | jsonify }} }
+  ]
+}
+</script>
+{%- endif -%}
