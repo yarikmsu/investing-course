@@ -250,6 +250,8 @@ TLDR → Быстрый старт → FAQ → Модуль 8
 
 ---
 
+{% include newsletter.html %}
+
 ## 📄 Лицензия
 
 Этот курс распространяется под лицензией [CC BY-NC-ND 4.0](https://github.com/yarikmsu/investing-course/blob/main/LICENSE).

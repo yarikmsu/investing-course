@@ -9,6 +9,11 @@ baseurl: "/investing-course/ru"
 # to enable; leave blank to disable. Free & privacy-first: https://www.goatcounter.com
 goatcounter_code:
 
+# Newsletter capture (BL-604). Set to your form POST endpoint to enable —
+# Buttondown: https://buttondown.email/api/emails/embed-subscribe/USERNAME
+# or a Formspree/Tally URL. Leave blank to disable.
+newsletter_action:
+
 # Theme
 remote_theme: just-the-docs/just-the-docs@v0.8.2
 
