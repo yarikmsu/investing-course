@@ -105,7 +105,7 @@
       '<button id="ic-cert-print" type="button" ' +
       'style="padding:0.4rem 1rem;border:1px solid #2e7d32;border-radius:6px;background:#2e7d32;color:#fff;cursor:pointer;">' + L.print + '</button>' +
       '<a id="ic-cert-share" href="' + shareUrl() + '" target="_blank" rel="noopener" ' +
-      'style="padding:0.4rem 1rem;border:1px solid #2e7d32;border-radius:6px;background:#fff;color:#2e7d32;font-weight:600;text-decoration:none;">in ' + L.shareLinkedIn + '</a>' +
+      'style="padding:0.4rem 1rem;border:1px solid #2e7d32;border-radius:6px;background:#fff;color:#2e7d32;font-weight:600;text-decoration:none;">' + L.shareLinkedIn + '</a>' +
       '</div>';
     var nameEl = root.querySelector("#ic-cert-name");
     nameEl.value = get(NAMEKEY);

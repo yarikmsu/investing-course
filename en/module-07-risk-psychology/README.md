@@ -359,7 +359,7 @@ they declined too, so even conservative portfolios lost money.
 > ℹ️ **These are guidelines, not exact targets.** The course's baseline rule is
 > "110 minus age" (see [Module 6](/investing-course/en/module-06-etf-index/)): at
 > 25 that's ~85% stocks, at 65 ~45%. The table above is deliberately a touch more
-> aggressive (closer to "115 minus age") — a legitimate choice for high risk
+> aggressive — it matches "115 minus age" — a legitimate choice for high risk
 > tolerance and a long horizon. Your exact stock share depends on how well you
 > tolerate drawdowns, not on one formula; treat these values as a range, not a
 > hard target.

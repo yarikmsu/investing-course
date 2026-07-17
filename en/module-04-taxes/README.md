@@ -635,7 +635,8 @@ not a single payment in April.
 ### The "safe harbor" — how to avoid the penalty for certain
 
 There is no penalty if your payments for the year (withholding + estimates) are at
-least the **lesser of these two**:
+least the **lesser of** 90% of the current year's tax or 100% (110%) of the prior
+year's tax:
 
 | Benchmark | Value |
 |-----------|-------|
@@ -694,7 +695,7 @@ underpayment penalty is computed on **Form 2210**.
 
 - Long-term investments (>1 year) are taxed at lower rates (0/15/20%)
 - Qualified dividends are taxed as long-term capital gains
-- Non-residents must complete Form W-8BEN (30% → 15%)
+- Non-residents must complete Form W-8BEN (30% → treaty rate, often ~15%)
 - Tax-loss harvesting helps optimize taxes (mind the Wash Sale Rule)
 - Key forms: 1099 (residents), 1042-S (non-residents), W-8BEN
 
@@ -711,7 +712,7 @@ underpayment penalty is computed on **Form 2210**.
       "q": "What is Form W-8BEN?",
       "options": ["A declaration of foreign status that reduces dividend tax from 30% to 15%", "A form for reporting securities sales", "An application to open an IRA retirement account", "The brokerage's annual tax report"],
       "correct": 0,
-      "explain": "W-8BEN certifies foreign status and reduces dividend tax from 30% to 15% for countries with a tax treaty."
+      "explain": "W-8BEN certifies foreign status and reduces dividend tax from 30% to the treaty rate (around 15% for most countries with a treaty)."
     },
     {
       "q": "What is the Long-Term Capital Gains tax rate for most investors?",

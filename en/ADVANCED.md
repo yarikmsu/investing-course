@@ -257,8 +257,8 @@ In ROTH (best for growth):
 
 > ℹ️ **AMT almost certainly doesn't affect you.** The Alternative Minimum
 > Tax (AMT) targets aggressive tax schemes and is largely irrelevant to an
-> ordinary index investor — especially after the OBBBA (2025) raised and
-> extended the AMT exemptions. Two exceptions where it can still surface:
+> ordinary index investor — especially since the OBBBA (2025) kept the AMT
+> exemptions high. Two exceptions where it can still surface:
 > (1) **private-activity-bond** interest inside some municipal-bond funds
 > is an AMT preference item (keep it in mind for the muni-fund choice
 > above); (2) exercising **ISOs** (incentive stock options). Outside those

@@ -354,7 +354,7 @@ Downside: may lag stocks in bull markets
 ```
 
 > ⚠️ **40% in long-term bonds (TLT) is serious interest-rate risk.** TLT has a
-> duration of ~17 years: in 2022, when rates jumped, it fell about 30% — like stocks
+> duration of ~16–17 years: in 2022, when rates jumped, it fell about 30% — like stocks
 > in a crash. The portfolio's "all-weather" label doesn't change the fact that its
 > single largest position is extremely sensitive to rising rates. If you use this
 > model, understand what makes it "stable" and where its weak point is.
