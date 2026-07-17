@@ -177,9 +177,11 @@ Caveats — this is the whole point, get them right:
 
 (b) LTCG "stack" ON TOP of ordinary income:
 ├── Ordinary income "fills up" first; LTCG stack on top
+├── Qualified dividends & fund cap-gain distributions ALSO sit
+│   in these brackets and fill the 0% room FIRST — count them too
 ├── 0% applies only to the gain BELOW the bracket ceiling
 ├── Anything above the ceiling spills into the 15% bracket
-└── So harvest gains ONLY up to the ceiling
+└── So harvest gains ONLY up to the remaining room under the ceiling
 
 (c) The gain RAISES your MAGI/AGI — knock-on effects:
 ├── ACA (Obamacare) premium subsidies may shrink

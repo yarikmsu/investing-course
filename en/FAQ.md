@@ -30,11 +30,11 @@ faq:
   - q: "What should I do if the market drops 20% or 40%?"
     a: "Nothing, or buy more. A 20% drop happens every 3-4 years and a 40% drop is rare (2008, 2020). Do not sell, because history shows the market recovers."
   - q: "What taxes will I pay?"
-    a: "US residents: qualified dividends and long-term gains 0-20%, ordinary income up to 37%, plus a 3.8% NIIT for high earners. Non-residents: dividends 30% (or 10-15% with W-8BEN), 0% US capital gains, plus US estate tax on US-situs assets above 60000 dollars and tax in your own country."
+    a: "US residents: qualified dividends and long-term gains 0-20%, ordinary income up to 37%, plus a 3.8% NIIT for high earners. Non-residents: dividends 30% (or the applicable treaty rate with W-8BEN, which may be 0%, 10%, or 15%), 0% US capital gains, plus US estate tax on US-situs assets above 60000 dollars and tax in your own country."
   - q: "Do I need an accountant?"
     a: "To start, no, if you only hold ETFs in a regular account and your situation is simple. You need one for complex tax situations, a large non-resident portfolio or income from several countries."
   - q: "What is W-8BEN and why should I complete it?"
-    a: "It is a form for non-US residents that confirms you are not a US resident and reduces dividend tax from 30% to 10-15%. It is valid for 3 years and should be completed immediately when opening an account."
+    a: "It is a form for non-US residents that confirms you are not a US resident and reduces the 30% dividend tax to the applicable treaty rate, which may be 0%, 10%, or 15% (or no reduction if there is no treaty). It is valid for 3 years and should be completed immediately when opening an account."
   - q: "How do I report in my country?"
     a: "Declare investment income, account for the tax credit already paid in the US, keep all broker documents and consult a local specialist. Brokers usually provide annual reports."
   - q: "What is tax-loss harvesting?"
@@ -319,7 +319,7 @@ US Residents:
 └── Use IRA/Roth IRA for tax benefits!
 
 Non-US Residents:
-├── Dividends: 30% (or 10-15% with W-8BEN)
+├── Dividends: 30% (or the treaty rate with W-8BEN: 0/10/15%)
 ├── Capital gains: 0% in US
 │   Caveats: this 0% applies only to portfolio gains of a true
 │   non-resident; it does NOT cover US real-property gains (FIRPTA)
@@ -362,7 +362,7 @@ W-8BEN = form for non-US residents
 
 Why:
 ├── Confirms you are NOT a US resident
-├── Reduces dividend tax (from 30% to 10-15%)
+├── Reduces dividend tax (30% → treaty rate, 0/10/15%)
 ├── Confirms eligibility for tax treaty benefits
 └── Valid for 3 years, then renew
 
