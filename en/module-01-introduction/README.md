@@ -226,6 +226,8 @@ At 7% annually: 72 / 7 = 10.3 years
 
 Test how well you understood the module material.
 
+**Quick self-check (a few sample questions).** This scored widget is a short warm-up; the full self-check with answers is right below it, and a perfect score here doesn't replace it.
+
 <div id="ic-quiz-root"></div>
 
 <script type="application/json" id="ic-quiz-data">
