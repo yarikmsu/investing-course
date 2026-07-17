@@ -9,7 +9,7 @@
    Shared across RU/EN, language-aware. Hardened against tampered storage. */
 (function () {
   var MODULES = ["module-00-preparation", "module-01-introduction", "module-02-stock-market",
-    "module-03-instruments", "module-04-brokers-taxes", "module-05-strategies",
+    "module-03-instruments", "module-04-brokers-taxes", "module-04-taxes", "module-05-strategies",
     "module-06-etf-index", "module-07-risk-psychology", "module-08-practice"];
   var KEY = "ic-completed-modules", NAMEKEY = "ic-cert-name", DATEKEY = "ic-cert-date";
   var isRU = location.pathname.indexOf("/ru/") !== -1;
@@ -19,7 +19,7 @@
     certTitle: "Сертификат о прохождении", certBody: "Настоящим подтверждается, что",
     namePlaceholder: "Ваше имя", certLine: "прошёл(а) курс «Инвестирование в США»",
     dateLabel: "Дата", print: "Печать / Сохранить PDF",
-    locked: "Завершите все 9 модулей курса, чтобы разблокировать сертификат.",
+    locked: "Завершите все модули курса, чтобы разблокировать сертификат.",
     resume: "Продолжить", moduleWord: "Модуль", shareLinkedIn: "Поделиться в LinkedIn",
     streakTitle: "Дней подряд с занятиями по курсу"
   } : {
@@ -28,7 +28,7 @@
     certTitle: "Certificate of Completion", certBody: "This certifies that",
     namePlaceholder: "Your name", certLine: "completed the “Investing in the US” course",
     dateLabel: "Date", print: "Print / Save as PDF",
-    locked: "Complete all 9 course modules to unlock your certificate.",
+    locked: "Complete all course modules to unlock your certificate.",
     resume: "Continue", moduleWord: "Module", shareLinkedIn: "Share on LinkedIn",
     streakTitle: "Day streak studying the course"
   };
