@@ -4,6 +4,11 @@ description: "Полный курс по инвестированию на ам�
 url: "https://yarikmsu.github.io"
 baseurl: "/investing-course/ru"
 
+# Privacy-friendly analytics (BL-601). GoatCounter — no cookies, no PII.
+# Set to your GoatCounter code (the subdomain of yourcode.goatcounter.com)
+# to enable; leave blank to disable. Free & privacy-first: https://www.goatcounter.com
+goatcounter_code:
+
 # Theme
 remote_theme: just-the-docs/just-the-docs@v0.8.2
 
