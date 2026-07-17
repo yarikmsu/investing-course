@@ -242,6 +242,8 @@ The same is true for investing. Start today.
 
 ---
 
+{% include newsletter.html %}
+
 ## License
 
 This course is distributed under the [CC BY-NC-ND 4.0](https://github.com/yarikmsu/investing-course/blob/main/LICENSE) license.
