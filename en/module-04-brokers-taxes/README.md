@@ -708,6 +708,33 @@ Step 5: Start investing
 
 ## Self-Check Test
 
+<div id="ic-quiz-root"></div>
+
+<script type="application/json" id="ic-quiz-data">
+{
+  "questions": [
+    {
+      "q": "Which broker is best suited for non-US residents?",
+      "options": ["Fidelity", "Charles Schwab", "Interactive Brokers", "Robinhood"],
+      "correct": 2,
+      "explain": "Interactive Brokers works with most countries and gives non-residents full access to the American market."
+    },
+    {
+      "q": "What is the difference between Roth IRA and Traditional IRA?",
+      "options": ["Roth: tax paid now, withdrawal tax-free; Traditional: contributions reduce tax now, tax paid on withdrawal", "Both accounts are completely tax-free", "Traditional: withdrawal is tax-free; Roth: tax paid on withdrawal", "Roth IRA is available only to retirees"],
+      "correct": 0,
+      "explain": "With a Roth IRA you pay tax now and withdraw tax-free; with a Traditional IRA contributions cut your tax now but tax is paid on withdrawal."
+    },
+    {
+      "q": "What is the 401(k) contribution limit for 2026?",
+      "options": ["$7,000", "$24,500", "$50,000", "$100,000"],
+      "correct": 1,
+      "explain": "The 2026 employee 401(k) contribution limit is $24,500 (with a catch-up for ages 50+)."
+    }
+  ]
+}
+</script>
+
 <details>
 <summary markdown="span"><b>Question 1:</b> Which broker is best suited for non-US residents?</summary>
 

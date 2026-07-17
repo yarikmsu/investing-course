@@ -20,7 +20,8 @@
     namePlaceholder: "Ваше имя", certLine: "прошёл(а) курс «Инвестирование в США»",
     dateLabel: "Дата", print: "Печать / Сохранить PDF",
     locked: "Завершите все 9 модулей курса, чтобы разблокировать сертификат.",
-    resume: "Продолжить", moduleWord: "Модуль", shareLinkedIn: "Поделиться в LinkedIn"
+    resume: "Продолжить", moduleWord: "Модуль", shareLinkedIn: "Поделиться в LinkedIn",
+    streakTitle: "Дней подряд с занятиями по курсу"
   } : {
     done: "Module complete", mark: "Mark module complete", progress: "Course progress",
     of: "of", complete: "complete", viewCert: "🎓 View your certificate →",
@@ -28,7 +29,8 @@
     namePlaceholder: "Your name", certLine: "completed the “Investing in the US” course",
     dateLabel: "Date", print: "Print / Save as PDF",
     locked: "Complete all 9 course modules to unlock your certificate.",
-    resume: "Continue", moduleWord: "Module", shareLinkedIn: "Share on LinkedIn"
+    resume: "Continue", moduleWord: "Module", shareLinkedIn: "Share on LinkedIn",
+    streakTitle: "Day streak studying the course"
   };
   /* A11Y-4: honour prefers-reduced-motion — drop the bar's width animation. */
   var TRANS = (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) ? "" : "transition:width .3s;";
@@ -49,7 +51,22 @@
     return "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(home);
   }
   function today() { return new Date().toISOString().slice(0, 10); }
+  function yesterday() { return new Date(Date.now() - 86400000).toISOString().slice(0, 10); }
   function safeDate() { var d = get(DATEKEY); if (!/^\d{4}-\d{2}-\d{2}$/.test(d)) { d = today(); set(DATEKEY, d); } return d; }
+  /* ENG-6: light day-streak nudge. Updates once per calendar day of activity. */
+  function updateStreak() {
+    var d = get("ic-streak-date"), n = parseInt(get("ic-streak"), 10);
+    if (isNaN(n) || n < 0) n = 0;
+    var t = today();
+    if (d === t) { if (n < 1) { n = 1; set("ic-streak", "1"); } return n; }
+    n = (d === yesterday()) ? n + 1 : 1;
+    set("ic-streak", String(n)); set("ic-streak-date", t);
+    return n;
+  }
+  function streakBadge(n) {
+    if (!n || n < 2) return "";
+    return ' <span title="' + L.streakTitle + '" style="white-space:nowrap;">🔥 ' + n + '</span>';
+  }
   function bar(n) {
     var pct = Math.round(n / MODULES.length * 100);
     return '<div role="progressbar" aria-label="' + L.progress + '" aria-valuemin="0" aria-valuemax="' + MODULES.length +
@@ -109,11 +126,12 @@
   function renderResume(main) {
     var done = doneCount();
     if (done === 0) return;
+    var streak = updateStreak();
     var target = firstIncomplete();
     var card = document.createElement("div");
     card.className = "ic-progress ic-resume";
     card.style.cssText = "margin:0 0 1.5rem;padding:0.9rem 1.1rem;border:1px solid #e0e0e0;border-radius:8px;background:#f1f8f2;font-size:0.95rem;";
-    var html = '<div style="display:flex;justify-content:space-between;margin-bottom:0.5rem;font-size:0.9rem;"><span>' + L.progress +
+    var html = '<div style="display:flex;justify-content:space-between;margin-bottom:0.5rem;font-size:0.9rem;"><span>' + L.progress + streakBadge(streak) +
       '</span><span aria-live="polite"><strong>' + done + '</strong> ' + L.of + ' ' + MODULES.length + ' ' + L.complete + '</span></div>' + bar(done);
     if (target) {
       var href = (isRU ? "/investing-course/ru" : "/investing-course/en") + "/" + target + "/";
@@ -137,11 +155,12 @@
     var isHub = /\/modules\/?$/.test(location.pathname);
     if (!slug && !isHub) return;
     var n = doneCount();
+    var streak = updateStreak();
     var wrap = document.createElement("div");
     wrap.className = "ic-progress";
     wrap.style.cssText = "margin:0 0 1.5rem;padding:0.75rem 1rem;border:1px solid #e0e0e0;border-radius:8px;background:#fafafa;font-size:0.9rem;";
     wrap.innerHTML =
-      '<div style="display:flex;justify-content:space-between;margin-bottom:0.4rem;"><span>' + L.progress +
+      '<div style="display:flex;justify-content:space-between;margin-bottom:0.4rem;"><span>' + L.progress + streakBadge(streak) +
       '</span><span aria-live="polite"><strong id="ic-count">' + n + '</strong> ' + L.of + ' ' + MODULES.length + ' ' + L.complete + '</span></div>' +
       '<div id="ic-bar-wrap" role="progressbar" aria-label="' + L.progress + '" aria-valuemin="0" aria-valuemax="' + MODULES.length +
       '" aria-valuenow="' + n + '" style="height:8px;background:#e0e0e0;border-radius:4px;overflow:hidden;"><div id="ic-bar" style="height:100%;width:' + Math.round(n / MODULES.length * 100) + '%;background:#2e7d32;' + TRANS + '"></div></div>' +
@@ -466,5 +485,122 @@
       }
     }
     render();
+  });
+})();
+
+/* Pre-course path diagnostic (ENG-5). Renders into #ic-path-root: two questions
+   (experience + time) recommend the Express / Standard / Advanced learning path
+   and deep-link it. Client-side, language-aware, keyboard-accessible. */
+(function () {
+  var isRU = location.pathname.indexOf("/ru/") !== -1;
+  var base = isRU ? "/investing-course/ru" : "/investing-course/en";
+  var L = isRU ? {
+    heading: "Какой маршрут вам подойдёт?",
+    q1: "Насколько вы знакомы с инвестированием?",
+    a1: ["Совсем новичок", "Кое-что знаю", "Уже инвестирую"],
+    q2: "Сколько времени готовы вложить?",
+    a2: ["Пара часов", "Выходные", "Основательно, без спешки"],
+    rec: "Рекомендуем маршрут:", restart: "← Начать заново",
+    express: "Экспресс", expressD: "Только самое важное: суть курса, быстрый старт и ответы на частые вопросы.",
+    standard: "Стандартный", standardD: "Полное понимание: пройдите модули по порядку, с самого начала.",
+    advanced: "Продвинутый", advancedD: "Вы уже инвестируете — сразу к оптимизации: риски, налоги, разбор ETF.",
+    ctaStart: "Начать →", ctaMore: "Ещё"
+  } : {
+    heading: "Which path fits you?",
+    q1: "How familiar are you with investing?",
+    a1: ["Complete beginner", "I know a bit", "Already investing"],
+    q2: "How much time can you put in?",
+    a2: ["A couple of hours", "A weekend", "Thoroughly, no rush"],
+    rec: "We recommend the path:", restart: "← Start over",
+    express: "Express", expressD: "Just the essentials: the gist of the course, a quick start, and common questions.",
+    standard: "Standard", standardD: "Full understanding: take the modules in order, from the beginning.",
+    advanced: "Advanced", advancedD: "You already invest — go straight to optimization: risk, taxes, ETF deep-dives.",
+    ctaStart: "Start →", ctaMore: "More"
+  };
+  var RESULTS = {
+    express: { title: L.express, desc: L.expressD, ctas: [
+      { t: L.ctaStart, href: base + "/QUICKSTART/", primary: true },
+      { t: "TLDR", href: base + "/TLDR/" }, { t: "FAQ", href: base + "/FAQ/" } ] },
+    standard: { title: L.standard, desc: L.standardD, ctas: [
+      { t: L.ctaStart, href: base + "/module-00-preparation/", primary: true },
+      { t: L.ctaMore, href: base + "/modules/" } ] },
+    advanced: { title: L.advanced, desc: L.advancedD, ctas: [
+      { t: L.ctaStart, href: base + "/ADVANCED/", primary: true },
+      { t: "ETF", href: base + "/ETF-ANALYSIS/" } ] }
+  };
+  function recommend(exp, time) {
+    if (time === 0) return "express";
+    if (exp === 2 && time === 2) return "advanced";
+    return "standard";
+  }
+  function el(tag, css, text) {
+    var e = document.createElement(tag);
+    if (css) e.style.cssText = css;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  document.addEventListener("DOMContentLoaded", function () {
+    var root = document.getElementById("ic-path-root");
+    if (!root) return;
+    root.appendChild(el("h3", "margin:0 0 0.8rem;border:none;", L.heading));
+    var host = el("div", null);
+    root.appendChild(host);
+    var answers = { exp: null, time: null };
+    function question(prompt, options, onPick, focus) {
+      host.innerHTML = "";
+      var card = el("div", "padding:1.25rem 1.5rem;border:1px solid #e0e0e0;border-radius:10px;background:#fafafa;max-width:560px;");
+      card.setAttribute("role", "group");
+      card.setAttribute("aria-labelledby", "ic-path-q");
+      var p = el("div", "font-weight:600;margin-bottom:0.9rem;font-size:1.05rem;", prompt);
+      p.id = "ic-path-q"; p.setAttribute("tabindex", "-1");
+      card.appendChild(p);
+      var row = el("div", "display:flex;gap:0.6rem;flex-wrap:wrap;");
+      for (var i = 0; i < options.length; i++) {
+        (function (idx) {
+          var b = el("button", "padding:0.45rem 1.2rem;border:1px solid #2e7d32;border-radius:6px;background:#fff;color:#2e7d32;cursor:pointer;font-size:0.95rem;font-weight:600;", options[idx]);
+          b.type = "button";
+          b.addEventListener("click", function () { onPick(idx); });
+          row.appendChild(b);
+        })(i);
+      }
+      card.appendChild(row);
+      host.appendChild(card);
+      if (focus) p.focus();
+    }
+    function result(key) {
+      var r = RESULTS[key];
+      host.innerHTML = "";
+      var card = el("div", "padding:1.25rem 1.5rem;border:2px solid #2e7d32;border-radius:10px;background:#f1f8f2;max-width:560px;");
+      card.setAttribute("role", "group");
+      card.setAttribute("aria-labelledby", "ic-path-q");
+      card.appendChild(el("div", "font-size:0.8rem;text-transform:uppercase;letter-spacing:0.5px;color:#2e7d32;margin-bottom:0.3rem;", L.rec));
+      var title = el("div", "font-weight:700;font-size:1.15rem;margin-bottom:0.5rem;", r.title);
+      title.id = "ic-path-q"; title.setAttribute("tabindex", "-1");
+      card.appendChild(title);
+      card.appendChild(el("p", "margin:0 0 1rem;color:#444;", r.desc));
+      var brow = el("div", "display:flex;gap:0.6rem;flex-wrap:wrap;align-items:center;");
+      for (var i = 0; i < r.ctas.length; i++) {
+        var c = r.ctas[i];
+        var a = el("a", c.primary
+          ? "padding:0.5rem 1.2rem;border-radius:6px;background:#2e7d32;color:#fff;font-weight:600;text-decoration:none;"
+          : "padding:0.5rem 1.2rem;border:1px solid #2e7d32;border-radius:6px;color:#2e7d32;font-weight:600;text-decoration:none;", c.t);
+        a.href = c.href;
+        brow.appendChild(a);
+      }
+      card.appendChild(brow);
+      var again = el("a", "display:inline-block;margin-top:1rem;color:#666;font-size:0.9rem;cursor:pointer;", L.restart);
+      again.href = "#";
+      again.addEventListener("click", function (ev) { ev.preventDefault(); step1(true); });
+      card.appendChild(again);
+      host.appendChild(card);
+      title.focus();
+    }
+    function step1(focus) {
+      question(L.q1, L.a1, function (i) { answers.exp = i; step2(true); }, focus);
+    }
+    function step2(focus) {
+      question(L.q2, L.a2, function (i) { answers.time = i; result(recommend(answers.exp, answers.time)); }, focus);
+    }
+    step1(false);
   });
 })();

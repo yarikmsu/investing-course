@@ -545,6 +545,39 @@ Age 75: ████████████░░░░░░░░░░░░
 
 ## Self-Check Test
 
+<div id="ic-quiz-root"></div>
+
+<script type="application/json" id="ic-quiz-data">
+{
+  "questions": [
+    {
+      "q": "What ETFs make up the classic Bogleheads three-fund portfolio?",
+      "options": ["VOO, QQQ, GLD", "VTI, VXUS, BND", "SPY, DIA, IWM", "ARKK, TSLA, NVDA"],
+      "correct": 1,
+      "explain": "The classic three-fund portfolio: VTI (US stocks), VXUS (international stocks), and BND (bonds)."
+    },
+    {
+      "q": "What stock allocation does the «110 minus age» rule suggest for a 30-year-old investor?",
+      "options": ["60%", "70%", "80%", "100%"],
+      "correct": 2,
+      "explain": "110 minus 30 equals 80% stocks (and 20% bonds)."
+    },
+    {
+      "q": "When should you rebalance your portfolio?",
+      "options": ["When deviation from target exceeds 5%, or roughly once a year", "Every trading day", "Only when the market drops 50%", "Never"],
+      "correct": 0,
+      "explain": "Rebalance when the deviation from your target allocation exceeds 5%, or roughly once a year."
+    },
+    {
+      "q": "According to research, what explains ~90% of a portfolio's return variability over time?",
+      "options": ["Selecting individual stocks", "Market timing", "Broker fee levels", "Asset allocation"],
+      "correct": 3,
+      "explain": "Asset allocation explains about 90% of the variability (variance) of portfolio returns over time."
+    }
+  ]
+}
+</script>
+
 <details>
 <summary markdown="span"><b>Question 1:</b> What is NAV and why might an ETF's price differ from it?</summary>
 

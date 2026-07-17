@@ -984,6 +984,39 @@ AFTER the crisis:
 
 ## Self-Check Test
 
+<div id="ic-quiz-root"></div>
+
+<script type="application/json" id="ic-quiz-data">
+{
+  "questions": [
+    {
+      "q": "Can systematic (market) risk be eliminated through diversification?",
+      "options": ["Yes, completely", "No, it cannot be eliminated through diversification", "Yes, if you buy 10 stocks", "Only with bonds"],
+      "correct": 1,
+      "explain": "Systematic risk affects the entire market and cannot be diversified away, but it is compensated by expected returns."
+    },
+    {
+      "q": "How many stocks substantially reduce specific risk, bringing a portfolio close to market-level risk?",
+      "options": ["20-30 stocks", "3-5 stocks", "At least 500 stocks", "Exactly 1 stock"],
+      "correct": 0,
+      "explain": "As few as 20-30 stocks substantially reduce specific risk; a total-market ETF gives maximum diversification."
+    },
+    {
+      "q": "What emergency fund size is recommended before investing?",
+      "options": ["No fund needed, invest everything", "1 week of expenses", "3-6 months of expenses", "10 years of expenses"],
+      "correct": 2,
+      "explain": "Keep 3-6 months of expenses in a high-yield savings account before investing."
+    },
+    {
+      "q": "What is Herd Mentality?",
+      "options": ["Buying at the top when everyone buys and selling at the bottom when everyone sells", "Holding an index fund long term", "Diversifying across 30 stocks", "Rebalancing the portfolio annually"],
+      "correct": 0,
+      "explain": "Herd mentality leads to buying at the peak and selling at the bottom — the opposite of correct behavior."
+    }
+  ]
+}
+</script>
+
 <details>
 <summary markdown="span"><b>Question 1:</b> What is systematic risk and can it be eliminated through diversification?</summary>
 

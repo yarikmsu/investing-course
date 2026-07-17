@@ -85,6 +85,8 @@ The US stock market is the largest in the world by capitalization. Here are the 
 
 ### Key Terms
 
+> 📖 Run into an unfamiliar word? The full list of 100+ terms is in the [Glossary](/investing-course/en/GLOSSARY/). Below are just the essentials.
+
 #### Stock (Share)
 A security that represents ownership in a company and a claim on its profits.
 
@@ -223,6 +225,39 @@ At 7% annually: 72 / 7 = 10.3 years
 ## Self-Check Test
 
 Test how well you understood the module material.
+
+<div id="ic-quiz-root"></div>
+
+<script type="application/json" id="ic-quiz-data">
+{
+  "questions": [
+    {
+      "q": "What percentage of the global stock market does the US market represent?",
+      "options": ["About 20%", "About 35%", "More than 50%", "About 90%"],
+      "correct": 2,
+      "explain": "The US market represents more than 50% of global stock market capitalization."
+    },
+    {
+      "q": "What is the historical average annual return of the S&P 500?",
+      "options": ["About 3% nominal", "About 10% nominal", "About 25% nominal", "A guaranteed 15%"],
+      "correct": 1,
+      "explain": "Historically about 10% per year nominal (with dividends reinvested, before inflation) — a long-run average, not a guarantee."
+    },
+    {
+      "q": "Using the Rule of 72, how long will it take to double your capital at 8% annual returns?",
+      "options": ["18 years", "12 years", "6 years", "9 years"],
+      "correct": 3,
+      "explain": "72 / 8 = 9 years."
+    },
+    {
+      "q": "A company with $15 billion market cap belongs to which category?",
+      "options": ["Large Cap", "Mid Cap", "Small Cap", "Micro Cap"],
+      "correct": 0,
+      "explain": "A market cap over $10 billion is Large Cap (large capitalization)."
+    }
+  ]
+}
+</script>
 
 <details>
 <summary markdown="span"><b>Question 1:</b> What percentage of the global stock market does the US market represent?</summary>

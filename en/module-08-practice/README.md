@@ -845,6 +845,39 @@ Useful resources:
 
 ## Final Course Test
 
+<div id="ic-quiz-root"></div>
+
+<script type="application/json" id="ic-quiz-data">
+{
+  "questions": [
+    {
+      "q": "What conditions should be met before you start investing?",
+      "options": ["High-interest debts paid off, emergency fund created, goals defined", "Real estate bought and a business opened", "A finance degree obtained", "$1,000,000 already saved"],
+      "correct": 0,
+      "explain": "Before starting, pay off expensive debt, build a 3-6 month emergency fund, and define your financial goals."
+    },
+    {
+      "q": "How much do you need to invest monthly to accumulate $1,000,000 in 30 years at 7% annual return?",
+      "options": ["~$200/month", "~$820/month", "~$3,000/month", "~$5,000/month"],
+      "correct": 1,
+      "explain": "About $820 per month at a 7% average annual return over a 30-year horizon."
+    },
+    {
+      "q": "What is the main principle of the Bogleheads philosophy?",
+      "options": ["Active trading for maximum profit", "Timing the market on news", "Passive index investing with low fees", "Investing only in IPOs"],
+      "correct": 2,
+      "explain": "Bogleheads is passive index investing with low fees, following the buy the market and hold approach."
+    },
+    {
+      "q": "What portfolio suits a beginner 30-year-old investor?",
+      "options": ["100% in a single stock", "100% bonds", "50% crypto, 50% gold", "70-80% VTI plus VXUS and BND (or 90% VTI + 10% BND)"],
+      "correct": 3,
+      "explain": "A beginner is best served by a simple diversified portfolio built on VTI with some VXUS and BND."
+    }
+  ]
+}
+</script>
+
 <details>
 <summary markdown="span"><b>Question 1:</b> What three conditions should be met before you start investing?</summary>
 

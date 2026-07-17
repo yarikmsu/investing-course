@@ -35,3 +35,9 @@ Do you live in the US?
 </details>
 
 > **Important**: The main course is written for US residents. If you're a non-resident, be sure to study the corresponding section.
+
+## Find Your Path by Experience
+
+Not sure where to start? Answer two short questions and we'll suggest a pace (Express, Standard, or Advanced).
+
+<div id="ic-path-root"></div>

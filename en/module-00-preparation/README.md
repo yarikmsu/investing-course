@@ -388,6 +388,39 @@ Emergency fund:
 ✓ Honestly assess your readiness before starting
 ```
 
+<div id="ic-quiz-root"></div>
+
+<script type="application/json" id="ic-quiz-data">
+{
+  "questions": [
+    {
+      "q": "According to the 50/30/20 rule, what share of after-tax income goes to savings and investments?",
+      "options": ["10%", "20%", "30%", "50%"],
+      "correct": 1,
+      "explain": "Under the 50/30/20 rule, 20% of after-tax income goes to savings and investments (50% needs, 30% wants)."
+    },
+    {
+      "q": "You have $5,000 spare and credit card debt at 20% annual interest. Which is better?",
+      "options": ["Pay off the 20% debt — a guaranteed saving on interest", "Invest it all in stocks for a ~10% return", "Put it all into cryptocurrency", "Keep the money in a 0% checking account"],
+      "correct": 0,
+      "explain": "Paying off 20% debt is a guaranteed 20% return, whereas stocks historically return about 10% and with no guarantee."
+    },
+    {
+      "q": "What emergency fund size is the standard recommendation (optimal) for most people?",
+      "options": ["1 month of expenses", "3 months of expenses", "6 months of expenses", "24 months of expenses"],
+      "correct": 2,
+      "explain": "The optimal amount for most people is 6 months of expenses; the minimum is 3 months, and up to 12 for unstable income."
+    },
+    {
+      "q": "Where should you NOT keep your emergency fund?",
+      "options": ["High-Yield Savings Account (HYSA)", "Money Market Account", "Short-term Treasury Bills", "Stocks and cryptocurrency"],
+      "correct": 3,
+      "explain": "An emergency fund belongs in liquid, stable instruments; stocks and cryptocurrency are too volatile for this purpose."
+    }
+  ]
+}
+</script>
+
 ---
 
 ## 📚 Additional Reading

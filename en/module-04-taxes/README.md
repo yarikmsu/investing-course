@@ -702,6 +702,33 @@ underpayment penalty is computed on **Form 2210**.
 
 ## Self-Check Test
 
+<div id="ic-quiz-root"></div>
+
+<script type="application/json" id="ic-quiz-data">
+{
+  "questions": [
+    {
+      "q": "What is Form W-8BEN?",
+      "options": ["A declaration of foreign status that reduces dividend tax from 30% to 15%", "A form for reporting securities sales", "An application to open an IRA retirement account", "The brokerage's annual tax report"],
+      "correct": 0,
+      "explain": "W-8BEN certifies foreign status and reduces dividend tax from 30% to 15% for countries with a tax treaty."
+    },
+    {
+      "q": "What is the Long-Term Capital Gains tax rate for most investors?",
+      "options": ["0%", "10%", "15%", "25%"],
+      "correct": 2,
+      "explain": "For most investors the long-term capital gains rate is 15%."
+    },
+    {
+      "q": "What is the Wash Sale rule that applies to Tax-Loss Harvesting?",
+      "options": ["You cannot sell assets more than once a year", "You cannot buy a substantially identical asset 30 days before or after the sale", "Losses cannot be carried to the next year", "Tax is due immediately on any sale"],
+      "correct": 1,
+      "explain": "The Wash Sale Rule prohibits buying a substantially identical asset within 30 days before or after selling at a loss."
+    }
+  ]
+}
+</script>
+
 <details>
 <summary markdown="span"><b>Question 1:</b> What is Form W-8BEN and why do non-residents need it?</summary>
 

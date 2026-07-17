@@ -41,6 +41,8 @@ After completing this module, you'll be able to:
 
 ## Lesson 3.1: Stocks
 
+> 📖 This module's terms (ETF, expense ratio, duration, REIT, and more) are collected in the [Glossary](/investing-course/en/GLOSSARY/) — handy to keep open in a tab.
+
 ### What is a Stock?
 
 A stock is a security that represents ownership in a company.
@@ -409,6 +411,39 @@ Selling Covered Call:
 ---
 
 ## Self-Check Test
+
+<div id="ic-quiz-root"></div>
+
+<script type="application/json" id="ic-quiz-data">
+{
+  "questions": [
+    {
+      "q": "What Expense Ratio is considered good for an index ETF?",
+      "options": ["Less than 0.10% (for example, 0.03% for VOO and VTI)", "About 1%", "About 2.5%", "The higher, the better"],
+      "correct": 0,
+      "explain": "For index ETFs an Expense Ratio below 0.10% is considered good; VOO and VTI charge about 0.03%."
+    },
+    {
+      "q": "What is an ETF and what is its main advantage?",
+      "options": ["A single stock of one company", "An exchange-traded fund: diversification with low fees in a single purchase", "A bank deposit with a guaranteed return", "A cryptocurrency wallet"],
+      "correct": 1,
+      "explain": "An ETF is an exchange-traded fund that trades like a stock; its main advantage is diversification with low fees in a single purchase."
+    },
+    {
+      "q": "How do T-Bills differ from T-Bonds?",
+      "options": ["T-Bills — up to 1 year, no coupon, sold at a discount; T-Bonds — 20-30 years with a coupon every 6 months", "T-Bills — 20-30 years with a coupon; T-Bonds — up to a year with no coupon", "Both are issued for exactly 10 years", "T-Bills are issued by private companies, T-Bonds by the government"],
+      "correct": 0,
+      "explain": "T-Bills are short-term (up to 1 year) with no coupon, sold at a discount; T-Bonds are long-term (20-30 years) with a coupon every six months."
+    },
+    {
+      "q": "Why do REITs pay high dividends?",
+      "options": ["Because real estate prices always rise", "To attract short-term speculators", "They must pay at least 90% of profits as dividends to keep their tax benefits", "The government subsidizes them directly"],
+      "correct": 2,
+      "explain": "REITs are required to distribute at least 90% of profits as dividends to retain their tax advantages."
+    }
+  ]
+}
+</script>
 
 <details>
 <summary markdown="span"><b>Question 1:</b> What is an ETF and what is its main advantage?</summary>

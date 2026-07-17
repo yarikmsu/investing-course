@@ -4,6 +4,14 @@ description: "Полный курс по инвестированию на ам�
 url: "https://yarikmsu.github.io"
 baseurl: "/investing-course/ru"
 
+# Default social-share image for link previews (SEO-2). jekyll-seo-tag emits
+# og:image / twitter:image from a page's `image`, defaulted site-wide here.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/og-image.png
+
 # Privacy-friendly analytics (BL-601). GoatCounter — no cookies, no PII.
 # Set to your GoatCounter code (the subdomain of yourcode.goatcounter.com)
 # to enable; leave blank to disable. Free & privacy-first: https://www.goatcounter.com
@@ -37,7 +45,7 @@ nav_external_links:
     url: "https://yarikmsu.github.io/investing-course/en/"
 
 # Footer
-footer_content: "Курс по инвестированию в США &copy; 2025-2026. Это образовательный материал, а не финансовый совет."
+footer_content: "Курс по инвестированию в США &copy; 2025-2026 · <a href=\"/investing-course/ru/CHANGELOG/\">История изменений</a> · актуально на январь 2026. Это образовательный материал, а не финансовый совет."
 
 # Back to top
 back_to_top: true

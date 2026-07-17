@@ -1,6 +1,17 @@
 {%- comment -%}
   Newsletter capture (BL-604). Renders only when `newsletter_action` (a form
   POST endpoint — Buttondown/Formspree/Tally) is set in _config.yml. Off by default.
+
+  ENG-8 — onboarding drip (configured at the email provider, not here): once a
+  provider is wired, set up an automated welcome sequence rather than a single
+  annual-update list:
+    1. Welcome — what the course is + the "Start here" links (TLDR / QUICKSTART).
+    2. Path selection — Express / Standard / Advanced (mirrors the on-site
+       diagnostic on /audiences/), so the subscriber self-selects a track.
+    3. Module nudges — a spaced drip that walks Standard-track subscribers
+       through Modules 0–8 (one nudge every few days), then tapers to the
+       annual limits/tax-change updates.
+  This is a provider-side automation; the form below only captures the address.
 {%- endcomment -%}
 {%- if site.newsletter_action %}
 <div class="ic-newsletter" style="margin:2rem 0;padding:1.25rem 1.5rem;border:1px solid #e0e0e0;border-radius:10px;background:#fafafa;">

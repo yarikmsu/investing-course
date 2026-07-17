@@ -647,6 +647,39 @@ Why it matters:
 
 ## Self-Check Test
 
+<div id="ic-quiz-root"></div>
+
+<script type="application/json" id="ic-quiz-data">
+{
+  "questions": [
+    {
+      "q": "What percentage of active funds underperform the index over the long term (15 years)?",
+      "options": ["25-30%", "50%", "60-65%", "85-90%"],
+      "correct": 3,
+      "explain": "Historically about 85-90% of active funds underperform the index over a 15-year horizon."
+    },
+    {
+      "q": "What is DCA (Dollar-Cost Averaging)?",
+      "options": ["Regular investments of a fixed amount regardless of price", "Investing the whole sum at once at the market peak", "Selling assets at every drop", "Buying only when the market is rising"],
+      "correct": 0,
+      "explain": "DCA means investing a fixed amount regularly regardless of price, which reduces the impact of volatility."
+    },
+    {
+      "q": "Who are the Dividend Aristocrats?",
+      "options": ["New IPOs with no dividends", "Companies with the highest current yield", "S&P 500 companies that raised dividends 25+ years in a row", "Money market funds"],
+      "correct": 2,
+      "explain": "Dividend Aristocrats are S&P 500 companies that have increased dividends for 25 or more consecutive years."
+    },
+    {
+      "q": "How do Value stocks differ from Growth stocks?",
+      "options": ["High multiples and minimal dividends", "Stable business, dividends, low multiples", "No profit and very high growth", "They are exclusively bonds"],
+      "correct": 1,
+      "explain": "Value stocks are stable businesses paying dividends with low multiples, unlike fast-growing Growth stocks."
+    }
+  ]
+}
+</script>
+
 <details>
 <summary markdown="span"><b>Question 1:</b> What percentage of active funds underperform the index over 15 years?</summary>
 

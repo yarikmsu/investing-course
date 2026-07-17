@@ -322,6 +322,39 @@ Combination of stop and limit order.
 
 ## Self-Check Test
 
+<div id="ic-quiz-root"></div>
+
+<script type="application/json" id="ic-quiz-data">
+{
+  "questions": [
+    {
+      "q": "On which exchange do Apple, Microsoft, and Tesla trade?",
+      "options": ["NYSE", "NASDAQ", "London Stock Exchange", "Chicago Mercantile Exchange (CME)"],
+      "correct": 1,
+      "explain": "These technology companies trade on NASDAQ — the first electronic exchange."
+    },
+    {
+      "q": "How many companies are in the S&P 500 index and what market share does it cover?",
+      "options": ["30 companies, about 50% of the market", "100 companies, about 60% of the market", "500 companies, about 80% of the market", "3000 companies, about 100% of the market"],
+      "correct": 2,
+      "explain": "The S&P 500 holds 500 companies and covers about 80% of total US market capitalization."
+    },
+    {
+      "q": "What does a Limit Order guarantee?",
+      "options": ["Execution at the specified price or better, but execution is not guaranteed", "Instant execution at any market price", "Execution always at the closing price", "Complete elimination of broker fees"],
+      "correct": 0,
+      "explain": "A Limit Order executes at the specified price or better but may not execute at all; instant execution at market price is what a Market Order provides."
+    },
+    {
+      "q": "How does the Dow Jones index differ from the S&P 500?",
+      "options": ["Both indexes are weighted by market cap in the same way", "Dow Jones covers only the technology sector", "Dow Jones has 30 companies and is price-weighted; the S&P 500 has 500 companies and is market cap-weighted", "Dow Jones includes 500 companies while the S&P has 30"],
+      "correct": 2,
+      "explain": "Dow Jones is 30 price-weighted companies, whereas the S&P 500 holds 500 companies and is market cap-weighted."
+    }
+  ]
+}
+</script>
+
 <details>
 <summary markdown="span"><b>Question 1:</b> On which exchange do Apple, Microsoft, and Tesla trade?</summary>
 
