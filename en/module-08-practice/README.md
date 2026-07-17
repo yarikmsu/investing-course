@@ -186,7 +186,7 @@ Methods:
 │   └── Newest shares sold first
 ├── SpecID (Specific Identification) — RECOMMENDED
 │   └── You choose specific lots when selling
-└── Average Cost — mutual funds only
+└── Average Cost — mutual funds and DRIP shares
 
 Why SpecID is better:
 ├── Can select lots with maximum loss (TLH)
@@ -195,6 +195,11 @@ Why SpecID is better:
 ```
 
 > 💡 **Action:** Go to Settings → Tax Lot Method → select "Specific Identification"
+
+> 📌 **Precision when selecting lots:**
+> - **Identify the specific lots at or before the trade settles.** If you don't specify the lots in time, the broker's default method (usually FIFO) locks in and generally can't be undone afterward.
+> - **Covered vs noncovered.** Brokers are only required to report cost basis to the IRS for "covered" shares: stocks acquired 2011+, mutual funds and DRIP shares 2012+. For older "noncovered" shares the broker may not report basis, and you must track it yourself.
+> - **Average Cost isn't just for funds.** Average cost is also available for DRIP (dividend-reinvestment) shares. Once you sell using average cost, switching methods for that holding is restricted and hard to revoke.
 
 **DRIP (Dividend Reinvestment Plan):**
 
@@ -362,6 +367,8 @@ Expected annual income:
 └── Total: ~$3,440/year (~$287/month)
 ```
 
+> ⚠️ **A note on the dividend tilt.** A dividend tilt is not inherently better than a total-return approach (total return = price appreciation + dividends). In a taxable account it is also less tax-efficient, because it forces taxable distributions — which is exactly the account where a yield-focused investor is most likely to hold it. Dividends are convenient, but weigh the taxes and the total return.
+
 ---
 
 ## Lesson 8.5: Monitoring and Adjustment
@@ -468,6 +475,10 @@ cFIREsim:
 ├── $1,000,000 × 4% = $40,000/year
 └── Or: needed income × 25 = required capital
 ```
+
+> ⚠️ **4% is not a guarantee — it's a guideline.** The rule comes from historical US-market backtests (the Trinity study and William Bengen's work) and assumes a ~30-year horizon. It is vulnerable to sequence-of-returns risk (a steep drop in the early withdrawal years). More cautious modern estimates land around 3.3–3.7%, and non-US (global) historical data showed higher failure rates.
+>
+> 📖 More: [ADVANCED](/investing-course/en/ADVANCED/)
 
 ### Free Tracking Apps
 
@@ -1070,7 +1081,7 @@ Or simply: 90% VTI + 10% BND.
 <details>
 <summary markdown="span"><b>Question 29:</b> What is the 4% rule?</summary>
 
-**Answer:** Safe withdrawal rule: you can withdraw 4% of your portfolio annually with high probability of not depleting funds over 30 years. $1M × 4% = $40,000/year.
+**Answer:** A planning rule of thumb: withdrawing 4% of the portfolio per year historically survived ~30 years in US-market backtests — a useful guideline, NOT a guarantee (sequence-of-returns risk; more cautious estimates are ~3.3–3.7%). $1M × 4% = $40,000/year.
 
 </details>
 
