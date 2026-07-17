@@ -197,7 +197,7 @@ Why SpecID is better:
 > 💡 **Action:** Go to Settings → Tax Lot Method → select "Specific Identification"
 
 > 📌 **Precision when selecting lots:**
-> - **Identify the specific lots at or before the trade settles.** If you don't specify the lots in time, the broker's default method (usually FIFO) locks in and generally can't be undone afterward.
+> - **Choose the specific lots when you place the sell order** (IRS Pub. 550: you must identify the shares at the time of sale; the written confirmation can arrive later). Confirm promptly — some brokers don't allow post-trade lot changes, and if you don't specify in time the default method (usually FIFO) locks in and generally can't be undone.
 > - **Covered vs noncovered.** Brokers are only required to report cost basis to the IRS for "covered" shares: stocks acquired 2011+, mutual funds and DRIP shares 2012+. For older "noncovered" shares the broker may not report basis, and you must track it yourself.
 > - **Average Cost isn't just for funds.** Average cost is also available for DRIP (dividend-reinvestment) shares. Once you sell using average cost, switching methods for that holding is restricted and hard to revoke.
 

@@ -621,12 +621,14 @@ What you need:
 
 ## Quarterly Estimated Taxes and the Safe Harbor
 
-> ⚠️ **The broker does not withhold tax on dividends, interest, or capital
-> gains** — unlike an employer, who withholds tax from your paycheck. If you paid
-> nothing in during the year on your investment income, the IRS can charge an
-> **underpayment penalty** — even if you settle up in full by April 15. This is
-> the most common way a passive investor who realized a large gain or did a Roth
-> conversion ends up with an actual penalty.
+> ⚠️ **On a US resident's taxable account, the broker does not withhold tax on
+> your dividends, interest, or capital gains** — unlike an employer, who withholds
+> tax from your paycheck. (This is about US residents/citizens filing a 1040;
+> non-residents are different — their US dividends ARE withheld at source, see the
+> W-8BEN section above.) If you paid nothing in during the year on your investment
+> income, the IRS can charge an **underpayment penalty** — even if you settle up in
+> full by April 15. This is the most common way a passive investor who realized a
+> large gain or did a Roth conversion ends up with an actual penalty.
 
 **Who this affects.** If you expect to owe **$1,000 or more** for the year beyond
 what's already been withheld, the IRS expects estimated payments during the year,
@@ -644,10 +646,12 @@ year's tax:
 | 100% of the **prior** year's tax | simpler: just take last year's tax amount |
 | 110% of the prior year's tax | if last year's AGI was **> $150,000** ($75,000 for MFS) |
 
-> 💡 "100% of last year" is the easiest benchmark: take the total-tax line from
-> last year's return, divide by 4, and pay it in equal installments. Then no
-> matter how much your income grows this year, there's no underpayment penalty
-> (you still owe the actual tax on the gain by April 15).
+> 💡 The prior-year benchmark is the easiest: take the total-tax line from last
+> year's return — **100% of it, or 110% if last year's AGI was over $150,000
+> ($75,000 MFS)** — divide by 4, and pay it in equal installments. Then no matter
+> how much your income grows this year, there's no underpayment penalty (you still
+> owe the actual tax on the gain by April 15). Paying only 100% when you were over
+> the AGI threshold is a common way high earners still get penalized.
 
 ### Estimated-payment due dates
 
@@ -710,7 +714,7 @@ underpayment penalty is computed on **Form 2210**.
   "questions": [
     {
       "q": "What is Form W-8BEN?",
-      "options": ["A declaration of foreign status that reduces dividend tax from 30% to 15%", "A form for reporting securities sales", "An application to open an IRA retirement account", "The brokerage's annual tax report"],
+      "options": ["A declaration of foreign status that reduces dividend tax from 30% to the treaty rate (often ~15%)", "A form for reporting securities sales", "An application to open an IRA retirement account", "The brokerage's annual tax report"],
       "correct": 0,
       "explain": "W-8BEN certifies foreign status and reduces dividend tax from 30% to the treaty rate (around 15% for most countries with a treaty)."
     },
@@ -733,7 +737,7 @@ underpayment penalty is computed on **Form 2210**.
 <details>
 <summary markdown="span"><b>Question 1:</b> What is Form W-8BEN and why do non-residents need it?</summary>
 
-**Answer:** W-8BEN is a declaration of foreign status that reduces dividend tax from 30% to 15% (for most countries with tax treaties). Valid for 3 years.
+**Answer:** W-8BEN is a declaration of foreign status that reduces dividend tax from 30% to the applicable treaty rate (often ~15%, but it varies by country — 0/10/15% or no reduction without a treaty). Valid for 3 years.
 
 </details>
 
