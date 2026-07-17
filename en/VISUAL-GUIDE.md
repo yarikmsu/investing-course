@@ -455,6 +455,8 @@ Passive (9% after fees):
 Difference: $304,000 (50% more!)
 ```
 
+> ⚠️ The ~2 pp/year gap in this example is **not all fees**. Historically, and on average, it bundles several things: (1) higher expense ratios on active funds, (2) the average active manager underperforming the index, (3) the behavior gap (buying and selling at the wrong time), and (4) tax inefficiency (more taxable distributions). Fees alone account for on average only about 1 pp/year.
+
 ### Three Popular Strategies
 
 ```

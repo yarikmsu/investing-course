@@ -232,6 +232,19 @@ vs TX resident: only $1,500 (saves $930!)
 
 > 💡 **Tip:** Check your state's rates at [Tax Foundation](https://taxfoundation.org/data/all/state/state-income-tax-rates-2025/)
 
+> ℹ️ **States tax more than capital gains.** States generally tax dividends and
+> bond interest at the same rate as ordinary income. But two exceptions lower the
+> bill:
+> - **US government-bond interest is exempt from state tax.** Income from T-bills
+>   and Treasury funds (VGSH, SGOV, BIL), as well as I-Bonds, is not subject to
+>   state income tax (federal tax still applies). In a high-tax state (CA, NY) this
+>   meaningfully lifts their after-tax yield versus corporate bonds and CDs.
+> - **Municipal bonds: in-state vs out-of-state.** Muni interest is exempt from
+>   federal tax, but from **your** state's tax usually only if the bond was issued
+>   in that same state. Out-of-state munis are typically taxed by your state. So
+>   residents of high-tax states sometimes choose in-state muni funds (e.g.
+>   California funds for CA residents).
+
 ### Tax-Loss Harvesting (TLH)
 
 Strategy to reduce taxes by realizing losses.
@@ -245,6 +258,13 @@ How it works:
 3. Can buy a similar (but not identical!) asset
 4. Maintain market exposure, save on taxes
 ```
+
+> 💡 **For TLH (and its mirror image — harvesting gains in the 0% bracket) to
+> actually work, you need the Specific Identification lot method.** By default the
+> broker sells FIFO — the oldest lot first — so you might accidentally sell a
+> profitable lot instead of a losing one. Set "Specific ID" and name the exact
+> lots when you sell; how to do it (and the deadline for choosing a lot) is covered
+> in [Module 8](/investing-course/en/module-08-practice/).
 
 ### Rules for Using Losses
 
@@ -405,9 +425,9 @@ What it provides:
 
 ```
 Dividends:
-├── Standard rate: 30%
-├── With W-8BEN (most countries): 15%
-├── With W-8BEN (Canada, UK, etc.): 15%
+├── Standard rate (no treaty): 30%
+├── Under a tax treaty (W-8BEN): usually 0%, 10%, or 15%
+│   └── The exact rate depends on the country — check the treaty
 └── Withheld by broker automatically
 
 Capital Gains:
@@ -462,6 +482,25 @@ Box 2a: Capital Gain Distributions (from funds)
 Box 4: Federal Tax Withheld
 Box 7: Foreign Tax Paid (can be credited!)
 ```
+
+> 💡 **Box 2a and "phantom" capital-gain distributions — why ETFs beat mutual
+> funds.** A fund must distribute the capital gains it realizes internally to its
+> holders every year, and you pay tax on that amount (Box 2a) **even if you sold
+> nothing yourself, and even if the share price fell that year.** Mutual funds are
+> especially exposed: when other investors head for the exit, the manager has to
+> sell holdings, and the taxable gain is spread across everyone who stayed.
+>
+> ETFs almost always avoid this thanks to the in-kind creation/redemption
+> mechanism: swapping baskets of securities with authorized participants isn't a
+> taxable event. So a broad index ETF (VOO, VTI) typically goes years without a
+> Box 2a distribution, while a comparable mutual fund may hand you one. This is one
+> reason to hold the least tax-efficient funds in an IRA and ETFs in taxable (see
+> asset location).
+>
+> ⚠️ **The "buying a dividend" trap.** Don't buy a fund (especially a mutual fund)
+> right before its year-end distribution: you'll receive a taxable payout you
+> didn't actually earn — the share price drops by exactly its amount. Check the
+> distribution (record) date before a large purchase in November–December.
 
 > 💡 **Foreign Tax Credit (FTC) — how to claim the foreign tax in Box 7.**
 > This matters for anyone holding international funds (VXUS, VEA, VWO).
@@ -580,11 +619,71 @@ What you need:
 
 ---
 
+## Quarterly Estimated Taxes and the Safe Harbor
+
+> ⚠️ **The broker does not withhold tax on dividends, interest, or capital
+> gains** — unlike an employer, who withholds tax from your paycheck. If you paid
+> nothing in during the year on your investment income, the IRS can charge an
+> **underpayment penalty** — even if you settle up in full by April 15. This is
+> the most common way a passive investor who realized a large gain or did a Roth
+> conversion ends up with an actual penalty.
+
+**Who this affects.** If you expect to owe **$1,000 or more** for the year beyond
+what's already been withheld, the IRS expects estimated payments during the year,
+not a single payment in April.
+
+### The "safe harbor" — how to avoid the penalty for certain
+
+There is no penalty if your payments for the year (withholding + estimates) are at
+least the **lesser of these two**:
+
+| Benchmark | Value |
+|-----------|-------|
+| 90% of the **current** year's tax | most accurate, but needs an income forecast |
+| 100% of the **prior** year's tax | simpler: just take last year's tax amount |
+| 110% of the prior year's tax | if last year's AGI was **> $150,000** ($75,000 for MFS) |
+
+> 💡 "100% of last year" is the easiest benchmark: take the total-tax line from
+> last year's return, divide by 4, and pay it in equal installments. Then no
+> matter how much your income grows this year, there's no underpayment penalty
+> (you still owe the actual tax on the gain by April 15).
+
+### Estimated-payment due dates
+
+```
+For the period    Deadline
+├── Q1 (Jan–Mar)   April 15
+├── Q2 (Apr–May)   June 15
+├── Q3 (Jun–Aug)   September 15
+└── Q4 (Sep–Dec)   January 15 of the next year
+```
+
+You pay via **Form 1040-ES** (or online — IRS Direct Pay / EFTPS). The
+underpayment penalty is computed on **Form 2210**.
+
+### Two nuances that save money
+
+- **Uneven income — the annualized-installment method.** If a large gain arrived
+  late in the year (you sold in December), you don't have to back-pay estimates
+  for the earlier quarters. The annualized-installment method (Form 2210,
+  Schedule AI) ties the required payment to the quarter in which the income
+  actually occurred.
+- **Withholding is spread over the whole year.** Unlike estimates, any
+  **withholding** is treated by the IRS as paid evenly across the year — no matter
+  when it actually happened. So a big Q4 gain can be covered by increasing your
+  W-4 withholding at work late in the year, or by taking an IRA distribution with
+  withholding — and there's no penalty even if you paid no estimates.
+
+> ⚠️ This is an educational overview, not tax advice. Verify the exact thresholds
+> and rules on IRS.gov (Form 1040-ES, Form 2210) or with a CPA.
+
+---
+
 ## Practical Assignment
 
 1. **Calculate** tax on $10,000 in dividends:
    - As US resident (15% rate) = $1,500
-   - As non-resident with W-8BEN (15% — most countries) = $1,500
+   - As non-resident with W-8BEN (treaty rate, e.g. 15%) = $1,500
    - As non-resident without W-8BEN (30%) = $3,000
 
 2. **Find information** about the tax treaty between the USA and your country.

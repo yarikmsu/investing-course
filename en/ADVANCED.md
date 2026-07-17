@@ -139,6 +139,77 @@ Direct Indexing (advanced level):
 
 ---
 
+### Tax-Gain Harvesting
+
+The mirror image of TLH. In a LOW-income year, if your **taxable income**
+(not gross income) sits within the 0% long-term capital gains (LTCG)
+bracket, you can SELL long-held appreciated shares and immediately BUY
+them back — resetting (stepping up) your cost basis while paying **$0 in
+federal tax** on that gain. The result: less taxable gain in the future.
+
+```
+How it works:
+├── Sell shares with a LONG-TERM gain (held >1 year)
+├── The gain fits inside the 0% LTCG bracket → $0 federal tax
+├── Immediately buy the same fund back (basis is stepped up)
+├── New, higher basis = less tax on a future sale
+└── Unlike TLH, there is NO 30-day wait (see caveat (a))
+```
+
+0% LTCG bracket ceiling (2026, by taxable income):
+
+| Filing status | 0% bracket ceiling (2026) |
+|---------------|---------------------------|
+| Single | ≈ $49,450 |
+| Married filing jointly | ≈ $98,900 |
+
+> ℹ️ Thresholds are indexed annually (Rev. Proc. 2025-32) — verify the
+> ceiling for the current year. This is **taxable** income (after the
+> standard or itemized deduction), not gross income.
+
+```
+Caveats — this is the whole point, get them right:
+
+(a) The wash-sale rule does NOT apply to GAINS:
+├── Wash sale only blocks a quick rebuy that harvests a LOSS
+├── It does not apply to gains
+└── You can rebuy the same fund immediately — no 30-day wait
+
+(b) LTCG "stack" ON TOP of ordinary income:
+├── Ordinary income "fills up" first; LTCG stack on top
+├── 0% applies only to the gain BELOW the bracket ceiling
+├── Anything above the ceiling spills into the 15% bracket
+└── So harvest gains ONLY up to the ceiling
+
+(c) The gain RAISES your MAGI/AGI — knock-on effects:
+├── ACA (Obamacare) premium subsidies may shrink
+├── More of your Social Security becomes taxable (up to 85%)
+├── IRMAA — Medicare premium surcharges (Part B/D)
+└── Look at the whole picture, not just the 0% rate
+
+(d) STATE tax may still apply:
+├── 0% federal ≠ 0% in your state
+└── In income-tax states the gain is often still taxed
+
+(e) It pairs with a "low-income year":
+├── Naturally combines with the Roth Conversion Ladder (below)
+├── Early retirement, a sabbatical, a gap year between jobs
+└── Plan gains + conversions so you don't breach the ceiling
+    (a conversion also fills the bracket and competes for the same room)
+```
+
+> 💡 **Example.** A single retiree with $30,000 of taxable income has
+> ≈ $19,450 of headroom below the 0% ceiling (≈ $49,450). They sell VTI
+> with a $19,000 long-term gain and rebuy it immediately: federal tax on
+> the gain is **$0**, and the basis is stepped up by $19,000. Another ~$450
+> of gain on top and the excess would have fallen into the 15% bracket.
+>
+> ⚠️ This is educational material, not tax advice. Realizing the gain
+> raises MAGI (ACA, SS taxation, IRMAA) and may be taxed by your state —
+> model the full effect and check with a CPA/CFP.
+
+---
+
 ### Asset Location
 
 ```
@@ -183,6 +254,15 @@ In ROTH (best for growth):
 > (higher once you add state tax) AND only once tax-deferred space for
 > taxable bonds is exhausted — otherwise "bonds in tax-deferred" from the
 > table above often dominates munis entirely.
+
+> ℹ️ **AMT almost certainly doesn't affect you.** The Alternative Minimum
+> Tax (AMT) targets aggressive tax schemes and is largely irrelevant to an
+> ordinary index investor — especially after the OBBBA (2025) raised and
+> extended the AMT exemptions. Two exceptions where it can still surface:
+> (1) **private-activity-bond** interest inside some municipal-bond funds
+> is an AMT preference item (keep it in mind for the muni-fund choice
+> above); (2) exercising **ISOs** (incentive stock options). Outside those
+> two cases, there is nothing about AMT to worry about.
 
 #### Optimization Example
 
@@ -495,7 +575,7 @@ Example for $1,000,000:
 
 ### Social Security Optimization
 
-> ℹ️ **Taxation of SS benefits:** up to **85%** of your Social Security benefit can be subject to federal income tax — the taxable share depends on your "combined income" (AGI + tax-exempt interest + ½ of benefits). Factor this into IRA/Roth withdrawal planning.
+> ℹ️ **Taxation of SS benefits:** up to **85%** of your Social Security benefit can be subject to federal income tax — the taxable share depends on your "combined income" (AGI + tax-exempt interest + ½ of benefits). Thresholds: for single filers none is taxed below combined income of **$25,000** and up to 85% is taxed above **$34,000**; for MFJ the thresholds are **$32,000** and **$44,000**. Like the NIIT thresholds, these are **not indexed to inflation** — so over time they reach more and more retirees. Factor this into IRA/Roth withdrawal planning.
 
 ```
 When to start claiming:
